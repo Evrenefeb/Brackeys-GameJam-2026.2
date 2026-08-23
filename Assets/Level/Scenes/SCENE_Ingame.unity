@@ -1148,6 +1148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   r_GameManagerSettings: {fileID: 11400000, guid: d89386ac05689a747aaca87b694a9971, type: 2}
   r_TrustSequenceSettings: {fileID: 11400000, guid: 5ae8c0c6bc270014aa239a6110614aae, type: 2}
+  r_PlayerButton: {fileID: 7999467649943512288}
 --- !u!1 &1388582000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7002558919901342458, guid: bb4673a203076264f9bae61875a07fbe, type: 3}
       propertyPath: m_Name
-      value: btn_TheButton
+      value: PlayerButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1487,6 +1488,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3170364803082352631, guid: bb4673a203076264f9bae61875a07fbe, type: 3}
   m_PrefabInstance: {fileID: 4473138062122511505}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7999467649943512288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2592415337873823450, guid: bb4673a203076264f9bae61875a07fbe, type: 3}
+  m_PrefabInstance: {fileID: 4473138062122511505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f6e7928b9141c4da270117caad5f3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerButton
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

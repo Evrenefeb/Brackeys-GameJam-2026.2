@@ -1,4 +1,5 @@
 using ImprovedTimers;
+using Lean.Gui;
 using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
@@ -18,12 +19,13 @@ public class GameManager : MonoBehaviour {
 
 
     [SerializeField][ReadOnly] private TrustSequence m_CurrentTrustSequence;
+    [SerializeField][ReadOnly] private bool m_SequenceRunning;
 
 
 
 
     private CountdownTimer m_TrustSequenceTimer;
-
+    private LeanButton m_LeanButton_Player;
 
 
     public CountdownTimer TrustSequenceTimer => m_TrustSequenceTimer;
@@ -36,20 +38,25 @@ public class GameManager : MonoBehaviour {
 
     // Unity Methods
     private void OnEnable() {
-        Initialize();
+        SelfInitialization();
     }
 
     #endregion
 
     #region Initialization
 
-    private void Initialize() {
+    private void SelfInitialization() {
+
+        // Setup Trust Sequence Timer
         m_TrustSequenceTimer = new CountdownTimer(r_GameManagerSettings.InitTrustSequenceTimerValue);
 
         m_TrustSequenceTimer.OnTimerStart += OnGameTrustSequenceTimerStart;
         m_TrustSequenceTimer.OnTimerStop += OnGameTrustSequenceTimerStop;
 
-        
+        // Setup Player Button
+        m_LeanButton_Player = r_PlayerButton.gameObject.GetComponent<LeanButton>();
+        m_LeanButton_Player.OnClick.AddListener(Player_OnClick);
+        m_LeanButton_Player.OnDown.AddListener(Player_OnDown);
     }
 
     #endregion
@@ -60,6 +67,8 @@ public class GameManager : MonoBehaviour {
 
         m_CurrentTrustSequence ??= new TrustSequence(r_TrustSequenceSettings);
 
+        m_SequenceRunning = true;
+
         m_TrustSequenceTimer.Reset();
         m_TrustSequenceTimer.Start();
     }
@@ -67,16 +76,22 @@ public class GameManager : MonoBehaviour {
     public void OnGameTrustSequenceTimerStop() {
         if (m_TrustSequenceTimer.IsRunning) m_TrustSequenceTimer.Stop();
 
+        m_SequenceRunning = false;
+
         CurrentTrustSequence.CallNextSequence();
     }
 
     #endregion
 
     public void Player_OnDown() {
+        if(!m_SequenceRunning) return;
+
         Debug.Log("Player_OnDown");
     }
 
     public void Player_OnClick() {
+        if (!m_SequenceRunning) return;
+
         Debug.Log("Player_OnPress");
     }
 
