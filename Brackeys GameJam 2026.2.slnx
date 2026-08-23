@@ -1,6 +1,5 @@
 ﻿<Solution>
   <Project Path="BroAudio.csproj" />
-  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="BroAudioEditor.csproj" />
   <Project Path="Gaskellgames.csproj" />
   <Project Path="DialogSystem.Editor.csproj" />
@@ -19,6 +18,7 @@
   <Project Path="Gaskellgames.FolderSystem.csproj" />
   <Project Path="Unity.CastVisualizer.Runtime.csproj" />
   <Project Path="LeanPool.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="Unity.CastVisualizer.Samples.SampleScenes.csproj" />
   <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
   <Project Path="IngameDebugConsole.Editor.csproj" />
