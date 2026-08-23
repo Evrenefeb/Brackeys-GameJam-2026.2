@@ -1,0 +1,9 @@
+OVDF v1.1
+GameManager, Assembly-CSharp
+MetaGuid:8357c39de97c0ed4ca9d296508a7eb44
+
+# OnGameTrustSequenceTimerStop()
+Visibility: Shown
+
+# OnGameTrustSequenceTimerStart()
+Visibility: Shown
