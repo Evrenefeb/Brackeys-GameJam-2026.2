@@ -50,8 +50,8 @@ public class GameManager : MonoBehaviour {
         // Setup Trust Sequence Timer
         m_TrustSequenceTimer = new CountdownTimer(r_GameManagerSettings.InitTrustSequenceTimerValue);
 
-        m_TrustSequenceTimer.OnTimerStart += OnGameTrustSequenceTimerStart;
-        m_TrustSequenceTimer.OnTimerStop += OnGameTrustSequenceTimerStop;
+        m_TrustSequenceTimer.OnTimerStart += TrustSequenceTimer_OnStart;
+        m_TrustSequenceTimer.OnTimerStop += TrustSequenceTimer_OnStop;
 
         // Setup Player Button
         m_LeanButton_Player = r_PlayerButton.gameObject.GetComponent<LeanButton>();
@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour {
 
     #region Timer Events
 
-    public void OnGameTrustSequenceTimerStart() {
+    public void TrustSequenceTimer_OnStart() {
 
         m_CurrentTrustSequence ??= new TrustSequence(r_TrustSequenceSettings);
 
@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour {
         m_TrustSequenceTimer.Start();
     }
 
-    public void OnGameTrustSequenceTimerStop() {
+    public void TrustSequenceTimer_OnStop() {
         if (m_TrustSequenceTimer.IsRunning) m_TrustSequenceTimer.Stop();
 
         m_SequenceRunning = false;
