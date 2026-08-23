@@ -5,8 +5,8 @@
   <Project Path="Gaskellgames.csproj" />
   <Project Path="DialogSystem.Editor.csproj" />
   <Project Path="LeanCommon.csproj" />
-  <Project Path="DialogSystem.EditMode.Tests.csproj" />
   <Project Path="Tayx.Graphy.Editor.csproj" />
+  <Project Path="DialogSystem.EditMode.Tests.csproj" />
   <Project Path="DialogSystem.Runtime.csproj" />
   <Project Path="IngameDebugConsole.Runtime.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
