@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ffeb2f68a1c46739e04bad2d9a9723a, type: 3}
+  m_Name: DialogGraphCategoryCatalog
+  m_EditorClassIdentifier: 
+  categories:
+  - path: Demos/Product Tour
+    color: {r: 0.22, g: 0.64, b: 0.96, a: 1}
+  - path: Demos/Gameplay State
+    color: {r: 0.3, g: 0.78, b: 0.48, a: 1}
+  - path: Demos/Action Events
+    color: {r: 0.96, g: 0.48, b: 0.24, a: 1}
+  - path: Demos/Support
+    color: {r: 0.55, g: 0.58, b: 0.68, a: 1}

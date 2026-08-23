@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8469142981600181853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: ae9c508f7063079f347225c7bc1c209c
+  nodePosition: {x: 2300, y: 350}
+  actionId: FadeLights
+  payloadJson: '{"group":"rooftop","intensity":0.45,"duration":0.8,"color":"cool"}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-8402670042818348502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52acda426e52d1744a92ee97a9757272, type: 3}
+  m_Name: ChoiceNode
+  m_EditorClassIdentifier: 
+  GUID: 247797f589b54594df59c07c4f1b4a59
+  nodePosition: {x: 1300, y: 0}
+  text: What should we demonstrate first?
+  textLocaleKey: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.prompt
+  choices:
+  - choiceId: a38ff4bf9080ecaef116e44b5a42dc71
+    answerText: Show me meaningful branching
+    answerTextLocaleKey: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.choice_a38ff4bf9080ecaef116e44b5a42dc71
+    nextNodeGUID: a83c238b7f069dcc22908ec7b3d1434c
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+  - choiceId: e61622796cf65eb2310f3c4d03446e92
+    answerText: Show me a visible scene action
+    answerTextLocaleKey: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.choice_e61622796cf65eb2310f3c4d03446e92
+    nextNodeGUID: 57e2332763eb61c494b402f75a61b801
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+--- !u!114 &-5394996977879534356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Display Confirmation
+  m_EditorClassIdentifier: 
+  GUID: 44aa399f31de186c8d4d9bafb24f445d
+  nodePosition: {x: 2800, y: -350}
+  speakerName: Maeve
+  speakerNameLocaleKey: graph.demo_producttour.44aa399f31de186c8d4d9bafb24f445d.speaker
+  speakerPortrait: {fileID: 21300000, guid: bf3890964d0658f4cba1735191fd7a8e, type: 3}
+  questionText: The display changed without custom flow code, and the backlog still
+    records the complete route.
+  questionTextLocaleKey: graph.demo_producttour.44aa399f31de186c8d4d9bafb24f445d.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-5156229187325520262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: c2a039fb55d7b2c62a67a94854e51ce8
+  nodePosition: {x: 2300, y: -350}
+  actionId: TurnOnTV
+  payloadJson: '{"on":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-4814151690287835940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: 879d0804d7dd1fa52a2dd826ea3e586e
+  nodePosition: {x: 3300, y: -350}
+  outcomeId: product_tour_branching
+  displayName: Branching Explored
+  description: The player explored the branching-authoring path.
+--- !u!114 &-2787497518681380985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Branching Response
+  m_EditorClassIdentifier: 
+  GUID: a83c238b7f069dcc22908ec7b3d1434c
+  nodePosition: {x: 1800, y: -350}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_producttour.a83c238b7f069dcc22908ec7b3d1434c.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Branching keeps player intent explicit. This response exists only
+    on the authoring route you selected.
+  questionTextLocaleKey: graph.demo_producttour.a83c238b7f069dcc22908ec7b3d1434c.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c45c6e4622be54698e67e4868db7e5, type: 3}
+  m_Name: Demo_ProductTour
+  m_EditorClassIdentifier: 
+  graphSchemaVersion: 2
+  graphGuid: a45cd98a853d4ab0b19aab7545d509e6
+  graphTitle: Product Tour
+  description: A friendly guided tour of branching dialogue, variable text, localization,
+    runtime controls, and visible scene actions.
+  author: Beka Forge
+  tags:
+  - demo-entry
+  - onboarding
+  - localization
+  - branching
+  primaryCategory: Demos/Product Tour
+  categories:
+  - Demos/Product Tour
+  lastModifiedUtc: 2026-08-10T00:00:00Z
+  editorVersion: 2022.3.62f3
+  links:
+  - linkGuid: 8e9726ea59f4cd44e1c9b2a5e3f7cdc0
+    fromGuid: fd88d8a369a48a961a58ff5e9f60067a
+    toGuid: e56576de7f4a31d39cfe0e978a9c9144
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f3d15a77b7e7f1ea3c700249e394d47f
+    fromGuid: e56576de7f4a31d39cfe0e978a9c9144
+    toGuid: f44a94d97c6f6bc4311e5c20aa0c824b
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 03c621f6719fe0ecf201b6c3502accb5
+    fromGuid: f44a94d97c6f6bc4311e5c20aa0c824b
+    toGuid: 247797f589b54594df59c07c4f1b4a59
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f2b1c619606628645362d1f9ebaf73fd
+    fromGuid: 247797f589b54594df59c07c4f1b4a59
+    toGuid: a83c238b7f069dcc22908ec7b3d1434c
+    fromPortKey: choice:a38ff4bf9080ecaef116e44b5a42dc71
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: bad9305e5f294da1f69c5a5420959b63
+    fromGuid: 247797f589b54594df59c07c4f1b4a59
+    toGuid: 57e2332763eb61c494b402f75a61b801
+    fromPortKey: choice:e61622796cf65eb2310f3c4d03446e92
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: a46c3658a5f4a0db0c7e0108de76288c
+    fromGuid: a83c238b7f069dcc22908ec7b3d1434c
+    toGuid: c2a039fb55d7b2c62a67a94854e51ce8
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: d3f4fd5249c0e8ceeea2de704dd87bf1
+    fromGuid: c2a039fb55d7b2c62a67a94854e51ce8
+    toGuid: 44aa399f31de186c8d4d9bafb24f445d
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 45a853b1213a58c1527cd89b7641e5f5
+    fromGuid: 44aa399f31de186c8d4d9bafb24f445d
+    toGuid: 879d0804d7dd1fa52a2dd826ea3e586e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: bfd9839a383aa49f3d00f008da4af829
+    fromGuid: 879d0804d7dd1fa52a2dd826ea3e586e
+    toGuid: 4978f610abdab427077809eaca85c84d
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 35cfab076b1162209987b4982b5d81f2
+    fromGuid: 57e2332763eb61c494b402f75a61b801
+    toGuid: ae9c508f7063079f347225c7bc1c209c
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: a2540a9a99d4f0e543fdc7d214a76f67
+    fromGuid: ae9c508f7063079f347225c7bc1c209c
+    toGuid: d7003cd6566b9a5b60a24f276f271951
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 24b179e2225f807569187d08db75e3bc
+    fromGuid: d7003cd6566b9a5b60a24f276f271951
+    toGuid: 2802ccf18c0df21640c4dc5edf517e0f
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 426ddff8767170c20c8e4d50e58fce38
+    fromGuid: 2802ccf18c0df21640c4dc5edf517e0f
+    toGuid: 4978f610abdab427077809eaca85c84d
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  nodes:
+  - {fileID: 2581794567314162963}
+  - {fileID: 6896283273935531672}
+  - {fileID: -2787497518681380985}
+  - {fileID: -5394996977879534356}
+  - {fileID: 2947950138529813525}
+  - {fileID: 422141536516812506}
+  choiceNodes:
+  - {fileID: -8402670042818348502}
+  actionNodes:
+  - {fileID: -5156229187325520262}
+  - {fileID: -8469142981600181853}
+  conditionNodes: []
+  variableMutationNodes: []
+  graphJumpNodes: []
+  outcomeNodes:
+  - {fileID: -4814151690287835940}
+  - {fileID: 7761042963326590992}
+  sceneContext: {fileID: 11400000, guid: 82c2dd7d656246f7bc7b848c9a77bd98, type: 2}
+  environment: {fileID: 11400000, guid: 20b5589ef5ca43ef966987cefe9e9a64, type: 2}
+  participatingCharacters:
+  - {fileID: 11400000, guid: 91a8f07b5df04b08b2c3b3f7f733f235, type: 2}
+  - {fileID: 11400000, guid: 1f7edfd6f4df4de1a5a7ccf3be2a2c62, type: 2}
+  availableActions:
+  - {fileID: 11400000, guid: 55d7e6b174194323a795db91c4b1c5c8, type: 2}
+  - {fileID: 11400000, guid: afbece0c0ab146b48d8e8a8fe3cd0c3b, type: 2}
+  availableVariables:
+  - {fileID: 11400000, guid: 16b07c1f8e6161f43a794bc392b748e0, type: 2}
+  sceneGoal: Welcome the player and demonstrate the fastest path from authored graph
+    to polished runtime presentation.
+  tone: Confident and friendly
+  extraRules: Keep explanations conversational and concise; every choice must produce
+    a visibly distinct response.
+  startGuid: fd88d8a369a48a961a58ff5e9f60067a
+  startPosition: {x: -200, y: 0}
+  startInitialized: 1
+  endGuid: 4978f610abdab427077809eaca85c84d
+  endPosition: {x: 5400, y: 0}
+  endInitialized: 1
+  edgeLayouts: []
+  groupLayouts: []
+--- !u!114 &422141536516812506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Localized Wrap
+  m_EditorClassIdentifier: 
+  GUID: d7003cd6566b9a5b60a24f276f271951
+  nodePosition: {x: 2800, y: 350}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_producttour.d7003cd6566b9a5b60a24f276f271951.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Different choice, different response, same reusable runtime. Switch
+    to German and the graph flow stays identical.
+  questionTextLocaleKey: graph.demo_producttour.d7003cd6566b9a5b60a24f276f271951.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &2581794567314162963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Welcome Player
+  m_EditorClassIdentifier: 
+  GUID: e56576de7f4a31d39cfe0e978a9c9144
+  nodePosition: {x: 300, y: 0}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_producttour.e56576de7f4a31d39cfe0e978a9c9144.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: 'Welcome, {playerName}. You are already inside a graph: every line,
+    choice, and scene cue was authored visually.'
+  questionTextLocaleKey: graph.demo_producttour.e56576de7f4a31d39cfe0e978a9c9144.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &2947950138529813525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Action Response
+  m_EditorClassIdentifier: 
+  GUID: 57e2332763eb61c494b402f75a61b801
+  nodePosition: {x: 1800, y: 350}
+  speakerName: Maeve
+  speakerNameLocaleKey: graph.demo_producttour.57e2332763eb61c494b402f75a61b801.speaker
+  speakerPortrait: {fileID: 21300000, guid: bf3890964d0658f4cba1735191fd7a8e, type: 3}
+  questionText: Action nodes can pause or continue flow while scene objects react
+    immediately.
+  questionTextLocaleKey: graph.demo_producttour.57e2332763eb61c494b402f75a61b801.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &6896283273935531672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Runtime Controls
+  m_EditorClassIdentifier: 
+  GUID: f44a94d97c6f6bc4311e5c20aa0c824b
+  nodePosition: {x: 800, y: 0}
+  speakerName: Maeve
+  speakerNameLocaleKey: graph.demo_producttour.f44a94d97c6f6bc4311e5c20aa0c824b.speaker
+  speakerPortrait: {fileID: 21300000, guid: bf3890964d0658f4cba1735191fd7a8e, type: 3}
+  questionText: Try history, autoplay, skip, and runtime settings while we show two
+    genuinely different branches.
+  questionTextLocaleKey: graph.demo_producttour.f44a94d97c6f6bc4311e5c20aa0c824b.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &7761042963326590992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: 2802ccf18c0df21640c4dc5edf517e0f
+  nodePosition: {x: 3300, y: 350}
+  outcomeId: product_tour_actions
+  displayName: Scene Actions Explored
+  description: The player explored the visible-action path.

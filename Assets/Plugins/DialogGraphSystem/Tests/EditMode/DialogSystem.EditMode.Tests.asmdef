@@ -1,0 +1,31 @@
+{
+  "name": "DialogSystem.EditMode.Tests",
+  "rootNamespace": "DialogSystem.Tests.EditMode",
+  "references": [
+    "DialogSystem.Runtime",
+    "DialogSystem.Editor",
+    "Unity.TextMeshPro"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "BEKA_FORGE_HAS_UNITY_TEST_FRAMEWORK"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.test-framework",
+      "expression": "1.0.0",
+      "define": "BEKA_FORGE_HAS_UNITY_TEST_FRAMEWORK"
+    }
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "noEngineReferences": false
+}

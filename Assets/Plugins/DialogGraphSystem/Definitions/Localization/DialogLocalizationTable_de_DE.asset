@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd7ff22aa3c2d14f9e3ff1fdabd7ce4, type: 3}
+  m_Name: DialogLocalizationTable_de_DE
+  m_EditorClassIdentifier: 
+  _localeCode: de-DE
+  _isSourceLanguage: 0
+  _entries:
+  - key: graph.demo_producttour.e56576de7f4a31d39cfe0e978a9c9144.speaker
+    value: Dax
+  - key: graph.demo_producttour.e56576de7f4a31d39cfe0e978a9c9144.text
+    value: 'Willkommen, {playerName}. Du befindest dich bereits in einem Graphen:
+      Jede Zeile, Auswahl und Szenenaktion wurde visuell erstellt.'
+  - key: graph.demo_producttour.f44a94d97c6f6bc4311e5c20aa0c824b.speaker
+    value: Maeve
+  - key: graph.demo_producttour.f44a94d97c6f6bc4311e5c20aa0c824b.text
+    value: "Probiere Verlauf, automatische Wiedergabe, \xDCberspringen und Laufzeiteinstellungen
+      aus, w\xE4hrend wir zwei wirklich unterschiedliche Zweige zeigen."
+  - key: graph.demo_producttour.a83c238b7f069dcc22908ec7b3d1434c.speaker
+    value: Dax
+  - key: graph.demo_producttour.a83c238b7f069dcc22908ec7b3d1434c.text
+    value: "Verzweigungen machen die Absicht des Spielers eindeutig. Diese Antwort
+      existiert nur auf dem gew\xE4hlten Autorenpfad."
+  - key: graph.demo_producttour.44aa399f31de186c8d4d9bafb24f445d.speaker
+    value: Maeve
+  - key: graph.demo_producttour.44aa399f31de186c8d4d9bafb24f445d.text
+    value: "Die Anzeige \xE4nderte sich ohne eigenen Ablaufcode, und der Verlauf
+      zeichnet weiterhin die vollst\xE4ndige Route auf."
+  - key: graph.demo_producttour.57e2332763eb61c494b402f75a61b801.speaker
+    value: Maeve
+  - key: graph.demo_producttour.57e2332763eb61c494b402f75a61b801.text
+    value: "Aktionsknoten k\xF6nnen den Ablauf anhalten oder fortsetzen, w\xE4hrend
+      Szenenobjekte sofort reagieren."
+  - key: graph.demo_producttour.d7003cd6566b9a5b60a24f276f271951.speaker
+    value: Dax
+  - key: graph.demo_producttour.d7003cd6566b9a5b60a24f276f271951.text
+    value: Andere Auswahl, andere Antwort, dieselbe wiederverwendbare Laufzeit. Beim
+      Wechsel zu Deutsch bleibt der Graphablauf identisch.
+  - key: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.prompt
+    value: Was sollen wir zuerst demonstrieren?
+  - key: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.choice_a38ff4bf9080ecaef116e44b5a42dc71
+    value: "Zeig mir aussagekr\xE4ftige Verzweigungen"
+  - key: graph.demo_producttour.247797f589b54594df59c07c4f1b4a59.choice_e61622796cf65eb2310f3c4d03446e92
+    value: Zeig mir eine sichtbare Szenenaktion
+  - key: graph.demo_shopgate.213947b669ce78ecc7aef1ea6e243a26.speaker
+    value: Sol
+  - key: graph.demo_shopgate.213947b669ce78ecc7aef1ea6e243a26.text
+    value: "Die Regeln des Kontrollpunkts, Veya. Du tr\xE4gst {gold} Gold; Schl\xFCsselstatus:
+      {hasKey}; Vertrauensfreigabe: {trustLevel}."
+  - key: graph.demo_shopgate.4c90f48951a902a17027b2e333a44a3e.speaker
+    value: Veya
+  - key: graph.demo_shopgate.4c90f48951a902a17027b2e333a44a3e.text
+    value: "Dann w\xE4hle ich den saubersten Weg hindurch."
+  - key: graph.demo_shopgate.9571e1c20cfe1378288930010d16dde0.speaker
+    value: Sol
+  - key: graph.demo_shopgate.9571e1c20cfe1378288930010d16dde0.text
+    value: "Zahlung akzeptiert. Verbleibendes Guthaben: {gold} Gold. Das Tor \xF6ffnet
+      sich."
+  - key: graph.demo_shopgate.6bab37fbb60381f0fd0b97ca9a890775.speaker
+    value: Sol
+  - key: graph.demo_shopgate.6bab37fbb60381f0fd0b97ca9a890775.text
+    value: Abgelehnt. Zehn Gold sind erforderlich, und du hast derzeit {gold}.
+  - key: graph.demo_shopgate.51c66e5cbaef7584d69a8609e2c2d42a.speaker
+    value: Sol
+  - key: graph.demo_shopgate.51c66e5cbaef7584d69a8609e2c2d42a.text
+    value: "Der Kontrollpunktschl\xFCssel ist g\xFCltig. Durchgang gew\xE4hrt."
+  - key: graph.demo_shopgate.8c7843df91f1c68356e211621957a040.speaker
+    value: Veya
+  - key: graph.demo_shopgate.8c7843df91f1c68356e211621957a040.text
+    value: "Kein Schl\xFCssel. Ich brauche einen anderen Ansatz."
+  - key: graph.demo_shopgate.5d7fe01fb4b3bded600a6842e05a11aa.speaker
+    value: Sol
+  - key: graph.demo_shopgate.5d7fe01fb4b3bded600a6842e05a11aa.text
+    value: "Deine Freigabe ist vertrauensw\xFCrdig. Durchgang ohne Zahlung gew\xE4hrt."
+  - key: graph.demo_shopgate.4c92c23d57fed4002da81c3f1d5c6b39.speaker
+    value: Sol
+  - key: graph.demo_shopgate.4c92c23d57fed4002da81c3f1d5c6b39.text
+    value: "Ausnahme abgelehnt. Der Ruf betr\xE4gt jetzt {reputation}; kehre mit
+      einem Nachweis zur\xFCck."
+  - key: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.prompt
+    value: "Wie soll Veya sich dem Tor n\xE4hern?"
+  - key: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_29cb44ef9d9199d345e40aae526e31bf
+    value: "10 Gold bezahlen ({gold} verf\xFCgbar)"
+  - key: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_dbc67575780b44bfb55a5b1851c201b0
+    value: "Den Kontrollpunktschl\xFCssel vorzeigen"
+  - key: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_4374982193714977c1713849797ceb04
+    value: Eine Vertrauensausnahme beantragen
+  - key: graph.demo_controlroomactions.3a0067c6afe2a6deefe666ef885874a1.speaker
+    value: Dax
+  - key: graph.demo_controlroomactions.3a0067c6afe2a6deefe666ef885874a1.text
+    value: "Reaktortemperatur: {temperature} C. Status: {questState}. Die Wandanzeige
+      ist unser erster R\xFCckmeldekanal."
+  - key: graph.demo_controlroomactions.5f9aa63d7debf4816852af7bf706eb22.speaker
+    value: Sol
+  - key: graph.demo_controlroomactions.5f9aa63d7debf4816852af7bf706eb22.text
+    value: "W\xE4hle eine Reaktion. Ruhige Eind\xE4mmung bewahrt die Kontrolle; Notfalleind\xE4mmung
+      priorisiert Geschwindigkeit."
+  - key: graph.demo_controlroomactions.e373185140ed240311f050d2c4255aef.speaker
+    value: Dax
+  - key: graph.demo_controlroomactions.e373185140ed240311f050d2c4255aef.text
+    value: "Beleuchtung gedimmt. Die Kontrolle wird an den Eind\xE4mmungs-Untergraphen
+      \xFCbergeben."
+  - key: graph.demo_controlroomactions.3fd473a5bd04316494d0dc383f1279c0.speaker
+    value: Sol
+  - key: graph.demo_controlroomactions.3fd473a5bd04316494d0dc383f1279c0.text
+    value: "Alarm und Countdown abgeschlossen. Die Kontrolle wird an die Notfalleind\xE4mmung
+      \xFCbergeben."
+  - key: graph.demo_controlroomactions.5fddc310880aafdb1ec9db10fbcadaa9.speaker
+    value: Dax
+  - key: graph.demo_controlroomactions.5fddc310880aafdb1ec9db10fbcadaa9.text
+    value: "Temperatur stabil bei {temperature} C. Eind\xE4mmung erfolgreich."
+  - key: graph.demo_controlroomactions.99fb7777728c49f0199e25ae71641d20.speaker
+    value: Sol
+  - key: graph.demo_controlroomactions.99fb7777728c49f0199e25ae71641d20.text
+    value: "Die Temperatur bleibt bei {temperature} C. Die Notfallroute gewann Zeit,
+      aber die Eind\xE4mmung schlug fehl."
+  - key: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.prompt
+    value: "Welche Eind\xE4mmungsreaktion soll das Team ausf\xFChren?"
+  - key: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.choice_258e69cb389b659e817474f356312e5e
+    value: "Ruhige Eind\xE4mmung ausf\xFChren"
+  - key: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.choice_6c8c20789feae8740a3a16c7c8e3f3e1
+    value: "Notfallsequenz ausf\xFChren"
+  - key: graph.demo_reactoraftermath.a710d46b1213cba109bf64e756aba8f6.speaker
+    value: Dax
+  - key: graph.demo_reactoraftermath.a710d46b1213cba109bf64e756aba8f6.text
+    value: "Ruhiger Kreislauf aktiviert. Der K\xFChlmittelfluss ist stabil und der
+      Raum bleibt \xFCbersichtlich."
+  - key: graph.demo_reactoraftermath.261005aadedbd523f80bcc125a3bee6d.speaker
+    value: Sol
+  - key: graph.demo_reactoraftermath.261005aadedbd523f80bcc125a3bee6d.text
+    value: "Notentl\xFCftung gew\xE4hlt. \xD6ffne das Eind\xE4mmungstor, bevor der
+      Druck seinen H\xF6hepunkt erreicht."
+  - key: graph.demo_reactoraftermath.7d05c30870b9d309449dfa7293fc542d.speaker
+    value: Sol
+  - key: graph.demo_reactoraftermath.7d05c30870b9d309449dfa7293fc542d.text
+    value: "Die ruhige Eind\xE4mmung senkte die Temperatur um f\xFCnfundzwanzig Grad.
+      R\xFCckkehr zum Hauptgraphen."
+  - key: graph.demo_reactoraftermath.f0830b89b24faff3d73a374e27516655.speaker
+    value: Dax
+  - key: graph.demo_reactoraftermath.f0830b89b24faff3d73a374e27516655.text
+    value: "Die Notentl\xFCftung senkte die Temperatur um zehn Grad. R\xFCckkehr
+      zur abschlie\xDFenden Sicherheitspr\xFCfung."

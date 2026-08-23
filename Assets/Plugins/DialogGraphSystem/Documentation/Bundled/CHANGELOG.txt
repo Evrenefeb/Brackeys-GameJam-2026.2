@@ -1,0 +1,9 @@
+Dialogue Graph System 3.0.0 — Bundled Changelog
+
+3.0.0 adds the unified multi-tab workspace, Graph Jump cross-graph traversal, end-to-end localization authoring and runtime locale switching, graph categorization, runtime player settings, expanded validation, and broader automated coverage across traversal, migration, import/export, and editor workflows.
+
+It also adds explicit offline public-information fallbacks and an exact package allowlist for release-safe export.
+
+AI Extension 2.0 is not included in Core 3.0.0. It remains a separate readiness checkpoint for DGS 3.0.1.
+
+See CHANGELOG.md in the installed package for the complete version history.

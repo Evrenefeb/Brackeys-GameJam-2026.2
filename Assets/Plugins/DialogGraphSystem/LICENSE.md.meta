@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: edf2108fd59ffb443956af6e93f88f00
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/LICENSE.md
+  uploadId: 971382

@@ -1,0 +1,200 @@
+{
+    "graphGuid": "734bf8c42cf14d76a190f175e939e3f9",
+    "schemaVersion": 2,
+    "graphTitle": "Reactor Containment Procedure",
+    "description": "A non-selectable supporting graph that modularizes the calm and emergency containment procedures.",
+    "author": "Beka Forge",
+    "tags": [
+        "demo-support",
+        "graph-jump-target",
+        "modular-flow"
+    ],
+    "primaryCategory": "Demos/Support",
+    "categories": [
+        "Demos/Support"
+    ],
+    "lastModifiedUtc": "2026-08-10T00:00:00Z",
+    "editorVersion": "2022.3.62f3",
+    "sceneGoal": "Apply route-specific containment and return control to the Reactor Control Room graph.",
+    "tone": "Focused procedure",
+    "extraRules": "This graph is entered only through Demo_ControlRoomActions and must never jump back recursively.",
+    "startNode": {
+        "guid": "10b13c2ec19e6f10e10fcabba51ce03b",
+        "nodePositionX": -200.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "endNode": {
+        "guid": "d97d68a9dcb3652ea6b8d058b2c2fc48",
+        "nodePositionX": 5400.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "dialogNodes": [
+        {
+            "title": "Node_Calm Cooling Loop",
+            "guid": "a710d46b1213cba109bf64e756aba8f6",
+            "speaker": "Dax",
+            "question": "Calm loop engaged. Coolant flow is stable and the room remains readable.",
+            "nodePositionX": 1000.0,
+            "nodePositionY": -300.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Emergency Venting",
+            "guid": "261005aadedbd523f80bcc125a3bee6d",
+            "speaker": "Sol",
+            "question": "Emergency vent selected. Open the containment gate before pressure peaks.",
+            "nodePositionX": 1000.0,
+            "nodePositionY": 300.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Calm Procedure Complete",
+            "guid": "7d05c30870b9d309449dfa7293fc542d",
+            "speaker": "Sol",
+            "question": "Calm containment removed twenty-five degrees. Returning to the main graph.",
+            "nodePositionX": 2000.0,
+            "nodePositionY": -300.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Emergency Procedure Complete",
+            "guid": "f0830b89b24faff3d73a374e27516655",
+            "speaker": "Dax",
+            "question": "Emergency venting removed ten degrees. Returning for the final safety check.",
+            "nodePositionX": 2400.0,
+            "nodePositionY": 300.0,
+            "displayTime": 0.0
+        }
+    ],
+    "choiceNodes": [],
+    "actionNodes": [
+        {
+            "guid": "13dece64ef22fadabdc45bff0c41fea1",
+            "actionId": "OpenGate",
+            "payloadJson": "{\"doorId\":\"reactor_vent\",\"speed\":\"fast\",\"open\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 1500.0,
+            "nodePositionY": 300.0
+        }
+    ],
+    "conditionNodes": [
+        {
+            "guid": "94f8ae3f898fa8416705eaa6ee1d663e",
+            "variableName": "questState",
+            "valueType": "String",
+            "conditionOperator": "Equals",
+            "comparisonValue": "emergency",
+            "missingVariableResult": false,
+            "nodePositionX": 500.0,
+            "nodePositionY": 0.0
+        }
+    ],
+    "variableMutationNodes": [
+        {
+            "guid": "94e8b5a479bbdb479a27e71936e7493f",
+            "variableName": "temperature",
+            "valueType": "Float",
+            "operation": "Subtract",
+            "value": "25",
+            "nodePositionX": 1500.0,
+            "nodePositionY": -300.0
+        },
+        {
+            "guid": "29d1fc9e69862651dcc422894d49acab",
+            "variableName": "temperature",
+            "valueType": "Float",
+            "operation": "Subtract",
+            "value": "10",
+            "nodePositionX": 2000.0,
+            "nodePositionY": 300.0
+        }
+    ],
+    "graphJumpNodes": [],
+    "outcomeNodes": [],
+    "links": [
+        {
+            "linkGuid": "8ccab18a04041118deac162cb1a964c2",
+            "fromGuid": "10b13c2ec19e6f10e10fcabba51ce03b",
+            "toGuid": "94f8ae3f898fa8416705eaa6ee1d663e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "a1f27891c686e547a4ab3a56687f16b9",
+            "fromGuid": "94f8ae3f898fa8416705eaa6ee1d663e",
+            "toGuid": "a710d46b1213cba109bf64e756aba8f6",
+            "fromPortKey": "false",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "630afea366fcbe023befdb40c61bfd66",
+            "fromGuid": "a710d46b1213cba109bf64e756aba8f6",
+            "toGuid": "94e8b5a479bbdb479a27e71936e7493f",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "704add67e372c0194765c7fde6b44e68",
+            "fromGuid": "94e8b5a479bbdb479a27e71936e7493f",
+            "toGuid": "7d05c30870b9d309449dfa7293fc542d",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "d8be994e6d8a9f01a8b91360e6e46723",
+            "fromGuid": "7d05c30870b9d309449dfa7293fc542d",
+            "toGuid": "d97d68a9dcb3652ea6b8d058b2c2fc48",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "c4c4da045af4c3c1379c4796a0873390",
+            "fromGuid": "94f8ae3f898fa8416705eaa6ee1d663e",
+            "toGuid": "261005aadedbd523f80bcc125a3bee6d",
+            "fromPortKey": "true",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "cca28f7d22b8de9f23a4b15508ea8857",
+            "fromGuid": "261005aadedbd523f80bcc125a3bee6d",
+            "toGuid": "13dece64ef22fadabdc45bff0c41fea1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "cdc5055ea717f67b7f00521d7bbcf9ad",
+            "fromGuid": "13dece64ef22fadabdc45bff0c41fea1",
+            "toGuid": "29d1fc9e69862651dcc422894d49acab",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "2beebc970541fbcedae3303a3c53b15c",
+            "fromGuid": "29d1fc9e69862651dcc422894d49acab",
+            "toGuid": "f0830b89b24faff3d73a374e27516655",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "a4fc6bebebd97a0ce2198d79a6464f6d",
+            "fromGuid": "f0830b89b24faff3d73a374e27516655",
+            "toGuid": "d97d68a9dcb3652ea6b8d058b2c2fc48",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        }
+    ],
+    "groupLayouts": []
+}

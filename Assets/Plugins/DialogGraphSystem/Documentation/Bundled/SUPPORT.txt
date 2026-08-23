@@ -1,0 +1,13 @@
+Dialogue Graph System 3.0.0 — Bundled Support
+
+Before requesting support, include:
+- Unity editor version
+- Dialogue Graph System version
+- Reproduction steps
+- Relevant Console errors and stack traces
+- A minimal graph or scene when possible
+
+Support contact: bekaforge@gmail.com
+Community: https://discord.gg/hD8e6WFFWT
+
+Never include API keys, access tokens, passwords, private repository links, or other secrets in a support report.

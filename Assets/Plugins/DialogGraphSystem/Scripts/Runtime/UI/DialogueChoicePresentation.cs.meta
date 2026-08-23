@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: db1113f67cbc4a6285978c0d5a4c3818
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/UI/DialogueChoicePresentation.cs
+  uploadId: 971382

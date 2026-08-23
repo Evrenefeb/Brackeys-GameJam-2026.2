@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca85144bf7e9d2d43ab517cd6131332d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Documentation/TROUBLESHOOTING.md
+  uploadId: 971382

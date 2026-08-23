@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 161d84b606baa364ab9ef5dc3647898b
+timeCreated: 1459939671
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 60199
+  packageName: Physics Debugger
+  packageVersion: 1.1
+  assetPath: Assets/PhysicsDebugger/README.txt
+  uploadId: 177147

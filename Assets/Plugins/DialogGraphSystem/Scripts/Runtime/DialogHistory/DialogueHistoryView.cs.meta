@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f8e64118b738fdc49afe7eb52b7fd107
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/DialogHistory/DialogueHistoryView.cs
+  uploadId: 971382

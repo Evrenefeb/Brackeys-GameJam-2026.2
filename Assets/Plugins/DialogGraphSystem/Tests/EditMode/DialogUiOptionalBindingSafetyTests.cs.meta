@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c8e34b62d10068e4e962410f1f5f0e7d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Tests/EditMode/DialogUiOptionalBindingSafetyTests.cs
+  uploadId: 971382

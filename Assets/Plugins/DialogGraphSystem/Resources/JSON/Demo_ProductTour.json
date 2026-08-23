@@ -1,0 +1,260 @@
+{
+    "graphGuid": "a45cd98a853d4ab0b19aab7545d509e6",
+    "schemaVersion": 2,
+    "graphTitle": "Product Tour",
+    "description": "A friendly guided tour of branching dialogue, variable text, localization, runtime controls, and visible scene actions.",
+    "author": "Beka Forge",
+    "tags": [
+        "demo-entry",
+        "onboarding",
+        "localization",
+        "branching"
+    ],
+    "primaryCategory": "Demos/Product Tour",
+    "categories": [
+        "Demos/Product Tour"
+    ],
+    "lastModifiedUtc": "2026-08-10T00:00:00Z",
+    "editorVersion": "2022.3.62f3",
+    "sceneGoal": "Welcome the player and demonstrate the fastest path from authored graph to polished runtime presentation.",
+    "tone": "Confident and friendly",
+    "extraRules": "Keep explanations conversational and concise; every choice must produce a visibly distinct response.",
+    "startNode": {
+        "guid": "fd88d8a369a48a961a58ff5e9f60067a",
+        "nodePositionX": -200.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "endNode": {
+        "guid": "4978f610abdab427077809eaca85c84d",
+        "nodePositionX": 5400.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "dialogNodes": [
+        {
+            "title": "Node_Welcome Player",
+            "guid": "e56576de7f4a31d39cfe0e978a9c9144",
+            "speaker": "Dax",
+            "question": "Welcome, {playerName}. You are already inside a graph: every line, choice, and scene cue was authored visually.",
+            "nodePositionX": 300.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Runtime Controls",
+            "guid": "f44a94d97c6f6bc4311e5c20aa0c824b",
+            "speaker": "Maeve",
+            "question": "Try history, autoplay, skip, and runtime settings while we show two genuinely different branches.",
+            "nodePositionX": 800.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Branching Response",
+            "guid": "a83c238b7f069dcc22908ec7b3d1434c",
+            "speaker": "Dax",
+            "question": "Branching keeps player intent explicit. This response exists only on the authoring route you selected.",
+            "nodePositionX": 1800.0,
+            "nodePositionY": -350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Display Confirmation",
+            "guid": "44aa399f31de186c8d4d9bafb24f445d",
+            "speaker": "Maeve",
+            "question": "The display changed without custom flow code, and the backlog still records the complete route.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": -350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Action Response",
+            "guid": "57e2332763eb61c494b402f75a61b801",
+            "speaker": "Maeve",
+            "question": "Action nodes can pause or continue flow while scene objects react immediately.",
+            "nodePositionX": 1800.0,
+            "nodePositionY": 350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Localized Wrap",
+            "guid": "d7003cd6566b9a5b60a24f276f271951",
+            "speaker": "Dax",
+            "question": "Different choice, different response, same reusable runtime. Switch to German and the graph flow stays identical.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": 350.0,
+            "displayTime": 0.0
+        }
+    ],
+    "choiceNodes": [
+        {
+            "guid": "247797f589b54594df59c07c4f1b4a59",
+            "text": "What should we demonstrate first?",
+            "nodePositionX": 1300.0,
+            "nodePositionY": 0.0,
+            "choices": [
+                {
+                    "choiceId": "a38ff4bf9080ecaef116e44b5a42dc71",
+                    "portKey": "choice:a38ff4bf9080ecaef116e44b5a42dc71",
+                    "answerText": "Show me meaningful branching",
+                    "nextNodeGUID": "a83c238b7f069dcc22908ec7b3d1434c"
+                },
+                {
+                    "choiceId": "e61622796cf65eb2310f3c4d03446e92",
+                    "portKey": "choice:e61622796cf65eb2310f3c4d03446e92",
+                    "answerText": "Show me a visible scene action",
+                    "nextNodeGUID": "57e2332763eb61c494b402f75a61b801"
+                }
+            ]
+        }
+    ],
+    "actionNodes": [
+        {
+            "guid": "c2a039fb55d7b2c62a67a94854e51ce8",
+            "actionId": "TurnOnTV",
+            "payloadJson": "{\"on\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 2300.0,
+            "nodePositionY": -350.0
+        },
+        {
+            "guid": "ae9c508f7063079f347225c7bc1c209c",
+            "actionId": "FadeLights",
+            "payloadJson": "{\"group\":\"rooftop\",\"intensity\":0.45,\"duration\":0.8,\"color\":\"cool\"}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 2300.0,
+            "nodePositionY": 350.0
+        }
+    ],
+    "conditionNodes": [],
+    "variableMutationNodes": [],
+    "graphJumpNodes": [],
+    "outcomeNodes": [
+        {
+            "guid": "879d0804d7dd1fa52a2dd826ea3e586e",
+            "outcomeId": "product_tour_branching",
+            "displayName": "Branching Explored",
+            "description": "The player explored the branching-authoring path.",
+            "nodePositionX": 3300.0,
+            "nodePositionY": -350.0
+        },
+        {
+            "guid": "2802ccf18c0df21640c4dc5edf517e0f",
+            "outcomeId": "product_tour_actions",
+            "displayName": "Scene Actions Explored",
+            "description": "The player explored the visible-action path.",
+            "nodePositionX": 3300.0,
+            "nodePositionY": 350.0
+        }
+    ],
+    "links": [
+        {
+            "linkGuid": "8e9726ea59f4cd44e1c9b2a5e3f7cdc0",
+            "fromGuid": "fd88d8a369a48a961a58ff5e9f60067a",
+            "toGuid": "e56576de7f4a31d39cfe0e978a9c9144",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f3d15a77b7e7f1ea3c700249e394d47f",
+            "fromGuid": "e56576de7f4a31d39cfe0e978a9c9144",
+            "toGuid": "f44a94d97c6f6bc4311e5c20aa0c824b",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "03c621f6719fe0ecf201b6c3502accb5",
+            "fromGuid": "f44a94d97c6f6bc4311e5c20aa0c824b",
+            "toGuid": "247797f589b54594df59c07c4f1b4a59",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f2b1c619606628645362d1f9ebaf73fd",
+            "fromGuid": "247797f589b54594df59c07c4f1b4a59",
+            "toGuid": "a83c238b7f069dcc22908ec7b3d1434c",
+            "fromPortKey": "choice:a38ff4bf9080ecaef116e44b5a42dc71",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "bad9305e5f294da1f69c5a5420959b63",
+            "fromGuid": "247797f589b54594df59c07c4f1b4a59",
+            "toGuid": "57e2332763eb61c494b402f75a61b801",
+            "fromPortKey": "choice:e61622796cf65eb2310f3c4d03446e92",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "a46c3658a5f4a0db0c7e0108de76288c",
+            "fromGuid": "a83c238b7f069dcc22908ec7b3d1434c",
+            "toGuid": "c2a039fb55d7b2c62a67a94854e51ce8",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "d3f4fd5249c0e8ceeea2de704dd87bf1",
+            "fromGuid": "c2a039fb55d7b2c62a67a94854e51ce8",
+            "toGuid": "44aa399f31de186c8d4d9bafb24f445d",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "45a853b1213a58c1527cd89b7641e5f5",
+            "fromGuid": "44aa399f31de186c8d4d9bafb24f445d",
+            "toGuid": "879d0804d7dd1fa52a2dd826ea3e586e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "bfd9839a383aa49f3d00f008da4af829",
+            "fromGuid": "879d0804d7dd1fa52a2dd826ea3e586e",
+            "toGuid": "4978f610abdab427077809eaca85c84d",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "35cfab076b1162209987b4982b5d81f2",
+            "fromGuid": "57e2332763eb61c494b402f75a61b801",
+            "toGuid": "ae9c508f7063079f347225c7bc1c209c",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "a2540a9a99d4f0e543fdc7d214a76f67",
+            "fromGuid": "ae9c508f7063079f347225c7bc1c209c",
+            "toGuid": "d7003cd6566b9a5b60a24f276f271951",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "24b179e2225f807569187d08db75e3bc",
+            "fromGuid": "d7003cd6566b9a5b60a24f276f271951",
+            "toGuid": "2802ccf18c0df21640c4dc5edf517e0f",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "426ddff8767170c20c8e4d50e58fce38",
+            "fromGuid": "2802ccf18c0df21640c4dc5edf517e0f",
+            "toGuid": "4978f610abdab427077809eaca85c84d",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        }
+    ],
+    "groupLayouts": []
+}

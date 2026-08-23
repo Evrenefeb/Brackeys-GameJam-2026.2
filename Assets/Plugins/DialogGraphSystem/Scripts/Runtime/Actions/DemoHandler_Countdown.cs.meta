@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1aa6c067f51933f4b8ef5ba4b0f91b98
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Actions/DemoHandler_Countdown.cs
+  uploadId: 971382

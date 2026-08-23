@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6c2921e6ef05ed49b5ed935aa9a7dc8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Graphs/Demo_ControlRoomActions.asset
+  uploadId: 971382

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2172b89f51e8dae4cb0df6b48879a50e
+timeCreated: 1457635355
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 60199
+  packageName: Physics Debugger
+  packageVersion: 1.1
+  assetPath: Assets/PhysicsDebugger/ExampleScenes/LaunchTest.unity
+  uploadId: 177147

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 052b27446eefc7d409ad38c9bf14a772
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Fonts/Manrope/Manrope-VariableFont_wght
+    SDF.asset
+  uploadId: 971382

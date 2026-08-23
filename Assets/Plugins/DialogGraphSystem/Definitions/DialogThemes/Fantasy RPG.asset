@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0f476b939632d846b05a50d3768d283, type: 3}
+  m_Name: Fantasy RPG
+  m_EditorClassIdentifier: 
+  themeName: Fantasy RPG
+  themeDescription: Aged parchment and gold leaf. Dark tavern warmth with ornate
+    borders.
+  dialogBox: {fileID: 21300000, guid: 1056e17243302f14daf1259883757ba8, type: 3}
+  nameplate: {fileID: 21300000, guid: fd015ea9738e51a408a11b37d970033c, type: 3}
+  avatarFrame: {fileID: 21300000, guid: cae9948482c8f084789592740e537ef3, type: 3}
+  skipButtonIcon: {fileID: 21300000, guid: db24fccdbe6c4fc45ba4ca8df1297695, type: 3}
+  skipButtonBackground: {fileID: 21300000, guid: b19b726eceb7e4c45b70a9fc6398c493, type: 3}
+  skipLineButtonIcon: {fileID: 0}
+  skipLineButtonBackground: {fileID: 0}
+  choiceButtonNormal: {fileID: 21300000, guid: 75dd81bfd85eaf649a0582629547efa3, type: 3}
+  choiceButtonActive: {fileID: 21300000, guid: 8a68415dc501c094498b4506231de328, type: 3}
+  choiceMessageIcon: {fileID: 21300000, guid: 6e27758a626da294487d9e39c0220475, type: 3}
+  choiceButtonPrefabOverride: {fileID: 0}
+  hotkeyBackgroundSprite: {fileID: 21300000, guid: 8fcc8f7b9dce9504080ee206678d420a, type: 3}
+  historyPanelBg: {fileID: 21300000, guid: 730857e00e233714facde2881307764b, type: 3}
+  historyTitleBg: {fileID: 21300000, guid: a1c6ec32fdaf8db41a511d787702abf0, type: 3}
+  historyRowChar: {fileID: 21300000, guid: fa0befa13080cbb4d8bcf16cf5a8801d, type: 3}
+  historyRowChoice: {fileID: 21300000, guid: cc5e5e642ec4c014086573f3ee3709eb, type: 3}
+  historyChoiceIcon: {fileID: 21300000, guid: 12742398c43fc9e428ec8d4515a2c8b4, type: 3}
+  historyButton: {fileID: 21300000, guid: 4b9a7cd1cf1be11438c3608a74eb8ef7, type: 3}
+  historyButtonIcon: {fileID: 21300000, guid: be69b474321104546844b082a6b55a9e, type: 3}
+  closeButton: {fileID: 21300000, guid: b8b9d5f07e84821459d8dd6735c4a6d4, type: 3}
+  autoPlayButtonBackground: {fileID: 21300000, guid: 95c661d906c5c354aa2c927f742eb774, type: 3}
+  autoPlayNormalIcon: {fileID: 21300000, guid: c39c018fdfa234040aa8cb40d151c0cd, type: 3}
+  autoPlayActiveIcon: {fileID: 21300000, guid: 4101414ef5737264783f4a01817858e5, type: 3}
+  settingsButton: {fileID: 21300000, guid: 4b9a7cd1cf1be11438c3608a74eb8ef7, type: 3}
+  settingsButtonIcon: {fileID: 21300000, guid: 91eebfb80987a2f43a7597000aee40aa, type: 3}
+  dialogTextColor: {r: 0.9490196, g: 0.8862745, b: 0.7372549, a: 1}
+  speakerNameColor: {r: 0.9098039, g: 0.72156864, b: 0.29411766, a: 1}
+  choiceNormalColor: {r: 0.78431374, g: 0.6745098, b: 0.47058824, a: 1}
+  choiceActiveColor: {r: 1, g: 0.8509804, b: 0.4, a: 1}
+  historySpeakerColor: {r: 0.7882353, g: 0.58431375, b: 0.22745098, a: 1}
+  historyCharTextColor: {r: 0.8666667, g: 0.8156863, b: 0.65882355, a: 1}
+  historyChoiceTextColor: {r: 0.65882355, g: 0.5647059, b: 0.3764706, a: 1}
+  skipAllTextColor: {r: 0.9490196, g: 0.8862745, b: 0.7372549, a: 1}
+  historyTitleTextColor: {r: 0.9490196, g: 0.8862745, b: 0.7372549, a: 1}
+  defaultFont: {fileID: 11400000, guid: 94d3fa33dec9e9946be29052933abab2, type: 2}
+  speakerNameFont: {fileID: 0}
+  dialogTextFont: {fileID: 11400000, guid: 96e3f095e8f5fc64ab9463d9bafb2508, type: 2}
+  choiceTextFont: {fileID: 11400000, guid: 96e3f095e8f5fc64ab9463d9bafb2508, type: 2}
+  choiceHotkeyFont: {fileID: 0}
+  historySpeakerFont: {fileID: 0}
+  historyLineFont: {fileID: 11400000, guid: 96e3f095e8f5fc64ab9463d9bafb2508, type: 2}

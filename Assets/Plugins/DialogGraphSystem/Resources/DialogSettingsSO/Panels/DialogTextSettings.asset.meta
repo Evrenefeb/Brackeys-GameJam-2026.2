@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ea535b2630144f459d265e98680b0d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/DialogSettingsSO/Panels/DialogTextSettings.asset
+  uploadId: 971382

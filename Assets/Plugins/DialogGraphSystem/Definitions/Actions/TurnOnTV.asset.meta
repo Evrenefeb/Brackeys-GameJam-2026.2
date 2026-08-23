@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55d7e6b174194323a795db91c4b1c5c8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Actions/TurnOnTV.asset
+  uploadId: 971382

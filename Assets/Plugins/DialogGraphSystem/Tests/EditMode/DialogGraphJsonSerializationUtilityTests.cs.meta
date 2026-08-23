@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 448c82c4fea8b694eaf3cc85f75d3479
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Tests/EditMode/DialogGraphJsonSerializationUtilityTests.cs
+  uploadId: 971382

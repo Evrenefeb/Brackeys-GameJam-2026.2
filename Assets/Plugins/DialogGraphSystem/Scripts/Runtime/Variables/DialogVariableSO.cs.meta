@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f9b73b91a4394808b54afe43aad9888a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Variables/DialogVariableSO.cs
+  uploadId: 971382

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1ad0a1370cf4bc094a2b3de7bf48e51
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/SceneContexts/TVBanter.asset
+  uploadId: 971382

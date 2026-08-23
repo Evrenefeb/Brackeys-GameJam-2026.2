@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edf32e9f2bfee32459f4204fa1de1608
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/DialogThemes/Gothic Horror.asset
+  uploadId: 971382

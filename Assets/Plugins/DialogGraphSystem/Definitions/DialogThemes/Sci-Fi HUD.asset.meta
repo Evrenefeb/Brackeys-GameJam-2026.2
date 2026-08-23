@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eec0a982e4d667b4ab1efdebbbba598d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/DialogThemes/Sci-Fi HUD.asset
+  uploadId: 971382

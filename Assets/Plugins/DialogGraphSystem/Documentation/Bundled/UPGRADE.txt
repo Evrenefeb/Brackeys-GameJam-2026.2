@@ -1,0 +1,13 @@
+Dialogue Graph System 3.0.0 — Bundled Upgrade Guide
+
+For upgrades from 2.4.1:
+1. Back up or commit the project.
+2. Remove only the obsolete package-owned Tests folder, Assets.csc.rsp, and retired 2.4.1 AI preview files listed in UPGRADE_GUIDE.md. Remove their paired .meta files too.
+3. Do not delete user-owned graphs, definitions, exports, or localization tables.
+4. Import Core 3.0.0 over the remaining package and user content.
+5. Let Unity finish compilation and serialization.
+6. Open representative graphs and review the upgrade report.
+7. Save, close, reopen, and validate each representative graph.
+8. Test runtime dialogue, choices, actions, variables, localization, and Graph Jump routes.
+
+See UPGRADE_GUIDE.md for the full checklist and compatibility notes.

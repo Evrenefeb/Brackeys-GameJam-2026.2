@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e70949d58ac945f7a79d3e62f0581b53
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Actions/PlayAlarm.asset
+  uploadId: 971382

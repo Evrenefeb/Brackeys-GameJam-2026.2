@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07936f2338114b36ac3740de8ea3e6fa, type: 3}
+  m_Name: DialogWelcomeBranding
+  m_EditorClassIdentifier: 
+  productName: Dialogue Graph System
+  shortDescription: Visual dialogue graphs for Unity with a production-ready runtime
+    and editor workflow.
+  versionOverride: 3.0.0
+  developerName: Beka Forge
+  brandIcon: {fileID: 21300000, guid: c5734b63cc9b2b04a85349b41e146ea7, type: 3}
+  bannerImage: {fileID: 21300000, guid: b3634a7330ad4d44aa6a4a7a79f3b3f0, type: 3}
+  documentationUrl: https://bekaforge.com/dgs-docs/
+  discordUrl: https://discord.gg/hD8e6WFFWT
+  websiteUrl: 
+  supportContact: bekaforge@gmail.com
+  changelogUrl: https://bekaforge.com/dgs-docs/changelog.html
+  reviewUrl: 
+  primaryButtonLabel: Open Documentation
+  secondaryButtonLabel: Close
+  dontShowAgainLabel: Don't show again
+  footerText: 
+  releaseNotes: '- Open the graph editor from the Tools menu.
+
+    - Review the demo
+    scenes.
+
+    - Configure settings before shipping.'
+  showOnEditorStartup: 1
+  repeatMode: 2

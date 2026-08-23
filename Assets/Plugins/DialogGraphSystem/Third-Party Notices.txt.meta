@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 00a8994284f212948a605c092537bc09
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Third-Party Notices.txt
+  uploadId: 971382

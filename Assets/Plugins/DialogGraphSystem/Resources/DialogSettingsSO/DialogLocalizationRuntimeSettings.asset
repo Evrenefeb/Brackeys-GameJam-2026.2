@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0cc610df8df4cf4a866b4723605b081, type: 3}
+  m_Name: DialogLocalizationRuntimeSettings
+  m_EditorClassIdentifier: 
+  defaultLocaleCode: en-US
+  rememberPlayerChoice: 1
+  playerPrefsKey: DialogSystem.Locale
+  localizationTables:
+  - {fileID: 11400000, guid: 5fc6e6d05db770c41b1eca95870014d9, type: 2}
+  - {fileID: 11400000, guid: e350a3019f7b5b147872e85f21e74b63, type: 2}
+  localeDisplayNames:
+  - localeCode: en-US
+    displayName: English (United States)
+  - localeCode: de-DE
+    displayName: German (Germany)
+  - localeCode: es-ES
+    displayName: Spanish (Spain)
+  - localeCode: fr-FR
+    displayName: French (France)
+  - localeCode: it-IT
+    displayName: Italian (Italy)
+  - localeCode: ja-JP
+    displayName: Japanese (Japan)
+  - localeCode: pt-BR
+    displayName: Portuguese (Brazil)
+  - localeCode: sq-AL
+    displayName: Albanian (Albania)

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16b07c1f8e6161f43a794bc392b748e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Variables/playerName.asset
+  uploadId: 971382

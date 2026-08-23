@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a481b146076ee8f439e88545481356ef
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Documentation/UPGRADE_GUIDE.md
+  uploadId: 971382

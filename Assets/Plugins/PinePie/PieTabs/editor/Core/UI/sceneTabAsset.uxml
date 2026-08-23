@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/PinePie/PieTabs/editor/Core/UI/PieDeskStyling.uss?fileID=7433441132597879392&amp;guid=575cf5165b849494da86da44afc43d62&amp;type=3#PieDeskStyling"/>
+    <ui:VisualElement name="tab" class="clickableButton" style="flex-grow: 0; flex-direction: row; flex-shrink: 0; justify-content: center; align-self: center; align-items: center; margin-right: 0; margin-left: 2px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-bottom: 0;">
+        <ui:VisualElement name="icon" picking-mode="Ignore" style="flex-grow: 1; width: 17px; height: 17px; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; background-image: url(&quot;project://database/Assets/PinePie/PieTabs/editor/Core/UI/tabGroup%20Icon.png?fileID=2800000&amp;guid=17fac4027b0716a4d8df903c1375109b&amp;type=3#tabGroup Icon&quot;);"/>
+        <ui:VisualElement name="shade" picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; flex-shrink: 0; justify-content: center; align-self: center; align-items: center; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; position: absolute; left: 0; top: 0; right: 0; bottom: 0;"/>
+    </ui:VisualElement>
+</ui:UXML>

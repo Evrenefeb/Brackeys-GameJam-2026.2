@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c551a1bb6eecc14a905abb2f7b3010f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Variables/questState.asset
+  uploadId: 971382

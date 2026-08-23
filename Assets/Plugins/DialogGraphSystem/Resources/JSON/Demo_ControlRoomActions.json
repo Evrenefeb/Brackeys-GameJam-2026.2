@@ -1,0 +1,377 @@
+{
+    "graphGuid": "5f4f3cd6c1a84524927e5274a2cf7d9c",
+    "schemaVersion": 2,
+    "graphTitle": "Reactor Control Room",
+    "description": "An action-driven emergency dialogue demonstrating state mutation, environmental feedback, Graph Jump, and distinct final outcomes.",
+    "author": "Beka Forge",
+    "tags": [
+        "demo-entry",
+        "actions",
+        "graph-jump",
+        "conditions"
+    ],
+    "primaryCategory": "Demos/Action Events",
+    "categories": [
+        "Demos/Action Events"
+    ],
+    "lastModifiedUtc": "2026-08-10T00:00:00Z",
+    "editorVersion": "2022.3.62f3",
+    "sceneGoal": "Choose calm or emergency containment, enter the modular aftermath graph, and evaluate the resulting reactor temperature.",
+    "tone": "Technical urgency",
+    "extraRules": "Every action must create immediate scene feedback; the Graph Jump must resolve by direct asset and stable graph identity.",
+    "startNode": {
+        "guid": "b6a7cd2e9a852af08f76580a9272dd7e",
+        "nodePositionX": -200.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "endNode": {
+        "guid": "8766b66048308aadbf68071f83c3750f",
+        "nodePositionX": 5400.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "dialogNodes": [
+        {
+            "title": "Node_Reactor Status",
+            "guid": "3a0067c6afe2a6deefe666ef885874a1",
+            "speaker": "Dax",
+            "question": "Reactor temperature: {temperature} C. State: {questState}. The wall display is our first feedback channel.",
+            "nodePositionX": 300.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Choose Response",
+            "guid": "5f9aa63d7debf4816852af7bf706eb22",
+            "speaker": "Sol",
+            "question": "Choose a response. Calm containment preserves control; emergency containment prioritizes speed.",
+            "nodePositionX": 1000.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Calm Transfer",
+            "guid": "e373185140ed240311f050d2c4255aef",
+            "speaker": "Dax",
+            "question": "Lights lowered. Passing control to the containment subgraph.",
+            "nodePositionX": 2600.0,
+            "nodePositionY": -350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Emergency Transfer",
+            "guid": "3fd473a5bd04316494d0dc383f1279c0",
+            "speaker": "Sol",
+            "question": "Alarm and countdown complete. Passing control to emergency containment.",
+            "nodePositionX": 3000.0,
+            "nodePositionY": 350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Containment Success",
+            "guid": "5fddc310880aafdb1ec9db10fbcadaa9",
+            "speaker": "Dax",
+            "question": "Temperature stable at {temperature} C. Containment succeeded.",
+            "nodePositionX": 4300.0,
+            "nodePositionY": -250.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Containment Failure",
+            "guid": "99fb7777728c49f0199e25ae71641d20",
+            "speaker": "Sol",
+            "question": "Temperature remains {temperature} C. The emergency route bought time, but containment failed.",
+            "nodePositionX": 4300.0,
+            "nodePositionY": 300.0,
+            "displayTime": 0.0
+        }
+    ],
+    "choiceNodes": [
+        {
+            "guid": "c6ccc086ff839f636a258564f27c465e",
+            "text": "Which containment response should the team run?",
+            "nodePositionX": 1500.0,
+            "nodePositionY": 0.0,
+            "choices": [
+                {
+                    "choiceId": "258e69cb389b659e817474f356312e5e",
+                    "portKey": "choice:258e69cb389b659e817474f356312e5e",
+                    "answerText": "Run calm containment",
+                    "nextNodeGUID": "dcc7fe1b823afbcbb4bf58aad6ff4f17"
+                },
+                {
+                    "choiceId": "6c8c20789feae8740a3a16c7c8e3f3e1",
+                    "portKey": "choice:6c8c20789feae8740a3a16c7c8e3f3e1",
+                    "answerText": "Run the emergency sequence",
+                    "nextNodeGUID": "59d823bae909f75b20e55868f27704d3"
+                }
+            ]
+        }
+    ],
+    "actionNodes": [
+        {
+            "guid": "ecee0634fe8668df28f832cd989d9efd",
+            "actionId": "TurnOnTV",
+            "payloadJson": "{\"on\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 650.0,
+            "nodePositionY": 0.0
+        },
+        {
+            "guid": "5bdd4cc96ae7d3b9fd183a68c6027818",
+            "actionId": "FadeLights",
+            "payloadJson": "{\"group\":\"reactor\",\"intensity\":0.55,\"duration\":0.8,\"color\":\"cool\"}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 2300.0,
+            "nodePositionY": -350.0
+        },
+        {
+            "guid": "8aa3229954d04f45b2a4595d8c25a02a",
+            "actionId": "PlayAlarm",
+            "payloadJson": "{\"alarmId\":\"reactor_warning\",\"loop\":false,\"duration\":2.5}",
+            "waitForCompletion": false,
+            "waitSeconds": 0.0,
+            "nodePositionX": 2300.0,
+            "nodePositionY": 350.0
+        },
+        {
+            "guid": "b5429b07db920d43ce519ca39c01f4a3",
+            "actionId": "StartCountdown",
+            "payloadJson": "{\"countdownId\":\"containment\",\"seconds\":3,\"showOnHud\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 2650.0,
+            "nodePositionY": 350.0
+        }
+    ],
+    "conditionNodes": [
+        {
+            "guid": "0199b181ecc7b3668a27b034252598f5",
+            "variableName": "temperature",
+            "valueType": "Float",
+            "conditionOperator": "Less",
+            "comparisonValue": "80",
+            "missingVariableResult": false,
+            "nodePositionX": 3900.0,
+            "nodePositionY": 0.0
+        }
+    ],
+    "variableMutationNodes": [
+        {
+            "guid": "dcc7fe1b823afbcbb4bf58aad6ff4f17",
+            "variableName": "questState",
+            "valueType": "String",
+            "operation": "Set",
+            "value": "calm",
+            "nodePositionX": 2000.0,
+            "nodePositionY": -350.0
+        },
+        {
+            "guid": "59d823bae909f75b20e55868f27704d3",
+            "variableName": "questState",
+            "valueType": "String",
+            "operation": "Set",
+            "value": "emergency",
+            "nodePositionX": 2000.0,
+            "nodePositionY": 350.0
+        }
+    ],
+    "graphJumpNodes": [
+        {
+            "guid": "d3c4f43c025db8b639b6827cc67f207a",
+            "nodePositionX": 3400.0,
+            "nodePositionY": 0.0,
+            "targetGraph": {
+                "graphGuid": "734bf8c42cf14d76a190f175e939e3f9",
+                "runtimeDialogId": "Demo_ReactorAftermath",
+                "graphName": "Demo_ReactorAftermath",
+                "assetPath": "Assets/DialogGraphSystem/Graphs/Demo_ReactorAftermath.asset",
+                "entryGuid": "10b13c2ec19e6f10e10fcabba51ce03b"
+            }
+        }
+    ],
+    "outcomeNodes": [
+        {
+            "guid": "11ad27c6796a163d087f6858a85aba7c",
+            "outcomeId": "reactor_contained",
+            "displayName": "Reactor Contained",
+            "description": "The calm route reduced temperature below the safe threshold.",
+            "nodePositionX": 4800.0,
+            "nodePositionY": -250.0
+        },
+        {
+            "guid": "b8003969f90be673d8ed113ee645fe2e",
+            "outcomeId": "reactor_unstable",
+            "displayName": "Reactor Still Unstable",
+            "description": "The emergency route completed but temperature remained above the safe threshold.",
+            "nodePositionX": 4800.0,
+            "nodePositionY": 300.0
+        }
+    ],
+    "links": [
+        {
+            "linkGuid": "06587d756c2cefac4c00017b687b37c9",
+            "fromGuid": "b6a7cd2e9a852af08f76580a9272dd7e",
+            "toGuid": "3a0067c6afe2a6deefe666ef885874a1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "254e6b6e97a374b93eb9bb8c3cfac8e7",
+            "fromGuid": "3a0067c6afe2a6deefe666ef885874a1",
+            "toGuid": "ecee0634fe8668df28f832cd989d9efd",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "b781a4b4c7be714f94de1dff65e63989",
+            "fromGuid": "ecee0634fe8668df28f832cd989d9efd",
+            "toGuid": "5f9aa63d7debf4816852af7bf706eb22",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "d9e8c5d65aff656a303e97cda0d7e4f4",
+            "fromGuid": "5f9aa63d7debf4816852af7bf706eb22",
+            "toGuid": "c6ccc086ff839f636a258564f27c465e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f43790e4011a11e4d2bc309d643ab089",
+            "fromGuid": "c6ccc086ff839f636a258564f27c465e",
+            "toGuid": "dcc7fe1b823afbcbb4bf58aad6ff4f17",
+            "fromPortKey": "choice:258e69cb389b659e817474f356312e5e",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "563fbd548ab05c28dbc81700f0fb8f85",
+            "fromGuid": "c6ccc086ff839f636a258564f27c465e",
+            "toGuid": "59d823bae909f75b20e55868f27704d3",
+            "fromPortKey": "choice:6c8c20789feae8740a3a16c7c8e3f3e1",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "a05a0bdfafa1e8209ed09917fa7118ed",
+            "fromGuid": "dcc7fe1b823afbcbb4bf58aad6ff4f17",
+            "toGuid": "5bdd4cc96ae7d3b9fd183a68c6027818",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "e45908d7590f38cc19d8dcb3dbee37f1",
+            "fromGuid": "5bdd4cc96ae7d3b9fd183a68c6027818",
+            "toGuid": "e373185140ed240311f050d2c4255aef",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "1b2223224a08e7d92d3e1a81f4d1dba2",
+            "fromGuid": "e373185140ed240311f050d2c4255aef",
+            "toGuid": "d3c4f43c025db8b639b6827cc67f207a",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "56914646bc476f3b7da8c614234abbcc",
+            "fromGuid": "59d823bae909f75b20e55868f27704d3",
+            "toGuid": "8aa3229954d04f45b2a4595d8c25a02a",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "c6832f1f22822b41d157984d1e242264",
+            "fromGuid": "8aa3229954d04f45b2a4595d8c25a02a",
+            "toGuid": "b5429b07db920d43ce519ca39c01f4a3",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "a3045a650c67e3e3263a9adc5c631fd0",
+            "fromGuid": "b5429b07db920d43ce519ca39c01f4a3",
+            "toGuid": "3fd473a5bd04316494d0dc383f1279c0",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "b9f25e3631dfbe0c96822e611418231b",
+            "fromGuid": "3fd473a5bd04316494d0dc383f1279c0",
+            "toGuid": "d3c4f43c025db8b639b6827cc67f207a",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "1899945ed2ba1139b050ea46596ce208",
+            "fromGuid": "d3c4f43c025db8b639b6827cc67f207a",
+            "toGuid": "0199b181ecc7b3668a27b034252598f5",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "48ba70ce6cb6a96b9b133095b100289c",
+            "fromGuid": "0199b181ecc7b3668a27b034252598f5",
+            "toGuid": "5fddc310880aafdb1ec9db10fbcadaa9",
+            "fromPortKey": "true",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "6f78dedca876ad03f8d96476ec83c69e",
+            "fromGuid": "0199b181ecc7b3668a27b034252598f5",
+            "toGuid": "99fb7777728c49f0199e25ae71641d20",
+            "fromPortKey": "false",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "2b968b2feef4dfcc1d1252a834a1f7ca",
+            "fromGuid": "5fddc310880aafdb1ec9db10fbcadaa9",
+            "toGuid": "11ad27c6796a163d087f6858a85aba7c",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "de06bb664cb3661922f2bb40181dfed5",
+            "fromGuid": "11ad27c6796a163d087f6858a85aba7c",
+            "toGuid": "8766b66048308aadbf68071f83c3750f",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "466fcdb3ed5f7878e677b50499ad9228",
+            "fromGuid": "99fb7777728c49f0199e25ae71641d20",
+            "toGuid": "b8003969f90be673d8ed113ee645fe2e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "d859f2e22cdb16c545b64197ae3583ac",
+            "fromGuid": "b8003969f90be673d8ed113ee645fe2e",
+            "toGuid": "8766b66048308aadbf68071f83c3750f",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        }
+    ],
+    "groupLayouts": []
+}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d89e0fe6ec2a476c8ceab1ab66fb8e7c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Actions/StartCountdown.asset
+  uploadId: 971382

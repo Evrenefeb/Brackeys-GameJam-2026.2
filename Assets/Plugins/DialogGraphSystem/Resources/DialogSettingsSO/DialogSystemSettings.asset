@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7867017632024407571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc2749f3f70a9b47a8688e12fcc0106, type: 3}
+  m_Name: InputSettings
+  m_EditorClassIdentifier: 
+  lineAdvanceKey: 113
+  confirmKeys: 0d000000200000006500000066000000
+  skipKeys: 3201000031010000
+  fastForwardKeys: 300100002f010000
+  cancelKeys: 1b000000
+  navUpKeys: 7700000011010000
+  navDownKeys: 7300000012010000
+  verticalAxis: Vertical
+  joystickConfirmButton: 0
+  allowMouseClickConfirm: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908815f9e169aee49bb930d714c202e1, type: 3}
+  m_Name: DialogSystemSettings
+  m_EditorClassIdentifier: 
+  textSettings: {fileID: 8542943622284758659}
+  choiceSettings: {fileID: 6403421151650051400}
+  inputSettings: {fileID: -7867017632024407571}
+  audioSettings: {fileID: 7903311926459495788}
+  uiSettings: {fileID: 246801357924680135}
+  version: 3.0.0
+  runtimeLogMode: 1
+  enableDebugLogs: 0
+--- !u!114 &246801357924680135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2e492dba567715409d77ddcf0eb40a1, type: 3}
+  m_Name: RuntimeUISettings
+  m_EditorClassIdentifier: 
+  showBackgroundPanel: 1
+  showSpeakerName: 1
+  showPortrait: 1
+  showSkipButton: 1
+  showAutoButton: 1
+  showHistoryButton: 1
+  showLanguageButton: 1
+  showSettingsButton: 1
+  showContinueIndicator: 1
+  showAutoSkipIcon: 1
+  showChoicePanel: 1
+  showHistoryPanel: 1
+  settingsTheme: {fileID: 0}
+  showSettingsPanel: 1
+  showSettingsLanguageDropdown: 1
+  showSettingsThemeDropdown: 1
+  showSettingsTextSpeed: 1
+  showSettingsAutoAdvance: 1
+  showSettingsVoiceVolume: 1
+  showSettingsSfxVolume: 1
+--- !u!114 &6403421151650051400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380e98bb268266449a6999900697c5aa, type: 3}
+  m_Name: ChoiceSettings
+  m_EditorClassIdentifier: 
+  doDebug: 1
+  wrapNavigation: 1
+  holdRepeatDelay: 0.18
+  selectFirstOnEnable: 1
+  mouseHoverMovesSelection: 1
+  selectedOutlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  outlineThickness: 2
+  animateSelected: 1
+  animatePulseScale: 1.05
+  animatePulseSpeed: 1.024
+  showKeyHints: 1
+  enableKeyboardConfirmKey: 1
+  keyboardConfirmLetter: F
+  alsoAcceptSubmit: 1
+  acceptGamepadConfirm: 1
+  acceptXRSelect: 1
+  keyboardConfirm: 
+  altConfirm: 
+  gamepadConfirm: South
+  mouseHint: Click
+--- !u!114 &7903311926459495788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f26f04c76286340a83ee861f33db84, type: 3}
+  m_Name: AudioSettings
+  m_EditorClassIdentifier: 
+  voiceVolume: 0.40525082
+  sfxVolume: 0.8460142
+  enableUiSfx: 0
+  sfxNavigate: {fileID: 0}
+  sfxConfirm: {fileID: 0}
+  sfxSkip: {fileID: 0}
+  stopOnSkipLine: 1
+  stopOnSkipAll: 1
+  fadeOutOnStop: 1
+  fadeOutTime: 0.08
+  enableTypewriterAudio: 1
+  typewriterClip: {fileID: 8300000, guid: 1aa2d19e5a2d9cb4abbeffd69658c48c, type: 3}
+  legacyTypewriterClips:
+  - {fileID: 8300000, guid: 1aa2d19e5a2d9cb4abbeffd69658c48c, type: 3}
+  typewriterPlayEveryNChars: 2
+  typewriterVolume: 0.354
+  typewriterPitchVariance: 0.0198
+  typewriterMinInterval: 0.02
+  typewriterIgnoreWhitespace: 1
+  typewriterIgnoreRichTextTags: 1
+--- !u!114 &8542943622284758659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674546f30cf3b134e8d07f6d561cd9fe, type: 3}
+  m_Name: TextSettings
+  m_EditorClassIdentifier: 
+  typewriterEffect: 1
+  charsPerSecond: 28
+  allowSkipAll: 0
+  allowSkipCurrentLine: 1
+  allowFastForwardHold: 0
+  fastForwardMultiplier: 2.05
+  autoAdvance: 1
+  autoAdvanceDelay: 1.303
+  commaPause: 0.1096
+  periodPause: 0.1301
+  questionPause: 0.1885
+  exclamationPause: 0.1831

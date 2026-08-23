@@ -1,0 +1,36 @@
+Third-Party Notices
+===================
+
+This package includes the following third-party font software:
+
+1. Inter
+   License: SIL Open Font License 1.1
+   Files:
+   - Assets/DialogGraphSystem/Resources/Fonts/Inter/
+   Included license:
+   - Assets/DialogGraphSystem/Resources/Fonts/Inter/OFL.txt
+
+2. Manrope
+   License: SIL Open Font License 1.1
+   Files:
+   - Assets/DialogGraphSystem/Resources/Fonts/Manrope/
+   Included license:
+   - Assets/DialogGraphSystem/Resources/Fonts/Manrope/OFL.txt
+
+3. Noto Sans
+   License: SIL Open Font License 1.1
+   Files:
+   - Assets/DialogGraphSystem/Resources/Fonts/Noto_Sans/
+   Included license:
+   - Assets/DialogGraphSystem/Resources/Fonts/Noto_Sans/OFL.txt
+
+4. Sora
+   License: SIL Open Font License 1.1
+   Files:
+   - Assets/DialogGraphSystem/Resources/Fonts/Sora/
+   Included license:
+   - Assets/DialogGraphSystem/Resources/Fonts/Sora/OFL.txt
+
+The full SIL Open Font License text is included with each font family and is
+also available at:
+https://openfontlicense.org

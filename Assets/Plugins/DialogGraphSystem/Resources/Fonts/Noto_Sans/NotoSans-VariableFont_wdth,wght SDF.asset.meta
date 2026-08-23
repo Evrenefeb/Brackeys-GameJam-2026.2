@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 96e3f095e8f5fc64ab9463d9bafb2508
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght
+    SDF.asset
+  uploadId: 971382

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 705545d4f7f5058409679c92e8c9d4f1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/DemoScenes/DialogueDemo.unity
+  uploadId: 971382

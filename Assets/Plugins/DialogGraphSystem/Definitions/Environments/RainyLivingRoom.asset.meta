@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11f6cf584e9e474ca9ed6c4c6b0d83ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Environments/RainyLivingRoom.asset
+  uploadId: 971382

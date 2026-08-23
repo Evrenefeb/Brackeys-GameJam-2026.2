@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49ae93c1fa9f15f45a3e1cae086bff12
+timeCreated: 1457639864
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 60199
+  packageName: Physics Debugger
+  packageVersion: 1.1
+  assetPath: Assets/PhysicsDebugger/ExampleScenes/Mats/Bounce.physicMaterial
+  uploadId: 177147

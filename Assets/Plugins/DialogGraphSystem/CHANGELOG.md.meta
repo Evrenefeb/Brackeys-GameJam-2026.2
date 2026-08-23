@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 629d78842f6cf764aad1911db2abe894
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/CHANGELOG.md
+  uploadId: 971382

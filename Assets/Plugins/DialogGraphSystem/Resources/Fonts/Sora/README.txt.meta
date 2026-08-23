@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa31e8b80432c404a90d5fec082f4de5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Fonts/Sora/README.txt
+  uploadId: 971382

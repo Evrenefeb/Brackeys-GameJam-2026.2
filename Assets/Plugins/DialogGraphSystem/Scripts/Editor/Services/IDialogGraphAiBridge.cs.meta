@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b674e645b33efcf45becf4857aebbfcc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Services/IDialogGraphAiBridge.cs
+  uploadId: 971382

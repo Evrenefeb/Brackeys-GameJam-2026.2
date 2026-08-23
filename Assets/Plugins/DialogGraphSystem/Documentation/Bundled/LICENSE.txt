@@ -1,0 +1,10 @@
+Dialogue Graph System 3.0.0 — Bundled License Information
+
+Dialogue Graph System is distributed through the Unity Asset Store and is licensed under the Unity Asset Store End User License Agreement unless a separate written agreement applies.
+
+Official terms: https://unity.com/legal/as-terms
+Asset Store EULA FAQ: https://support.unity.com/hc/en-us/articles/205623589-Can-I-use-assets-from-the-Asset-Store-in-my-commercial-game
+
+Third-party attributions are listed in Third-Party Notices.txt in the package root.
+
+This bundled notice is informational and does not replace the governing agreement.

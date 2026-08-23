@@ -1,0 +1,518 @@
+/* ================================================================
+   Localization Manager Window — Stylesheet
+   Brand:  #5865F2 indigo, #A78BFA AI-violet
+   Canvas: #090B10 → #0D0F16 → #13151E → #1A1D28 → #222636
+   ================================================================ */
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.loc-btn {
+    height: 28px;
+    padding: 0 12px;
+    border-radius: 5px;
+    font-size: 11px;
+    -unity-font-style: bold;
+    border-width: 0;
+    margin-right: 4px;
+    background-color: #2A2F45;
+    color: #E2E8F0;
+}
+
+.loc-btn:hover {
+    background-color: #3D4460;
+}
+
+.loc-btn--primary {
+    background-color: #5865F2;
+    color: #E8ECF4;
+}
+
+.loc-btn--primary:hover {
+    background-color: #6B78FF;
+}
+
+.loc-btn--ai {
+    background-color: #A78BFA;
+    color: #13151E;
+}
+
+.loc-btn--ai:hover {
+    background-color: #C4B5FD;
+}
+
+.loc-toolbar {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 8px 10px;
+    background-color: #13151E;
+    border-bottom-width: 1px;
+    border-bottom-color: #2A2F45;
+}
+
+.loc-toolbar-group {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.loc-toolbar-group--filters {
+    flex-grow: 1;
+}
+
+.loc-toolbar-group--actions {
+    justify-content: flex-end;
+    margin-left: 12px;
+}
+
+.loc-toolbar-label {
+    font-size: 11px;
+    color: #CBD5E1;
+    margin-right: 6px;
+    flex-shrink: 0;
+}
+
+.loc-toolbar-graph-field {
+    width: 180px;
+    min-width: 140px;
+    margin-right: 6px;
+}
+
+.loc-toolbar-search-field {
+    width: 190px;
+    min-width: 140px;
+}
+
+.loc-toolbar-status-field {
+    width: 96px;
+    min-width: 96px;
+}
+
+/* ── Lang Bar ────────────────────────────────────────────────── */
+.loc-lang-bar {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 10px;
+    min-height: 36px;
+    background-color: #0D0F16;
+    border-bottom-width: 1px;
+    border-bottom-color: #2A2F45;
+}
+
+.loc-lang-pill {
+    font-size: 10px;
+    margin-right: 4px;
+    padding: 2px 10px;
+    border-radius: 12px;
+    border-width: 1px;
+    -unity-font-style: bold;
+}
+
+.loc-lang-pill--active {
+    background-color: rgba(88, 101, 242, 0.15);
+    border-color: #5865F2;
+    color: #E8ECF4;
+}
+
+.loc-lang-pill--inactive {
+    background-color: #1A1D28;
+    border-color: #3D4460;
+    color: #9BA3B8;
+}
+
+.loc-lang-pill:hover {
+    background-color: rgba(88, 101, 242, 0.25);
+    border-color: #7A85F5;
+}
+
+.loc-lang-pill-wrap {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.loc-lang-remove-btn {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    min-height: 18px;
+    padding: 0;
+    margin-right: 6px;
+    border-radius: 9px;
+    border-width: 0;
+    background-color: #3b1f29;
+    color: #f0b6c5;
+    font-size: 9px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.loc-lang-remove-btn:hover {
+    background-color: #5a2736;
+    color: #ffe2ea;
+}
+
+/* ── Status Bar ──────────────────────────────────────────────── */
+.loc-status-bar {
+    padding: 4px 12px;
+    min-height: 24px;
+    background-color: #0D0F16;
+}
+
+.loc-status-label {
+    font-size: 11px;
+    color: #64748B;
+}
+
+.loc-status-label--error {
+    color: #F87171;
+}
+
+/* ── Table Header ────────────────────────────────────────────── */
+.loc-table-header {
+    flex-direction: row;
+    align-items: center;
+    background-color: #0D0F16;
+    border-bottom-width: 1px;
+    border-bottom-color: #2A2F45;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-height: 32px;
+}
+
+.loc-table-header Label {
+    -unity-font-style: bold;
+    font-size: 10px;
+    color: #64748B;
+    -unity-text-align: middle-left;
+    letter-spacing: 1px;
+}
+
+/* ── Column widths ───────────────────────────────────────────── */
+.loc-col-context {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.loc-col-source {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.loc-col-lang {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* ── Context Cell ────────────────────────────────────────────── */
+.loc-context-title {
+    -unity-font-style: bold;
+    white-space: normal;
+    margin-bottom: 4px;
+    color: #E2E8F0;
+}
+
+.loc-context-subtitle {
+    white-space: normal;
+    font-size: 10px;
+    color: #94A3B8;
+}
+
+/* ── List Rows ───────────────────────────────────────────────── */
+.loc-row {
+    flex-direction: row;
+    align-items: center;
+    min-height: 116px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.loc-row:hover {
+    background-color: rgba(88, 101, 242, 0.05);
+}
+
+.loc-row--even {
+    background-color: #13151E;
+}
+
+.loc-row--odd {
+    background-color: #1A1D28;
+}
+
+.loc-row--selected {
+    background-color: rgba(88, 101, 242, 0.12);
+}
+
+/* ── Cell ────────────────────────────────────────────────────── */
+.loc-cell {
+    overflow: hidden;
+    white-space: nowrap;
+    -unity-text-overflow-position: End;
+    -unity-text-align: middle-left;
+    font-size: 11px;
+    color: #E2E8F0;
+}
+
+.loc-cell--missing {
+    color: #FB923C;
+}
+
+/* ── Status badge ────────────────────────────────────────────── */
+.loc-status-badge {
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 9px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.loc-status--missing {
+    background-color: rgba(153, 27, 27, 0.2);
+    border-width: 1px;
+    border-color: #991B1B;
+    color: #FCA5A5;
+}
+
+.loc-status--translated {
+    background-color: rgba(20, 83, 45, 0.2);
+    border-width: 1px;
+    border-color: #14532D;
+    color: #86EFAC;
+}
+
+/* ── Edit Panel ──────────────────────────────────────────────── */
+.loc-edit-panel {
+    background-color: #1A1D28;
+    border-left-width: 1px;
+    border-left-color: #2A2F45;
+    flex-direction: column;
+    min-width: 360px;
+    max-width: none;
+    width: 100%;
+    min-height: 0;
+}
+
+.loc-edit-meta-value {
+    color: #E2E8F0;
+    font-size: 11px;
+    white-space: normal;
+}
+
+.loc-edit-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-bottom-width: 1px;
+    border-bottom-color: #2A2F45;
+}
+
+.loc-edit-header Label {
+    font-size: 13px;
+    -unity-font-style: bold;
+    color: #E2E8F0;
+}
+
+.loc-edit-close-btn {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-width: 0;
+    color: #94A3B8;
+    font-size: 14px;
+    -unity-text-align: middle-center;
+}
+
+.loc-edit-close-btn:hover {
+    color: #F1F5F9;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.loc-edit-scroll {
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.loc-edit-content {
+    padding: 12px;
+    min-height: 0;
+}
+
+.loc-edit-field-label {
+    font-size: 10px;
+    color: #64748B;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+}
+
+.loc-source-block {
+    background-color: #0D0F16;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border-width: 1px;
+    border-color: #2A2F45;
+}
+
+.loc-source-label {
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: #F59E0B;
+    margin-bottom: 6px;
+}
+
+.loc-lang-block {
+    background-color: #0D0F16;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-color: #2A2F45;
+}
+
+.loc-lang-row-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+}
+
+.loc-lang-name {
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: #CBD5E1;
+}
+
+.loc-char-count {
+    font-size: 9px;
+    color: #475569;
+}
+
+.loc-delete-btn {
+    background-color: #991B1B;
+    color: white;
+    border-width: 0;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 16px;
+    -unity-font-style: bold;
+}
+
+.loc-delete-btn:hover {
+    background-color: #B91C1C;
+}
+
+/* ── Toolbar search ──────────────────────────────────────────── */
+.loc-toolbar-sep {
+    width: 1px;
+    background-color: #2A2F45;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-self: stretch;
+}
+
+/* ── AI Translation Dialog ───────────────────────────────────── */
+.ai-dialog-root {
+    background-color: #0D0F16;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.ai-dialog-header {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.ai-dialog-title {
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: #E2E8F0;
+    margin-bottom: 4px;
+}
+
+.ai-dialog-subtitle {
+    font-size: 12px;
+    color: #94A3B8;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.ai-dialog-choices {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.ai-choice-card {
+    width: 220px;
+    height: 140px;
+    background-color: #1A1D28;
+    border-width: 1px;
+    border-color: #2A2F45;
+    border-radius: 8px;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6px;
+}
+
+.ai-choice-card:hover {
+    border-color: #5865F2;
+    background-color: rgba(88, 101, 242, 0.05);
+}
+
+.ai-choice-card--active {
+    border-color: #5865F2;
+    background-color: rgba(88, 101, 242, 0.1);
+}
+
+.ai-choice-title {
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: #E8ECF4;
+    margin-bottom: 8px;
+}
+
+.ai-choice-desc {
+    font-size: 10px;
+    color: #9BA3B8;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.ai-dialog-footer {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+.ai-locked {
+    opacity: 0.5;
+}
+
+.ai-ad-banner {
+    background-color: rgba(167, 139, 250, 0.1);
+    border-width: 1px;
+    border-color: #A78BFA;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ai-ad-text {
+    font-size: 11px;
+    color: #C4B5FD;
+    flex-grow: 1;
+    margin-right: 12px;
+    white-space: normal;
+}

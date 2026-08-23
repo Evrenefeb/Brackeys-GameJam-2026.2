@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb3a9c7e1c626864da9bc40615e2c0dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Variables/trustLevel.asset
+  uploadId: 971382

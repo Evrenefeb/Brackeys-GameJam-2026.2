@@ -1,0 +1,44 @@
+{
+  "name": "com.bekaforge.dialogue-graph-system",
+  "displayName": "Dialogue Graph System",
+  "version": "3.0.0",
+  "unity": "2021.3",
+  "description": "Node-based dialogue authoring and runtime playback for Unity. Build branching conversations in a visual graph editor with full runtime support: portraits, audio, typewriter effect, choices, skip, autoplay, history, themes, actions, runtime variables, conditional flow, localization, and cross-graph traversal.",
+  "documentationUrl": "https://bekaforge.com/dgs-docs/",
+  "changelogUrl": "https://bekaforge.com/dgs-docs/changelog.html",
+  "licensesUrl": "https://bekaforge.com/dgs-docs/license.html",
+  "keywords": [
+    "dialogue",
+    "dialog",
+    "conversation",
+    "graph",
+    "node",
+    "editor",
+    "narrative",
+    "story",
+    "visual-scripting",
+    "visual novel",
+    "rpg"
+  ],
+  "category": "Tools",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "Playable demo scene with sample dialogue graphs, characters, actions, and variables.",
+      "path": "DemoScenes"
+    },
+    {
+      "displayName": "Sample Definitions",
+      "description": "Sample characters (Dax, Maeve, Sol, Veya), actions (FadeLights, OpenGate, etc.), variables, themes, and environments.",
+      "path": "Definitions"
+    }
+  ],
+  "author": {
+    "name": "Beka Forge",
+    "url": "https://bekaforge.com"
+  }
+}

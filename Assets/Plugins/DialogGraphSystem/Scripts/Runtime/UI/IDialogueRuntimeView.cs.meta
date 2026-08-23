@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bfa6d2005ac246c796057176423ee860
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/UI/IDialogueRuntimeView.cs
+  uploadId: 971382

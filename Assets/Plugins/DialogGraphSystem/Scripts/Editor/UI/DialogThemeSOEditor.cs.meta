@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ee37df154f33bf54c9689a10e1900d07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/UI/DialogThemeSOEditor.cs
+  uploadId: 971382

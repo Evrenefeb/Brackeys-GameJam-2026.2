@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5866836549512900103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Calm Cooling Loop
+  m_EditorClassIdentifier: 
+  GUID: a710d46b1213cba109bf64e756aba8f6
+  nodePosition: {x: 1000, y: -300}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_reactoraftermath.a710d46b1213cba109bf64e756aba8f6.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Calm loop engaged. Coolant flow is stable and the room remains readable.
+  questionTextLocaleKey: graph.demo_reactoraftermath.a710d46b1213cba109bf64e756aba8f6.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-5776794738175065259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Calm Procedure Complete
+  m_EditorClassIdentifier: 
+  GUID: 7d05c30870b9d309449dfa7293fc542d
+  nodePosition: {x: 2000, y: -300}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_reactoraftermath.7d05c30870b9d309449dfa7293fc542d.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Calm containment removed twenty-five degrees. Returning to the main
+    graph.
+  questionTextLocaleKey: graph.demo_reactoraftermath.7d05c30870b9d309449dfa7293fc542d.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-5385705658680196318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Emergency Procedure Complete
+  m_EditorClassIdentifier: 
+  GUID: f0830b89b24faff3d73a374e27516655
+  nodePosition: {x: 2400, y: 300}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_reactoraftermath.f0830b89b24faff3d73a374e27516655.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Emergency venting removed ten degrees. Returning for the final safety
+    check.
+  questionTextLocaleKey: graph.demo_reactoraftermath.f0830b89b24faff3d73a374e27516655.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-4903916606536561307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: 13dece64ef22fadabdc45bff0c41fea1
+  nodePosition: {x: 1500, y: 300}
+  actionId: OpenGate
+  payloadJson: '{"doorId":"reactor_vent","speed":"fast","open":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-2318420404168324258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Emergency Venting
+  m_EditorClassIdentifier: 
+  GUID: 261005aadedbd523f80bcc125a3bee6d
+  nodePosition: {x: 1000, y: 300}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_reactoraftermath.261005aadedbd523f80bcc125a3bee6d.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Emergency vent selected. Open the containment gate before pressure
+    peaks.
+  questionTextLocaleKey: graph.demo_reactoraftermath.261005aadedbd523f80bcc125a3bee6d.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c45c6e4622be54698e67e4868db7e5, type: 3}
+  m_Name: Demo_ReactorAftermath
+  m_EditorClassIdentifier: 
+  graphSchemaVersion: 2
+  graphGuid: 734bf8c42cf14d76a190f175e939e3f9
+  graphTitle: Reactor Containment Procedure
+  description: A non-selectable supporting graph that modularizes the calm and emergency
+    containment procedures.
+  author: Beka Forge
+  tags:
+  - demo-support
+  - graph-jump-target
+  - modular-flow
+  primaryCategory: Demos/Support
+  categories:
+  - Demos/Support
+  lastModifiedUtc: 2026-08-10T00:00:00Z
+  editorVersion: 2022.3.62f3
+  links:
+  - linkGuid: 8ccab18a04041118deac162cb1a964c2
+    fromGuid: 10b13c2ec19e6f10e10fcabba51ce03b
+    toGuid: 94f8ae3f898fa8416705eaa6ee1d663e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: a1f27891c686e547a4ab3a56687f16b9
+    fromGuid: 94f8ae3f898fa8416705eaa6ee1d663e
+    toGuid: a710d46b1213cba109bf64e756aba8f6
+    fromPortKey: false
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: 630afea366fcbe023befdb40c61bfd66
+    fromGuid: a710d46b1213cba109bf64e756aba8f6
+    toGuid: 94e8b5a479bbdb479a27e71936e7493f
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 704add67e372c0194765c7fde6b44e68
+    fromGuid: 94e8b5a479bbdb479a27e71936e7493f
+    toGuid: 7d05c30870b9d309449dfa7293fc542d
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: d8be994e6d8a9f01a8b91360e6e46723
+    fromGuid: 7d05c30870b9d309449dfa7293fc542d
+    toGuid: d97d68a9dcb3652ea6b8d058b2c2fc48
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: c4c4da045af4c3c1379c4796a0873390
+    fromGuid: 94f8ae3f898fa8416705eaa6ee1d663e
+    toGuid: 261005aadedbd523f80bcc125a3bee6d
+    fromPortKey: true
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: cca28f7d22b8de9f23a4b15508ea8857
+    fromGuid: 261005aadedbd523f80bcc125a3bee6d
+    toGuid: 13dece64ef22fadabdc45bff0c41fea1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: cdc5055ea717f67b7f00521d7bbcf9ad
+    fromGuid: 13dece64ef22fadabdc45bff0c41fea1
+    toGuid: 29d1fc9e69862651dcc422894d49acab
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 2beebc970541fbcedae3303a3c53b15c
+    fromGuid: 29d1fc9e69862651dcc422894d49acab
+    toGuid: f0830b89b24faff3d73a374e27516655
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: a4fc6bebebd97a0ce2198d79a6464f6d
+    fromGuid: f0830b89b24faff3d73a374e27516655
+    toGuid: d97d68a9dcb3652ea6b8d058b2c2fc48
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  nodes:
+  - {fileID: -5866836549512900103}
+  - {fileID: -2318420404168324258}
+  - {fileID: -5776794738175065259}
+  - {fileID: -5385705658680196318}
+  choiceNodes: []
+  actionNodes:
+  - {fileID: -4903916606536561307}
+  conditionNodes:
+  - {fileID: 1345344377931741852}
+  variableMutationNodes:
+  - {fileID: 7626459808933611021}
+  - {fileID: 1135457132131311872}
+  graphJumpNodes: []
+  outcomeNodes: []
+  sceneContext: {fileID: 11400000, guid: 1fe1d350afe64d9e9f5a4c62b0735d7a, type: 2}
+  environment: {fileID: 11400000, guid: 6c78fc7e24f54e69aa6468bb4c25cd1d, type: 2}
+  participatingCharacters:
+  - {fileID: 11400000, guid: 91a8f07b5df04b08b2c3b3f7f733f235, type: 2}
+  - {fileID: 11400000, guid: 6b49e76cc29f4f7e84d3183449f0afeb, type: 2}
+  availableActions:
+  - {fileID: 11400000, guid: 67da0f01654f4f4d891c68af8de89fca, type: 2}
+  availableVariables:
+  - {fileID: 11400000, guid: 7eb05143c6b2f3f478970e24892ce3ef, type: 2}
+  - {fileID: 11400000, guid: 3c551a1bb6eecc14a905abb2f7b3010f, type: 2}
+  sceneGoal: Apply route-specific containment and return control to the Reactor Control
+    Room graph.
+  tone: Focused procedure
+  extraRules: This graph is entered only through Demo_ControlRoomActions and must
+    never jump back recursively.
+  startGuid: 10b13c2ec19e6f10e10fcabba51ce03b
+  startPosition: {x: -200, y: 0}
+  startInitialized: 1
+  endGuid: d97d68a9dcb3652ea6b8d058b2c2fc48
+  endPosition: {x: 5400, y: 0}
+  endInitialized: 1
+  edgeLayouts: []
+  groupLayouts: []
+--- !u!114 &1135457132131311872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: 29d1fc9e69862651dcc422894d49acab
+  nodePosition: {x: 2000, y: 300}
+  variableName: temperature
+  valueType: 2
+  operation: 2
+  value: 10
+--- !u!114 &1345344377931741852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68a9473fe346b7a59b9e2410eb0cd9, type: 3}
+  m_Name: ConditionNode
+  m_EditorClassIdentifier: 
+  GUID: 94f8ae3f898fa8416705eaa6ee1d663e
+  nodePosition: {x: 500, y: 0}
+  variableName: questState
+  valueType: 3
+  conditionOperator: 0
+  comparisonValue: emergency
+  missingVariableResult: 0
+--- !u!114 &7626459808933611021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: 94e8b5a479bbdb479a27e71936e7493f
+  nodePosition: {x: 1500, y: -300}
+  variableName: temperature
+  valueType: 2
+  operation: 2
+  value: 25

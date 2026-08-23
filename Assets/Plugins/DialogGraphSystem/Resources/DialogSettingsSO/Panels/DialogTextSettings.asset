@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674546f30cf3b134e8d07f6d561cd9fe, type: 3}
+  m_Name: DialogTextSettings
+  m_EditorClassIdentifier: 
+  doDebug: 1
+  typewriterEffect: 1
+  charsPerSecond: 19.5
+  allowSkipAll: 1
+  allowSkipCurrentLine: 1
+  allowFastForwardHold: 1
+  fastForwardMultiplier: 2
+  autoAdvance: 0
+  autoAdvanceDelay: 0.75
+  commaPause: 0.08
+  periodPause: 0.16
+  questionPause: 0.18
+  exclamationPause: 0.18

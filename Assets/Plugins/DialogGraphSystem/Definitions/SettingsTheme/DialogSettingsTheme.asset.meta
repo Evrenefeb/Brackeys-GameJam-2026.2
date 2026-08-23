@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 79afbac034692ed479cdb8e92ee5f1bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/SettingsTheme/DialogSettingsTheme.asset
+  uploadId: 971382

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 54530e93b662b234292237c08743ab0a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Documentation/DEMO_GUIDE.md
+  uploadId: 971382

@@ -1,0 +1,20 @@
+Dialogue Graph System 3.0.0 — Bundled Documentation
+
+Dialogue Graph System is a node-based Unity dialogue authoring and runtime package. Open Tools > Beka Forge > Dialogue Graph System to create, edit, validate, import, and export dialogue graphs.
+
+Core 3.0.0 includes branching dialogue, choices, actions, conditions, variables, outcomes, Graph Jump traversal, localization tables and runtime locale switching, JSON round-trip tools, validation, themes, history, skip, autoplay, portraits, and audio.
+
+Quick start
+1. Open the Dialogue Graph System workspace.
+2. Create or select a graph.
+3. Connect Start through dialogue and flow nodes to End.
+4. Save and run validation.
+5. Add DialogManager and the supplied runtime UI to a scene, assign the graph, and enter Play Mode.
+
+Bundled showcase
+1. Open Assets/DialogGraphSystem/DemoScenes/DialogueDemo.unity.
+2. Enter Play Mode and choose Product Tour, Shop Gate, or Reactor Control Room.
+3. Use Back to Demo Menu, Reset / Re-run, and Settings to inspect every route without reopening the scene.
+4. Read Documentation/DEMO_GUIDE.md for the complete route, localization, and action-receiver mapping.
+
+The full README.md, UPGRADE_GUIDE.md, CHANGELOG.md, and Documentation folder are included with the package.

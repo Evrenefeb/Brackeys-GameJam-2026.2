@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7eb05143c6b2f3f478970e24892ce3ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Variables/temperature.asset
+  uploadId: 971382

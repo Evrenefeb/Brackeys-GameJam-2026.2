@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 06a4aee13bae03a43931cf430458cd59
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Windows/DialogGraphValidationPanelWindow.cs
+  uploadId: 971382

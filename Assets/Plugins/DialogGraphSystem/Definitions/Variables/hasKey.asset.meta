@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7df200202ccde56438227e513dd8a89b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Variables/hasKey.asset
+  uploadId: 971382

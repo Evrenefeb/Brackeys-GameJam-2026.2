@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a07c25a5a5e7a2246b3350a9e07e6b3e
+timeCreated: 1459933715
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 60199
+  packageName: Physics Debugger
+  packageVersion: 1.1
+  assetPath: Assets/PhysicsDebugger/ExampleScenes/Prefabs/Ball.prefab
+  uploadId: 177147

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4c6065ae6ab3ed041a0b35bc109a23f2
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Documentation/IMPORT_EXPORT.md
+  uploadId: 971382

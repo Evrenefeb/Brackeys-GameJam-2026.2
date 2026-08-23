@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6aa80235cc5d9eb4d8f30126df548d28
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Services/DialogGraphImportSnapshot.cs
+  uploadId: 971382

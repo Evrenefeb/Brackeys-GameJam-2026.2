@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5fc6e6d05db770c41b1eca95870014d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Localization/DialogLocalizationTable.asset
+  uploadId: 971382

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf0903cb706a1eb44b5be2b0cc834563
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/DialogThemes/Visual Novel.asset
+  uploadId: 971382

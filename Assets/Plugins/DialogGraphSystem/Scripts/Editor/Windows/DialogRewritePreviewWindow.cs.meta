@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c18a955356f742fdb4b95e065f3026a6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Windows/DialogRewritePreviewWindow.cs
+  uploadId: 971382

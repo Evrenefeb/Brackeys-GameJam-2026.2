@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b63451949254b6b4aae8c4d27bb19c53
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Prefabs/UI/Items/ChoicePrefab.prefab
+  uploadId: 971382

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8d37546b6b4382489033337b81640aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Graphs/Demo_ShopGate.asset
+  uploadId: 971382

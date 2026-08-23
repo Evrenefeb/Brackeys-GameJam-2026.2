@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82c2dd7d656246f7bc7b848c9a77bd98
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/SceneContexts/RooftopDebrief.asset
+  uploadId: 971382

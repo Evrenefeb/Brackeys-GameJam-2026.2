@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afbece0c0ab146b48d8e8a8fe3cd0c3b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Actions/FadeLights.asset
+  uploadId: 971382

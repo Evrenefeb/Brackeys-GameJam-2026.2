@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1d7ec804a515cce4d9971ca95a288416
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/View/Elements/Nodes/EndNodeView.cs
+  uploadId: 971382

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d2e492dba567715409d77ddcf0eb40a1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Settings/SettingsPanels/DialogueRuntimeUISettings.cs
+  uploadId: 971382

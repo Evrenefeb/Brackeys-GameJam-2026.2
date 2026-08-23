@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8ec75dcf993c04541b5a4a8fb8145c03
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/UI/DialogOptionalUiFeaturePolicy.cs
+  uploadId: 971382

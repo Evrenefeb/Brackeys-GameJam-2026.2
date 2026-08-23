@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fbc3c60d6d6341a0a18dd889e7e05f3f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Tests/EditMode/DialogSystem.EditMode.Tests.asmdef
+  uploadId: 971382

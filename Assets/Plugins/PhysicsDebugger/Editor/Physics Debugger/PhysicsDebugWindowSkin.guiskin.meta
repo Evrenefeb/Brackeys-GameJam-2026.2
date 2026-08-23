@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80edbf67ab7d44e47ab940c62c944286
+timeCreated: 1459380564
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 60199
+  packageName: Physics Debugger
+  packageVersion: 1.1
+  assetPath: Assets/PhysicsDebugger/Editor/Physics Debugger/PhysicsDebugWindowSkin.guiskin
+  uploadId: 177147

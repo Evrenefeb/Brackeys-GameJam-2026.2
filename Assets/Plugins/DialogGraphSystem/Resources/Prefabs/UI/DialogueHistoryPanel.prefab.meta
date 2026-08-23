@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b61b8d39ed05c4046afcf47613cee8dc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Prefabs/UI/DialogueHistoryPanel.prefab
+  uploadId: 971382

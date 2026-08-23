@@ -1,0 +1,563 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3502858368649510465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: ecee0634fe8668df28f832cd989d9efd
+  nodePosition: {x: 650, y: 0}
+  actionId: TurnOnTV
+  payloadJson: '{"on":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-3346087226284701491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: 8aa3229954d04f45b2a4595d8c25a02a
+  nodePosition: {x: 2300, y: 350}
+  actionId: PlayAlarm
+  payloadJson: '{"alarmId":"reactor_warning","loop":false,"duration":2.5}'
+  waitForCompletion: 0
+  waitSeconds: 0
+--- !u!114 &-1899342087007455219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Containment Failure
+  m_EditorClassIdentifier: 
+  GUID: 99fb7777728c49f0199e25ae71641d20
+  nodePosition: {x: 4300, y: 300}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_controlroomactions.99fb7777728c49f0199e25ae71641d20.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Temperature remains {temperature} C. The emergency route bought time,
+    but containment failed.
+  questionTextLocaleKey: graph.demo_controlroomactions.99fb7777728c49f0199e25ae71641d20.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-813504365850112634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4df4dc4e024f7dad06d3858fc53330, type: 3}
+  m_Name: GraphJumpNode
+  m_EditorClassIdentifier: 
+  GUID: d3c4f43c025db8b639b6827cc67f207a
+  nodePosition: {x: 3400, y: 0}
+  targetGraph:
+    graphAsset: {fileID: 11400000, guid: a21ea18abeb90e544998437169142238, type: 2}
+    graphGuid: 734bf8c42cf14d76a190f175e939e3f9
+    runtimeDialogId: Demo_ReactorAftermath
+    graphName: Demo_ReactorAftermath
+    assetPath: Assets/DialogGraphSystem/Graphs/Demo_ReactorAftermath.asset
+    entryGuid: 10b13c2ec19e6f10e10fcabba51ce03b
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c45c6e4622be54698e67e4868db7e5, type: 3}
+  m_Name: Demo_ControlRoomActions
+  m_EditorClassIdentifier: 
+  graphSchemaVersion: 2
+  graphGuid: 5f4f3cd6c1a84524927e5274a2cf7d9c
+  graphTitle: Reactor Control Room
+  description: An action-driven emergency dialogue demonstrating state mutation,
+    environmental feedback, Graph Jump, and distinct final outcomes.
+  author: Beka Forge
+  tags:
+  - demo-entry
+  - actions
+  - graph-jump
+  - conditions
+  primaryCategory: Demos/Action Events
+  categories:
+  - Demos/Action Events
+  lastModifiedUtc: 2026-08-10T00:00:00Z
+  editorVersion: 2022.3.62f3
+  links:
+  - linkGuid: 06587d756c2cefac4c00017b687b37c9
+    fromGuid: b6a7cd2e9a852af08f76580a9272dd7e
+    toGuid: 3a0067c6afe2a6deefe666ef885874a1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 254e6b6e97a374b93eb9bb8c3cfac8e7
+    fromGuid: 3a0067c6afe2a6deefe666ef885874a1
+    toGuid: ecee0634fe8668df28f832cd989d9efd
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: b781a4b4c7be714f94de1dff65e63989
+    fromGuid: ecee0634fe8668df28f832cd989d9efd
+    toGuid: 5f9aa63d7debf4816852af7bf706eb22
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: d9e8c5d65aff656a303e97cda0d7e4f4
+    fromGuid: 5f9aa63d7debf4816852af7bf706eb22
+    toGuid: c6ccc086ff839f636a258564f27c465e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f43790e4011a11e4d2bc309d643ab089
+    fromGuid: c6ccc086ff839f636a258564f27c465e
+    toGuid: dcc7fe1b823afbcbb4bf58aad6ff4f17
+    fromPortKey: choice:258e69cb389b659e817474f356312e5e
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 563fbd548ab05c28dbc81700f0fb8f85
+    fromGuid: c6ccc086ff839f636a258564f27c465e
+    toGuid: 59d823bae909f75b20e55868f27704d3
+    fromPortKey: choice:6c8c20789feae8740a3a16c7c8e3f3e1
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: a05a0bdfafa1e8209ed09917fa7118ed
+    fromGuid: dcc7fe1b823afbcbb4bf58aad6ff4f17
+    toGuid: 5bdd4cc96ae7d3b9fd183a68c6027818
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: e45908d7590f38cc19d8dcb3dbee37f1
+    fromGuid: 5bdd4cc96ae7d3b9fd183a68c6027818
+    toGuid: e373185140ed240311f050d2c4255aef
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 1b2223224a08e7d92d3e1a81f4d1dba2
+    fromGuid: e373185140ed240311f050d2c4255aef
+    toGuid: d3c4f43c025db8b639b6827cc67f207a
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 56914646bc476f3b7da8c614234abbcc
+    fromGuid: 59d823bae909f75b20e55868f27704d3
+    toGuid: 8aa3229954d04f45b2a4595d8c25a02a
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: c6832f1f22822b41d157984d1e242264
+    fromGuid: 8aa3229954d04f45b2a4595d8c25a02a
+    toGuid: b5429b07db920d43ce519ca39c01f4a3
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: a3045a650c67e3e3263a9adc5c631fd0
+    fromGuid: b5429b07db920d43ce519ca39c01f4a3
+    toGuid: 3fd473a5bd04316494d0dc383f1279c0
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: b9f25e3631dfbe0c96822e611418231b
+    fromGuid: 3fd473a5bd04316494d0dc383f1279c0
+    toGuid: d3c4f43c025db8b639b6827cc67f207a
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 1899945ed2ba1139b050ea46596ce208
+    fromGuid: d3c4f43c025db8b639b6827cc67f207a
+    toGuid: 0199b181ecc7b3668a27b034252598f5
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 48ba70ce6cb6a96b9b133095b100289c
+    fromGuid: 0199b181ecc7b3668a27b034252598f5
+    toGuid: 5fddc310880aafdb1ec9db10fbcadaa9
+    fromPortKey: true
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 6f78dedca876ad03f8d96476ec83c69e
+    fromGuid: 0199b181ecc7b3668a27b034252598f5
+    toGuid: 99fb7777728c49f0199e25ae71641d20
+    fromPortKey: false
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: 2b968b2feef4dfcc1d1252a834a1f7ca
+    fromGuid: 5fddc310880aafdb1ec9db10fbcadaa9
+    toGuid: 11ad27c6796a163d087f6858a85aba7c
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: de06bb664cb3661922f2bb40181dfed5
+    fromGuid: 11ad27c6796a163d087f6858a85aba7c
+    toGuid: 8766b66048308aadbf68071f83c3750f
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 466fcdb3ed5f7878e677b50499ad9228
+    fromGuid: 99fb7777728c49f0199e25ae71641d20
+    toGuid: b8003969f90be673d8ed113ee645fe2e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: d859f2e22cdb16c545b64197ae3583ac
+    fromGuid: b8003969f90be673d8ed113ee645fe2e
+    toGuid: 8766b66048308aadbf68071f83c3750f
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  nodes:
+  - {fileID: 7856501170998617196}
+  - {fileID: 1315839007817917864}
+  - {fileID: 262192677150146877}
+  - {fileID: 2694452710432402981}
+  - {fileID: 2015905732983201467}
+  - {fileID: -1899342087007455219}
+  choiceNodes:
+  - {fileID: 4882844541532480632}
+  actionNodes:
+  - {fileID: -3502858368649510465}
+  - {fileID: 5028444432287793636}
+  - {fileID: -3346087226284701491}
+  - {fileID: 5308518786323268940}
+  conditionNodes:
+  - {fileID: 8150321541021330632}
+  variableMutationNodes:
+  - {fileID: 8777462010862554041}
+  - {fileID: 4390177511259682983}
+  graphJumpNodes:
+  - {fileID: -813504365850112634}
+  outcomeNodes:
+  - {fileID: 9057687586597703688}
+  - {fileID: 8444959357001177486}
+  sceneContext: {fileID: 11400000, guid: 1fe1d350afe64d9e9f5a4c62b0735d7a, type: 2}
+  environment: {fileID: 11400000, guid: 6c78fc7e24f54e69aa6468bb4c25cd1d, type: 2}
+  participatingCharacters:
+  - {fileID: 11400000, guid: 91a8f07b5df04b08b2c3b3f7f733f235, type: 2}
+  - {fileID: 11400000, guid: 6b49e76cc29f4f7e84d3183449f0afeb, type: 2}
+  availableActions:
+  - {fileID: 11400000, guid: 55d7e6b174194323a795db91c4b1c5c8, type: 2}
+  - {fileID: 11400000, guid: e70949d58ac945f7a79d3e62f0581b53, type: 2}
+  - {fileID: 11400000, guid: d89e0fe6ec2a476c8ceab1ab66fb8e7c, type: 2}
+  - {fileID: 11400000, guid: afbece0c0ab146b48d8e8a8fe3cd0c3b, type: 2}
+  - {fileID: 11400000, guid: 67da0f01654f4f4d891c68af8de89fca, type: 2}
+  availableVariables:
+  - {fileID: 11400000, guid: 7eb05143c6b2f3f478970e24892ce3ef, type: 2}
+  - {fileID: 11400000, guid: 3c551a1bb6eecc14a905abb2f7b3010f, type: 2}
+  sceneGoal: Choose calm or emergency containment, enter the modular aftermath graph,
+    and evaluate the resulting reactor temperature.
+  tone: Technical urgency
+  extraRules: Every action must create immediate scene feedback; the Graph Jump must
+    resolve by direct asset and stable graph identity.
+  startGuid: b6a7cd2e9a852af08f76580a9272dd7e
+  startPosition: {x: -200, y: 0}
+  startInitialized: 1
+  endGuid: 8766b66048308aadbf68071f83c3750f
+  endPosition: {x: 5400, y: 0}
+  endInitialized: 1
+  edgeLayouts:
+  - linkGuid: 7553ac8a03124a64b747de4801e8cf05
+    reroutePoints: []
+    fromGuid: demo_actions_d2
+    toGuid: demo_actions_a_tv
+    fromPortIndex: 0
+  - linkGuid: bf8ec77b5ad74ac781da2646a98f08a1
+    reroutePoints: []
+    fromGuid: demo_actions_d1
+    toGuid: demo_actions_d2
+    fromPortIndex: 0
+  groupLayouts: []
+--- !u!114 &262192677150146877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Calm Transfer
+  m_EditorClassIdentifier: 
+  GUID: e373185140ed240311f050d2c4255aef
+  nodePosition: {x: 2600, y: -350}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_controlroomactions.e373185140ed240311f050d2c4255aef.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Lights lowered. Passing control to the containment subgraph.
+  questionTextLocaleKey: graph.demo_controlroomactions.e373185140ed240311f050d2c4255aef.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &1315839007817917864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Choose Response
+  m_EditorClassIdentifier: 
+  GUID: 5f9aa63d7debf4816852af7bf706eb22
+  nodePosition: {x: 1000, y: 0}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_controlroomactions.5f9aa63d7debf4816852af7bf706eb22.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Choose a response. Calm containment preserves control; emergency
+    containment prioritizes speed.
+  questionTextLocaleKey: graph.demo_controlroomactions.5f9aa63d7debf4816852af7bf706eb22.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &2015905732983201467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Containment Success
+  m_EditorClassIdentifier: 
+  GUID: 5fddc310880aafdb1ec9db10fbcadaa9
+  nodePosition: {x: 4300, y: -250}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_controlroomactions.5fddc310880aafdb1ec9db10fbcadaa9.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: Temperature stable at {temperature} C. Containment succeeded.
+  questionTextLocaleKey: graph.demo_controlroomactions.5fddc310880aafdb1ec9db10fbcadaa9.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &2694452710432402981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Emergency Transfer
+  m_EditorClassIdentifier: 
+  GUID: 3fd473a5bd04316494d0dc383f1279c0
+  nodePosition: {x: 3000, y: 350}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_controlroomactions.3fd473a5bd04316494d0dc383f1279c0.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Alarm and countdown complete. Passing control to emergency containment.
+  questionTextLocaleKey: graph.demo_controlroomactions.3fd473a5bd04316494d0dc383f1279c0.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &4390177511259682983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: 59d823bae909f75b20e55868f27704d3
+  nodePosition: {x: 2000, y: 350}
+  variableName: questState
+  valueType: 3
+  operation: 0
+  value: emergency
+--- !u!114 &4882844541532480632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52acda426e52d1744a92ee97a9757272, type: 3}
+  m_Name: ChoiceNode
+  m_EditorClassIdentifier: 
+  GUID: c6ccc086ff839f636a258564f27c465e
+  nodePosition: {x: 1500, y: 0}
+  text: Which containment response should the team run?
+  textLocaleKey: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.prompt
+  choices:
+  - choiceId: 258e69cb389b659e817474f356312e5e
+    answerText: Run calm containment
+    answerTextLocaleKey: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.choice_258e69cb389b659e817474f356312e5e
+    nextNodeGUID: dcc7fe1b823afbcbb4bf58aad6ff4f17
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+  - choiceId: 6c8c20789feae8740a3a16c7c8e3f3e1
+    answerText: Run the emergency sequence
+    answerTextLocaleKey: graph.demo_controlroomactions.c6ccc086ff839f636a258564f27c465e.choice_6c8c20789feae8740a3a16c7c8e3f3e1
+    nextNodeGUID: 59d823bae909f75b20e55868f27704d3
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+--- !u!114 &5028444432287793636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: 5bdd4cc96ae7d3b9fd183a68c6027818
+  nodePosition: {x: 2300, y: -350}
+  actionId: FadeLights
+  payloadJson: '{"group":"reactor","intensity":0.55,"duration":0.8,"color":"cool"}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &5308518786323268940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: b5429b07db920d43ce519ca39c01f4a3
+  nodePosition: {x: 2650, y: 350}
+  actionId: StartCountdown
+  payloadJson: '{"countdownId":"containment","seconds":3,"showOnHud":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &7856501170998617196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Reactor Status
+  m_EditorClassIdentifier: 
+  GUID: 3a0067c6afe2a6deefe666ef885874a1
+  nodePosition: {x: 300, y: 0}
+  speakerName: Dax
+  speakerNameLocaleKey: graph.demo_controlroomactions.3a0067c6afe2a6deefe666ef885874a1.speaker
+  speakerPortrait: {fileID: 21300000, guid: a3a88a4fc555f5441948aa5486dc71e2, type: 3}
+  questionText: 'Reactor temperature: {temperature} C. State: {questState}. The wall
+    display is our first feedback channel.'
+  questionTextLocaleKey: graph.demo_controlroomactions.3a0067c6afe2a6deefe666ef885874a1.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &8150321541021330632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68a9473fe346b7a59b9e2410eb0cd9, type: 3}
+  m_Name: ConditionNode
+  m_EditorClassIdentifier: 
+  GUID: 0199b181ecc7b3668a27b034252598f5
+  nodePosition: {x: 3900, y: 0}
+  variableName: temperature
+  valueType: 2
+  conditionOperator: 3
+  comparisonValue: 80
+  missingVariableResult: 0
+--- !u!114 &8444959357001177486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: b8003969f90be673d8ed113ee645fe2e
+  nodePosition: {x: 4800, y: 300}
+  outcomeId: reactor_unstable
+  displayName: Reactor Still Unstable
+  description: The emergency route completed but temperature remained above the safe
+    threshold.
+--- !u!114 &8777462010862554041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: dcc7fe1b823afbcbb4bf58aad6ff4f17
+  nodePosition: {x: 2000, y: -350}
+  variableName: questState
+  valueType: 3
+  operation: 0
+  value: calm
+--- !u!114 &9057687586597703688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: 11ad27c6796a163d087f6858a85aba7c
+  nodePosition: {x: 4800, y: -250}
+  outcomeId: reactor_contained
+  displayName: Reactor Contained
+  description: The calm route reduced temperature below the safe threshold.

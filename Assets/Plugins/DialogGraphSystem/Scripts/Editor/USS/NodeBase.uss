@@ -1,0 +1,359 @@
+/* ================================================================
+   Dialog Graph — Node Base Stylesheet
+   Core structure, interaction states, and shared components.
+   Type-specific accent colors live in NodeTypes.uss.
+   Loaded by all node views via NodeUssLoader.
+   ================================================================ */
+
+/* ── Base node card ───────────────────────────────────────────── */
+.dlg-node {
+    color: #d8dde8;
+    border-radius: 15px;
+    background-color: #23262d;
+    border-color: rgba(46, 51, 60, 0.25);
+}
+
+/* ── Title / header bar ───────────────────────────────────────── */
+.dlg-node #title {
+    min-height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.dlg-node .title {
+    color: #f0f3f8;
+    -unity-font-style: bold;
+    font-size: 12px;
+}
+
+/* Port labels in header share the same bold-white treatment */
+.dlg-node .port > Label {
+    color: #eef1f7;
+    -unity-font-style: bold;
+    font-size: 11px;
+}
+
+/* Avatar thumbnail container in header */
+#header {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4px;
+}
+
+/* ── Main content container ───────────────────────────────────── */
+.dlg-node .main-container,
+.dlg-node > #node-border > #contents > #bottom {
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* ── Section headers & hints ──────────────────────────────────── */
+.node-section { margin-bottom: 8px; }
+
+.node-section-title,
+.section-title {
+    color: #9aa2b2;
+    font-size: 10px;
+    -unity-font-style: bold;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom-width: 1px;
+    border-bottom-color: #2a2e38;
+}
+
+.node-section-hint,
+.section-hint {
+    color: #5a6270;
+    font-size: 10px;
+    white-space: normal;
+    margin-bottom: 6px;
+    -unity-font-style: italic;
+}
+
+/* Small vertical spacer used inside node body sections */
+.node-body-spacer { height: 10px; }
+
+/* ── Interaction: stable layout on hover / select ─────────────── */
+/* Fixed border width on all states prevents content shifting */
+.dlg-node,
+.dlg-node:hover,
+.dlg-node:selected {
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+}
+
+/* Subtle lift on hover without any size change */
+.dlg-node:hover {
+    background-color: #272b33;
+}
+
+/* ── Selection glow (absolute overlay, never shifts layout) ───── */
+.dlg-node #selection-border {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: 0;
+}
+
+.dlg-node:selected > #selection-border {
+    border-radius: 14px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-color: rgba(68, 192, 255, 1);
+    /* Pull outward by half the thickness so glow surrounds the card */
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.dlg-node:selected:hover > #selection-border {
+    border-color: rgba(110, 215, 255, 1);
+}
+
+/* ── Foldout ──────────────────────────────────────────────────── */
+.node-foldout {
+    margin-top: 4px;
+    border-top-width: 1px;
+    border-top-color: #2a2e38;
+    padding-top: 4px;
+}
+
+.node-foldout > .unity-foldout__content {
+    margin-top: 4px;
+    padding-left: 0;
+}
+
+/* ── Field labels & inputs ────────────────────────────────────── */
+.dlg-node .unity-base-field { margin-bottom: 5px; }
+
+.dlg-node .unity-base-field__label {
+    min-width: 90px;
+    width: 110px;
+    font-size: 11px;
+    color: #7a8294;
+}
+
+.dlg-node .unity-base-field__input,
+.dlg-node .unity-text-field__input {
+    background-color: #1a1d23;
+    color: #d8dde8;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #343844;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+/* ── Portrait + dialog text row ───────────────────────────────── */
+#dialogue-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 4px;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.portrait-preview,
+#portrait-preview {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    margin-right: 8px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #383e4c;
+    background-color: #171920;
+}
+
+.dialog-text-field,
+#Dialog {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 0;
+    max-width: 100%;
+    min-height: 80px;
+    white-space: normal;
+    overflow: hidden;
+    -unity-text-align: upper-left;
+}
+
+.dialog-text-field .unity-text-element,
+#Dialog .unity-text-element {
+    white-space: normal;
+    overflow: hidden;
+}
+
+/* ── AI Rewrite inline button row ─────────────────────────────── */
+.node-inline-actions {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.node-mini-button {
+    min-height: 22px;
+    height: 22px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 4px;
+    background-color: #2a3d5a;
+    color: #9dc8f0;
+    border-width: 1px;
+    border-color: #1e3050;
+    font-size: 10px;
+    -unity-font-style: bold;
+}
+
+.node-mini-button:hover {
+    background-color: #324a6e;
+    color: #b8d8f8;
+}
+
+.node-mini-button:disabled { opacity: 0.38; }
+
+/* ── Choice node — answer rows ────────────────────────────────── */
+#answers {
+    flex-direction: column;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+#answer-row {
+    flex-direction: row;
+    align-items: center;
+    overflow: visible;
+    background-color: #1e2230;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #30384a;
+    padding-left: 7px;
+    padding-right: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+
+#answer-row:hover { border-color: #3a4558; }
+
+#answer-row #answer-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 100px;
+    margin-right: 4px;
+}
+
+/* Add choice button */
+.add-answer {
+    height: 27px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #1e3a5f;
+    color: #7ab8e8;
+    border-width: 1px;
+    border-color: #163050;
+    font-size: 11px;
+    -unity-font-style: bold;
+}
+
+.add-answer:hover {
+    background-color: #254a78;
+    color: #a0cef4;
+}
+
+/* ── Tiny icon buttons (duplicate, delete, AI rewrite) ───────── */
+.tiny {
+    width: 22px;
+    min-width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+    -unity-font-style: bold;
+    color: #c8cdd8;
+}
+
+.btn-dup  { background-color: #244870; border-color: #1c3a5a; }
+.btn-dup:hover  { background-color: #2e5a8a; }
+
+.btn-del  { background-color: #5a2020; border-color: #481818; }
+.btn-del:hover  { background-color: #7a2a2a; }
+
+.btn-ai-choice { background-color: #2a3d2a; border-color: #1e3020; color: #80c880; font-size: 10px; }
+.btn-ai-choice:hover { background-color: #364e36; color: #a0e0a0; }
+
+/* ── Choice port holder ───────────────────────────────────────── */
+#port-holder {
+    width: 28px;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-port { margin-left: 0; margin-right: 0; }
+
+/* ── Action node JSON payload box ─────────────────────────────── */
+.dlg-node.type-action .json-box {
+    min-height: 120px;
+    max-height: 260px;
+}
+
+.dlg-node.type-action .json-box .unity-text-input,
+.dlg-node.type-action .unity-text-field__input {
+    white-space: pre-wrap;
+    font-size: 10px;
+    color: #a8c4a0;
+    background-color: #141820;
+    border-color: #2a3040;
+}
+
+/* ── Ports ────────────────────────────────────────────────────── */
+.dlg-node .port {
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* Larger connector for easier targeting */
+.dlg-node .port > #connector {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: rgba(170, 182, 205, 0.55);
+}
+
+.dlg-node .port > #connector > #cap {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: rgba(170, 182, 205, 0.75);
+}
+
+.dlg-node .port:hover > #connector {
+    border-color: rgba(68, 192, 255, 0.9);
+}
+
+.dlg-node .port:hover > #connector > #cap {
+    background-color: rgba(68, 192, 255, 1);
+}
+
+/* Misc */
+.inline-toggle { align-self: flex-start; }

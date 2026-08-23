@@ -1,0 +1,733 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8960219253132032966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: ccbd22bc26712b0f5cd022a56199ce5a
+  nodePosition: {x: 3300, y: 0}
+  actionId: OpenGate
+  payloadJson: '{"doorId":"forest_checkpoint","speed":"fast","open":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-8490952495987619127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Trust Accepted
+  m_EditorClassIdentifier: 
+  GUID: 5d7fe01fb4b3bded600a6842e05a11aa
+  nodePosition: {x: 2800, y: 650}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.5d7fe01fb4b3bded600a6842e05a11aa.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Your clearance is trusted. Passage granted without payment.
+  questionTextLocaleKey: graph.demo_shopgate.5d7fe01fb4b3bded600a6842e05a11aa.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-7196305826309024437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: ca7f0bd10ae089a53ccb100ff291bb6e
+  nodePosition: {x: 2800, y: -350}
+  outcomeId: shop_gate_denied_funds
+  displayName: Insufficient Gold
+  description: The payment route was denied.
+--- !u!114 &-6457945480453939976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68a9473fe346b7a59b9e2410eb0cd9, type: 3}
+  m_Name: ConditionNode
+  m_EditorClassIdentifier: 
+  GUID: 83d1c7fb016818ad7d61a53a7b322b3f
+  nodePosition: {x: 1800, y: 700}
+  variableName: trustLevel
+  valueType: 0
+  conditionOperator: 5
+  comparisonValue: 
+  missingVariableResult: 0
+--- !u!114 &-3631251326229958891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Insufficient Gold
+  m_EditorClassIdentifier: 
+  GUID: 6bab37fbb60381f0fd0b97ca9a890775
+  nodePosition: {x: 2300, y: -350}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.6bab37fbb60381f0fd0b97ca9a890775.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Denied. Ten gold is required, and you currently have {gold}.
+  questionTextLocaleKey: graph.demo_shopgate.6bab37fbb60381f0fd0b97ca9a890775.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-3564403209225989110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Checkpoint Status
+  m_EditorClassIdentifier: 
+  GUID: 213947b669ce78ecc7aef1ea6e243a26
+  nodePosition: {x: 300, y: 0}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.213947b669ce78ecc7aef1ea6e243a26.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: 'Checkpoint rules, Veya. You carry {gold} gold; key status: {hasKey};
+    trust clearance: {trustLevel}.'
+  questionTextLocaleKey: graph.demo_shopgate.213947b669ce78ecc7aef1ea6e243a26.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-3279266643760347717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: c8d1eebdcdfff81e2f441068cd2468cb
+  nodePosition: {x: 3800, y: 650}
+  outcomeId: shop_gate_trusted
+  displayName: Trust Exception
+  description: Sol granted passage based on trust.
+--- !u!114 &-3072806660205679654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: f2c83e7ae3c5f6d2d734639721b0375d
+  nodePosition: {x: 3300, y: 650}
+  actionId: OpenGate
+  payloadJson: '{"doorId":"forest_checkpoint","speed":"slow","open":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &-1863050214201083022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Key Accepted
+  m_EditorClassIdentifier: 
+  GUID: 51c66e5cbaef7584d69a8609e2c2d42a
+  nodePosition: {x: 2800, y: 0}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.51c66e5cbaef7584d69a8609e2c2d42a.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: The checkpoint key is valid. Passage granted.
+  questionTextLocaleKey: graph.demo_shopgate.51c66e5cbaef7584d69a8609e2c2d42a.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-1830243009148936306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Exception Denied
+  m_EditorClassIdentifier: 
+  GUID: 4c92c23d57fed4002da81c3f1d5c6b39
+  nodePosition: {x: 2800, y: 1000}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.4c92c23d57fed4002da81c3f1d5c6b39.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: Exception denied. Reputation is now {reputation}; return with proof.
+  questionTextLocaleKey: graph.demo_shopgate.4c92c23d57fed4002da81c3f1d5c6b39.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &-1251930586309632815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: 9dc53c14c832757ba0ea41330fc1ec0b
+  nodePosition: {x: 3300, y: 1000}
+  outcomeId: shop_gate_denied_trust
+  displayName: Trust Too Low
+  description: The exception route was denied.
+--- !u!114 &-707717423976878896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68a9473fe346b7a59b9e2410eb0cd9, type: 3}
+  m_Name: ConditionNode
+  m_EditorClassIdentifier: 
+  GUID: 0d1a04f30cded2711d2122fbdf5eac1f
+  nodePosition: {x: 1800, y: -700}
+  variableName: gold
+  valueType: 1
+  conditionOperator: 2
+  comparisonValue: 9
+  missingVariableResult: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c45c6e4622be54698e67e4868db7e5, type: 3}
+  m_Name: Demo_ShopGate
+  m_EditorClassIdentifier: 
+  graphSchemaVersion: 2
+  graphGuid: e94500c7ce5b4251813d0157d807d22e
+  graphTitle: Shop Gate
+  description: A replayable checkpoint negotiation demonstrating variables, conditions,
+    mutations, distinct choices, and successful or denied outcomes.
+  author: Beka Forge
+  tags:
+  - demo-entry
+  - variables
+  - conditions
+  - outcomes
+  primaryCategory: Demos/Gameplay State
+  categories:
+  - Demos/Gameplay State
+  lastModifiedUtc: 2026-08-10T00:00:00Z
+  editorVersion: 2022.3.62f3
+  links:
+  - linkGuid: 120d2418942c633273c5c6bab51a2fbd
+    fromGuid: 63a5382f63407938b4064901149e3165
+    toGuid: 213947b669ce78ecc7aef1ea6e243a26
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 75cbfd8d308dfb478b78cfb48baaa92f
+    fromGuid: 213947b669ce78ecc7aef1ea6e243a26
+    toGuid: 4c90f48951a902a17027b2e333a44a3e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 65ebf497de4e091074cd7ee674d7a933
+    fromGuid: 4c90f48951a902a17027b2e333a44a3e
+    toGuid: e296b7548dacb203994590a205c8ead0
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 08b75d1b944ffc74ef1ac4a497bd15a0
+    fromGuid: e296b7548dacb203994590a205c8ead0
+    toGuid: 0d1a04f30cded2711d2122fbdf5eac1f
+    fromPortKey: choice:29cb44ef9d9199d345e40aae526e31bf
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: de3443e24c19dc60887806b3b6944545
+    fromGuid: e296b7548dacb203994590a205c8ead0
+    toGuid: 2ce69ef206d8a51461a3860208019a24
+    fromPortKey: choice:dbc67575780b44bfb55a5b1851c201b0
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: 53ea9f6faf6187a24b8f193445e90de2
+    fromGuid: e296b7548dacb203994590a205c8ead0
+    toGuid: 83d1c7fb016818ad7d61a53a7b322b3f
+    fromPortKey: choice:4374982193714977c1713849797ceb04
+    toPortKey: default
+    fromPortIndex: 2
+  - linkGuid: fe25251e82fe08ff5356e7d47c625ea4
+    fromGuid: 0d1a04f30cded2711d2122fbdf5eac1f
+    toGuid: 370b055534599b42a779c6c6e4d6f7b0
+    fromPortKey: true
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f5b1c5277a31e5c2851deb8bec4305c7
+    fromGuid: 0d1a04f30cded2711d2122fbdf5eac1f
+    toGuid: 6bab37fbb60381f0fd0b97ca9a890775
+    fromPortKey: false
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: 34ab30d35f5613af6bf9759a660fbe46
+    fromGuid: 370b055534599b42a779c6c6e4d6f7b0
+    toGuid: 9571e1c20cfe1378288930010d16dde0
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: b4a337fcacd3f6dc2b6a2ee65fda9783
+    fromGuid: 9571e1c20cfe1378288930010d16dde0
+    toGuid: 0ab88ec49e6d2961b16893b4d3523790
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 56e9c7278197dda86fb3a4408078ad5b
+    fromGuid: 0ab88ec49e6d2961b16893b4d3523790
+    toGuid: e81938054985189d4900daccb08fde0a
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 8c43be954553a2c774ca6d6f6f7a9c16
+    fromGuid: e81938054985189d4900daccb08fde0a
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f82fe9263c07273ce7ab4ffc4e197812
+    fromGuid: 6bab37fbb60381f0fd0b97ca9a890775
+    toGuid: ca7f0bd10ae089a53ccb100ff291bb6e
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 74a43ac74e787660ec050fe0e00eed6e
+    fromGuid: ca7f0bd10ae089a53ccb100ff291bb6e
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 70860ff113aa623d8fadb349b2fbe098
+    fromGuid: 2ce69ef206d8a51461a3860208019a24
+    toGuid: 51c66e5cbaef7584d69a8609e2c2d42a
+    fromPortKey: true
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 122e90849c07f75ea8ab54e0290f088f
+    fromGuid: 2ce69ef206d8a51461a3860208019a24
+    toGuid: 8c7843df91f1c68356e211621957a040
+    fromPortKey: false
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: 146404b77abcfafb5d9fe335170e1e96
+    fromGuid: 51c66e5cbaef7584d69a8609e2c2d42a
+    toGuid: ccbd22bc26712b0f5cd022a56199ce5a
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: e2802665d4106c61e118106379577e2b
+    fromGuid: ccbd22bc26712b0f5cd022a56199ce5a
+    toGuid: 67e309b6cc4b33af8ef13fc545da592f
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 02c6454e6acbfaa48a4b9542135d3711
+    fromGuid: 67e309b6cc4b33af8ef13fc545da592f
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 9ca5ff9de1d216a672c44ee0a34b6c2a
+    fromGuid: 8c7843df91f1c68356e211621957a040
+    toGuid: e4d8f44362b2f59e406c37875b66a38f
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: c2a3e6b93d9c09c973d139d5719818f0
+    fromGuid: e4d8f44362b2f59e406c37875b66a38f
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: d4739976037b7a97a3e1eaba4b04e9c8
+    fromGuid: 83d1c7fb016818ad7d61a53a7b322b3f
+    toGuid: 5d7fe01fb4b3bded600a6842e05a11aa
+    fromPortKey: true
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 48017b232bce00252475f2893142aa40
+    fromGuid: 83d1c7fb016818ad7d61a53a7b322b3f
+    toGuid: 9678c6b3c08105b53066b06d09f7d399
+    fromPortKey: false
+    toPortKey: default
+    fromPortIndex: 1
+  - linkGuid: b4138327b653ee12ac9b9cec9758c3ae
+    fromGuid: 5d7fe01fb4b3bded600a6842e05a11aa
+    toGuid: f2c83e7ae3c5f6d2d734639721b0375d
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: f90cfbfd242bb1a9f78b9c422a32d7cd
+    fromGuid: f2c83e7ae3c5f6d2d734639721b0375d
+    toGuid: c8d1eebdcdfff81e2f441068cd2468cb
+    fromPortKey: action:success
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 4a4cec958dd85bf86ce494467f6d2fdd
+    fromGuid: c8d1eebdcdfff81e2f441068cd2468cb
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 90071047a7fef69406eb35d1f29229dc
+    fromGuid: 9678c6b3c08105b53066b06d09f7d399
+    toGuid: 4c92c23d57fed4002da81c3f1d5c6b39
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: 79d2dfbb2ddf29e3840d17090e7cb971
+    fromGuid: 4c92c23d57fed4002da81c3f1d5c6b39
+    toGuid: 9dc53c14c832757ba0ea41330fc1ec0b
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  - linkGuid: e4a9abb777de89e858a51adfa76c057b
+    fromGuid: 9dc53c14c832757ba0ea41330fc1ec0b
+    toGuid: 3029d1b289a0924b2c39f6705701f0d1
+    fromPortKey: default
+    toPortKey: default
+    fromPortIndex: 0
+  nodes:
+  - {fileID: -3564403209225989110}
+  - {fileID: 4356946486169433681}
+  - {fileID: 2873918689365219552}
+  - {fileID: -3631251326229958891}
+  - {fileID: -1863050214201083022}
+  - {fileID: 442718717253600123}
+  - {fileID: -8490952495987619127}
+  - {fileID: -1830243009148936306}
+  choiceNodes:
+  - {fileID: 3811187323265474665}
+  actionNodes:
+  - {fileID: 4793170616422482251}
+  - {fileID: -8960219253132032966}
+  - {fileID: -3072806660205679654}
+  conditionNodes:
+  - {fileID: -707717423976878896}
+  - {fileID: 934847796474205892}
+  - {fileID: -6457945480453939976}
+  variableMutationNodes:
+  - {fileID: 7636250551461842589}
+  - {fileID: 6368360580871291139}
+  graphJumpNodes: []
+  outcomeNodes:
+  - {fileID: 4848636462769793112}
+  - {fileID: 8628090966878725017}
+  - {fileID: -3279266643760347717}
+  - {fileID: -7196305826309024437}
+  - {fileID: 5845923149029225588}
+  - {fileID: -1251930586309632815}
+  sceneContext: {fileID: 11400000, guid: 9142133f4e8e42d5a4927c1d352fdcc9, type: 2}
+  environment: {fileID: 11400000, guid: ac06623359ae4e3cad2bb2649e5ec3be, type: 2}
+  participatingCharacters:
+  - {fileID: 11400000, guid: 6b49e76cc29f4f7e84d3183449f0afeb, type: 2}
+  - {fileID: 11400000, guid: 3c0540cf1a444d2fb7cfbcacac94ebdd, type: 2}
+  availableActions:
+  - {fileID: 11400000, guid: 67da0f01654f4f4d891c68af8de89fca, type: 2}
+  availableVariables:
+  - {fileID: 11400000, guid: fe9eb7e68fa994c47be9b0426972d1c6, type: 2}
+  - {fileID: 11400000, guid: 7df200202ccde56438227e513dd8a89b, type: 2}
+  - {fileID: 11400000, guid: eb3a9c7e1c626864da9bc40615e2c0dc, type: 2}
+  - {fileID: 11400000, guid: 1055a4b7af939644a97511a07474a2d5, type: 2}
+  sceneGoal: Let Veya negotiate passage through Sol's checkpoint using money, a key,
+    or earned trust.
+  tone: Tense but fair
+  extraRules: OpenGate must execute exactly once on every successful route and never
+    on a denied route.
+  startGuid: 63a5382f63407938b4064901149e3165
+  startPosition: {x: -200, y: 0}
+  startInitialized: 1
+  endGuid: 3029d1b289a0924b2c39f6705701f0d1
+  endPosition: {x: 5400, y: 0}
+  endInitialized: 1
+  edgeLayouts:
+  - linkGuid: 43cf7b066d7f47c18d968688c17403f8
+    reroutePoints:
+    - {x: 1923.6176, y: -63.80996}
+    fromGuid: 955fd8b5d63d4d939260a9c5b4162393
+    toGuid: End
+    fromPortIndex: 2
+  groupLayouts: []
+--- !u!114 &442718717253600123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Key Missing
+  m_EditorClassIdentifier: 
+  GUID: 8c7843df91f1c68356e211621957a040
+  nodePosition: {x: 2300, y: 250}
+  speakerName: Veya
+  speakerNameLocaleKey: graph.demo_shopgate.8c7843df91f1c68356e211621957a040.speaker
+  speakerPortrait: {fileID: 21300000, guid: 01171cc37ac9ec1438d227dc2723c30c, type: 3}
+  questionText: No key. I will need another approach.
+  questionTextLocaleKey: graph.demo_shopgate.8c7843df91f1c68356e211621957a040.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &934847796474205892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f68a9473fe346b7a59b9e2410eb0cd9, type: 3}
+  m_Name: ConditionNode
+  m_EditorClassIdentifier: 
+  GUID: 2ce69ef206d8a51461a3860208019a24
+  nodePosition: {x: 1800, y: 0}
+  variableName: hasKey
+  valueType: 0
+  conditionOperator: 5
+  comparisonValue: 
+  missingVariableResult: 0
+--- !u!114 &2873918689365219552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Payment Accepted
+  m_EditorClassIdentifier: 
+  GUID: 9571e1c20cfe1378288930010d16dde0
+  nodePosition: {x: 2800, y: -700}
+  speakerName: Sol
+  speakerNameLocaleKey: graph.demo_shopgate.9571e1c20cfe1378288930010d16dde0.speaker
+  speakerPortrait: {fileID: 21300000, guid: 6fd1e4dad44fd27408a67393ae49c293, type: 3}
+  questionText: 'Payment accepted. Remaining balance: {gold} gold. The gate is opening.'
+  questionTextLocaleKey: graph.demo_shopgate.9571e1c20cfe1378288930010d16dde0.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &3811187323265474665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52acda426e52d1744a92ee97a9757272, type: 3}
+  m_Name: ChoiceNode
+  m_EditorClassIdentifier: 
+  GUID: e296b7548dacb203994590a205c8ead0
+  nodePosition: {x: 1300, y: 0}
+  text: How should Veya approach the gate?
+  textLocaleKey: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.prompt
+  choices:
+  - choiceId: 29cb44ef9d9199d345e40aae526e31bf
+    answerText: Pay 10 gold ({gold} available)
+    answerTextLocaleKey: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_29cb44ef9d9199d345e40aae526e31bf
+    nextNodeGUID: 0d1a04f30cded2711d2122fbdf5eac1f
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+  - choiceId: dbc67575780b44bfb55a5b1851c201b0
+    answerText: Present the checkpoint key
+    answerTextLocaleKey: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_dbc67575780b44bfb55a5b1851c201b0
+    nextNodeGUID: 2ce69ef206d8a51461a3860208019a24
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+  - choiceId: 4374982193714977c1713849797ceb04
+    answerText: Request a trust exception
+    answerTextLocaleKey: graph.demo_shopgate.e296b7548dacb203994590a205c8ead0.choice_4374982193714977c1713849797ceb04
+    nextNodeGUID: 83d1c7fb016818ad7d61a53a7b322b3f
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    tooltipOrSubLabel: 
+--- !u!114 &4356946486169433681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55265cca116f3b342880f5f5267e3a6c, type: 3}
+  m_Name: Node_Choose An Approach
+  m_EditorClassIdentifier: 
+  GUID: 4c90f48951a902a17027b2e333a44a3e
+  nodePosition: {x: 800, y: 0}
+  speakerName: Veya
+  speakerNameLocaleKey: graph.demo_shopgate.4c90f48951a902a17027b2e333a44a3e.speaker
+  speakerPortrait: {fileID: 21300000, guid: 01171cc37ac9ec1438d227dc2723c30c, type: 3}
+  questionText: Then I will choose the cleanest way through.
+  questionTextLocaleKey: graph.demo_shopgate.4c90f48951a902a17027b2e333a44a3e.text
+  dialogAudio: {fileID: 0}
+  displayTime: 0
+  waitForAudioFinish: 0
+--- !u!114 &4793170616422482251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0cd3f917fb000a419dc8116722bd53e, type: 3}
+  m_Name: ActionNode
+  m_EditorClassIdentifier: 
+  GUID: 0ab88ec49e6d2961b16893b4d3523790
+  nodePosition: {x: 3300, y: -700}
+  actionId: OpenGate
+  payloadJson: '{"doorId":"forest_checkpoint","speed":"normal","open":true}'
+  waitForCompletion: 1
+  waitSeconds: 0
+--- !u!114 &4848636462769793112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: e81938054985189d4900daccb08fde0a
+  nodePosition: {x: 3800, y: -700}
+  outcomeId: shop_gate_paid
+  displayName: Passage Purchased
+  description: Veya paid the checkpoint fee.
+--- !u!114 &5845923149029225588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: e4d8f44362b2f59e406c37875b66a38f
+  nodePosition: {x: 2800, y: 250}
+  outcomeId: shop_gate_denied_key
+  displayName: Key Missing
+  description: The key route was denied.
+--- !u!114 &6368360580871291139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: 9678c6b3c08105b53066b06d09f7d399
+  nodePosition: {x: 2300, y: 1000}
+  variableName: reputation
+  valueType: 1
+  operation: 1
+  value: 1
+--- !u!114 &7636250551461842589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfca2bbae55844a89e5bd36314f12a81, type: 3}
+  m_Name: VariableMutationNode
+  m_EditorClassIdentifier: 
+  GUID: 370b055534599b42a779c6c6e4d6f7b0
+  nodePosition: {x: 2300, y: -700}
+  variableName: gold
+  valueType: 1
+  operation: 2
+  value: 10
+--- !u!114 &8628090966878725017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e847428611184307bd88efbf29663ecc, type: 3}
+  m_Name: OutcomeNode
+  m_EditorClassIdentifier: 
+  GUID: 67e309b6cc4b33af8ef13fc545da592f
+  nodePosition: {x: 3800, y: 0}
+  outcomeId: shop_gate_key
+  displayName: Key Presented
+  description: Veya entered with the checkpoint key.

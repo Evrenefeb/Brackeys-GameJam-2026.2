@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 724c50fa0a5dc0245b2b52727e2e08f2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Prefabs/UI/Dialogue_Panel.prefab
+  uploadId: 971382

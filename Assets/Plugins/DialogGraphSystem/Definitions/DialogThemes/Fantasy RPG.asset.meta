@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1198d899b63da4c4db210f07e818cd81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/DialogThemes/Fantasy RPG.asset
+  uploadId: 971382

@@ -1,0 +1,86 @@
+.dgs-icon {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: #d4d8e0;
+}
+
+.dgs-icon__image {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: #d4d8e0;
+}
+
+.dgs-icon--sm {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.dgs-icon--md {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.dgs-icon--lg {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.dgs-icon--muted {
+    -unity-background-image-tint-color: #7d8595;
+}
+
+.dgs-icon--brand {
+    -unity-background-image-tint-color: #86b7ff;
+}
+
+.dgs-icon--ai {
+    -unity-background-image-tint-color: #97e2ab;
+}
+
+.dgs-icon--success {
+    -unity-background-image-tint-color: #75cf8d;
+}
+
+.dgs-icon--warning {
+    -unity-background-image-tint-color: #f0c25d;
+}
+
+.dgs-icon--error {
+    -unity-background-image-tint-color: #ef8a8a;
+}
+
+.dgs-icon--dialog {
+    -unity-background-image-tint-color: #f2bf73;
+}
+
+.dgs-icon--choice {
+    -unity-background-image-tint-color: #8fc2ff;
+}
+
+.dgs-icon--action {
+    -unity-background-image-tint-color: #c0a3ff;
+}
+
+.dgs-icon--start {
+    -unity-background-image-tint-color: #7fd487;
+}
+
+.dgs-icon--end {
+    -unity-background-image-tint-color: #ef7e78;
+}

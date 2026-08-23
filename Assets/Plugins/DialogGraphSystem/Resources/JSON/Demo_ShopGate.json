@@ -1,0 +1,503 @@
+{
+    "graphGuid": "e94500c7ce5b4251813d0157d807d22e",
+    "schemaVersion": 2,
+    "graphTitle": "Shop Gate",
+    "description": "A replayable checkpoint negotiation demonstrating variables, conditions, mutations, distinct choices, and successful or denied outcomes.",
+    "author": "Beka Forge",
+    "tags": [
+        "demo-entry",
+        "variables",
+        "conditions",
+        "outcomes"
+    ],
+    "primaryCategory": "Demos/Gameplay State",
+    "categories": [
+        "Demos/Gameplay State"
+    ],
+    "lastModifiedUtc": "2026-08-10T00:00:00Z",
+    "editorVersion": "2022.3.62f3",
+    "sceneGoal": "Let Veya negotiate passage through Sol's checkpoint using money, a key, or earned trust.",
+    "tone": "Tense but fair",
+    "extraRules": "OpenGate must execute exactly once on every successful route and never on a denied route.",
+    "startNode": {
+        "guid": "63a5382f63407938b4064901149e3165",
+        "nodePositionX": -200.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "endNode": {
+        "guid": "3029d1b289a0924b2c39f6705701f0d1",
+        "nodePositionX": 5400.0,
+        "nodePositionY": 0.0,
+        "isInitialized": true
+    },
+    "dialogNodes": [
+        {
+            "title": "Node_Checkpoint Status",
+            "guid": "213947b669ce78ecc7aef1ea6e243a26",
+            "speaker": "Sol",
+            "question": "Checkpoint rules, Veya. You carry {gold} gold; key status: {hasKey}; trust clearance: {trustLevel}.",
+            "nodePositionX": 300.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Choose An Approach",
+            "guid": "4c90f48951a902a17027b2e333a44a3e",
+            "speaker": "Veya",
+            "question": "Then I will choose the cleanest way through.",
+            "nodePositionX": 800.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Payment Accepted",
+            "guid": "9571e1c20cfe1378288930010d16dde0",
+            "speaker": "Sol",
+            "question": "Payment accepted. Remaining balance: {gold} gold. The gate is opening.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": -700.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Insufficient Gold",
+            "guid": "6bab37fbb60381f0fd0b97ca9a890775",
+            "speaker": "Sol",
+            "question": "Denied. Ten gold is required, and you currently have {gold}.",
+            "nodePositionX": 2300.0,
+            "nodePositionY": -350.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Key Accepted",
+            "guid": "51c66e5cbaef7584d69a8609e2c2d42a",
+            "speaker": "Sol",
+            "question": "The checkpoint key is valid. Passage granted.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": 0.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Key Missing",
+            "guid": "8c7843df91f1c68356e211621957a040",
+            "speaker": "Veya",
+            "question": "No key. I will need another approach.",
+            "nodePositionX": 2300.0,
+            "nodePositionY": 250.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Trust Accepted",
+            "guid": "5d7fe01fb4b3bded600a6842e05a11aa",
+            "speaker": "Sol",
+            "question": "Your clearance is trusted. Passage granted without payment.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": 650.0,
+            "displayTime": 0.0
+        },
+        {
+            "title": "Node_Exception Denied",
+            "guid": "4c92c23d57fed4002da81c3f1d5c6b39",
+            "speaker": "Sol",
+            "question": "Exception denied. Reputation is now {reputation}; return with proof.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": 1000.0,
+            "displayTime": 0.0
+        }
+    ],
+    "choiceNodes": [
+        {
+            "guid": "e296b7548dacb203994590a205c8ead0",
+            "text": "How should Veya approach the gate?",
+            "nodePositionX": 1300.0,
+            "nodePositionY": 0.0,
+            "choices": [
+                {
+                    "choiceId": "29cb44ef9d9199d345e40aae526e31bf",
+                    "portKey": "choice:29cb44ef9d9199d345e40aae526e31bf",
+                    "answerText": "Pay 10 gold ({gold} available)",
+                    "nextNodeGUID": "0d1a04f30cded2711d2122fbdf5eac1f"
+                },
+                {
+                    "choiceId": "dbc67575780b44bfb55a5b1851c201b0",
+                    "portKey": "choice:dbc67575780b44bfb55a5b1851c201b0",
+                    "answerText": "Present the checkpoint key",
+                    "nextNodeGUID": "2ce69ef206d8a51461a3860208019a24"
+                },
+                {
+                    "choiceId": "4374982193714977c1713849797ceb04",
+                    "portKey": "choice:4374982193714977c1713849797ceb04",
+                    "answerText": "Request a trust exception",
+                    "nextNodeGUID": "83d1c7fb016818ad7d61a53a7b322b3f"
+                }
+            ]
+        }
+    ],
+    "actionNodes": [
+        {
+            "guid": "0ab88ec49e6d2961b16893b4d3523790",
+            "actionId": "OpenGate",
+            "payloadJson": "{\"doorId\":\"forest_checkpoint\",\"speed\":\"normal\",\"open\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 3300.0,
+            "nodePositionY": -700.0
+        },
+        {
+            "guid": "ccbd22bc26712b0f5cd022a56199ce5a",
+            "actionId": "OpenGate",
+            "payloadJson": "{\"doorId\":\"forest_checkpoint\",\"speed\":\"fast\",\"open\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 3300.0,
+            "nodePositionY": 0.0
+        },
+        {
+            "guid": "f2c83e7ae3c5f6d2d734639721b0375d",
+            "actionId": "OpenGate",
+            "payloadJson": "{\"doorId\":\"forest_checkpoint\",\"speed\":\"slow\",\"open\":true}",
+            "waitForCompletion": true,
+            "waitSeconds": 0.0,
+            "nodePositionX": 3300.0,
+            "nodePositionY": 650.0
+        }
+    ],
+    "conditionNodes": [
+        {
+            "guid": "0d1a04f30cded2711d2122fbdf5eac1f",
+            "variableName": "gold",
+            "valueType": "Integer",
+            "conditionOperator": "Greater",
+            "comparisonValue": "9",
+            "missingVariableResult": false,
+            "nodePositionX": 1800.0,
+            "nodePositionY": -700.0
+        },
+        {
+            "guid": "2ce69ef206d8a51461a3860208019a24",
+            "variableName": "hasKey",
+            "valueType": "Boolean",
+            "conditionOperator": "IsTrue",
+            "comparisonValue": "",
+            "missingVariableResult": false,
+            "nodePositionX": 1800.0,
+            "nodePositionY": 0.0
+        },
+        {
+            "guid": "83d1c7fb016818ad7d61a53a7b322b3f",
+            "variableName": "trustLevel",
+            "valueType": "Boolean",
+            "conditionOperator": "IsTrue",
+            "comparisonValue": "",
+            "missingVariableResult": false,
+            "nodePositionX": 1800.0,
+            "nodePositionY": 700.0
+        }
+    ],
+    "variableMutationNodes": [
+        {
+            "guid": "370b055534599b42a779c6c6e4d6f7b0",
+            "variableName": "gold",
+            "valueType": "Integer",
+            "operation": "Subtract",
+            "value": "10",
+            "nodePositionX": 2300.0,
+            "nodePositionY": -700.0
+        },
+        {
+            "guid": "9678c6b3c08105b53066b06d09f7d399",
+            "variableName": "reputation",
+            "valueType": "Integer",
+            "operation": "Add",
+            "value": "1",
+            "nodePositionX": 2300.0,
+            "nodePositionY": 1000.0
+        }
+    ],
+    "graphJumpNodes": [],
+    "outcomeNodes": [
+        {
+            "guid": "e81938054985189d4900daccb08fde0a",
+            "outcomeId": "shop_gate_paid",
+            "displayName": "Passage Purchased",
+            "description": "Veya paid the checkpoint fee.",
+            "nodePositionX": 3800.0,
+            "nodePositionY": -700.0
+        },
+        {
+            "guid": "67e309b6cc4b33af8ef13fc545da592f",
+            "outcomeId": "shop_gate_key",
+            "displayName": "Key Presented",
+            "description": "Veya entered with the checkpoint key.",
+            "nodePositionX": 3800.0,
+            "nodePositionY": 0.0
+        },
+        {
+            "guid": "c8d1eebdcdfff81e2f441068cd2468cb",
+            "outcomeId": "shop_gate_trusted",
+            "displayName": "Trust Exception",
+            "description": "Sol granted passage based on trust.",
+            "nodePositionX": 3800.0,
+            "nodePositionY": 650.0
+        },
+        {
+            "guid": "ca7f0bd10ae089a53ccb100ff291bb6e",
+            "outcomeId": "shop_gate_denied_funds",
+            "displayName": "Insufficient Gold",
+            "description": "The payment route was denied.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": -350.0
+        },
+        {
+            "guid": "e4d8f44362b2f59e406c37875b66a38f",
+            "outcomeId": "shop_gate_denied_key",
+            "displayName": "Key Missing",
+            "description": "The key route was denied.",
+            "nodePositionX": 2800.0,
+            "nodePositionY": 250.0
+        },
+        {
+            "guid": "9dc53c14c832757ba0ea41330fc1ec0b",
+            "outcomeId": "shop_gate_denied_trust",
+            "displayName": "Trust Too Low",
+            "description": "The exception route was denied.",
+            "nodePositionX": 3300.0,
+            "nodePositionY": 1000.0
+        }
+    ],
+    "links": [
+        {
+            "linkGuid": "120d2418942c633273c5c6bab51a2fbd",
+            "fromGuid": "63a5382f63407938b4064901149e3165",
+            "toGuid": "213947b669ce78ecc7aef1ea6e243a26",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "75cbfd8d308dfb478b78cfb48baaa92f",
+            "fromGuid": "213947b669ce78ecc7aef1ea6e243a26",
+            "toGuid": "4c90f48951a902a17027b2e333a44a3e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "65ebf497de4e091074cd7ee674d7a933",
+            "fromGuid": "4c90f48951a902a17027b2e333a44a3e",
+            "toGuid": "e296b7548dacb203994590a205c8ead0",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "08b75d1b944ffc74ef1ac4a497bd15a0",
+            "fromGuid": "e296b7548dacb203994590a205c8ead0",
+            "toGuid": "0d1a04f30cded2711d2122fbdf5eac1f",
+            "fromPortKey": "choice:29cb44ef9d9199d345e40aae526e31bf",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "de3443e24c19dc60887806b3b6944545",
+            "fromGuid": "e296b7548dacb203994590a205c8ead0",
+            "toGuid": "2ce69ef206d8a51461a3860208019a24",
+            "fromPortKey": "choice:dbc67575780b44bfb55a5b1851c201b0",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "53ea9f6faf6187a24b8f193445e90de2",
+            "fromGuid": "e296b7548dacb203994590a205c8ead0",
+            "toGuid": "83d1c7fb016818ad7d61a53a7b322b3f",
+            "fromPortKey": "choice:4374982193714977c1713849797ceb04",
+            "toPortKey": "default",
+            "fromPortIndex": 2
+        },
+        {
+            "linkGuid": "fe25251e82fe08ff5356e7d47c625ea4",
+            "fromGuid": "0d1a04f30cded2711d2122fbdf5eac1f",
+            "toGuid": "370b055534599b42a779c6c6e4d6f7b0",
+            "fromPortKey": "true",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f5b1c5277a31e5c2851deb8bec4305c7",
+            "fromGuid": "0d1a04f30cded2711d2122fbdf5eac1f",
+            "toGuid": "6bab37fbb60381f0fd0b97ca9a890775",
+            "fromPortKey": "false",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "34ab30d35f5613af6bf9759a660fbe46",
+            "fromGuid": "370b055534599b42a779c6c6e4d6f7b0",
+            "toGuid": "9571e1c20cfe1378288930010d16dde0",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "b4a337fcacd3f6dc2b6a2ee65fda9783",
+            "fromGuid": "9571e1c20cfe1378288930010d16dde0",
+            "toGuid": "0ab88ec49e6d2961b16893b4d3523790",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "56e9c7278197dda86fb3a4408078ad5b",
+            "fromGuid": "0ab88ec49e6d2961b16893b4d3523790",
+            "toGuid": "e81938054985189d4900daccb08fde0a",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "8c43be954553a2c774ca6d6f6f7a9c16",
+            "fromGuid": "e81938054985189d4900daccb08fde0a",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f82fe9263c07273ce7ab4ffc4e197812",
+            "fromGuid": "6bab37fbb60381f0fd0b97ca9a890775",
+            "toGuid": "ca7f0bd10ae089a53ccb100ff291bb6e",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "74a43ac74e787660ec050fe0e00eed6e",
+            "fromGuid": "ca7f0bd10ae089a53ccb100ff291bb6e",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "70860ff113aa623d8fadb349b2fbe098",
+            "fromGuid": "2ce69ef206d8a51461a3860208019a24",
+            "toGuid": "51c66e5cbaef7584d69a8609e2c2d42a",
+            "fromPortKey": "true",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "122e90849c07f75ea8ab54e0290f088f",
+            "fromGuid": "2ce69ef206d8a51461a3860208019a24",
+            "toGuid": "8c7843df91f1c68356e211621957a040",
+            "fromPortKey": "false",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "146404b77abcfafb5d9fe335170e1e96",
+            "fromGuid": "51c66e5cbaef7584d69a8609e2c2d42a",
+            "toGuid": "ccbd22bc26712b0f5cd022a56199ce5a",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "e2802665d4106c61e118106379577e2b",
+            "fromGuid": "ccbd22bc26712b0f5cd022a56199ce5a",
+            "toGuid": "67e309b6cc4b33af8ef13fc545da592f",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "02c6454e6acbfaa48a4b9542135d3711",
+            "fromGuid": "67e309b6cc4b33af8ef13fc545da592f",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "9ca5ff9de1d216a672c44ee0a34b6c2a",
+            "fromGuid": "8c7843df91f1c68356e211621957a040",
+            "toGuid": "e4d8f44362b2f59e406c37875b66a38f",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "c2a3e6b93d9c09c973d139d5719818f0",
+            "fromGuid": "e4d8f44362b2f59e406c37875b66a38f",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "d4739976037b7a97a3e1eaba4b04e9c8",
+            "fromGuid": "83d1c7fb016818ad7d61a53a7b322b3f",
+            "toGuid": "5d7fe01fb4b3bded600a6842e05a11aa",
+            "fromPortKey": "true",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "48017b232bce00252475f2893142aa40",
+            "fromGuid": "83d1c7fb016818ad7d61a53a7b322b3f",
+            "toGuid": "9678c6b3c08105b53066b06d09f7d399",
+            "fromPortKey": "false",
+            "toPortKey": "default",
+            "fromPortIndex": 1
+        },
+        {
+            "linkGuid": "b4138327b653ee12ac9b9cec9758c3ae",
+            "fromGuid": "5d7fe01fb4b3bded600a6842e05a11aa",
+            "toGuid": "f2c83e7ae3c5f6d2d734639721b0375d",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "f90cfbfd242bb1a9f78b9c422a32d7cd",
+            "fromGuid": "f2c83e7ae3c5f6d2d734639721b0375d",
+            "toGuid": "c8d1eebdcdfff81e2f441068cd2468cb",
+            "fromPortKey": "action:success",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "4a4cec958dd85bf86ce494467f6d2fdd",
+            "fromGuid": "c8d1eebdcdfff81e2f441068cd2468cb",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "90071047a7fef69406eb35d1f29229dc",
+            "fromGuid": "9678c6b3c08105b53066b06d09f7d399",
+            "toGuid": "4c92c23d57fed4002da81c3f1d5c6b39",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "79d2dfbb2ddf29e3840d17090e7cb971",
+            "fromGuid": "4c92c23d57fed4002da81c3f1d5c6b39",
+            "toGuid": "9dc53c14c832757ba0ea41330fc1ec0b",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        },
+        {
+            "linkGuid": "e4a9abb777de89e858a51adfa76c057b",
+            "fromGuid": "9dc53c14c832757ba0ea41330fc1ec0b",
+            "toGuid": "3029d1b289a0924b2c39f6705701f0d1",
+            "fromPortKey": "default",
+            "toPortKey": "default",
+            "fromPortIndex": 0
+        }
+    ],
+    "groupLayouts": []
+}

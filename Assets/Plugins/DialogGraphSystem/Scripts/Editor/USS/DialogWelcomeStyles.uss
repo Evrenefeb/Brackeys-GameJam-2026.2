@@ -1,0 +1,195 @@
+/* =========================================================================
+   Dialogue Graph System - Welcome Window Stylesheet
+   Publisher: Beka Forge
+   Palette: Night #070B14, Panel #10182A, Line #28385C, Accent #FF7A1A,
+            Cyan #59C9FF, Violet #7F5CFF, Text #F4F7FB, Muted #95A3BF
+   ========================================================================= */
+
+.dgs-welcome-root {
+  flex-direction: column;
+  height: 100%;
+  background-color: #070B14;
+}
+
+.dgs-welcome-scroll {
+  flex-grow: 1;
+  background-color: #070B14;
+}
+
+.dgs-welcome-scroll > .unity-scroll-view__content-container {
+  padding: 10px;
+}
+
+.dgs-welcome-banner {
+  height: 215px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -unity-background-scale-mode: scale-and-crop;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(127, 92, 255, 0.35);
+  border-right-color: rgba(127, 92, 255, 0.35);
+  border-bottom-color: rgba(89, 201, 255, 0.35);
+  border-left-color: rgba(89, 201, 255, 0.35);
+}
+
+.dgs-welcome-card {
+  background-color: rgba(16, 24, 42, 0.94);
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: #28385C;
+  border-right-color: #28385C;
+  border-bottom-color: #28385C;
+  border-left-color: #28385C;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 12px;
+}
+
+.dgs-welcome-hero-card {
+  padding: 10px 12px;
+  background-color: rgba(10, 18, 34, 0.96);
+}
+
+.dgs-welcome-header-row {
+  flex-direction: row;
+  align-items: center;
+}
+
+.dgs-welcome-icon {
+  width: 88px;
+  height: 88px;
+  min-width: 88px;
+  min-height: 88px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -unity-background-image-tint-color: white;
+}
+
+.dgs-welcome-headline {
+  flex-grow: 1;
+}
+
+.dgs-welcome-eyebrow {
+  color: #59C9FF;
+  font-size: 10px;
+  -unity-font-style: bold;
+}
+
+.dgs-welcome-title {
+  color: #F4F7FB;
+  font-size: 24px;
+  -unity-font-style: bold;
+}
+
+.dgs-welcome-meta {
+  color: #FF9A52;
+  font-size: 11px;
+  -unity-font-style: bold;
+}
+
+.dgs-welcome-description {
+  color: #C6D2EA;
+  font-size: 12px;
+  white-space: normal;
+  margin-bottom: 0;
+}
+
+.dgs-welcome-release-card {
+  padding: 10px 12px;
+}
+
+.dgs-welcome-section-title {
+  color: #59C9FF;
+  font-size: 11px;
+  -unity-font-style: bold;
+  margin-bottom: 5px;
+}
+
+.dgs-welcome-release-notes {
+  color: #C6D2EA;
+  font-size: 11px;
+  white-space: normal;
+}
+
+.dgs-welcome-links-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.dgs-welcome-toggle-row {
+  padding-left: 2px;
+  margin-top: 2px;
+}
+
+.dgs-welcome-toggle {
+  color: #95A3BF;
+  font-size: 11px;
+}
+
+.dgs-welcome-toggle .unity-toggle__text {
+  color: #95A3BF;
+}
+
+.dgs-welcome-toggle:hover .unity-toggle__text {
+  color: #F4F7FB;
+}
+
+.dgs-welcome-primary-button,
+.dgs-welcome-secondary-button {
+  min-height: 26px;
+  padding: 0 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: link;
+  font-size: 11px;
+}
+
+.dgs-welcome-primary-button {
+  background-color: #FF7A1A;
+  color: #ffffff;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  -unity-font-style: bold;
+}
+
+.dgs-welcome-primary-button:hover {
+  background-color: #FF9140;
+}
+
+.dgs-welcome-primary-button:active {
+  background-color: #D75D00;
+}
+
+.dgs-welcome-secondary-button {
+  background-color: rgba(255, 255, 255, 0.02);
+  color: #DCE6F8;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: #28385C;
+  border-right-color: #28385C;
+  border-bottom-color: #28385C;
+  border-left-color: #28385C;
+}
+
+.dgs-welcome-secondary-button:hover {
+  background-color: #1A2642;
+  color: #ffffff;
+}

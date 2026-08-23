@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4de8b83bbd9f44a48b5e9f6f01f0fb52
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Utils/DialogRuntimeUnityCompatibility.cs
+  uploadId: 971382

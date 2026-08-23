@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6457f92ece4437a4d834de366389c153
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/JSON/Demo_ReactorAftermath.json
+  uploadId: 971382

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 380e98bb268266449a6999900697c5aa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Settings/SettingsPanels/DialogChoiceSettings.cs
+  uploadId: 971382

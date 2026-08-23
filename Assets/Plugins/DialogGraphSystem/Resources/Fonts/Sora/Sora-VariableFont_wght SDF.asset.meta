@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 482bf3506442ca94b93982600de74c5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Fonts/Sora/Sora-VariableFont_wght
+    SDF.asset
+  uploadId: 971382

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 94d3fa33dec9e9946be29052933abab2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Fonts/Inter/Inter-VariableFont_opsz,wght
+    SDF.asset
+  uploadId: 971382

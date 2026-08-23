@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2766900564d30cb4bbb3961638a12896
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/DialogSettingsSO/DialogLocalizationRuntimeSettings.asset
+  uploadId: 971382

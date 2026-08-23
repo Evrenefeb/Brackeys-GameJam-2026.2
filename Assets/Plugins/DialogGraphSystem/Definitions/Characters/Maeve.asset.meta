@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f7edfd6f4df4de1a5a7ccf3be2a2c62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Characters/Maeve.asset
+  uploadId: 971382

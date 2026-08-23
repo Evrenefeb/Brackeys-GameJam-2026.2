@@ -1,0 +1,7 @@
+AI Extension 2.0 — Coming Soon
+
+AI Extension 2.0 is not included with Dialogue Graph System Core 3.0.0 and is not required for any Core authoring, localization, validation, import/export, or runtime workflow.
+
+Core remains fully functional without an AI provider, remote configuration, API key, or AI package dependency. Manual authoring and translation remain available.
+
+AI Extension 2.0 remains one ready/not-ready checkpoint for DGS 3.0.1. No purchase or availability promise is made here.

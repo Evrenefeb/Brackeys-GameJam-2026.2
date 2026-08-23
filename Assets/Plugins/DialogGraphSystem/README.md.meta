@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 798d3e45e807aed468562d46857017fb
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/README.md
+  uploadId: 971382

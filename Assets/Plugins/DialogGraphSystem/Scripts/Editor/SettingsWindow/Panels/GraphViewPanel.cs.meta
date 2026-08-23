@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5d2fc9727a5eb554f9c0c63b86a7d6f9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/SettingsWindow/Panels/GraphViewPanel.cs
+  uploadId: 971382

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67da0f01654f4f4d891c68af8de89fca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/Actions/OpenGate.asset
+  uploadId: 971382

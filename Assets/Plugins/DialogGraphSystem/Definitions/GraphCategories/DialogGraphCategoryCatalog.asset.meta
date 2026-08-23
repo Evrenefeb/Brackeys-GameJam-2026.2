@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 552c0cbba05eb4541a3e66b530ca4d8b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/GraphCategories/DialogGraphCategoryCatalog.asset
+  uploadId: 971382

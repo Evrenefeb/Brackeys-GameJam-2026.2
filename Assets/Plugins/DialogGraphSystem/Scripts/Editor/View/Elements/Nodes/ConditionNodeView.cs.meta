@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c232c648f8546e2a57b58c777ab3c42
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/View/Elements/Nodes/ConditionNodeView.cs
+  uploadId: 971382

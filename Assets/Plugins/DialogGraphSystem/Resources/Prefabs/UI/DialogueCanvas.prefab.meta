@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7535fe0e58b6b2d4c9e5444368cbfe40
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Prefabs/UI/DialogueCanvas.prefab
+  uploadId: 971382

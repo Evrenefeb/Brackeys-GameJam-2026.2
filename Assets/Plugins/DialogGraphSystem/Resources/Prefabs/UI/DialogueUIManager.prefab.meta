@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5a4f5dff1eb7c0541b68d8efe194f676
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Resources/Prefabs/UI/DialogueUIManager.prefab
+  uploadId: 971382

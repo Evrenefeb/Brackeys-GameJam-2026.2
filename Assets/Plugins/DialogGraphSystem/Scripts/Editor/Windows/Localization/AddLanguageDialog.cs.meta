@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f468c54377f76d547b81fe4fb42c5174
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Windows/Localization/AddLanguageDialog.cs
+  uploadId: 971382

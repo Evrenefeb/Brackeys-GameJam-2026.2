@@ -1,0 +1,384 @@
+/* =========================================================
+   Dialogue System — Unified Main Window Stylesheet
+   Design tokens align with DialogSettingsStyles.uss
+   Brand:  #5865F2 indigo, #A78BFA AI-violet
+   Canvas: #090B10 → #0D0F16 → #13151E → #1A1D28 → #222636
+   ========================================================= */
+
+/* =========================================================
+   ROOT
+   ========================================================= */
+.ds-root {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #13151E;
+  overflow: hidden;
+}
+
+/* =========================================================
+   TAB BAR
+   ========================================================= */
+.ds-tab-bar {
+  flex-direction: row;
+  align-items: stretch;
+  height: 38px;
+  min-height: 38px;
+  background-color: #0D0F16;
+  border-bottom-width: 1px;
+  border-bottom-color: #2A2F45;
+  flex-shrink: 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  overflow: hidden;
+}
+
+.ds-tab-bar-icon {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+  margin-left: 8px;
+  margin-right: 10px;
+  align-self: center;
+  opacity: 0.95;
+  flex-shrink: 0;
+}
+
+.ds-tab-button {
+  height: 38px;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 0;
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-bottom-color: transparent;
+  background-color: transparent;
+  margin: 0;
+}
+
+.ds-tab-button:hover {
+  color: #C8D0E0;
+  background-color: rgba(88,101,242,0.07);
+}
+
+.ds-tab-button--active {
+  color: #E8ECF4;
+  -unity-font-style: bold;
+  border-bottom-color: #5865F2;
+  background-color: rgba(88,101,242,0.10);
+}
+
+/* =========================================================
+   CONTENT AREA
+   ========================================================= */
+.ds-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-height: 0;
+  min-width: 0;
+  background-color: #13151E;
+  overflow: hidden;
+}
+
+/* =========================================================
+   CARD DESIGN
+   ========================================================= */
+.ds-card {
+  background-color: #1A1D28;
+  border-width: 1px;
+  border-color: #2A2F45;
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-self: stretch;
+  min-width: 0;
+}
+
+.ds-card:hover {
+  border-color: #3D4460;
+}
+
+.ds-card-header {
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+  border-bottom-width: 1px;
+  border-bottom-color: #2A2F45;
+  flex-shrink: 0;
+}
+
+.ds-card-title {
+  color: #E8ECF4;
+  -unity-font-style: bold;
+  font-size: 12px;
+  flex-grow: 1;
+  white-space: normal;
+  overflow: visible;
+}
+
+/* =========================================================
+   SEARCH BAR
+   ========================================================= */
+.ds-search-bar {
+  flex-grow: 1;
+  margin: 0 8px 0 0;
+  min-width: 100px;
+}
+
+/* =========================================================
+   LIST ITEMS
+   ========================================================= */
+.ds-list-item {
+  flex-direction: row;
+  align-items: center;
+  min-height: 28px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.ds-list-item:hover {
+  background-color: rgba(88,101,242,0.07);
+}
+
+/* =========================================================
+   HOME VIEW (Graph tab landing)
+   ========================================================= */
+.ds-home-view {
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 32px 48px;
+  overflow: hidden;
+}
+
+.ds-home-scroll {
+  flex-grow: 1;
+  background-color: #13151E;
+  align-self: stretch;
+}
+
+.ds-home-scroll > .unity-scroll-view__content-viewport {
+  background-color: #13151E;
+}
+
+.ds-home-scroll > .unity-scroll-view__content-container {
+  padding: 32px 48px;
+  align-items: center;
+}
+
+.ds-home-scroll > .unity-scroller--horizontal { display: none; }
+
+.ds-home-title {
+  color: #E8ECF4;
+  font-size: 18px;
+  -unity-font-style: bold;
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+
+.ds-home-subtitle {
+  color: #5C6480;
+  font-size: 11px;
+  margin-bottom: 24px;
+  flex-shrink: 0;
+}
+
+.ds-home-section {
+  width: 100%;
+  max-width: 580px;
+  background-color: #1A1D28;
+  border-width: 1px;
+  border-color: #2A2F45;
+  border-radius: 6px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.ds-home-section-title {
+  color: #9BA3B8;
+  font-size: 9px;
+  -unity-font-style: bold;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.ds-home-recent-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 28px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  flex-shrink: 0;
+}
+
+.ds-home-recent-row:hover {
+  background-color: rgba(88,101,242,0.10);
+}
+
+.ds-home-recent-name {
+  color: #C8D0E0;
+  font-size: 11px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* =========================================================
+   SUB-TOOLBAR (inside Graph tab canvas view)
+   ========================================================= */
+.ds-sub-toolbar {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 34px;
+  min-height: 34px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #1A1D28;
+  border-bottom-width: 1px;
+  border-bottom-color: #2A2F45;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.ds-sub-toolbar-label {
+  color: #9BA3B8;
+  font-size: 11px;
+  -unity-font-style: bold;
+  margin-right: 12px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.ds-sub-toolbar-sep {
+  width: 1px;
+  min-width: 1px;
+  height: 18px;
+  background-color: #2A2F45;
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   GLOBAL TAB CONTENT SCROLL
+   ========================================================= */
+.ds-tab-scroll {
+  flex-grow: 1;
+  background-color: #13151E;
+}
+
+.ds-tab-scroll > .unity-scroll-view__content-viewport {
+  background-color: #13151E;
+}
+
+.ds-tab-scroll > .unity-scroll-view__content-container {
+  padding: 12px 16px 20px 16px;
+  flex-direction: column;
+}
+
+.ds-tab-scroll > .unity-scroller--horizontal { display: none; }
+.ds-tab-scroll > .unity-scroller--vertical {
+  width: 10px;
+  background-color: #0D0F16;
+}
+
+.ds-tab-scroll .unity-scroller--vertical .unity-base-slider__tracker {
+  background-color: #0D0F16;
+  border-radius: 5px;
+}
+
+.ds-tab-scroll .unity-scroller--vertical .unity-base-slider__dragger {
+  background-color: #2A2F45;
+  border-radius: 5px;
+  min-height: 36px;
+}
+
+.ds-tab-scroll .unity-scroller--vertical .unity-base-slider__dragger:hover { background-color: #3D4460; }
+.ds-tab-scroll .unity-scroller--vertical .unity-base-slider__dragger:active { background-color: #5865F2; }
+
+/* =========================================================
+   GLOBAL TOP BAR (search + action buttons above list)
+   ========================================================= */
+.ds-top-bar {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+/* =========================================================
+   SETTINGS TAB – left sub-nav
+   ========================================================= */
+.ds-settings-body {
+  flex-direction: row;
+  flex-grow: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.ds-settings-nav {
+  width: 180px;
+  min-width: 140px;
+  background-color: #0D0F16;
+  border-right-width: 1px;
+  border-right-color: #1E2235;
+  flex-shrink: 0;
+  padding: 10px 6px;
+}
+
+.ds-settings-nav-btn {
+  height: 30px;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 0;
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #1E2235;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+.ds-settings-nav-btn:hover {
+  background-color: rgba(88,101,242,0.08);
+  color: #C8D0E0;
+}
+
+.ds-settings-nav-btn.active {
+  background-color: rgba(88,101,242,0.15);
+  color: #E8ECF4;
+  -unity-font-style: bold;
+  border-left-width: 2px;
+  border-left-color: #5865F2;
+  border-bottom-color: #2A2F45;
+  padding-left: 8px;
+}
+
+.ds-settings-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #13151E;
+  padding: 6px 6px 0 6px;
+}

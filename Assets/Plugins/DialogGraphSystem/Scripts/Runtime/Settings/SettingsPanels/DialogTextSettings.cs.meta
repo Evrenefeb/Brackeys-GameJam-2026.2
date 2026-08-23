@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 674546f30cf3b134e8d07f6d561cd9fe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/Settings/SettingsPanels/DialogTextSettings.cs
+  uploadId: 971382

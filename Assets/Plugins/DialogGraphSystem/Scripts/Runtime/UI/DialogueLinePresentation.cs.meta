@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 75aa4dbebe5e42f9ae826803bd7b2338
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Runtime/UI/DialogueLinePresentation.cs
+  uploadId: 971382

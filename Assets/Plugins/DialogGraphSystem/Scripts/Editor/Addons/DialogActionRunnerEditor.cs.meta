@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a9ae2219a3ba5464ca7b88df549fa20c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Addons/DialogActionRunnerEditor.cs
+  uploadId: 971382

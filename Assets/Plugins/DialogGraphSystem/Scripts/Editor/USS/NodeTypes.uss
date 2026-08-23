@@ -1,0 +1,125 @@
+/* ================================================================
+   Dialog Graph — Node Type Accents
+
+   Per-node-type accent colors, borders, and title bar backgrounds.
+
+   Each node view adds exactly one type class via AddToClassList():
+     .type-start    — green    (StartNodeView)
+     .type-end      — red      (EndNodeView)
+     .type-dialogue — amber    (DialogNodeView)
+     .type-action   — purple   (ActionNodeView)
+     .type-choice   — blue     (ChoiceNodeView)
+
+   These rules layer on top of NodeBase.uss and do not touch layout.
+   ================================================================ */
+
+
+/* ── Shared title readability ─────────────────────────────────── */
+
+.dlg-node #title {
+    color: #E8ECF4;
+}
+
+.dlg-node #title Label {
+    color: #E8ECF4;
+    -unity-font-style: bold;
+}
+
+
+/* ── Start Node (Green) ───────────────────────────────────────── */
+
+.type-start {
+    border-color: rgba(52, 211, 153, 0.55);
+    background-color: rgba(52, 211, 153, 0.08);
+}
+
+.type-start #title {
+    background-color: #14402F;
+}
+
+
+/* ── End Node (Red) ───────────────────────────────────────────── */
+
+.type-end {
+    border-color: rgba(248, 113, 113, 0.55);
+    background-color: rgba(248, 113, 113, 0.08);
+}
+
+.type-end #title {
+    background-color: #491D21;
+}
+
+
+/* ── Dialogue Node (Amber) ────────────────────────────────────── */
+
+.type-dialogue {
+    border-color: rgba(251, 146, 60, 0.48);
+}
+
+.type-dialogue #title {
+    background-color: #4A2B15;
+}
+
+
+/* ── Action Node (Purple) ─────────────────────────────────────── */
+
+.type-action {
+    border-color: rgba(192, 132, 252, 0.48);
+}
+
+.type-action #title {
+    background-color: #38234E;
+}
+
+
+/* ── Choice Node (Blue) ───────────────────────────────────────── */
+
+.type-choice {
+    border-color: rgba(96, 165, 250, 0.48);
+}
+
+.type-choice #title {
+    background-color: #1E3654;
+}
+
+.type-condition {
+    border-color: rgba(45, 212, 191, 0.48);
+}
+
+.type-condition #title {
+    background-color: #173F3C;
+}
+
+
+/* ── Outcome Node (Cyan/Teal) ─────────────────────────────────── */
+
+.type-outcome {
+    border-color: rgba(34, 211, 238, 0.48);
+}
+
+.type-outcome #title {
+    background-color: #164E63;
+}
+
+
+/* ── Secondary header area backgrounds ───────────────────────── */
+
+.dlg-node .node-title-dialogue {
+    background-color: #2E241A;
+}
+
+.dlg-node .node-title-choice {
+    background-color: #1A2C40;
+}
+
+.dlg-node .node-title-action {
+    background-color: #281D39;
+}
+
+.dlg-node .node-title-condition {
+    background-color: #17312F;
+}
+
+.dlg-node .node-title-outcome {
+    background-color: #123E4A;
+}

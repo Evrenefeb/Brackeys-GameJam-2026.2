@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c6fcce47464206543bd1c2c966bb3e81
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Tests/EditMode/DemoShowcaseGraphSpecs.cs
+  uploadId: 971382

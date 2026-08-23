@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9142133f4e8e42d5a4927c1d352fdcc9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/SceneContexts/CheckpointStandoff.asset
+  uploadId: 971382

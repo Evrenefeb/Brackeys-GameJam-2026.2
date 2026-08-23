@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bcc0353b9354642b7046e2139cf0295
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Definitions/SceneContexts/OutpostDeal.asset
+  uploadId: 971382

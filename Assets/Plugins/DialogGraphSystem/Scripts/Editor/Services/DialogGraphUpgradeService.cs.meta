@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4adf0cb8f4974fa4a8d4559d8dba2f3e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 332234
+  packageName: Dialogue Graph System
+  packageVersion: 3.0.0
+  assetPath: Assets/DialogGraphSystem/Scripts/Editor/Services/DialogGraphUpgradeService.cs
+  uploadId: 971382

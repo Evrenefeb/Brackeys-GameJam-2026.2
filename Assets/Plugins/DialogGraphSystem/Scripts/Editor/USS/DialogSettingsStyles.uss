@@ -1,0 +1,824 @@
+/* =========================================================
+   Dialogue Graph System - Settings Window Stylesheet
+   Brand tokens: #5865F2 brand-indigo, #A78BFA AI-violet
+   Backgrounds:  #090B10 canvas -> #0D0F16 deep -> #13151E base
+                 -> #1A1D28 raised -> #222636 elevated
+   ========================================================= */
+
+/* =========================================================
+   ROOT & BODY
+   ========================================================= */
+.dgs-root {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #13151E;
+  overflow: hidden;
+}
+
+.dgs-header {
+  height: 42px;
+  min-height: 42px;
+  padding: 0 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1A1D28;
+  border-bottom-width: 1px;
+  border-bottom-color: #2A2F45;
+  flex-shrink: 0;
+}
+
+.dgs-breadcrumb {
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Version badge  brand indigo */
+.dgs-version {
+  padding: 3px 10px;
+  height: 20px;
+  min-height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #E8ECF4;
+  background-color: #5865F2;
+  border-radius: 4px;
+  -unity-font-style: bold;
+  font-size: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.dgs-body {
+  flex-direction: row;
+  flex-grow: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* =========================================================
+   LEFT NAVIGATION
+   ========================================================= */
+.dgs-nav {
+  width: 220px;
+  min-width: 180px;
+  max-width: 280px;
+  background-color: #0D0F16;
+  border-right-width: 1px;
+  border-right-color: #1E2235;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.dgs-nav-scroll {
+  flex-grow: 1;
+  background-color: #0D0F16;
+}
+
+.dgs-nav-scroll > .unity-scroll-view__content-viewport {
+  background-color: #0D0F16;
+}
+
+.dgs-nav-scroll > .unity-scroll-view__content-container {
+  padding: 12px 8px;
+  flex-direction: column;
+}
+
+.dgs-nav-scroll > .unity-scroller--horizontal { display: none; }
+.dgs-nav-scroll > .unity-scroller--vertical    { width: 8px; background-color: #0D0F16; }
+
+.dgs-nav-scroll .unity-scroller--vertical .unity-base-slider__tracker {
+  background-color: #0D0F16;
+  border-radius: 4px;
+}
+
+.dgs-nav-scroll .unity-scroller--vertical .unity-base-slider__dragger {
+  background-color: #2A2F45;
+  border-radius: 4px;
+  min-height: 28px;
+}
+
+.dgs-nav-scroll .unity-scroller--vertical .unity-base-slider__dragger:hover {
+  background-color: #3D4460;
+}
+
+/* Section label e.g. "SETTINGS" / "EXTENSIONS" */
+.dgs-nav-title {
+  color: #5C6480;
+  font-size: 9px;
+  -unity-font-style: bold;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  padding-top: 10px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dgs-nav-sep {
+  height: 1px;
+  min-height: 1px;
+  margin: 10px 4px;
+  background-color: #1E2235;
+  flex-shrink: 0;
+}
+
+.dgs-nav-button {
+  height: 32px;
+  min-height: 32px;
+  padding: 0 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 6px;
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-width: 0;
+  background-color: transparent;
+  margin-bottom: 1px;
+}
+
+.dgs-nav-button:hover {
+  background-color: rgba(88,101,242,0.08);
+  color: #C8D0E0;
+}
+
+/* Active nav item: brand left-border + tinted bg */
+.dgs-nav-button.active {
+  background-color: rgba(88,101,242,0.15);
+  color: #E8ECF4;
+  -unity-font-style: bold;
+  border-left-width: 2px;
+  border-left-color: #5865F2;
+  padding-left: 8px;
+}
+
+.dgs-asset-list-row {
+  border-bottom-width: 1px;
+  border-bottom-color: #1E2235;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.dgs-asset-list-row:hover {
+  background-color: rgba(88,101,242,0.08);
+}
+
+.dgs-asset-list-row.active {
+  border-bottom-color: #2A2F45;
+}
+
+.dgs-context-mode-button {
+  flex-grow: 1;
+  min-width: 0;
+  height: 26px;
+  min-height: 26px;
+  padding: 0 8px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #2A2F45;
+  background-color: #1A1D28;
+  color: #9BA3B8;
+  font-size: 10px;
+  -unity-font-style: bold;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.dgs-context-mode-button:hover {
+  background-color: #222636;
+  border-color: #3D4460;
+  color: #C8D0E0;
+}
+
+.dgs-context-mode-button.active {
+  background-color: rgba(88,101,242,0.15);
+  border-color: #5865F2;
+  color: #E8ECF4;
+}
+.dgs-nav-icon {
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  margin-right: 8px;
+  -unity-background-scale-mode: scale-to-fit;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   CONTENT AREA
+   ========================================================= */
+.dgs-content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #13151E;
+  padding: 6px 6px 0 6px;
+}
+
+.dgs-content-scroll {
+  flex-grow: 1;
+  background-color: #13151E;
+}
+
+.dgs-content-scroll > .unity-scroll-view__content-viewport {
+  background-color: #13151E;
+}
+
+.dgs-content-scroll > .unity-scroll-view__content-container {
+  padding: 4px 4px 16px 4px;
+  flex-direction: column;
+}
+
+.dgs-content-scroll > .unity-scroller--horizontal { display: none; }
+.dgs-content-scroll > .unity-scroller--vertical   {
+  width: 10px;
+  background-color: #0D0F16;
+  margin-left: 4px;
+}
+
+.dgs-content-scroll .unity-scroller--vertical .unity-base-slider__tracker {
+  background-color: #0D0F16;
+  border-radius: 5px;
+}
+
+.dgs-content-scroll .unity-scroller--vertical .unity-base-slider__dragger {
+  background-color: #2A2F45;
+  border-radius: 5px;
+  min-height: 36px;
+}
+
+.dgs-content-scroll .unity-scroller--vertical .unity-base-slider__dragger:hover  { background-color: #3D4460; }
+.dgs-content-scroll .unity-scroller--vertical .unity-base-slider__dragger:active { background-color: #5865F2; }
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+.dgs-card {
+  background-color: #1A1D28;
+  border-width: 1px;
+  border-color: #2A2F45;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-self: stretch;
+  min-width: 0;
+}
+
+.dgs-card:hover {
+  border-color: #3D4460;
+}
+
+/* Card title with a subtle bottom rule */
+.dgs-card-title {
+  color: #E8ECF4;
+  -unity-font-style: bold;
+  font-size: 12px;
+  margin-bottom: 6px;
+  padding-bottom: 8px;
+  border-bottom-width: 1px;
+  border-bottom-color: #2A2F45;
+  flex-shrink: 0;
+  white-space: normal;
+  overflow: visible;
+}
+
+/* =========================================================
+   TEXT FIELDS  FULL WIDTH
+   ========================================================= */
+.dgs-card TextField,
+.dgs-card .unity-text-field {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-bottom: 6px;
+}
+
+.dgs-card TextField .unity-text-field__input,
+.dgs-card .unity-text-field .unity-text-field__input {
+  width: 100%;
+  min-width: 200px;
+  background-color: #0D0F16;
+  border-width: 1px;
+  border-color: #2A2F45;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: #C8D0E0;
+  font-size: 11px;
+  flex-grow: 1;
+}
+
+.dgs-card TextField .unity-text-field__input:hover,
+.dgs-card .unity-text-field .unity-text-field__input:hover {
+  border-color: #3D4460;
+}
+
+.dgs-card TextField .unity-text-field__input:focus,
+.dgs-card .unity-text-field .unity-text-field__input:focus {
+  border-color: #5865F2;
+  background-color: #13151E;
+}
+
+/* Text Area (Multi-line) */
+.dgs-card .unity-text-field--multiline,
+.dgs-text-area {
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 6px;
+}
+
+.dgs-card .unity-text-field--multiline .unity-text-field__input,
+.dgs-text-area .unity-text-field__input {
+  width: 100%;
+  min-width: 200px;
+  min-height: 80px;
+  max-height: 300px;
+  background-color: #0D0F16;
+  border-width: 1px;
+  border-color: #2A2F45;
+  border-radius: 5px;
+  padding: 8px;
+  color: #C8D0E0;
+  font-size: 11px;
+  flex-grow: 1;
+  white-space: pre-wrap;
+}
+
+.dgs-card .unity-text-field--multiline .unity-text-field__input:focus,
+.dgs-text-area .unity-text-field__input:focus {
+  border-color: #5865F2;
+  background-color: #13151E;
+}
+
+/* Label + field row */
+.dgs-text-row {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+    width: 100%;
+}
+
+.dgs-text-row > Label {
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  min-width: 80px;
+  white-space: nowrap;
+}
+
+.dgs-text-row > TextField,
+.dgs-text-row > .unity-text-field {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: auto;
+}
+
+/* Label above field */
+.dgs-text-column {
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.dgs-text-column > Label {
+  color: #9BA3B8;
+  font-size: 11px;
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+
+.dgs-text-column > TextField,
+.dgs-text-column > .unity-text-field,
+.dgs-text-column > .unity-text-field--multiline {
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* =========================================================
+   ROWS, SLIDERS & PILL INPUTS
+   ========================================================= */
+.dgs-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+    flex-wrap: nowrap;
+  min-height: 22px;
+  width: 100%;
+}
+
+.dgs-muted {
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  min-width: 80px;
+}
+
+.dgs-slider {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 8px;
+  min-width: 120px;
+}
+
+.dgs-pill {
+  min-width: 54px;
+  max-width: 80px;
+  height: 22px;
+  background-color: #0D0F16;
+  color: #C8D0E0;
+  border-radius: 5px;
+  padding: 0 6px;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-color: #2A2F45;
+  flex-shrink: 0;
+}
+
+.dgs-pill .unity-base-field__input {
+  padding: 0 4px;
+  -unity-text-align: middle-center;
+}
+
+.dgs-adv-value-badge {
+  background-color: #1A1D28;
+  color: #9BA3B8;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  -unity-font-style: bold;
+  min-width: 40px;
+  -unity-text-align: middle-center;
+  flex-shrink: 0;
+  border-width: 1px;
+  border-color: #2A2F45;
+}
+
+/* Floating value tooltip on slider drag  brand indigo */
+.dgs-adv-floating-value {
+  position: absolute;
+  top: -24px;
+  background-color: rgba(88,101,242,0.95);
+  color: #E8ECF4;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  -unity-font-style: bold;
+  min-width: 35px;
+  -unity-text-align: middle-center;
+}
+
+/* =========================================================
+   FOOTER BUTTONS
+   ========================================================= */
+.dgs-footer {
+  margin-top: 8px;
+  padding: 12px 0 24px 0;
+  flex-direction: row;
+  justify-content: flex-end;
+    flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 100%;
+  border-top-width: 1px;
+  border-top-color: #1E2235;
+}
+
+/* Primary action button  brand indigo */
+.dgs-save {
+  height: 28px;
+  min-height: 28px;
+  padding: 0 16px;
+  border-radius: 5px;
+  color: #E8ECF4;
+  background-color: #5865F2;
+  border-width: 0;
+  -unity-font-style: bold;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.dgs-save:hover    { background-color: #6B78FF; }
+.dgs-save:active   { background-color: #3D4DB8; }
+.dgs-save:disabled { opacity: 0.38; }
+
+/* Hint / muted text beneath fields */
+.dgs-coming {
+  color: #5C6480;
+  font-size: 10px;
+  -unity-font-style: italic;
+  margin-top: 4px;
+  flex-shrink: 0;
+  white-space: normal;
+}
+
+/* =========================================================
+   ADVANCED SLIDER (WITH RECOMMENDED RANGE)
+   ========================================================= */
+.dgs-adv-row {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.dgs-adv-header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.dgs-adv-label {
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 0;
+}
+
+.dgs-adv-slider-container {
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+    margin-top: 6px;
+  margin-bottom: 4px;
+  min-height: 22px;
+  flex-shrink: 0;
+}
+
+.dgs-adv-slider {
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 150px;
+  height: 20px;
+  position: relative;
+}
+
+/* Recommended range highlight  brand tint */
+.dgs-adv-range-bg {
+  position: absolute;
+  height: 4px;
+  background-color: rgba(88,101,242,0.18);
+  border-radius: 2px;
+  top: 50%;
+}
+
+.dgs-adv-slider > .unity-base-slider__tracker {
+  background-color: #2A2F45;
+  border-radius: 2px;
+  height: 4px;
+  top: 50%;
+}
+
+.dgs-adv-slider > .unity-base-slider__dragger {
+  background-color: #C8D0E0;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-width: 2px;
+  border-color: #13151E;
+  top: 50%;
+}
+
+.dgs-adv-slider > .unity-base-slider__dragger:hover {
+  background-color: #E8ECF4;
+  border-color: #5865F2;
+}
+
+.dgs-adv-slider > .unity-base-slider__dragger:active {
+  background-color: #5865F2;
+  border-color: #3D4DB8;
+}
+
+/* Legacy Unity version fallbacks */
+.dgs-adv-slider-container .unity-slider__track  { background-color: #2A2F45; border-radius: 2px; height: 4px; }
+.dgs-adv-slider-container .unity-slider__dragger {
+  background-color: #C8D0E0;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-width: 2px;
+  border-color: #13151E;
+}
+
+.dgs-adv-value {
+  min-width: 45px;
+  max-width: 60px;
+  -unity-text-align: middle-right;
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Range hint label  AI violet (these appear most in the AI panel) */
+.dgs-adv-range-label {
+  font-size: 10px;
+  color: #A78BFA;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  flex-shrink: 0;
+  white-space: normal;
+  width: 100%;
+}
+
+/* =========================================================
+   ADVANCED ENUM DROPDOWN
+   ========================================================= */
+.dgs-adv-dropdown {
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.dgs-adv-dropdown-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  flex-wrap: nowrap;
+    width: 100%;
+}
+
+.dgs-adv-dropdown-label {
+  color: #9BA3B8;
+  font-size: 11px;
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-grow: 0;
+  min-width: 80px;
+}
+
+.dgs-adv-enumfield {
+  min-width: 150px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #0D0F16;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #2A2F45;
+  margin-left: 2px;
+  margin-bottom: 4px;
+  padding: 1px 3px;
+}
+
+.dgs-adv-enumfield:disabled {
+  opacity: 0.45;
+  background-color: #13151E;
+}
+
+.dgs-adv-hint {
+  font-size: 10px;
+  color: #5C6480;
+  margin-top: 2px;
+  flex-shrink: 0;
+  white-space: normal;
+  width: 100%;
+}
+
+/* =========================================================
+   RESPONSIVENESS & TEXT OVERFLOW
+   ========================================================= */
+Label { overflow: hidden; }
+
+.dgs-card-title,
+.dgs-adv-range-label,
+.dgs-adv-hint,
+.dgs-coming {
+  white-space: normal;
+  overflow: visible;
+}
+
+.dgs-breadcrumb,
+.dgs-nav-title,
+.dgs-muted,
+.dgs-adv-label,
+.dgs-adv-dropdown-label,
+.dgs-adv-value {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* =========================================================
+   GLOBAL INPUT SIZING
+   ========================================================= */
+TextField,
+.unity-text-field,
+.unity-text-field--multiline {
+  width: 100%;
+  flex-grow: 1;
+}
+
+TextField .unity-text-field__input,
+.unity-text-field .unity-text-field__input {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.dgs-card .unity-base-field        { width: 100%; flex-grow: 1; }
+.dgs-card .unity-base-field__input { width: 100%; flex-grow: 1; }
+
+.dgs-property-field {
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.dgs-property-field--expandable,
+.dgs-property-field--expandable .unity-foldout,
+.dgs-property-field--expandable .unity-foldout__content {
+  width: 100%;
+}
+
+.dgs-property-field--expandable .unity-foldout__content,
+.dgs-property-field--expandable .unity-collection-view,
+.dgs-property-field--expandable .unity-list-view {
+  overflow: visible;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.dgs-property-field--expandable .unity-base-field {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.dgs-property-field--expandable .unity-base-field__input {
+  min-width: 0;
+}
+
+.dgs-letter { max-width: 64px; }
+
+/* =========================================================
+   PAGE HEADER  (top of each panel's scroll area)
+   ========================================================= */
+.dgs-page-header {
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 16px 16px 14px 16px;
+  border-bottom-width: 1px;
+  border-bottom-color: #1E2235;
+  margin-bottom: 8px;
+}
+
+.dgs-page-title {
+  color: #E8ECF4;
+  font-size: 15px;
+  -unity-font-style: bold;
+  margin-bottom: 5px;
+  white-space: normal;
+  overflow: visible;
+  flex-shrink: 0;
+}
+
+.dgs-page-subtitle {
+  color: #5C6480;
+  font-size: 11px;
+  white-space: normal;
+  overflow: visible;
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   SAVE BUTTON – confirmed state
+   ========================================================= */
+.dgs-save--saved {
+  height: 28px;
+  min-height: 28px;
+  padding: 0 16px;
+  border-radius: 5px;
+  color: #A0EDBE;
+  background-color: #1A3028;
+  border-width: 1px;
+  border-color: #2D6E4A;
+  -unity-font-style: bold;
+  font-size: 11px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.dgs-save--saved:hover { background-color: #1E3A30; }
+
