@@ -1,8 +1,8 @@
 ﻿<Solution>
   <Project Path="BroAudio.csproj" />
   <Project Path="Zenject.csproj" />
-  <Project Path="BroAudioEditor.csproj" />
   <Project Path="Zenject-IntegrationTests-Editor.csproj" />
+  <Project Path="BroAudioEditor.csproj" />
   <Project Path="Gaskellgames.csproj" />
   <Project Path="DialogSystem.Editor.csproj" />
   <Project Path="Zenject-ReflectionBaking-Editor.csproj" />
