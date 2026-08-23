@@ -44,6 +44,8 @@ public class MainMenuManager : MonoBehaviour {
 
         txt_GameName.text = Application.productName;
         txt_GameVersion.text = $"v{Application.version}";
+
+
     }
 
     #endregion
