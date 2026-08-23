@@ -7,6 +7,7 @@
   <Project Path="LeanCommon.csproj" />
   <Project Path="Tayx.Graphy.Editor.csproj" />
   <Project Path="DialogSystem.EditMode.Tests.csproj" />
+  <Project Path="LeanTransition.csproj" />
   <Project Path="DialogSystem.Runtime.csproj" />
   <Project Path="IngameDebugConsole.Runtime.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
@@ -14,10 +15,12 @@
   <Project Path="Unity.CastVisualizer.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="CW.Common.csproj" />
+  <Project Path="LeanGUI.csproj" />
   <Project Path="Gaskellgames.FolderSystem.csproj" />
   <Project Path="Unity.CastVisualizer.Runtime.csproj" />
   <Project Path="LeanPool.csproj" />
   <Project Path="Unity.CastVisualizer.Samples.SampleScenes.csproj" />
   <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
   <Project Path="IngameDebugConsole.Editor.csproj" />
+  <Project Path="LeanTransition.Editor.csproj" />
 </Solution>
