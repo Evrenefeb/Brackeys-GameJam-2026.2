@@ -2939,11 +2939,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4106535829384333521, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3207428793218683658}
+    - target: {fileID: 4106535829384333521, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeCharisma
+      objectReference: {fileID: 0}
+    - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8720528135965362026, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3207428793218683658}
+    - target: {fileID: 8720528135965362026, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpgradeGoodLooking
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+--- !u!114 &3207428793218683658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6131932255044538523, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+  m_PrefabInstance: {fileID: 3207428793218683657}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c41d9c8b1e52b740b4d5fa6e9eee9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
 --- !u!1001 &4473138062122511505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3064,9 +3095,9 @@ SceneRoots:
   - {fileID: 1411839952}
   - {fileID: 51152920}
   - {fileID: 199041231}
-  - {fileID: 979654071}
-  - {fileID: 385319926}
   - {fileID: 1057647684}
   - {fileID: 1708793418}
   - {fileID: 1109139045}
   - {fileID: 1151094728}
+  - {fileID: 385319926}
+  - {fileID: 979654071}
