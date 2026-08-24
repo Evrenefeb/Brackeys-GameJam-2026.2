@@ -1,3 +1,4 @@
+using Lean.Gui;
 using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,9 @@ using UnityEngine;
 public class GameManager2 : MonoBehaviour {
     public List<TrustSequenceObject> r_TrustSequenceList = new();
     public UpgradeSequenceObject r_UpgradeSequenceObject;
+    [SerializeField] private LeanButton r_PlayerButton;
+
+
     [SerializeField] private GameData p_GameData;
 
 
@@ -13,6 +17,9 @@ public class GameManager2 : MonoBehaviour {
 
     [SerializeField] private float m_CurrentQuota;
     [SerializeField] [ReadOnly] private float m_RequiredQuota;
+
+
+    public LeanButton PlayerButton => r_PlayerButton;
 
 
     private void OnEnable() {

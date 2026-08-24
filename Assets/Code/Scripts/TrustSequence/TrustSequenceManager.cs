@@ -1,4 +1,5 @@
 using ImprovedTimers;
+using Lean.Gui;
 using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
@@ -8,6 +9,8 @@ public class TrustSequenceManager : MonoBehaviour
     
     [SerializeField] private GameManager2 p_GameManager;
     [SerializeField] private TrustSequenceArgs p_SequenceArgs;
+
+    private LeanButton m_PlayerButton;
 
     
     [SerializeField] [ReadOnly] private TrustSequenceRound m_CurrentRound;
@@ -34,6 +37,12 @@ public class TrustSequenceManager : MonoBehaviour
             m_SlackTimer.OnTimerStart -= SlackTimer_OnStart;
             m_SlackTimer.OnTimerStop -= SlackTimer_OnStop;
         }
+
+        if (m_PlayerButton != null) {
+            m_PlayerButton.OnClick.RemoveListener(PlayerButton_OnClick);
+            m_PlayerButton.OnClick.RemoveListener(PlayerButton_OnDown);
+        }
+        
     }
 
     public void StartTrustSequence() {
@@ -49,7 +58,7 @@ public class TrustSequenceManager : MonoBehaviour
         SetupAI();
 
         // Setup Player Upgrades
-        SetupPlayerUpgrades();
+        SetupPlayer();
 
         // Start First Round
         StartFirstRound();
@@ -76,6 +85,8 @@ public class TrustSequenceManager : MonoBehaviour
         m_SlackTimer = new CountdownTimer(p_SequenceArgs.p_SlackTime);
         m_SlackTimer.OnTimerStart += SlackTimer_OnStart;
         m_SlackTimer.OnTimerStop += SlackTimer_OnStop;
+
+        
     }
 
     
@@ -84,8 +95,22 @@ public class TrustSequenceManager : MonoBehaviour
         //Debug.Log("Setting up AI");
     }
 
-    private void SetupPlayerUpgrades() {
+    private void SetupPlayer() {
         //Debug.Log("Setting up Player Upgrades");
+
+        m_PlayerButton = p_GameManager.PlayerButton;
+        m_PlayerButton.OnClick.AddListener(PlayerButton_OnClick);
+        m_PlayerButton.OnClick.AddListener(PlayerButton_OnDown);
+    }
+
+    
+
+    private void PlayerButton_OnClick() {
+        Debug.Log("PlayerButton_OnClick");
+    }
+
+    private void PlayerButton_OnDown() {
+        Debug.Log("PlayerButton_OnDown");
 
     }
 
@@ -152,11 +177,4 @@ public class TrustSequenceManager : MonoBehaviour
         endState = TrustSequenceOverState.None;
         return false;
     }
-}
-
-public enum TrustSequenceOverState {
-    None,
-    PlayerWin,
-    CPUWin,
-    BothWin,
 }
