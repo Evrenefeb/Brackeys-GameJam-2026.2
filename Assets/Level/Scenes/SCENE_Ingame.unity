@@ -1964,6 +1964,18 @@ MonoBehaviour:
   p_GameData: {fileID: 11400000, guid: bf56fb6ba07843247830f9e410f27db4, type: 2}
   m_CurrentQuota: 0
   m_RequiredQuota: 0
+  p_CampaignFlow:
+    SequenceQueue:
+    - {fileID: 1666281501}
+    - {fileID: 624422109}
+    - {fileID: 1898536778}
+    - {fileID: 624422109}
+    - {fileID: 389994692}
+    - {fileID: 624422109}
+    - {fileID: 1543803801}
+    - {fileID: 624422109}
+    - {fileID: 282863830}
+  m_CampaignFlowIndex: 0
 --- !u!1 &1148976371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,6 +2871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpgradeSequence
       objectReference: {fileID: 0}
+    - target: {fileID: 1979195226505560424, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2949,6 +2965,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1109139044}
+    - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8720528135965362026, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}

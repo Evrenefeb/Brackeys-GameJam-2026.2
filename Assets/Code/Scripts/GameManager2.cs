@@ -21,11 +21,18 @@ public class GameManager2 : MonoBehaviour {
 
     public LeanButton PlayerButton => r_PlayerButton;
 
+    [Space(20)]
+    [SerializeField] private CampaignFlow p_CampaignFlow;
+    [SerializeField] [ReadOnly] private int m_CampaignFlowIndex;
 
     private void OnEnable() {
 
-        // Setup Sequence Objects
+        // Setup Sequence Object List
         SetupSequenceObjects();
+
+        // Setup Campaign Flow
+        m_CampaignFlowIndex = 0;
+        Flow();
 
         // Setup Quotas
         m_CurrentQuota = 0;
@@ -84,4 +91,15 @@ public class GameManager2 : MonoBehaviour {
                 break;
         }
     }
+
+    public void Flow() {
+        CloseAllSequenceObjects();
+        p_CampaignFlow.SequenceQueue[m_CampaignFlowIndex].gameObject.SetActive(true);
+        m_CampaignFlowIndex++;
+    }
+}
+
+[Serializable]
+public class CampaignFlow {
+    public List<SequenceObject> SequenceQueue = new();
 }
