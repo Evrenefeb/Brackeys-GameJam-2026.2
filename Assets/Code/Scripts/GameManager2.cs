@@ -93,9 +93,16 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void Flow() {
+        if(m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) return;
+
         CloseAllSequenceObjects();
+
         p_CampaignFlow.SequenceQueue[m_CampaignFlowIndex].gameObject.SetActive(true);
         m_CampaignFlowIndex++;
+    }
+
+    public void SequenceFinished() {
+        Flow();
     }
 }
 

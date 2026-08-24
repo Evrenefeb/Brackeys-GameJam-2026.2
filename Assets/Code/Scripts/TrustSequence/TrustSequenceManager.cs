@@ -119,8 +119,12 @@ public class TrustSequenceManager : MonoBehaviour
         // Reevalute Current Quota
         p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
 
-        // Switch to Upgrade Sequence
-        p_GameManager.ChangeToUpgradeSequence();
+        // Finish Trust Sequence
+        FinishSequence();
+    }
+
+    private void FinishSequence() {
+        p_GameManager.SequenceFinished();
     }
 
     private void PlayerButton_OnDown() {
