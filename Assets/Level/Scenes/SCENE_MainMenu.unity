@@ -803,6 +803,7 @@ MonoBehaviour:
   btn_Play: {fileID: 1422614431}
   btn_Credits: {fileID: 1724624924}
   btn_Exit: {fileID: 1785023698}
+  r_SceneManager: {fileID: 735043486}
 --- !u!1 &1510604347
 GameObject:
   m_ObjectHideFlags: 0

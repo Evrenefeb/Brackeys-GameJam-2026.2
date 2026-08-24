@@ -15,6 +15,10 @@ public class MainMenuManager : MonoBehaviour {
     [SerializeField] private LeanButton btn_Credits;
     [SerializeField] private LeanButton btn_Exit;
 
+    [SerializeField] private SceneManager r_SceneManager;
+
+    private const string SCENE_Ingame = nameof(SCENE_Ingame);
+
 
 
     #region Unity Methods
@@ -55,6 +59,9 @@ public class MainMenuManager : MonoBehaviour {
     // UI Methods
     private void btn_Play_OnClick() {
         Debug.Log("btn_Play_OnClick");
+
+        r_SceneManager.ChangeScene(SCENE_Ingame);
+
     }
 
     private void btn_Credits_OnClick() {
@@ -66,4 +73,5 @@ public class MainMenuManager : MonoBehaviour {
     }
 
     #endregion
+
 }
