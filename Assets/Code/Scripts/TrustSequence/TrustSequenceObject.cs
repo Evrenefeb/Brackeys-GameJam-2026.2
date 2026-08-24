@@ -1,5 +1,5 @@
 using UnityEngine;
 
-public class TrustSequenceObject : MonoBehaviour {
+public class TrustSequenceObject : SequenceObject {
     // Marker
 }

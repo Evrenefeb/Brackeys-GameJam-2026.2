@@ -1,0 +1,9 @@
+OVDF v1.1
+GameManager2, Assembly-CSharp
+MetaGuid:1358f3b43e4bf424b9c671731ce4f472
+
+# ChangeTrustSequence(int)
+Visibility: Shown
+
+# ChangeToUpgradeSequence()
+Visibility: Shown

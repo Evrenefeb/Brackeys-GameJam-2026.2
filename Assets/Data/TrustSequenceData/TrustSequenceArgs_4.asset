@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aee916bef42b99548b48ceb425b41ac5, type: 3}
-  m_Name: TrustSequenceArgs_1
+  m_Name: TrustSequenceArgs_4
   m_EditorClassIdentifier: Assembly-CSharp::TrustSequenceArgs
-  p_SequenceName: B Sequence
+  p_SequenceName: E Sequence
