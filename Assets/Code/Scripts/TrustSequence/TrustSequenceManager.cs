@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class TrustSequenceManager : MonoBehaviour
 {
-    //[SerializeField] private TrustSequenceType p_SequenceType = TrustSequenceType.CAMPAIGN;
+    
+    [SerializeField] private GameManager2 p_GameManager;
     [SerializeField] private TrustSequenceArgs p_SequenceArgs;
 
 
@@ -13,5 +14,29 @@ public class TrustSequenceManager : MonoBehaviour
 
     public void StartTrustSequence() {
         Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
+
+        // Setup AI
+        SetupAI();
+
+        // Setup Player Upgrades
+        SetupPlayerUpgrades();
+
+        // Start First Round
+        StartFirstRound();
+    }
+
+    
+
+    private void SetupAI() {
+        Debug.Log("Setting up AI");
+    }
+
+    private void SetupPlayerUpgrades() {
+        Debug.Log("Setting up Player Upgrades");
+
+    }
+
+    private void StartFirstRound() {
+        Debug.Log("Start First Round");
     }
 }
