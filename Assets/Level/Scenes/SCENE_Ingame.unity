@@ -1148,6 +1148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   r_GameManagerSettings: {fileID: 11400000, guid: d89386ac05689a747aaca87b694a9971, type: 2}
   r_TrustSequenceSettings: {fileID: 11400000, guid: 5ae8c0c6bc270014aa239a6110614aae, type: 2}
+  r_UpgradeData: {fileID: 11400000, guid: a28aff32ffb501f4ca2bafaf0a4c9b9d, type: 2}
   r_PlayerButton: {fileID: 7999467649943512288}
   m_SequenceRunning: 0
 --- !u!1 &1388582000
