@@ -106,20 +106,38 @@ public class TrustSequenceManager : MonoBehaviour
     
 
     private void PlayerButton_OnClick() {
-        Debug.Log("PlayerButton_OnClick");
+        
+
+        ForceEndTrustSequence();
+    }
+
+
+    private void ForceEndTrustSequence() {
+        Debug.Log("Force End Trust Sequence for Player");
+        Debug.Log("Move to Upgrade Sequence");
+
+        // Reevalute Current Quota
+        p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
+
+        // Switch to Upgrade Sequence
+        p_GameManager.ChangeToUpgradeSequence();
     }
 
     private void PlayerButton_OnDown() {
         Debug.Log("PlayerButton_OnDown");
 
     }
-
     private void StartFirstRound() {
         //Debug.Log("Start First Round");
 
         m_SlackTimer.Start();
     }
 
+
+
+
+
+    #region Timers
 
     private void RoundTimer_OnStop() {
         Debug.Log("Round Timer Ended");
@@ -138,8 +156,6 @@ public class TrustSequenceManager : MonoBehaviour
 
         m_SlackTimer.Start();
     }
-
-    
 
     private void RoundTimer_OnStart() {
         Debug.Log("Round Timer Started");
@@ -162,6 +178,9 @@ public class TrustSequenceManager : MonoBehaviour
 
         m_State = TrustSequenceState.OnSlack;
     }
+
+    #endregion
+
 
     private void SetupNextRound() {
         m_CurrentRound.SetupNextRound(p_SequenceArgs.p_RoundPotMultiplier);
