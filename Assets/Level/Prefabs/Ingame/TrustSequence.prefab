@@ -44,7 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324a9e24c804807479f340376bd8ff14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  p_SequenceArgs: {fileID: 0}
+  p_GameManager: {fileID: 0}
+  p_SequenceArgs: {fileID: 11400000, guid: 63cd94cab5b230d4c88f365bf9e8d088, type: 2}
+  m_CurrentRound:
+    m_RoundIndex: 0
+    m_CurrentPot: 0
+  m_State: 0
 --- !u!1 &3762666514600639683
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +66,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4780569495399294763
 RectTransform:
   m_ObjectHideFlags: 0

@@ -1,44 +1,67 @@
+using Sirenix.OdinInspector;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager2 : MonoBehaviour {
-    public List<TrustSequenceObject> TrustSequenceList = new();
-    public UpgradeSequenceObject UpgradeSequenceObject;
+    public List<TrustSequenceObject> r_TrustSequenceList = new();
+    public UpgradeSequenceObject r_UpgradeSequenceObject;
+    [SerializeField] private GameData p_GameData;
 
-    private List<SequenceObject> AllSequenceObjects;
+
+    private List<SequenceObject> m_AllSequenceObjects;
+
+    [SerializeField] private float m_CurrentQuota;
+    [SerializeField] [ReadOnly] private float m_RequiredQuota;
+
 
     private void OnEnable() {
 
-        AllSequenceObjects = new List<SequenceObject>();
+        // Setup Sequence Objects
+        SetupSequenceObjects();
 
-        foreach (var sequenceObject in TrustSequenceList) {
-            AllSequenceObjects.Add(sequenceObject);
+        // Setup Quotas
+        m_CurrentQuota = 0;
+        m_RequiredQuota = p_GameData.p_RequiredQuota;
+
+
+
+
+    }
+
+    private void SetupSequenceObjects() {
+        m_AllSequenceObjects = new List<SequenceObject>();
+
+        foreach (var sequenceObject in r_TrustSequenceList) {
+            m_AllSequenceObjects.Add(sequenceObject);
         }
 
-        AllSequenceObjects.Add(UpgradeSequenceObject);
+        m_AllSequenceObjects.Add(r_UpgradeSequenceObject);
     }
 
     public void ChangeTrustSequence(int index){
 
-        if(index >= TrustSequenceList.Count || index < 0) return;
+        if(index >= r_TrustSequenceList.Count || index < 0) return;
 
         CloseAllSequenceObjects();
 
-        TrustSequenceList[index].gameObject.SetActive(true);
+        r_TrustSequenceList[index].gameObject.SetActive(true);
 
     }
 
     public void ChangeToUpgradeSequence() {
         CloseAllSequenceObjects();
 
-        UpgradeSequenceObject.gameObject.SetActive(true);
+        r_UpgradeSequenceObject.gameObject.SetActive(true);
     }
 
     private void CloseAllSequenceObjects() {
-        foreach (SequenceObject seq in AllSequenceObjects) {
+        foreach (SequenceObject seq in m_AllSequenceObjects) {
             seq.gameObject.SetActive(false);
         }
     }
+
+
 }
 
 

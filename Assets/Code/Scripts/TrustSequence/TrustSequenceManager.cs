@@ -1,3 +1,5 @@
+using ImprovedTimers;
+using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
 
@@ -7,13 +9,40 @@ public class TrustSequenceManager : MonoBehaviour
     [SerializeField] private GameManager2 p_GameManager;
     [SerializeField] private TrustSequenceArgs p_SequenceArgs;
 
+    
+    [SerializeField] [ReadOnly] private TrustSequenceRound m_CurrentRound;
+    [SerializeField] [ReadOnly] private TrustSequenceState m_State = TrustSequenceState.Init;
+    [SerializeField] private int m_CurrentRoundIndex;
+    [SerializeField] [ReadOnly] private int m_MaxRounds;
+    
+    private CountdownTimer m_RoundTimer;
+    private CountdownTimer m_SlackTimer;
+
 
     private void OnEnable() {
         StartTrustSequence();
     }
 
+    private void OnDisable() {
+        if (m_RoundTimer != null) {
+            m_RoundTimer.OnTimerStart -= RoundTimer_OnStart;
+            m_RoundTimer.OnTimerStop -= RoundTimer_OnStop;
+        }
+
+        if (m_SlackTimer != null) {
+            m_SlackTimer.OnTimerStart -= SlackTimer_OnStart;
+            m_SlackTimer.OnTimerStop -= SlackTimer_OnStop;
+        }
+    }
+
     public void StartTrustSequence() {
         Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
+
+        // Setup Args
+        SetupArgs();
+
+        // Setup Timers
+        SetupTimers();
 
         // Setup AI
         SetupAI();
@@ -27,16 +56,78 @@ public class TrustSequenceManager : MonoBehaviour
 
     
 
+    private void SetupArgs() {
+        //Debug.Log("Setting up Args");
+
+        m_CurrentRound = new TrustSequenceRound(p_SequenceArgs.p_InitialPot);
+
+        m_CurrentRoundIndex = 0;
+        m_MaxRounds = p_SequenceArgs.p_MaxRounds;
+    }
+
+    private void SetupTimers() {
+        //Debug.Log("Setting up Timers");
+
+        m_RoundTimer = new CountdownTimer(p_SequenceArgs.p_RoundTime);
+        m_RoundTimer.OnTimerStart += RoundTimer_OnStart;
+        m_RoundTimer.OnTimerStop += RoundTimer_OnStop;
+
+        m_SlackTimer = new CountdownTimer(p_SequenceArgs.p_SlackTime);
+        m_SlackTimer.OnTimerStart += SlackTimer_OnStart;
+        m_SlackTimer.OnTimerStop += SlackTimer_OnStop;
+    }
+
+    
+
     private void SetupAI() {
-        Debug.Log("Setting up AI");
+        //Debug.Log("Setting up AI");
     }
 
     private void SetupPlayerUpgrades() {
-        Debug.Log("Setting up Player Upgrades");
+        //Debug.Log("Setting up Player Upgrades");
 
     }
 
     private void StartFirstRound() {
-        Debug.Log("Start First Round");
+        //Debug.Log("Start First Round");
+
+        m_SlackTimer.Start();
+    }
+
+
+    private void RoundTimer_OnStop() {
+        Debug.Log("Round Timer Ended");
+
+        m_RoundTimer.Reset();
+        SetupNextRound();
+
+        m_SlackTimer.Start();
+    }
+
+    
+
+    private void RoundTimer_OnStart() {
+        Debug.Log("Round Timer Started");
+
+        m_State = TrustSequenceState.OnGoing;
+    }
+
+
+    private void SlackTimer_OnStop() {
+        Debug.Log("Slack Timer Ended");
+
+        m_SlackTimer.Reset();
+
+        m_RoundTimer.Start();
+    }
+
+    private void SlackTimer_OnStart() {
+        Debug.Log("Slack Timer Started");
+
+        m_State = TrustSequenceState.OnSlack;
+    }
+
+    private void SetupNextRound() {
+        m_CurrentRound.SetupNextRound(p_SequenceArgs.p_RoundPotMultiplier);
     }
 }
