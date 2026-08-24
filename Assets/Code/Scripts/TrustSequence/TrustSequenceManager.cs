@@ -12,6 +12,7 @@ public class TrustSequenceManager : MonoBehaviour
     
     [SerializeField] [ReadOnly] private TrustSequenceRound m_CurrentRound;
     [SerializeField] [ReadOnly] private TrustSequenceState m_State = TrustSequenceState.Init;
+    [SerializeField] [ReadOnly] private TrustSequenceOverState m_OverState = TrustSequenceOverState.None;
     [SerializeField] private int m_CurrentRoundIndex;
     [SerializeField] [ReadOnly] private int m_MaxRounds;
     
@@ -99,6 +100,15 @@ public class TrustSequenceManager : MonoBehaviour
         Debug.Log("Round Timer Ended");
 
         m_RoundTimer.Reset();
+
+        // Check if the sequence is over
+        bool sequenceOver = CheckSequenceOverState(out m_OverState);
+
+        if (sequenceOver) {
+            Debug.Log("Sequence Over");
+            return;
+        }
+
         SetupNextRound();
 
         m_SlackTimer.Start();
@@ -110,6 +120,7 @@ public class TrustSequenceManager : MonoBehaviour
         Debug.Log("Round Timer Started");
 
         m_State = TrustSequenceState.OnGoing;
+        m_CurrentRoundIndex++;
     }
 
 
@@ -130,4 +141,22 @@ public class TrustSequenceManager : MonoBehaviour
     private void SetupNextRound() {
         m_CurrentRound.SetupNextRound(p_SequenceArgs.p_RoundPotMultiplier);
     }
+
+    private bool CheckSequenceOverState(out TrustSequenceOverState endState) {
+
+        if(m_CurrentRoundIndex >= m_MaxRounds) {
+            endState = TrustSequenceOverState.BothWin;
+            return true;
+        }
+
+        endState = TrustSequenceOverState.None;
+        return false;
+    }
+}
+
+public enum TrustSequenceOverState {
+    None,
+    PlayerWin,
+    CPUWin,
+    BothWin,
 }
