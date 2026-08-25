@@ -46,7 +46,7 @@ public class TrustSequenceManager : MonoBehaviour
     }
 
     public void StartTrustSequence() {
-        Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
+        //Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
 
         // Setup Args
         SetupArgs();
@@ -128,7 +128,7 @@ public class TrustSequenceManager : MonoBehaviour
     }
 
     private void PlayerButton_OnDown() {
-        Debug.Log("PlayerButton_OnDown");
+        //Debug.Log("PlayerButton_OnDown");
 
     }
     private void StartFirstRound() {
@@ -144,7 +144,7 @@ public class TrustSequenceManager : MonoBehaviour
     #region Timers
 
     private void RoundTimer_OnStop() {
-        Debug.Log("Round Timer Ended");
+        //Debug.Log("Round Timer Ended");
 
         m_RoundTimer.Reset();
 
@@ -162,7 +162,7 @@ public class TrustSequenceManager : MonoBehaviour
     }
 
     private void RoundTimer_OnStart() {
-        Debug.Log("Round Timer Started");
+        //Debug.Log("Round Timer Started");
 
         m_State = TrustSequenceState.OnGoing;
         m_CurrentRoundIndex++;
@@ -170,7 +170,7 @@ public class TrustSequenceManager : MonoBehaviour
 
 
     private void SlackTimer_OnStop() {
-        Debug.Log("Slack Timer Ended");
+        //Debug.Log("Slack Timer Ended");
 
         m_SlackTimer.Reset();
 
@@ -178,7 +178,7 @@ public class TrustSequenceManager : MonoBehaviour
     }
 
     private void SlackTimer_OnStart() {
-        Debug.Log("Slack Timer Started");
+        //Debug.Log("Slack Timer Started");
 
         m_State = TrustSequenceState.OnSlack;
     }
