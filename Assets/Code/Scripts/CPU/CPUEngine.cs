@@ -2,8 +2,10 @@ using System;
 using UnityEngine;
 
 public class CPUEngine : MonoBehaviour {
+
+    [SerializeField] private TrustSequenceManager r_TrustSequenceManager;
     [SerializeField] private CPUDataDefinition r_Definition;
-    [SerializeField] private CPUData m_CPUData;
+    [SerializeField] private CPURuntimeData m_CPUData;
 
     [SerializeField] private float retryTimer = 0;
 
@@ -11,13 +13,12 @@ public class CPUEngine : MonoBehaviour {
         if (m_CPUData == null) return;
 
         if (m_CPUData.Consumed == false) {
-            m_CPUData = new CPUData(r_Definition);
+            m_CPUData = new CPURuntimeData(r_Definition);
         }
     }
 
     private void Update() {
 
-        m_CPUData.PressChance *= m_CPUData.PressChanceCurve.Evaluate(retryTimer);
 
         retryTimer += Time.deltaTime;
 
@@ -44,21 +45,19 @@ public class CPUEngine : MonoBehaviour {
 
 
 [Serializable]
-public class CPUData : ICPUDataLike {
+public class CPURuntimeData : ICPUDataLike {
 
     private CPUDataDefinition m_Definition;
     public bool Consumed;
 
     [SerializeField] private float m_CurrentPressChance;
     [SerializeField] private float m_CurrentRetryInterval;
-    [SerializeField] private AnimationCurve m_CurrentPressChanceCurve;
 
 
     public float PressChance { get => m_CurrentPressChance; set => m_CurrentPressChance = value; }
     public float RetryInterval { get => m_CurrentRetryInterval; set => m_CurrentRetryInterval = value; }
-    public AnimationCurve PressChanceCurve { get => m_CurrentPressChanceCurve; set => m_CurrentPressChanceCurve = value; }
 
-    public CPUData(CPUDataDefinition def) {
+    public CPURuntimeData(CPUDataDefinition def) {
         m_Definition = def;
         ConsumeInitialDefinition();
     }
@@ -71,7 +70,6 @@ public class CPUData : ICPUDataLike {
 
         m_CurrentPressChance = m_Definition.PressChance;
         m_CurrentRetryInterval = m_Definition.RetryInterval;
-        m_CurrentPressChanceCurve = m_Definition.PressChanceCurve;
     }
 
 
@@ -80,5 +78,4 @@ public class CPUData : ICPUDataLike {
 public interface ICPUDataLike {
     float PressChance { get; set; }
     float RetryInterval { get; set; }
-    AnimationCurve PressChanceCurve { get; set; }
 }
