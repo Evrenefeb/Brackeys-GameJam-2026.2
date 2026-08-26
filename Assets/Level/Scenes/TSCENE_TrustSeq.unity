@@ -494,11 +494,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fbb1e9484fe0dc429843bac42e79237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CPUEngine
-  r_Definition: {fileID: 11400000, guid: 4e6920352904af94bad9280478b74185, type: 2}
-  m_CPUData:
+  r_TrustSequenceManager: {fileID: 2006832535}
+  r_DataDefinition: {fileID: 11400000, guid: c93900242cdfda14ca99f1fc383d1f7e, type: 2}
+  m_CPURuntimeData:
     Consumed: 0
     m_CurrentPressChance: 0
     m_CurrentRetryInterval: 0
+  m_CPUBehaviourDefinition: {fileID: 11400000, guid: ecd0be3d6b93608409e0ff01fc1739b4, type: 2}
   retryTimer: 0
 --- !u!1001 &1800827575
 PrefabInstance:
@@ -862,6 +864,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ae8c8f2618a5a46a00fc6fcc1b5b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrustSequenceObject
+--- !u!114 &2006832535 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4451176024568767451, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
+  m_PrefabInstance: {fileID: 2006832533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742568266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324a9e24c804807479f340376bd8ff14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,43 +1,64 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class CPUEngine : MonoBehaviour {
 
     [SerializeField] private TrustSequenceManager r_TrustSequenceManager;
-    [SerializeField] private CPUDataDefinition r_Definition;
-    [SerializeField] private CPURuntimeData m_CPUData;
+    [SerializeField] private CPUDataDefinition r_DataDefinition;
+    [SerializeField] private CPURuntimeData m_CPURuntimeData;
+
+    [SerializeField] private CPUBehaviourDefinition m_CPUBehaviourDefinition;
+    [SerializeField] private CPURuntimeBehaviour m_RuntimeBehaviour;
 
     [SerializeField] private float retryTimer = 0;
 
     private void OnEnable() {
-        if (m_CPUData == null) return;
-
-        if (m_CPUData.Consumed == false) {
-            m_CPUData = new CPURuntimeData(r_Definition);
+        if (m_CPURuntimeData == null || !m_CPURuntimeData.Consumed)
+        {
+            m_CPURuntimeData = new CPURuntimeData(r_DataDefinition);
         }
+
+        if (m_CPUBehaviourDefinition == null) return;
+
+        m_RuntimeBehaviour = m_CPUBehaviourDefinition.CreateRuntimeBehaviour();
+        // Check for CPURuntimeBehaviour 
+        Debug.Log(m_RuntimeBehaviour);
+        Debug.Log(m_CPURuntimeData);
     }
 
     private void Update() {
 
 
+        m_RuntimeBehaviour.OnEngineUpdate(m_CPURuntimeData);
+
         retryTimer += Time.deltaTime;
 
-        if (retryTimer > m_CPUData.RetryInterval) {
-            RetryPressing(m_CPUData.PressChance);
+        if (retryTimer > m_CPURuntimeData.RetryInterval)
+        {
+            retryTimer = 0;
+
+            bool didPress = RetryPressing(m_CPURuntimeData.PressChance);
+
+            if (didPress)
+            {
+                Debug.Log("CPU butona bastı!");
+                // r_TrustSequenceManager üzerinden ilgili aksiyon burada tetiklenebilir
+            }
         }
     }
 
 
 
-    private void RetryPressing(float pressChance) {
-        // Retry pressing math
+    private bool RetryPressing(float pressChance)
+    {
+        float roll = UnityEngine.Random.value; 
 
-        Debug.Log("Retry pressing");
+        bool success = roll < pressChance;
 
-        retryTimer = 0;
+        Debug.Log($"Retry pressing - roll: {roll:F3}, chance: {pressChance:F3}, success: {success}");
+
+        return success;
     }
-
-
 
 }
 
