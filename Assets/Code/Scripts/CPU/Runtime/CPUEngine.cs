@@ -12,6 +12,10 @@ public class CPUEngine : MonoBehaviour {
 
     [SerializeField] private float retryTimer = 0;
 
+
+    public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
+    public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
+
     private void OnEnable() {
         if (m_CPURuntimeData == null || !m_CPURuntimeData.Consumed)
         {

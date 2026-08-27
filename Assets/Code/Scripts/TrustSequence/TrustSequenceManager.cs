@@ -9,6 +9,7 @@ public class TrustSequenceManager : MonoBehaviour
     
     [SerializeField] private GameManager2 p_GameManager;
     [SerializeField] private TrustSequenceArgs p_SequenceArgs;
+    [SerializeField] private CPUEngine r_CPUEngine;
 
     private LeanButton m_PlayerButton;
 
@@ -64,6 +65,13 @@ public class TrustSequenceManager : MonoBehaviour
         StartFirstRound();
     }
 
+    public void UseItem(int index) {
+
+        if(index < 0 || index >= p_GameManager.ItemDatabase.ItemList.Count) return;
+
+        p_GameManager.ItemDatabase.ItemList[index].OnUse(r_CPUEngine);
+
+    }
     
 
     private void SetupArgs() {

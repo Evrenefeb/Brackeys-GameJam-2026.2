@@ -7,10 +7,15 @@ using UnityEngine;
 public class GameManager2 : MonoBehaviour {
     public List<TrustSequenceObject> r_TrustSequenceList = new();
     public UpgradeSequenceObject r_UpgradeSequenceObject;
+
+    public ItemDatabase ItemDatabase => r_ItemDatabase;
+
+
     [SerializeField] private LeanButton r_PlayerButton;
 
 
     [SerializeField] private GameData p_GameData;
+    [SerializeField] private ItemDatabase r_ItemDatabase;
 
 
     private List<SequenceObject> m_AllSequenceObjects;

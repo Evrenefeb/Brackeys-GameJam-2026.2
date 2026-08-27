@@ -7,7 +7,6 @@
   <Project Path="DialogSystem.Editor.csproj" />
   <Project Path="Zenject-ReflectionBaking-Editor.csproj" />
   <Project Path="LeanCommon.csproj" />
-  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Zenject-UnitTests-Editor.csproj" />
   <Project Path="Tayx.Graphy.Editor.csproj" />
   <Project Path="DialogSystem.EditMode.Tests.csproj" />
@@ -16,6 +15,7 @@
   <Project Path="Zenject-IntegrationTests.csproj" />
   <Project Path="DialogSystem.Runtime.csproj" />
   <Project Path="IngameDebugConsole.Runtime.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Tayx.Graphy.csproj" />
   <Project Path="Unity.CastVisualizer.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />

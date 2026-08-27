@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979544180200675909}
   - component: {fileID: 4451176024568767451}
+  - component: {fileID: 6272667853215092065}
   m_Layer: 0
   m_Name: TrustSequenceManager
   m_TagString: Untagged
@@ -46,10 +47,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   p_GameManager: {fileID: 0}
   p_SequenceArgs: {fileID: 11400000, guid: 63cd94cab5b230d4c88f365bf9e8d088, type: 2}
+  r_CPUEngine: {fileID: 6272667853215092065}
   m_CurrentRound:
     m_RoundIndex: 0
     m_CurrentPot: 0
   m_State: 0
+  m_OverState: 0
+  m_CurrentRoundIndex: 0
+  m_MaxRounds: 0
+--- !u!114 &6272667853215092065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538931336997918280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbb1e9484fe0dc429843bac42e79237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CPUEngine
+  r_TrustSequenceManager: {fileID: 4451176024568767451}
+  r_DataDefinition: {fileID: 11400000, guid: c93900242cdfda14ca99f1fc383d1f7e, type: 2}
+  m_CPURuntimeData:
+    Consumed: 0
+    m_CurrentPressChance: 0
+    m_CurrentRetryInterval: 0
+  m_CPUBehaviourDefinition: {fileID: 11400000, guid: ecd0be3d6b93608409e0ff01fc1739b4, type: 2}
+  retryTimer: 0
 --- !u!1 &3762666514600639683
 GameObject:
   m_ObjectHideFlags: 0

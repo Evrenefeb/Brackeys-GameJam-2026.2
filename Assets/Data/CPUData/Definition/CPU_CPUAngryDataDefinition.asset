@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64db0d21cafba7a42ac0a15b4475aa32, type: 3}
+  m_Name: CPU_CPUAngryDataDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
+  m_CPUID: 1
+  m_DisplayName: "K\u0131zg\u0131n"
+  m_InitialPressChance: 0.2
+  m_InitialRetryInterval: 4

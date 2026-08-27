@@ -298,11 +298,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -640
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -480
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -334,11 +334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -203.24121
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -51.096222
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -477,31 +477,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1742568266 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3538931336997918280, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
-  m_PrefabInstance: {fileID: 2006832533}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1742568269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742568266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fbb1e9484fe0dc429843bac42e79237, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CPUEngine
-  r_TrustSequenceManager: {fileID: 2006832535}
-  r_DataDefinition: {fileID: 11400000, guid: c93900242cdfda14ca99f1fc383d1f7e, type: 2}
-  m_CPURuntimeData:
-    Consumed: 0
-    m_CurrentPressChance: 0
-    m_CurrentRetryInterval: 0
-  m_CPUBehaviourDefinition: {fileID: 11400000, guid: ecd0be3d6b93608409e0ff01fc1739b4, type: 2}
-  retryTimer: 0
 --- !u!1001 &1800827575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,6 +638,7 @@ MonoBehaviour:
   r_UpgradeSequenceObject: {fileID: 1321109694}
   r_PlayerButton: {fileID: 1800827577}
   p_GameData: {fileID: 11400000, guid: bf56fb6ba07843247830f9e410f27db4, type: 2}
+  r_ItemDatabase: {fileID: 11400000, guid: 7c53665974a21ef45bd7b8de127703e0, type: 2}
   m_CurrentQuota: 0
   m_RequiredQuota: 0
   p_CampaignFlow:
@@ -848,10 +824,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3538931336997918280, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1742568269}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
 --- !u!114 &2006832534 stripped
 MonoBehaviour:
@@ -864,17 +837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3ae8c8f2618a5a46a00fc6fcc1b5b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrustSequenceObject
---- !u!114 &2006832535 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4451176024568767451, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
-  m_PrefabInstance: {fileID: 2006832533}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742568266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 324a9e24c804807479f340376bd8ff14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
