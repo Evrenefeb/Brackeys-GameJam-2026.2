@@ -6,7 +6,11 @@ using UnityEngine;
 
 public class TrustSequenceManager : MonoBehaviour
 {
+
+    #region Var / Par
+
     
+
     [SerializeField] private GameManager2 p_GameManager;
     [SerializeField] private TrustSequenceArgs p_SequenceArgs;
     [SerializeField] private CPUEngine r_CPUEngine;
@@ -19,13 +23,17 @@ public class TrustSequenceManager : MonoBehaviour
     [SerializeField] [ReadOnly] private TrustSequenceOverState m_OverState = TrustSequenceOverState.None;
     [SerializeField] private int m_CurrentRoundIndex;
     [SerializeField] [ReadOnly] private int m_MaxRounds;
+    [SerializeField] [ReadOnly] private bool m_IsSequenceStarted = false;
     
     private CountdownTimer m_RoundTimer;
     private CountdownTimer m_SlackTimer;
 
     public CountdownTimer RoundTimer => m_RoundTimer;
     public CountdownTimer SlackTimer => m_SlackTimer;
+    public TrustSequenceRound CurrentRound => m_CurrentRound;
+    public bool IsSequenceStarted => m_IsSequenceStarted;
 
+    #endregion
 
     private void OnEnable() {
         StartTrustSequence();
@@ -200,6 +208,10 @@ public class TrustSequenceManager : MonoBehaviour
 
     private void SlackTimer_OnStop() {
         //Debug.Log("Slack Timer Ended");
+
+        if (!m_IsSequenceStarted){
+            m_IsSequenceStarted = true;
+        }
 
         m_SlackTimer.Reset();
 

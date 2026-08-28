@@ -16,8 +16,7 @@ public class CPUEngine : MonoBehaviour {
     public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
     public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
 
-    [SerializeField] private bool m_IsSequenceStarted = false;
-    public bool IsSequenceStarted => m_IsSequenceStarted;
+
 
     [Space(20)]
     [Header("Debug")]
@@ -42,13 +41,8 @@ public class CPUEngine : MonoBehaviour {
     }
 
     private void Update() {
-        if(m_StartDelayTimer < StartDelay) {
 
-            m_StartDelayTimer += Time.deltaTime;
-            return;
-        }
-
-        if(!m_IsSequenceStarted) m_IsSequenceStarted=true;
+        if(!r_TrustSequenceManager.IsSequenceStarted) return;
 
         m_RuntimeBehaviour.OnEngineUpdate(m_CPURuntimeData);
 

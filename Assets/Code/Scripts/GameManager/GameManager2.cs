@@ -144,7 +144,7 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void SequenceFinished() {
-        r_EnvironmentManager.HandleTransition();
+        r_EnvironmentManager.HandleTransition(FlowInvokeDelay);
         Invoke(nameof(Flow), FlowInvokeDelay);
     }
 }
