@@ -21,6 +21,7 @@ public class GameManager2 : MonoBehaviour {
     private List<SequenceObject> m_AllSequenceObjects;
 
     public float m_CurrentQuota;
+    public float m_CurrentUsableQuota;
     [SerializeField] [ReadOnly] private float m_RequiredQuota;
 
 
@@ -99,6 +100,23 @@ public class GameManager2 : MonoBehaviour {
                 break;
             case QuotaChangeMode.MULTIPLY:
                 m_CurrentQuota *= amount;
+                break;
+        }
+    }
+
+    public void ChangeCurrentUsableQuota(float amount, QuotaChangeMode changeMode) {
+        switch (changeMode) {
+            case QuotaChangeMode.ADD:
+                m_CurrentUsableQuota += amount;
+                break;
+            case QuotaChangeMode.SUBTRACT:
+                m_CurrentUsableQuota -= amount;
+                break;
+            case QuotaChangeMode.OVERRRIDE:
+                m_CurrentUsableQuota = amount;
+                break;
+            case QuotaChangeMode.MULTIPLY:
+                m_CurrentUsableQuota *= amount;
                 break;
         }
     }

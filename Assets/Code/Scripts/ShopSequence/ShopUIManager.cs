@@ -16,10 +16,13 @@ public class ShopUIManager : MonoBehaviour{
 
 
     public void OnVendorBuyItem(Button pressedButton) {
-        pressedButton.gameObject.SetActive(false);
+        
         ShopItemElement itemElement = pressedButton.GetComponent<ShopItemElement>();
-        r_ShopManager.BuyItem(itemElement.ItemID);
-        Debug.Log("Pressed " + pressedButton.name);
+        bool canBuy = r_ShopManager.BuyItem(itemElement.ItemID); 
+
+        //Debug.Log("Pressed " + pressedButton.name);
+
+        pressedButton.gameObject.SetActive(!canBuy);
     }    
 
 }

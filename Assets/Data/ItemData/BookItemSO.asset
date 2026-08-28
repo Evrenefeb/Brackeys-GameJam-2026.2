@@ -16,3 +16,4 @@ MonoBehaviour:
   DisplayName: Book
   Icon: {fileID: 0}
   Description: A Book
+  ItemPrice: 1000

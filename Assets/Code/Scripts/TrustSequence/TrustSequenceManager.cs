@@ -139,8 +139,11 @@ public class TrustSequenceManager : MonoBehaviour
 
         // Reevalute Current Quota
 
-        if(isPlayerWin)
+        if (isPlayerWin) { 
             p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
+            p_GameManager.ChangeCurrentUsableQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
+        }
+
 
         // Finish Trust Sequence
         FinishSequence();

@@ -9,7 +9,19 @@ public class ShopManager : MonoBehaviour
 
 
 
-    public void BuyItem(int p_ItemID) {
-        r_CommonPlayerInventoryData.OwnedItemIDList.Add(p_ItemID);
+    public bool BuyItem(int itemID) {
+
+        float currentMoney = r_GameManager.m_CurrentUsableQuota;
+        float itemPrice = r_GameManager.ItemDatabase.ItemList[itemID].ItemPrice;
+        
+        if(currentMoney >= itemPrice) {
+            r_GameManager.m_CurrentUsableQuota -= itemPrice;
+            r_CommonPlayerInventoryData.OwnedItemIDList.Add(itemID);
+            return true;
+        }
+
+        Debug.Log("Could not buy item: money is not enough.");
+
+        return false;
     }
 }

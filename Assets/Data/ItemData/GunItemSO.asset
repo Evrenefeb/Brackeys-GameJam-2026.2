@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e63755cfd8f2542887e6532d2c142b, type: 3}
   m_Name: GunItemSO
   m_EditorClassIdentifier: Assembly-CSharp::GunItemSO
+  ItemID: 0
   DisplayName: 'Gun '
   Icon: {fileID: 0}
   Description: A Gun
+  ItemPrice: 2000
