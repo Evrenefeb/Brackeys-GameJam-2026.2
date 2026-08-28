@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
 
     [SerializeField] private GameManagerSettings r_GameManagerSettings;
     [SerializeField] private TrustSequenceSettings r_TrustSequenceSettings;
-    [SerializeField] private UpgradeData r_UpgradeData;
+    //[SerializeField] private UpgradeData r_UpgradeData;
 
 
 
@@ -42,10 +42,7 @@ public class GameManager : MonoBehaviour {
         SelfInitialization();
     }
 
-    private void Start() {
-        Debug.Log("g" + r_UpgradeData.GoodLooking);
-        Debug.Log("C" + r_UpgradeData.Charisma);
-    }
+    
 
     #endregion
 

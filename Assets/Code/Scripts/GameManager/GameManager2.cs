@@ -6,9 +6,8 @@ using UnityEngine;
 
 public class GameManager2 : MonoBehaviour {
     public List<TrustSequenceObject> r_TrustSequenceList = new();
-    public UpgradeSequenceObject r_UpgradeSequenceObject;
+    public ShopSequenceObject r_UpgradeSequenceObject;
 
-    public ItemDatabase ItemDatabase => r_ItemDatabase;
 
 
     [SerializeField] private LeanButton r_PlayerButton;
@@ -16,6 +15,7 @@ public class GameManager2 : MonoBehaviour {
 
     [SerializeField] private GameData p_GameData;
     [SerializeField] private ItemDatabase r_ItemDatabase;
+    [SerializeField] private PlayerInventoryData r_CommonPlayerInventoryData;
 
 
     private List<SequenceObject> m_AllSequenceObjects;
@@ -25,12 +25,18 @@ public class GameManager2 : MonoBehaviour {
 
 
     public LeanButton PlayerButton => r_PlayerButton;
+    public ItemDatabase ItemDatabase => r_ItemDatabase;
+    public PlayerInventoryData PlayerInventoryData => r_CommonPlayerInventoryData;
+
 
     [Space(20)]
     [SerializeField] private CampaignFlow p_CampaignFlow;
     [SerializeField] [ReadOnly] private int m_CampaignFlowIndex;
 
     private void OnEnable() {
+
+        // Reset Owned Items
+        r_CommonPlayerInventoryData.Reset();
 
         // Setup Sequence Object List
         SetupSequenceObjects();

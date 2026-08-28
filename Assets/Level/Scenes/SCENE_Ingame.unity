@@ -1963,6 +1963,7 @@ MonoBehaviour:
   r_PlayerButton: {fileID: 1880351912}
   p_GameData: {fileID: 11400000, guid: bf56fb6ba07843247830f9e410f27db4, type: 2}
   r_ItemDatabase: {fileID: 11400000, guid: 7c53665974a21ef45bd7b8de127703e0, type: 2}
+  r_CommonPlayerInventoryData: {fileID: 11400000, guid: 09fd3255fe2cbf54198011ad7e520e20, type: 2}
   m_CurrentQuota: 0
   m_RequiredQuota: 0
   p_CampaignFlow:
@@ -2265,7 +2266,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   r_GameManagerSettings: {fileID: 11400000, guid: d89386ac05689a747aaca87b694a9971, type: 2}
   r_TrustSequenceSettings: {fileID: 11400000, guid: 5ae8c0c6bc270014aa239a6110614aae, type: 2}
-  r_UpgradeData: {fileID: 11400000, guid: a28aff32ffb501f4ca2bafaf0a4c9b9d, type: 2}
   r_PlayerButton: {fileID: 7999467649943512288}
   m_SequenceRunning: 0
 --- !u!1 &1411839947
@@ -2870,7 +2870,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1979195226505560424, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_Name
-      value: UpgradeSequence
+      value: ShopSequence
       objectReference: {fileID: 0}
     - target: {fileID: 1979195226505560424, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_IsActive
@@ -2956,54 +2956,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4106535829384333521, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+    - target: {fileID: 6131932255044538523, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: r_GameManager
       value: 
-      objectReference: {fileID: 3207428793218683658}
-    - target: {fileID: 4106535829384333521, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpgradeCharisma
-      objectReference: {fileID: 0}
-    - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1109139046}
     - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1109139046}
-    - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SequenceFinished
-      objectReference: {fileID: 0}
-    - target: {fileID: 6280088114652665733, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager2, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8720528135965362026, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 3207428793218683658}
-    - target: {fileID: 8720528135965362026, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpgradeGoodLooking
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
---- !u!114 &3207428793218683658 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6131932255044538523, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
-  m_PrefabInstance: {fileID: 3207428793218683657}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c41d9c8b1e52b740b4d5fa6e9eee9d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UpgradeManager
 --- !u!1001 &4473138062122511505
 PrefabInstance:
   m_ObjectHideFlags: 0

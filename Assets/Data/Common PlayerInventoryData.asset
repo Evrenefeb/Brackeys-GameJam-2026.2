@@ -10,7 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d23a68f68d57354ca210a55c5be7c22, type: 3}
-  m_Name: UpgradeData
-  m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
-  Charisma: 0
-  GoodLooking: 0
+  m_Name: Common PlayerInventoryData
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventoryData
+  OwnedItemIDList: 

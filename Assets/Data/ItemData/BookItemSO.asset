@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb4b3084c2e1ae438bf8c7c1425e6ef, type: 3}
   m_Name: BookItemSO
   m_EditorClassIdentifier: Assembly-CSharp::BookItemSO
+  ItemID: 1
   DisplayName: Book
   Icon: {fileID: 0}
   Description: A Book
