@@ -17,3 +17,7 @@ MonoBehaviour:
   Icon: {fileID: 0}
   Description: A Gun
   ItemPrice: 2000
+  SFX_GunDroppedTable:
+    _entity: {fileID: 11400000, guid: 3fd4e67aeafcab84189753d37d0884b1, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}

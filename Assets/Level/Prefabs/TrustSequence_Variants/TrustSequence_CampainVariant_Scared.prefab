@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3762666514600639683, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_Name
-      value: TrustSequence_Campain (2)
+      value: TrustSequence_CampainVariant_Scared
       objectReference: {fileID: 0}
     - target: {fileID: 3762666514600639683, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_IsActive
@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6272667853215092065, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
+      propertyPath: m_CPUBehaviourDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: fc5105eb2697c334faf5fe8f609434e8, type: 2}
     - target: {fileID: 8944633740938135488, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_Controller
       value: 

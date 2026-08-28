@@ -5,6 +5,7 @@ public class CPUEngine : MonoBehaviour {
 
     [SerializeField] private TrustSequenceManager r_TrustSequenceManager;
     [SerializeField] private CPUDataDefinition r_DataDefinition;
+    [SerializeField] private CPUAnimationHandler r_AnimationHandler;
     [SerializeField] private CPURuntimeData m_CPURuntimeData;
 
     [SerializeField] private CPUBehaviourDefinition m_CPUBehaviourDefinition;
@@ -15,6 +16,7 @@ public class CPUEngine : MonoBehaviour {
 
     public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
     public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
+    public CPUAnimationHandler CPUAnimationHandler => r_AnimationHandler;
 
 
 
@@ -44,7 +46,7 @@ public class CPUEngine : MonoBehaviour {
 
         if(!r_TrustSequenceManager.IsSequenceStarted) return;
 
-        m_RuntimeBehaviour.OnEngineUpdate(m_CPURuntimeData);
+        m_RuntimeBehaviour.OnEngineUpdate(this, m_CPURuntimeData);
 
         retryTimer += Time.deltaTime;
 

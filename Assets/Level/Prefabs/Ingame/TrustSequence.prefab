@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 4451176024568767451}
   - component: {fileID: 6272667853215092065}
   - component: {fileID: 7565018819543052403}
+  - component: {fileID: 5482763806655282229}
   m_Layer: 0
   m_Name: TrustSequenceManager
   m_TagString: Untagged
@@ -345,6 +346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CPUEngine
   r_TrustSequenceManager: {fileID: 4451176024568767451}
   r_DataDefinition: {fileID: 11400000, guid: c93900242cdfda14ca99f1fc383d1f7e, type: 2}
+  r_AnimationHandler: {fileID: 5482763806655282229}
   m_CPURuntimeData:
     Consumed: 0
     m_CurrentPressChance: 0
@@ -368,6 +370,19 @@ MonoBehaviour:
   r_TrustSequenceManager: {fileID: 4451176024568767451}
   txt_GameTimer: {fileID: 7142295201084303636}
   txt_CurrentPot: {fileID: 4943719656092506033}
+--- !u!114 &5482763806655282229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538931336997918280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da5dd21fed37494b824f05dabc0da3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CPUAnimationHandler
+  r_CPUAnimator: {fileID: 8944633740938135488}
 --- !u!1 &3659721604374851376
 GameObject:
   m_ObjectHideFlags: 0

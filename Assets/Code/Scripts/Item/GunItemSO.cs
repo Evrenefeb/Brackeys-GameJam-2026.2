@@ -1,8 +1,15 @@
+using Ami.BroAudio;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "GunItemSO", menuName = "Items/GunItemSO")]
 public class GunItemSO : ItemSO {
+
+    public SoundID SFX_GunDroppedTable;
+
     public override void OnUse(CPUEngine engine) {
+
+        BroAudio.Play(SFX_GunDroppedTable);
+
         switch (engine.CPUDataDefinition.CPUID) {
 
             case 0:
