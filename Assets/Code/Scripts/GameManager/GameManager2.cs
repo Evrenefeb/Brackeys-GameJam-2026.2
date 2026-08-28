@@ -16,6 +16,8 @@ public class GameManager2 : MonoBehaviour {
     [SerializeField] private GameData p_GameData;
     [SerializeField] private ItemDatabase r_ItemDatabase;
     [SerializeField] private PlayerInventoryData r_CommonPlayerInventoryData;
+    [SerializeField] private EnvironmentManager r_EnvironmentManager;
+    public float FlowInvokeDelay = 0.75f;
 
 
     private List<SequenceObject> m_AllSequenceObjects;
@@ -131,8 +133,8 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void SequenceFinished() {
-        Flow();
-
+        r_EnvironmentManager.HandleTransition();
+        Invoke(nameof(Flow), FlowInvokeDelay);
     }
 }
 

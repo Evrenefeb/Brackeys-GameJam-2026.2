@@ -23,6 +23,9 @@ public class TrustSequenceManager : MonoBehaviour
     private CountdownTimer m_RoundTimer;
     private CountdownTimer m_SlackTimer;
 
+    public CountdownTimer RoundTimer => m_RoundTimer;
+    public CountdownTimer SlackTimer => m_SlackTimer;
+
 
     private void OnEnable() {
         StartTrustSequence();

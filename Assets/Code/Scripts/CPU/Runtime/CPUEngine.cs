@@ -21,6 +21,10 @@ public class CPUEngine : MonoBehaviour {
     [Header("Debug")]
     public bool DumpRollData;
 
+    public float StartDelay = 5f;
+    private float m_StartDelayTimer = 0f;
+
+
     private void OnEnable() {
         if (m_CPURuntimeData == null || !m_CPURuntimeData.Consumed)
         {
@@ -31,11 +35,16 @@ public class CPUEngine : MonoBehaviour {
 
         m_RuntimeBehaviour = m_CPUBehaviourDefinition.CreateRuntimeBehaviour();
         // Check for CPURuntimeBehaviour 
-        //Debug.Log(m_RuntimeBehaviour);
-        //Debug.Log(m_CPURuntimeData);
+        Debug.Log(m_RuntimeBehaviour);
+        Debug.Log(m_CPURuntimeData);
     }
 
     private void Update() {
+        if(m_StartDelayTimer < StartDelay) {
+
+            m_StartDelayTimer += Time.deltaTime;
+            return;
+        }
 
 
         m_RuntimeBehaviour.OnEngineUpdate(m_CPURuntimeData);

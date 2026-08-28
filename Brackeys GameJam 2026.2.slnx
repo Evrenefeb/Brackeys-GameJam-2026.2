@@ -19,6 +19,7 @@
   <Project Path="Tayx.Graphy.csproj" />
   <Project Path="Unity.CastVisualizer.Editor.csproj" />
   <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="PrimeTween.Demo.csproj" />
   <Project Path="CW.Common.csproj" />
   <Project Path="LeanGUI.csproj" />
   <Project Path="Zenject-TestFramework.csproj" />
@@ -29,6 +30,8 @@
   <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
   <Project Path="Unity.CastVisualizer.Samples.SampleScenes.csproj" />
   <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
+  <Project Path="PrimeTween.Debug.csproj" />
   <Project Path="IngameDebugConsole.Editor.csproj" />
   <Project Path="LeanTransition.Editor.csproj" />
+  <Project Path="PrimeTween.Installer.csproj" />
 </Solution>

@@ -16,6 +16,12 @@
       "dependencies": {},
       "hash": "0c93083e7968e5d2a7746b38d6d5a477d2b5b3ac"
     },
+    "com.kyrylokuzyk.primetween": {
+      "version": "file:../Packages/com.kyrylokuzyk.primetween.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "15.1.0",
       "depth": 0,
