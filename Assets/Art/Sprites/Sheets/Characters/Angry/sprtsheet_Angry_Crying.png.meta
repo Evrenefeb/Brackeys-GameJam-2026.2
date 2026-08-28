@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9af79ae4071d4b4489fc225bcc293801
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3354050507643361538
+    second: "a\u011Flayan k\u0131zg\u0131n_0"
+  - first:
+      213: -138887626801693192
+    second: "a\u011Flayan k\u0131zg\u0131n_1"
+  - first:
+      213: -9071694122824043245
+    second: "a\u011Flayan k\u0131zg\u0131n_2"
+  - first:
+      213: 7105488734200841170
+    second: "a\u011Flayan k\u0131zg\u0131n_3"
+  - first:
+      213: -1754487248842326794
+    second: "a\u011Flayan k\u0131zg\u0131n_4"
+  - first:
+      213: 5660254235163158761
+    second: "a\u011Flayan k\u0131zg\u0131n_5"
+  - first:
+      213: 6133436700604931046
+    second: "a\u011Flayan k\u0131zg\u0131n_6"
+  - first:
+      213: 3174353074928106878
+    second: "a\u011Flayan k\u0131zg\u0131n_7"
+  - first:
+      213: 5225885987331984187
+    second: "a\u011Flayan k\u0131zg\u0131n_8"
+  - first:
+      213: -3903564659002673313
+    second: "a\u011Flayan k\u0131zg\u0131n_9"
+  - first:
+      213: 8710329635848302407
+    second: "a\u011Flayan k\u0131zg\u0131n_10"
+  - first:
+      213: -2470272196555478662
+    second: "a\u011Flayan k\u0131zg\u0131n_11"
+  - first:
+      213: 6025202550828113509
+    second: "a\u011Flayan k\u0131zg\u0131n_12"
+  - first:
+      213: 2996472364977479014
+    second: "a\u011Flayan k\u0131zg\u0131n_13"
+  - first:
+      213: -1017715280700811684
+    second: "a\u011Flayan k\u0131zg\u0131n_14"
+  - first:
+      213: 5397380755307940293
+    second: "a\u011Flayan k\u0131zg\u0131n_15"
+  - first:
+      213: 4924329883369970299
+    second: "a\u011Flayan k\u0131zg\u0131n_16"
+  - first:
+      213: -3863536406565847661
+    second: "a\u011Flayan k\u0131zg\u0131n_17"
+  - first:
+      213: 4769805890003323083
+    second: "a\u011Flayan k\u0131zg\u0131n_18"
+  - first:
+      213: 8118055860289102891
+    second: "a\u011Flayan k\u0131zg\u0131n_19"
+  - first:
+      213: 4312872639243448480
+    second: "a\u011Flayan k\u0131zg\u0131n_20"
+  - first:
+      213: 6396944152350411741
+    second: "a\u011Flayan k\u0131zg\u0131n_21"
+  - first:
+      213: -3230800090076651482
+    second: "a\u011Flayan k\u0131zg\u0131n_22"
+  - first:
+      213: -4434256507230427133
+    second: "a\u011Flayan k\u0131zg\u0131n_23"
+  - first:
+      213: 4961418963834434584
+    second: "a\u011Flayan k\u0131zg\u0131n_24"
+  - first:
+      213: -6477371846281705460
+    second: "a\u011Flayan k\u0131zg\u0131n_25"
+  - first:
+      213: -7981099980487531252
+    second: "a\u011Flayan k\u0131zg\u0131n_26"
+  - first:
+      213: 3095174180425444706
+    second: "a\u011Flayan k\u0131zg\u0131n_27"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_0"
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 713
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6e23575d40471d0800000000000000
+      internalID: -3354050507643361538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_1"
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 20
+        width: 713
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdb9c47072921ef0800000000000000
+      internalID: -138887626801693192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_2"
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 25
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315f21a524eda1280800000000000000
+      internalID: -9071694122824043245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_3"
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 25
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3c4957b54cb9260800000000000000
+      internalID: 7105488734200841170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_4"
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 25
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcfcc1942fc6a7e0800000000000000
+      internalID: -1754487248842326794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_5"
+      rect:
+        serializedVersion: 2
+        x: 3808
+        y: 34
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8ec41dc334d8e40800000000000000
+      internalID: 5660254235163158761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_6"
+      rect:
+        serializedVersion: 2
+        x: 4566
+        y: 34
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb96efce285e1550800000000000000
+      internalID: 6133436700604931046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_7"
+      rect:
+        serializedVersion: 2
+        x: 5324
+        y: 34
+        width: 713
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d32ce9d419d0c20800000000000000
+      internalID: 3174353074928106878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_8"
+      rect:
+        serializedVersion: 2
+        x: 6082
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b4d971e93168840800000000000000
+      internalID: 5225885987331984187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_9"
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f577066ef90c3d9c0800000000000000
+      internalID: -3903564659002673313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_10"
+      rect:
+        serializedVersion: 2
+        x: 7598
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fab4d87ae41e870800000000000000
+      internalID: 8710329635848302407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_11"
+      rect:
+        serializedVersion: 2
+        x: 8356
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7969c97684d7bdd0800000000000000
+      internalID: -2470272196555478662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_12"
+      rect:
+        serializedVersion: 2
+        x: 9114
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e13ed0cc1dd9350800000000000000
+      internalID: 6025202550828113509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_13"
+      rect:
+        serializedVersion: 2
+        x: 9872
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dd1cd6dbb959920800000000000000
+      internalID: 2996472364977479014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_14"
+      rect:
+        serializedVersion: 2
+        x: 10630
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c565753285950e1f0800000000000000
+      internalID: -1017715280700811684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_15"
+      rect:
+        serializedVersion: 2
+        x: 11388
+        y: 40
+        width: 713
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9c8ad433957ea40800000000000000
+      internalID: 5397380755307940293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_16"
+      rect:
+        serializedVersion: 2
+        x: 12147
+        y: 25
+        width: 713
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a9b1f40fbb65440800000000000000
+      internalID: 4924329883369970299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_17"
+      rect:
+        serializedVersion: 2
+        x: 12905
+        y: 25
+        width: 713
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d7addab16f16ac0800000000000000
+      internalID: -3863536406565847661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_18"
+      rect:
+        serializedVersion: 2
+        x: 13663
+        y: 25
+        width: 713
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8c6397f21c13240800000000000000
+      internalID: 4769805890003323083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_19"
+      rect:
+        serializedVersion: 2
+        x: 14420
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b246f4b2bc029a070800000000000000
+      internalID: 8118055860289102891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_20"
+      rect:
+        serializedVersion: 2
+        x: 15178
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a07b9790d66adb30800000000000000
+      internalID: 4312872639243448480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_21"
+      rect:
+        serializedVersion: 2
+        x: 15936
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbcbd860d286c850800000000000000
+      internalID: 6396944152350411741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_22"
+      rect:
+        serializedVersion: 2
+        x: 16694
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6206ea28f64e923d0800000000000000
+      internalID: -3230800090076651482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_23"
+      rect:
+        serializedVersion: 2
+        x: 17452
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308e09b433b5672c0800000000000000
+      internalID: -4434256507230427133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_24"
+      rect:
+        serializedVersion: 2
+        x: 18210
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814fc39c2408ad440800000000000000
+      internalID: 4961418963834434584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_25"
+      rect:
+        serializedVersion: 2
+        x: 18968
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c084348df90cb16a0800000000000000
+      internalID: -6477371846281705460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_26"
+      rect:
+        serializedVersion: 2
+        x: 19726
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e92a7adf6d3190800000000000000
+      internalID: -7981099980487531252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Flayan k\u0131zg\u0131n_27"
+      rect:
+        serializedVersion: 2
+        x: 20484
+        y: 20
+        width: 713
+        height: 873
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d2836a48444fa20800000000000000
+      internalID: 3095174180425444706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "a\u011Flayan k\u0131zg\u0131n_0": -3354050507643361538
+      "a\u011Flayan k\u0131zg\u0131n_1": -138887626801693192
+      "a\u011Flayan k\u0131zg\u0131n_10": 8710329635848302407
+      "a\u011Flayan k\u0131zg\u0131n_11": -2470272196555478662
+      "a\u011Flayan k\u0131zg\u0131n_12": 6025202550828113509
+      "a\u011Flayan k\u0131zg\u0131n_13": 2996472364977479014
+      "a\u011Flayan k\u0131zg\u0131n_14": -1017715280700811684
+      "a\u011Flayan k\u0131zg\u0131n_15": 5397380755307940293
+      "a\u011Flayan k\u0131zg\u0131n_16": 4924329883369970299
+      "a\u011Flayan k\u0131zg\u0131n_17": -3863536406565847661
+      "a\u011Flayan k\u0131zg\u0131n_18": 4769805890003323083
+      "a\u011Flayan k\u0131zg\u0131n_19": 8118055860289102891
+      "a\u011Flayan k\u0131zg\u0131n_2": -9071694122824043245
+      "a\u011Flayan k\u0131zg\u0131n_20": 4312872639243448480
+      "a\u011Flayan k\u0131zg\u0131n_21": 6396944152350411741
+      "a\u011Flayan k\u0131zg\u0131n_22": -3230800090076651482
+      "a\u011Flayan k\u0131zg\u0131n_23": -4434256507230427133
+      "a\u011Flayan k\u0131zg\u0131n_24": 4961418963834434584
+      "a\u011Flayan k\u0131zg\u0131n_25": -6477371846281705460
+      "a\u011Flayan k\u0131zg\u0131n_26": -7981099980487531252
+      "a\u011Flayan k\u0131zg\u0131n_27": 3095174180425444706
+      "a\u011Flayan k\u0131zg\u0131n_3": 7105488734200841170
+      "a\u011Flayan k\u0131zg\u0131n_4": -1754487248842326794
+      "a\u011Flayan k\u0131zg\u0131n_5": 5660254235163158761
+      "a\u011Flayan k\u0131zg\u0131n_6": 6133436700604931046
+      "a\u011Flayan k\u0131zg\u0131n_7": 3174353074928106878
+      "a\u011Flayan k\u0131zg\u0131n_8": 5225885987331984187
+      "a\u011Flayan k\u0131zg\u0131n_9": -3903564659002673313
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 8a85f3377639cea4fad8db88f0f25f04
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5867495076152411780
+    second: "korkak \xE7ok korkmu\u015F_0"
+  - first:
+      213: -4410318021810217292
+    second: "korkak \xE7ok korkmu\u015F_1"
+  - first:
+      213: -6196717277175447910
+    second: "korkak \xE7ok korkmu\u015F_2"
+  - first:
+      213: -234848556790700648
+    second: "korkak \xE7ok korkmu\u015F_3"
+  - first:
+      213: -7560836943442415643
+    second: "korkak \xE7ok korkmu\u015F_4"
+  - first:
+      213: 1998622373917832795
+    second: "korkak \xE7ok korkmu\u015F_5"
+  - first:
+      213: 5642338120262674704
+    second: "korkak \xE7ok korkmu\u015F_6"
+  - first:
+      213: 6904282583244698217
+    second: "korkak \xE7ok korkmu\u015F_7"
+  - first:
+      213: -7289980746364807208
+    second: "korkak \xE7ok korkmu\u015F_8"
+  - first:
+      213: -9206274091130990159
+    second: "korkak \xE7ok korkmu\u015F_9"
+  - first:
+      213: -4910369884287784279
+    second: "korkak \xE7ok korkmu\u015F_10"
+  - first:
+      213: 3632965238838382203
+    second: "korkak \xE7ok korkmu\u015F_11"
+  - first:
+      213: -9162491705332072378
+    second: "korkak \xE7ok korkmu\u015F_12"
+  - first:
+      213: 8551396650195678150
+    second: "korkak \xE7ok korkmu\u015F_13"
+  - first:
+      213: -5792153929763627500
+    second: "korkak \xE7ok korkmu\u015F_14"
+  - first:
+      213: -3491699606897426777
+    second: "korkak \xE7ok korkmu\u015F_15"
+  - first:
+      213: 7679075439765628123
+    second: "korkak \xE7ok korkmu\u015F_16"
+  - first:
+      213: 1621759686626690121
+    second: "korkak \xE7ok korkmu\u015F_17"
+  - first:
+      213: 4773899167326816264
+    second: "korkak \xE7ok korkmu\u015F_18"
+  - first:
+      213: 7014953399038563227
+    second: "korkak \xE7ok korkmu\u015F_19"
+  - first:
+      213: -7643147864945867874
+    second: "korkak \xE7ok korkmu\u015F_20"
+  - first:
+      213: -8076222045696716725
+    second: "korkak \xE7ok korkmu\u015F_21"
+  - first:
+      213: 411274888179927316
+    second: "korkak \xE7ok korkmu\u015F_22"
+  - first:
+      213: -3044538389834191528
+    second: "korkak \xE7ok korkmu\u015F_23"
+  - first:
+      213: -6825723627286895899
+    second: "korkak \xE7ok korkmu\u015F_24"
+  - first:
+      213: -2333518310106738455
+    second: "korkak \xE7ok korkmu\u015F_25"
+  - first:
+      213: -3666310034951365075
+    second: "korkak \xE7ok korkmu\u015F_26"
+  - first:
+      213: -6442454859867155702
+    second: "korkak \xE7ok korkmu\u015F_27"
+  - first:
+      213: 2622990205642878043
+    second: "korkak \xE7ok korkmu\u015F_28"
+  - first:
+      213: 2565634134955357402
+    second: "korkak \xE7ok korkmu\u015F_29"
+  - first:
+      213: 8569049779658445890
+    second: "korkak \xE7ok korkmu\u015F_30"
+  - first:
+      213: -9133277871080237175
+    second: "korkak \xE7ok korkmu\u015F_31"
+  - first:
+      213: -2179348826622465145
+    second: "korkak \xE7ok korkmu\u015F_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_0"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 565
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79f498c058729ea0800000000000000
+      internalID: -5867495076152411780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_1"
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 7
+        width: 565
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be9f7340276bc2c0800000000000000
+      internalID: -4410318021810217292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_2"
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 7
+        width: 565
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e7e60d776d00aa0800000000000000
+      internalID: -6196717277175447910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_3"
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 7
+        width: 565
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8952a7c5b76adbcf0800000000000000
+      internalID: -234848556790700648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_4"
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 8
+        width: 565
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efe675ebd2821790800000000000000
+      internalID: -7560836943442415643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_5"
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 9
+        width: 565
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56358db5788cbb10800000000000000
+      internalID: 1998622373917832795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_6"
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 8
+        width: 565
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019e6e040ac9d4e40800000000000000
+      internalID: 5642338120262674704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_7"
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 9
+        width: 565
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9627733dd60f0df50800000000000000
+      internalID: 6904282583244698217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_8"
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 9
+        width: 565
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d71d799229c4da90800000000000000
+      internalID: -7289980746364807208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_9"
+      rect:
+        serializedVersion: 2
+        x: 5698
+        y: 9
+        width: 565
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b15145bd7ebc3080800000000000000
+      internalID: -9206274091130990159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_10"
+      rect:
+        serializedVersion: 2
+        x: 6324
+        y: 9
+        width: 565
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa20434b9cdadbb0800000000000000
+      internalID: -4910369884287784279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_11"
+      rect:
+        serializedVersion: 2
+        x: 6952
+        y: 8
+        width: 565
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ecd4ee2a2ea6230800000000000000
+      internalID: 3632965238838382203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_12"
+      rect:
+        serializedVersion: 2
+        x: 7582
+        y: 8
+        width: 565
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6400836c65a48d080800000000000000
+      internalID: -9162491705332072378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_13"
+      rect:
+        serializedVersion: 2
+        x: 8214
+        y: 8
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3f06432f9aca670800000000000000
+      internalID: 8551396650195678150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_14"
+      rect:
+        serializedVersion: 2
+        x: 8844
+        y: 8
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5e0460b22e9fa0800000000000000
+      internalID: -5792153929763627500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_15"
+      rect:
+        serializedVersion: 2
+        x: 9474
+        y: 10
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aef18415bdfa8fc0800000000000000
+      internalID: -3491699606897426777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_16"
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 11
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd428ae4d6e819a60800000000000000
+      internalID: 7679075439765628123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_17"
+      rect:
+        serializedVersion: 2
+        x: 10726
+        y: 11
+        width: 565
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944ce60b7d5a18610800000000000000
+      internalID: 1621759686626690121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_18"
+      rect:
+        serializedVersion: 2
+        x: 11352
+        y: 9
+        width: 565
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8084c0edffb404240800000000000000
+      internalID: 4773899167326816264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_19"
+      rect:
+        serializedVersion: 2
+        x: 11979
+        y: 9
+        width: 565
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93dc9913fe1a5160800000000000000
+      internalID: 7014953399038563227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_20"
+      rect:
+        serializedVersion: 2
+        x: 12609
+        y: 9
+        width: 565
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93cd1013851ee590800000000000000
+      internalID: -7643147864945867874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_21"
+      rect:
+        serializedVersion: 2
+        x: 13240
+        y: 7
+        width: 565
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40911fc6de7bef80800000000000000
+      internalID: -8076222045696716725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_22"
+      rect:
+        serializedVersion: 2
+        x: 13873
+        y: 7
+        width: 565
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419c00fe45425b500800000000000000
+      internalID: 411274888179927316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_23"
+      rect:
+        serializedVersion: 2
+        x: 14503
+        y: 9
+        width: 565
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85da4e01770afb5d0800000000000000
+      internalID: -3044538389834191528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_24"
+      rect:
+        serializedVersion: 2
+        x: 15129
+        y: 6
+        width: 565
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2e29476882641a0800000000000000
+      internalID: -6825723627286895899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_25"
+      rect:
+        serializedVersion: 2
+        x: 15756
+        y: 2
+        width: 565
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0d731e57dad9fd0800000000000000
+      internalID: -2333518310106738455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_26"
+      rect:
+        serializedVersion: 2
+        x: 16382
+        y: 1
+        width: 565
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e164ab276ae1dc0800000000000000
+      internalID: -3666310034951365075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_27"
+      rect:
+        serializedVersion: 2
+        x: 17008
+        y: 2
+        width: 565
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a031124407dc796a0800000000000000
+      internalID: -6442454859867155702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_28"
+      rect:
+        serializedVersion: 2
+        x: 17637
+        y: 2
+        width: 565
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c2ca0e1bbb66420800000000000000
+      internalID: 2622990205642878043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_29"
+      rect:
+        serializedVersion: 2
+        x: 18268
+        y: 2
+        width: 565
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad471a507a6fa9320800000000000000
+      internalID: 2565634134955357402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_30"
+      rect:
+        serializedVersion: 2
+        x: 18899
+        y: 3
+        width: 565
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2445e23bf516be670800000000000000
+      internalID: 8569049779658445890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_31"
+      rect:
+        serializedVersion: 2
+        x: 19531
+        y: 4
+        width: 565
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987935b9a24104180800000000000000
+      internalID: -9133277871080237175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "korkak \xE7ok korkmu\u015F_32"
+      rect:
+        serializedVersion: 2
+        x: 20164
+        y: 6
+        width: 565
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78be083f9c561c1e0800000000000000
+      internalID: -2179348826622465145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "korkak \xE7ok korkmu\u015F_0": -5867495076152411780
+      "korkak \xE7ok korkmu\u015F_1": -4410318021810217292
+      "korkak \xE7ok korkmu\u015F_10": -4910369884287784279
+      "korkak \xE7ok korkmu\u015F_11": 3632965238838382203
+      "korkak \xE7ok korkmu\u015F_12": -9162491705332072378
+      "korkak \xE7ok korkmu\u015F_13": 8551396650195678150
+      "korkak \xE7ok korkmu\u015F_14": -5792153929763627500
+      "korkak \xE7ok korkmu\u015F_15": -3491699606897426777
+      "korkak \xE7ok korkmu\u015F_16": 7679075439765628123
+      "korkak \xE7ok korkmu\u015F_17": 1621759686626690121
+      "korkak \xE7ok korkmu\u015F_18": 4773899167326816264
+      "korkak \xE7ok korkmu\u015F_19": 7014953399038563227
+      "korkak \xE7ok korkmu\u015F_2": -6196717277175447910
+      "korkak \xE7ok korkmu\u015F_20": -7643147864945867874
+      "korkak \xE7ok korkmu\u015F_21": -8076222045696716725
+      "korkak \xE7ok korkmu\u015F_22": 411274888179927316
+      "korkak \xE7ok korkmu\u015F_23": -3044538389834191528
+      "korkak \xE7ok korkmu\u015F_24": -6825723627286895899
+      "korkak \xE7ok korkmu\u015F_25": -2333518310106738455
+      "korkak \xE7ok korkmu\u015F_26": -3666310034951365075
+      "korkak \xE7ok korkmu\u015F_27": -6442454859867155702
+      "korkak \xE7ok korkmu\u015F_28": 2622990205642878043
+      "korkak \xE7ok korkmu\u015F_29": 2565634134955357402
+      "korkak \xE7ok korkmu\u015F_3": -234848556790700648
+      "korkak \xE7ok korkmu\u015F_30": 8569049779658445890
+      "korkak \xE7ok korkmu\u015F_31": -9133277871080237175
+      "korkak \xE7ok korkmu\u015F_32": -2179348826622465145
+      "korkak \xE7ok korkmu\u015F_4": -7560836943442415643
+      "korkak \xE7ok korkmu\u015F_5": 1998622373917832795
+      "korkak \xE7ok korkmu\u015F_6": 5642338120262674704
+      "korkak \xE7ok korkmu\u015F_7": 6904282583244698217
+      "korkak \xE7ok korkmu\u015F_8": -7289980746364807208
+      "korkak \xE7ok korkmu\u015F_9": -9206274091130990159
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 7911ecfd9419b7f46af8ae4f2d0e04ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7029697657016554998
+    second: "Fl\xF6rt\xF6zidle__0"
+  - first:
+      213: -4630626101615731466
+    second: "Fl\xF6rt\xF6zidle__1"
+  - first:
+      213: -9009732086306363679
+    second: "Fl\xF6rt\xF6zidle__2"
+  - first:
+      213: 8718998006162896283
+    second: "Fl\xF6rt\xF6zidle__3"
+  - first:
+      213: 6395224105750391103
+    second: "Fl\xF6rt\xF6zidle__4"
+  - first:
+      213: 7864993084666708548
+    second: "Fl\xF6rt\xF6zidle__5"
+  - first:
+      213: -8454737673955303378
+    second: "Fl\xF6rt\xF6zidle__6"
+  - first:
+      213: -2211277613500075701
+    second: "Fl\xF6rt\xF6zidle__7"
+  - first:
+      213: -7151734105943277855
+    second: "Fl\xF6rt\xF6zidle__8"
+  - first:
+      213: -8686592955291561183
+    second: "Fl\xF6rt\xF6zidle__9"
+  - first:
+      213: 1671194797467113166
+    second: "Fl\xF6rt\xF6zidle__10"
+  - first:
+      213: 5921177601720367237
+    second: "Fl\xF6rt\xF6zidle__11"
+  - first:
+      213: -5540653762893535204
+    second: "Fl\xF6rt\xF6zidle__12"
+  - first:
+      213: -1126916375160145406
+    second: "Fl\xF6rt\xF6zidle__13"
+  - first:
+      213: -4833784679732392148
+    second: "Fl\xF6rt\xF6zidle__14"
+  - first:
+      213: -3062622609590331274
+    second: "Fl\xF6rt\xF6zidle__15"
+  - first:
+      213: -4288614764230578963
+    second: "Fl\xF6rt\xF6zidle__16"
+  - first:
+      213: 4079588114913379060
+    second: "Fl\xF6rt\xF6zidle__17"
+  - first:
+      213: 3384043394667824342
+    second: "Fl\xF6rt\xF6zidle__18"
+  - first:
+      213: -2694131487189402640
+    second: "Fl\xF6rt\xF6zidle__19"
+  - first:
+      213: 5535323150520504905
+    second: "Fl\xF6rt\xF6zidle__20"
+  - first:
+      213: 7573362324244679715
+    second: "Fl\xF6rt\xF6zidle__21"
+  - first:
+      213: 2034603440592784878
+    second: "Fl\xF6rt\xF6zidle__22"
+  - first:
+      213: 3290404226238250666
+    second: "Fl\xF6rt\xF6zidle__23"
+  - first:
+      213: 3954798477768135299
+    second: "Fl\xF6rt\xF6zidle__24"
+  - first:
+      213: -6644005668355189317
+    second: "Fl\xF6rt\xF6zidle__25"
+  - first:
+      213: 9006241164047202165
+    second: "Fl\xF6rt\xF6zidle__26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__0"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f51edc26c08e8160800000000000000
+      internalID: 7029697657016554998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__1"
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcda8d3816bcbfb0800000000000000
+      internalID: -4630626101615731466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__2"
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e62542376007f280800000000000000
+      internalID: -9009732086306363679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__3"
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95bdaacd7a100970800000000000000
+      internalID: 8718998006162896283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__4"
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39644ad07660c850800000000000000
+      internalID: 6395224105750391103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__5"
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442867c3a81162d60800000000000000
+      internalID: 7864993084666708548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__6"
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2028c271ecbaaa80800000000000000
+      internalID: -8454737673955303378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__7"
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41fd83f9b6ff41e0800000000000000
+      internalID: -2211277613500075701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__8"
+      rect:
+        serializedVersion: 2
+        x: 5979
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee743fd8bfefbc90800000000000000
+      internalID: -7151734105943277855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__9"
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1239f6f0bb5037780800000000000000
+      internalID: -8686592955291561183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__10"
+      rect:
+        serializedVersion: 2
+        x: 7473
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6128d50d6413710800000000000000
+      internalID: 1671194797467113166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__11"
+      rect:
+        serializedVersion: 2
+        x: 8220
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588ba8238af3c2250800000000000000
+      internalID: 5921177601720367237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__12"
+      rect:
+        serializedVersion: 2
+        x: 8967
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ac4f12c4ab13b0800000000000000
+      internalID: -5540653762893535204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__13"
+      rect:
+        serializedVersion: 2
+        x: 9714
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a320707836c50f0800000000000000
+      internalID: -1126916375160145406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__14"
+      rect:
+        serializedVersion: 2
+        x: 10461
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f43dbb172faecb0800000000000000
+      internalID: -4833784679732392148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__15"
+      rect:
+        serializedVersion: 2
+        x: 11208
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678d94a86f06f75d0800000000000000
+      internalID: -3062622609590331274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__16"
+      rect:
+        serializedVersion: 2
+        x: 11955
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec6a8f0897cb74c0800000000000000
+      internalID: -4288614764230578963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__17"
+      rect:
+        serializedVersion: 2
+        x: 12702
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f24153a6cb9d9830800000000000000
+      internalID: 4079588114913379060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__18"
+      rect:
+        serializedVersion: 2
+        x: 13449
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4ceabb98986fe20800000000000000
+      internalID: 3384043394667824342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__19"
+      rect:
+        serializedVersion: 2
+        x: 14196
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb71efbfa58c9ad0800000000000000
+      internalID: -2694131487189402640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__20"
+      rect:
+        serializedVersion: 2
+        x: 14943
+        y: 29
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94255c7f31b61dc40800000000000000
+      internalID: 5535323150520504905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__21"
+      rect:
+        serializedVersion: 2
+        x: 15690
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c4ee398ecf91960800000000000000
+      internalID: 7573362324244679715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__22"
+      rect:
+        serializedVersion: 2
+        x: 16437
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed0257ac0d5c3c10800000000000000
+      internalID: 2034603440592784878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__23"
+      rect:
+        serializedVersion: 2
+        x: 17184
+        y: 28
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeff50e53dd9ad20800000000000000
+      internalID: 3290404226238250666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__24"
+      rect:
+        serializedVersion: 2
+        x: 17931
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38210a9134442e630800000000000000
+      internalID: 3954798477768135299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__25"
+      rect:
+        serializedVersion: 2
+        x: 18678
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5d10ccb00cbc3a0800000000000000
+      internalID: -6644005668355189317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Fl\xF6rt\xF6zidle__26"
+      rect:
+        serializedVersion: 2
+        x: 19425
+        y: 26
+        width: 675
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577b8802f989cfc70800000000000000
+      internalID: 9006241164047202165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Fl\xF6rt\xF6zidle__0": 7029697657016554998
+      "Fl\xF6rt\xF6zidle__1": -4630626101615731466
+      "Fl\xF6rt\xF6zidle__10": 1671194797467113166
+      "Fl\xF6rt\xF6zidle__11": 5921177601720367237
+      "Fl\xF6rt\xF6zidle__12": -5540653762893535204
+      "Fl\xF6rt\xF6zidle__13": -1126916375160145406
+      "Fl\xF6rt\xF6zidle__14": -4833784679732392148
+      "Fl\xF6rt\xF6zidle__15": -3062622609590331274
+      "Fl\xF6rt\xF6zidle__16": -4288614764230578963
+      "Fl\xF6rt\xF6zidle__17": 4079588114913379060
+      "Fl\xF6rt\xF6zidle__18": 3384043394667824342
+      "Fl\xF6rt\xF6zidle__19": -2694131487189402640
+      "Fl\xF6rt\xF6zidle__2": -9009732086306363679
+      "Fl\xF6rt\xF6zidle__20": 5535323150520504905
+      "Fl\xF6rt\xF6zidle__21": 7573362324244679715
+      "Fl\xF6rt\xF6zidle__22": 2034603440592784878
+      "Fl\xF6rt\xF6zidle__23": 3290404226238250666
+      "Fl\xF6rt\xF6zidle__24": 3954798477768135299
+      "Fl\xF6rt\xF6zidle__25": -6644005668355189317
+      "Fl\xF6rt\xF6zidle__26": 9006241164047202165
+      "Fl\xF6rt\xF6zidle__3": 8718998006162896283
+      "Fl\xF6rt\xF6zidle__4": 6395224105750391103
+      "Fl\xF6rt\xF6zidle__5": 7864993084666708548
+      "Fl\xF6rt\xF6zidle__6": -8454737673955303378
+      "Fl\xF6rt\xF6zidle__7": -2211277613500075701
+      "Fl\xF6rt\xF6zidle__8": -7151734105943277855
+      "Fl\xF6rt\xF6zidle__9": -8686592955291561183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

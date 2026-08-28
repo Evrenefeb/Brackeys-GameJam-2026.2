@@ -1,91 +1,79 @@
 fileFormatVersion: 2
-guid: d6453547e6b09b74a85d9a9ffb1b81c1
+guid: 0160423b303c340428956a23718ca953
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2125405917414125493
-    second: Artboard 18-sheet_0
+      213: -3091544581736563734
+    second: Gotik mutlu_0
   - first:
-      213: -7539079430988344229
-    second: Artboard 18-sheet_1
+      213: -2658604536461598459
+    second: Gotik mutlu_1
   - first:
-      213: 4157499992604260972
-    second: Artboard 18-sheet_2
+      213: 8535878551016415444
+    second: Gotik mutlu_2
   - first:
-      213: -7247186968993451389
-    second: Artboard 18-sheet_3
+      213: -2216778517135403803
+    second: Gotik mutlu_3
   - first:
-      213: 5427497259611054924
-    second: Artboard 18-sheet_4
+      213: -1200614553822442812
+    second: Gotik mutlu_4
   - first:
-      213: -6410831462439315912
-    second: Artboard 18-sheet_5
+      213: 795037718159654563
+    second: Gotik mutlu_5
   - first:
-      213: -3405339389261937
-    second: Artboard 18-sheet_6
+      213: -8209677655979859094
+    second: Gotik mutlu_6
   - first:
-      213: 6060908929944492134
-    second: Artboard 18-sheet_7
+      213: 2646251878436412151
+    second: Gotik mutlu_7
   - first:
-      213: 4599136743555450940
-    second: Artboard 18-sheet_8
+      213: -7713058151562618995
+    second: Gotik mutlu_8
   - first:
-      213: 6684659168086131235
-    second: Artboard 18-sheet_9
+      213: -5252906614226540460
+    second: Gotik mutlu_9
   - first:
-      213: -1385044034661188842
-    second: Artboard 18-sheet_10
+      213: 5850178371684274847
+    second: Gotik mutlu_10
   - first:
-      213: 3927179960806394720
-    second: Artboard 18-sheet_11
+      213: -8592659759645604348
+    second: Gotik mutlu_11
   - first:
-      213: -5864406853842064095
-    second: Artboard 18-sheet_12
+      213: 8311462539268363645
+    second: Gotik mutlu_12
   - first:
-      213: -1101341059594045059
-    second: Artboard 18-sheet_13
+      213: 2115132548277255381
+    second: Gotik mutlu_13
   - first:
-      213: 5554207122077206375
-    second: Artboard 18-sheet_14
+      213: -265881142455684469
+    second: Gotik mutlu_14
   - first:
-      213: -814383867790691413
-    second: Artboard 18-sheet_15
+      213: 1385295691062797659
+    second: Gotik mutlu_15
   - first:
-      213: 368589982836953240
-    second: Artboard 18-sheet_16
+      213: 6885359849176664296
+    second: Gotik mutlu_16
   - first:
-      213: 5959557239884315310
-    second: Artboard 18-sheet_17
+      213: -4753054950579951999
+    second: Gotik mutlu_17
   - first:
-      213: 3710896451746154403
-    second: Artboard 18-sheet_18
+      213: -3507412437613474456
+    second: Gotik mutlu_18
   - first:
-      213: 6757537283705337303
-    second: Artboard 18-sheet_19
+      213: 3116370637357082732
+    second: Gotik mutlu_19
   - first:
-      213: -7151996916378666246
-    second: Artboard 18-sheet_20
+      213: 1393168243091299126
+    second: Gotik mutlu_20
   - first:
-      213: 2857376824541525683
-    second: Artboard 18-sheet_21
+      213: -1223173479177012375
+    second: Gotik mutlu_21
   - first:
-      213: -3973619567978622246
-    second: Artboard 18-sheet_22
+      213: -819691388306782445
+    second: Gotik mutlu_22
   - first:
-      213: 2085645488287593407
-    second: Artboard 18-sheet_23
-  - first:
-      213: 7254678045307134292
-    second: Artboard 18-sheet_24
-  - first:
-      213: -4813847691272998499
-    second: Artboard 18-sheet_25
-  - first:
-      213: -590610031038129781
-    second: Artboard 18-sheet_26
-  - first:
-      213: -8750176012060260416
-    second: Artboard 18-sheet_27
+      213: -5141521406059357360
+    second: Gotik mutlu_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -132,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,10 +141,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -181,13 +169,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Artboard 18-sheet_0
+      name: Gotik mutlu_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 67
-        width: 713
-        height: 878
+        x: 30
+        y: 31
+        width: 922
+        height: 993
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b409409349a0182e0800000000000000
-      internalID: -2125405917414125493
+      spriteID: aebfe462590a815d0800000000000000
+      internalID: -3091544581736563734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_1
+      name: Gotik mutlu_1
       rect:
         serializedVersion: 2
-        x: 820
-        y: 67
-        width: 713
-        height: 879
+        x: 1052
+        y: 31
+        width: 922
+        height: 993
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b545c76833fcf5790800000000000000
-      internalID: -7539079430988344229
+      spriteID: 501e6fd824dba1bd0800000000000000
+      internalID: -2658604536461598459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_2
+      name: Gotik mutlu_2
       rect:
         serializedVersion: 2
-        x: 1605
-        y: 72
-        width: 718
-        height: 875
+        x: 2074
+        y: 31
+        width: 922
+        height: 993
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6abdd4473862b930800000000000000
-      internalID: 4157499992604260972
+      spriteID: 4d0a53f2158857670800000000000000
+      internalID: 8535878551016415444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_3
+      name: Gotik mutlu_3
       rect:
         serializedVersion: 2
-        x: 2389
-        y: 72
-        width: 718
-        height: 877
+        x: 3096
+        y: 35
+        width: 922
+        height: 997
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3823e4459d1dc6b90800000000000000
-      internalID: -7247186968993451389
+      spriteID: 5e45d640fab6c31e0800000000000000
+      internalID: -2216778517135403803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_4
+      name: Gotik mutlu_4
       rect:
         serializedVersion: 2
-        x: 3172
-        y: 81
-        width: 718
-        height: 869
+        x: 4118
+        y: 35
+        width: 922
+        height: 997
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c43e5826008525b40800000000000000
-      internalID: 5427497259611054924
+      spriteID: 4cacf37ac6f865fe0800000000000000
+      internalID: -1200614553822442812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_5
+      name: Gotik mutlu_5
       rect:
         serializedVersion: 2
-        x: 3956
-        y: 81
-        width: 718
-        height: 871
+        x: 5140
+        y: 35
+        width: 922
+        height: 997
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 836186e30c62807a0800000000000000
-      internalID: -6410831462439315912
+      spriteID: 3ae71f5a79a880b00800000000000000
+      internalID: 795037718159654563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_6
+      name: Gotik mutlu_6
       rect:
         serializedVersion: 2
-        x: 4740
-        y: 87
-        width: 718
-        height: 867
+        x: 6163
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +316,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f870d53acd6e3fff0800000000000000
-      internalID: -3405339389261937
+      spriteID: a63ebda2bad511e80800000000000000
+      internalID: -8209677655979859094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_7
+      name: Gotik mutlu_7
       rect:
         serializedVersion: 2
-        x: 5524
-        y: 87
-        width: 718
-        height: 869
+        x: 7185
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +338,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66895594f8cac1450800000000000000
-      internalID: 6060908929944492134
+      spriteID: 7fa9960201069b420800000000000000
+      internalID: 2646251878436412151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_8
+      name: Gotik mutlu_8
       rect:
         serializedVersion: 2
-        x: 6308
-        y: 87
-        width: 718
-        height: 872
+        x: 8207
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38c111408a63df30800000000000000
-      internalID: 4599136743555450940
+      spriteID: d87dd280a76b5f490800000000000000
+      internalID: -7713058151562618995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_9
+      name: Gotik mutlu_9
       rect:
         serializedVersion: 2
-        x: 7092
-        y: 87
-        width: 718
-        height: 874
+        x: 9230
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3220556b81ea4cc50800000000000000
-      internalID: 6684659168086131235
+      spriteID: 4582ab4f34de917b0800000000000000
+      internalID: -5252906614226540460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_10
+      name: Gotik mutlu_10
       rect:
         serializedVersion: 2
-        x: 7877
-        y: 72
-        width: 718
-        height: 890
+        x: 10252
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61bfebbe9c557cce0800000000000000
-      internalID: -1385044034661188842
+      spriteID: f921ae4cb32003150800000000000000
+      internalID: 5850178371684274847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_11
+      name: Gotik mutlu_11
       rect:
         serializedVersion: 2
-        x: 8661
-        y: 72
-        width: 718
-        height: 892
+        x: 11274
+        y: 36
+        width: 922
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,20 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06bc5e40e55208630800000000000000
-      internalID: 3927179960806394720
+      spriteID: 406c786797db0c880800000000000000
+      internalID: -8592659759645604348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_12
+      name: Gotik mutlu_12
       rect:
         serializedVersion: 2
-        x: 9444
-        y: 67
-        width: 718
-        height: 900
+        x: 12299
+        y: 35
+        width: 922
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +448,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12da06299017d9ea0800000000000000
-      internalID: -5864406853842064095
+      spriteID: d759e09b42f385370800000000000000
+      internalID: 8311462539268363645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_13
+      name: Gotik mutlu_13
       rect:
         serializedVersion: 2
-        x: 10228
-        y: 67
-        width: 718
-        height: 899
+        x: 13321
+        y: 35
+        width: 922
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,20 +470,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d793856342047b0f0800000000000000
-      internalID: -1101341059594045059
+      spriteID: 5dcbee0a8d57a5d10800000000000000
+      internalID: 2115132548277255381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_14
+      name: Gotik mutlu_14
       rect:
         serializedVersion: 2
-        x: 11012
-        y: 67
-        width: 718
-        height: 897
+        x: 14343
+        y: 35
+        width: 922
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,20 +492,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7674b5833f1841d40800000000000000
-      internalID: 5554207122077206375
+      spriteID: b82347772866f4cf0800000000000000
+      internalID: -265881142455684469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_15
+      name: Gotik mutlu_15
       rect:
         serializedVersion: 2
-        x: 11796
-        y: 67
-        width: 718
-        height: 895
+        x: 15367
+        y: 33
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,20 +514,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba3f681ef2ab2b4f0800000000000000
-      internalID: -814383867790691413
+      spriteID: b556da6671f893310800000000000000
+      internalID: 1385295691062797659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_16
+      name: Gotik mutlu_16
       rect:
         serializedVersion: 2
-        x: 12581
-        y: 72
-        width: 718
-        height: 888
+        x: 16389
+        y: 33
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89093c2f2ae7d1500800000000000000
-      internalID: 368589982836953240
+      spriteID: 8e889e87d46bd8f50800000000000000
+      internalID: 6885359849176664296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_17
+      name: Gotik mutlu_17
       rect:
         serializedVersion: 2
-        x: 13365
-        y: 72
-        width: 718
-        height: 886
+        x: 17411
+        y: 33
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,20 +558,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaa79ed0cb994b250800000000000000
-      internalID: 5959557239884315310
+      spriteID: 18625c884b1c90eb0800000000000000
+      internalID: -4753054950579951999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_18
+      name: Gotik mutlu_18
       rect:
         serializedVersion: 2
-        x: 14148
-        y: 81
-        width: 718
-        height: 875
+        x: 18437
+        y: 31
+        width: 922
+        height: 1003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -592,20 +580,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a7469469a0cf7330800000000000000
-      internalID: 3710896451746154403
+      spriteID: 86d034798fa235fc0800000000000000
+      internalID: -3507412437613474456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_19
+      name: Gotik mutlu_19
       rect:
         serializedVersion: 2
-        x: 14932
-        y: 81
-        width: 718
-        height: 872
+        x: 19459
+        y: 31
+        width: 922
+        height: 1003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d5f6b74b5897cd50800000000000000
-      internalID: 6757537283705337303
+      spriteID: c68602c55929f3b20800000000000000
+      internalID: 3116370637357082732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_20
+      name: Gotik mutlu_20
       rect:
         serializedVersion: 2
-        x: 15716
-        y: 87
-        width: 718
-        height: 863
+        x: 20481
+        y: 31
+        width: 922
+        height: 1003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,20 +624,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afa7f8c82b00fbc90800000000000000
-      internalID: -7151996916378666246
+      spriteID: 63bdfc1c227855310800000000000000
+      internalID: 1393168243091299126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_21
+      name: Gotik mutlu_21
       rect:
         serializedVersion: 2
-        x: 16500
-        y: 87
-        width: 718
-        height: 861
+        x: 21499
+        y: 31
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,20 +646,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b63b38351177a720800000000000000
-      internalID: 2857376824541525683
+      spriteID: 96bb9fa833a660fe0800000000000000
+      internalID: -1223173479177012375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_22
+      name: Gotik mutlu_22
       rect:
         serializedVersion: 2
-        x: 17284
-        y: 87
-        width: 718
-        height: 859
+        x: 22521
+        y: 31
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -680,20 +668,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad2d71a5e0edad8c0800000000000000
-      internalID: -3973619567978622246
+      spriteID: 3170786760fdf94f0800000000000000
+      internalID: -819691388306782445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Artboard 18-sheet_23
+      name: Gotik mutlu_23
       rect:
         serializedVersion: 2
-        x: 18068
-        y: 87
-        width: 718
-        height: 856
+        x: 23543
+        y: 31
+        width: 922
+        height: 1001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -702,96 +690,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb337c87583b1fc10800000000000000
-      internalID: 2085645488287593407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Artboard 18-sheet_24
-      rect:
-        serializedVersion: 2
-        x: 18853
-        y: 72
-        width: 718
-        height: 867
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4516b5ace3bcda460800000000000000
-      internalID: 7254678045307134292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Artboard 18-sheet_25
-      rect:
-        serializedVersion: 2
-        x: 19637
-        y: 72
-        width: 718
-        height: 866
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d91b6d69707c13db0800000000000000
-      internalID: -4813847691272998499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Artboard 18-sheet_26
-      rect:
-        serializedVersion: 2
-        x: 20420
-        y: 67
-        width: 718
-        height: 873
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8990335e4bbdc7f0800000000000000
-      internalID: -590610031038129781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Artboard 18-sheet_27
-      rect:
-        serializedVersion: 2
-        x: 21204
-        y: 67
-        width: 718
-        height: 875
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c701070741219680800000000000000
-      internalID: -8750176012060260416
+      spriteID: 05bd3caa585a5a8b0800000000000000
+      internalID: -5141521406059357360
       vertices: []
       indices: 
       edges: []
@@ -810,34 +710,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Artboard 18-sheet_0: -2125405917414125493
-      Artboard 18-sheet_1: -7539079430988344229
-      Artboard 18-sheet_10: -1385044034661188842
-      Artboard 18-sheet_11: 3927179960806394720
-      Artboard 18-sheet_12: -5864406853842064095
-      Artboard 18-sheet_13: -1101341059594045059
-      Artboard 18-sheet_14: 5554207122077206375
-      Artboard 18-sheet_15: -814383867790691413
-      Artboard 18-sheet_16: 368589982836953240
-      Artboard 18-sheet_17: 5959557239884315310
-      Artboard 18-sheet_18: 3710896451746154403
-      Artboard 18-sheet_19: 6757537283705337303
-      Artboard 18-sheet_2: 4157499992604260972
-      Artboard 18-sheet_20: -7151996916378666246
-      Artboard 18-sheet_21: 2857376824541525683
-      Artboard 18-sheet_22: -3973619567978622246
-      Artboard 18-sheet_23: 2085645488287593407
-      Artboard 18-sheet_24: 7254678045307134292
-      Artboard 18-sheet_25: -4813847691272998499
-      Artboard 18-sheet_26: -590610031038129781
-      Artboard 18-sheet_27: -8750176012060260416
-      Artboard 18-sheet_3: -7247186968993451389
-      Artboard 18-sheet_4: 5427497259611054924
-      Artboard 18-sheet_5: -6410831462439315912
-      Artboard 18-sheet_6: -3405339389261937
-      Artboard 18-sheet_7: 6060908929944492134
-      Artboard 18-sheet_8: 4599136743555450940
-      Artboard 18-sheet_9: 6684659168086131235
+      Gotik mutlu_0: -3091544581736563734
+      Gotik mutlu_1: -2658604536461598459
+      Gotik mutlu_10: 5850178371684274847
+      Gotik mutlu_11: -8592659759645604348
+      Gotik mutlu_12: 8311462539268363645
+      Gotik mutlu_13: 2115132548277255381
+      Gotik mutlu_14: -265881142455684469
+      Gotik mutlu_15: 1385295691062797659
+      Gotik mutlu_16: 6885359849176664296
+      Gotik mutlu_17: -4753054950579951999
+      Gotik mutlu_18: -3507412437613474456
+      Gotik mutlu_19: 3116370637357082732
+      Gotik mutlu_2: 8535878551016415444
+      Gotik mutlu_20: 1393168243091299126
+      Gotik mutlu_21: -1223173479177012375
+      Gotik mutlu_22: -819691388306782445
+      Gotik mutlu_23: -5141521406059357360
+      Gotik mutlu_3: -2216778517135403803
+      Gotik mutlu_4: -1200614553822442812
+      Gotik mutlu_5: 795037718159654563
+      Gotik mutlu_6: -8209677655979859094
+      Gotik mutlu_7: 2646251878436412151
+      Gotik mutlu_8: -7713058151562618995
+      Gotik mutlu_9: -5252906614226540460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,6 +4,7 @@
   <Project Path="Zenject-IntegrationTests-Editor.csproj" />
   <Project Path="BroAudioEditor.csproj" />
   <Project Path="Gaskellgames.csproj" />
+  <Project Path="RBG.Mulligan.csproj" />
   <Project Path="DialogSystem.Editor.csproj" />
   <Project Path="Zenject-ReflectionBaking-Editor.csproj" />
   <Project Path="LeanCommon.csproj" />

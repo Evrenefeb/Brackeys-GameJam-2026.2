@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 35f244a3febc2cb4eb448e2c35d99c9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6697057692840614671
+    second: Gotik mutulu1_0
+  - first:
+      213: 7136319773465990870
+    second: Gotik mutulu1_1
+  - first:
+      213: 2510366814372436038
+    second: Gotik mutulu1_2
+  - first:
+      213: -3141220124362635530
+    second: Gotik mutulu1_3
+  - first:
+      213: -5701105200994463303
+    second: Gotik mutulu1_4
+  - first:
+      213: -5251559323015402188
+    second: Gotik mutulu1_5
+  - first:
+      213: 1691061043154754631
+    second: Gotik mutulu1_6
+  - first:
+      213: -2447696688822144171
+    second: Gotik mutulu1_7
+  - first:
+      213: -1497041680720231430
+    second: Gotik mutulu1_8
+  - first:
+      213: 8076969007500970624
+    second: Gotik mutulu1_9
+  - first:
+      213: 4989723261162264619
+    second: Gotik mutulu1_10
+  - first:
+      213: -7370919793116669744
+    second: Gotik mutulu1_11
+  - first:
+      213: 2948036356231451778
+    second: Gotik mutulu1_12
+  - first:
+      213: 8351389418898541582
+    second: Gotik mutulu1_13
+  - first:
+      213: -5734200614035001434
+    second: Gotik mutulu1_14
+  - first:
+      213: 7201786399226342959
+    second: Gotik mutulu1_15
+  - first:
+      213: -6366033646045694091
+    second: Gotik mutulu1_16
+  - first:
+      213: -31159037498946714
+    second: Gotik mutulu1_17
+  - first:
+      213: 4376005112292543502
+    second: Gotik mutulu1_18
+  - first:
+      213: -3943494484979236472
+    second: Gotik mutulu1_19
+  - first:
+      213: 249903860243306892
+    second: Gotik mutulu1_20
+  - first:
+      213: -6019665394101842262
+    second: Gotik mutulu1_21
+  - first:
+      213: 5603753348934526827
+    second: Gotik mutulu1_22
+  - first:
+      213: 7110390094280700737
+    second: Gotik mutulu1_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gotik mutulu1_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f420f9c2854f03a0800000000000000
+      internalID: -6697057692840614671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6590d260d490360800000000000000
+      internalID: 7136319773465990870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_2
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6481992315d96d220800000000000000
+      internalID: 2510366814372436038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_3
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f68e0690f42864d0800000000000000
+      internalID: -3141220124362635530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_4
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1d793860b91e0b0800000000000000
+      internalID: -5701105200994463303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_5
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43da6c2ae96be17b0800000000000000
+      internalID: -5251559323015402188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_6
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c9db22f0bd77710800000000000000
+      internalID: 1691061043154754631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_7
+      rect:
+        serializedVersion: 2
+        x: 7185
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5533bd874d8080ed0800000000000000
+      internalID: -2447696688822144171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_8
+      rect:
+        serializedVersion: 2
+        x: 8207
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af387b6e580793be0800000000000000
+      internalID: -1497041680720231430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_9
+      rect:
+        serializedVersion: 2
+        x: 9230
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4fe9c488271070800000000000000
+      internalID: 8076969007500970624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_10
+      rect:
+        serializedVersion: 2
+        x: 10252
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28941d8ede0f3540800000000000000
+      internalID: 4989723261162264619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_11
+      rect:
+        serializedVersion: 2
+        x: 11274
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8926f308b35b990800000000000000
+      internalID: -7370919793116669744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_12
+      rect:
+        serializedVersion: 2
+        x: 12299
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284dc16527789e820800000000000000
+      internalID: 2948036356231451778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_13
+      rect:
+        serializedVersion: 2
+        x: 13321
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c476ecd6816e370800000000000000
+      internalID: 8351389418898541582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_14
+      rect:
+        serializedVersion: 2
+        x: 14343
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afed913ce60c60b0800000000000000
+      internalID: -5734200614035001434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_15
+      rect:
+        serializedVersion: 2
+        x: 15367
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e202ac292e1f360800000000000000
+      internalID: 7201786399226342959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_16
+      rect:
+        serializedVersion: 2
+        x: 16389
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577f24ba02e47a7a0800000000000000
+      internalID: -6366033646045694091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_17
+      rect:
+        serializedVersion: 2
+        x: 17411
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b055e350d419ff0800000000000000
+      internalID: -31159037498946714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_18
+      rect:
+        serializedVersion: 2
+        x: 18437
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c8d7de671babc30800000000000000
+      internalID: 4376005112292543502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_19
+      rect:
+        serializedVersion: 2
+        x: 19459
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881c911d8a4e549c0800000000000000
+      internalID: -3943494484979236472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_20
+      rect:
+        serializedVersion: 2
+        x: 20481
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c891dc1ac36d77300800000000000000
+      internalID: 249903860243306892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_21
+      rect:
+        serializedVersion: 2
+        x: 21499
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae09d5b73ad57ca0800000000000000
+      internalID: -6019665394101842262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_22
+      rect:
+        serializedVersion: 2
+        x: 22521
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67e52c1bf784cd40800000000000000
+      internalID: 5603753348934526827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutulu1_23
+      rect:
+        serializedVersion: 2
+        x: 23543
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143be084e1e2da260800000000000000
+      internalID: 7110390094280700737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gotik mutulu1_0: -6697057692840614671
+      Gotik mutulu1_1: 7136319773465990870
+      Gotik mutulu1_10: 4989723261162264619
+      Gotik mutulu1_11: -7370919793116669744
+      Gotik mutulu1_12: 2948036356231451778
+      Gotik mutulu1_13: 8351389418898541582
+      Gotik mutulu1_14: -5734200614035001434
+      Gotik mutulu1_15: 7201786399226342959
+      Gotik mutulu1_16: -6366033646045694091
+      Gotik mutulu1_17: -31159037498946714
+      Gotik mutulu1_18: 4376005112292543502
+      Gotik mutulu1_19: -3943494484979236472
+      Gotik mutulu1_2: 2510366814372436038
+      Gotik mutulu1_20: 249903860243306892
+      Gotik mutulu1_21: -6019665394101842262
+      Gotik mutulu1_22: 5603753348934526827
+      Gotik mutulu1_23: 7110390094280700737
+      Gotik mutulu1_3: -3141220124362635530
+      Gotik mutulu1_4: -5701105200994463303
+      Gotik mutulu1_5: -5251559323015402188
+      Gotik mutulu1_6: 1691061043154754631
+      Gotik mutulu1_7: -2447696688822144171
+      Gotik mutulu1_8: -1497041680720231430
+      Gotik mutulu1_9: 8076969007500970624
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

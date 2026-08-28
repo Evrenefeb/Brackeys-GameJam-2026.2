@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 78f9715477cc1074fb1fed7ca932d3e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1838659175279191363
+    second: Gotik idle_0
+  - first:
+      213: -463798548667569623
+    second: Gotik idle_1
+  - first:
+      213: -6818759657803336106
+    second: Gotik idle_2
+  - first:
+      213: -5104807793635785176
+    second: Gotik idle_3
+  - first:
+      213: 415183417482695268
+    second: Gotik idle_4
+  - first:
+      213: -4820567356149165
+    second: Gotik idle_5
+  - first:
+      213: -8091736229562083764
+    second: Gotik idle_6
+  - first:
+      213: 4560340363722118365
+    second: Gotik idle_7
+  - first:
+      213: -5898750149648694409
+    second: Gotik idle_8
+  - first:
+      213: -5253449238105922459
+    second: Gotik idle_9
+  - first:
+      213: -4479185169757824296
+    second: Gotik idle_10
+  - first:
+      213: 9074877671020079209
+    second: Gotik idle_11
+  - first:
+      213: 8742253458020939250
+    second: Gotik idle_12
+  - first:
+      213: 8383210552293595268
+    second: Gotik idle_13
+  - first:
+      213: -2866860537906719506
+    second: Gotik idle_14
+  - first:
+      213: 8840817928352771332
+    second: Gotik idle_15
+  - first:
+      213: -3894010598812488757
+    second: Gotik idle_16
+  - first:
+      213: 306972526472090407
+    second: Gotik idle_17
+  - first:
+      213: 1039914367747533378
+    second: Gotik idle_18
+  - first:
+      213: 6288301964896047253
+    second: Gotik idle_19
+  - first:
+      213: 1263102682259457504
+    second: Gotik idle_20
+  - first:
+      213: -1391702802161531343
+    second: Gotik idle_21
+  - first:
+      213: -5040126525590190986
+    second: Gotik idle_22
+  - first:
+      213: -2518506412838445485
+    second: Gotik idle_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gotik idle_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba9872c835cb76e0800000000000000
+      internalID: -1838659175279191363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ae3536da14099f0800000000000000
+      internalID: -463798548667569623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_2
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6563ed3f736ee51a0800000000000000
+      internalID: -6818759657803336106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_3
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82681bdab541829b0800000000000000
+      internalID: -5104807793635785176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_4
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46250b35e1703c500800000000000000
+      internalID: 415183417482695268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_5
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352fe1338bfdeeff0800000000000000
+      internalID: -4820567356149165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_6
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c461bc465c064bf80800000000000000
+      internalID: -8091736229562083764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_7
+      rect:
+        serializedVersion: 2
+        x: 7185
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4588a2665994f30800000000000000
+      internalID: 4560340363722118365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_8
+      rect:
+        serializedVersion: 2
+        x: 8207
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7734867edfd632ea0800000000000000
+      internalID: -5898750149648694409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_9
+      rect:
+        serializedVersion: 2
+        x: 9230
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564662d70cff717b0800000000000000
+      internalID: -5253449238105922459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_10
+      rect:
+        serializedVersion: 2
+        x: 10252
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da1361e1dcb6d1c0800000000000000
+      internalID: -4479185169757824296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_11
+      rect:
+        serializedVersion: 2
+        x: 11274
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968a649392170fd70800000000000000
+      internalID: 9074877671020079209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_12
+      rect:
+        serializedVersion: 2
+        x: 12299
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5b4cd9339b25970800000000000000
+      internalID: 8742253458020939250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_13
+      rect:
+        serializedVersion: 2
+        x: 13321
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48814c6c495275470800000000000000
+      internalID: 8383210552293595268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_14
+      rect:
+        serializedVersion: 2
+        x: 14343
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee41c71b78dd638d0800000000000000
+      internalID: -2866860537906719506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_15
+      rect:
+        serializedVersion: 2
+        x: 15367
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d2f5fa015e0ba70800000000000000
+      internalID: 8840817928352771332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_16
+      rect:
+        serializedVersion: 2
+        x: 16389
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbec22edf1b5f9c0800000000000000
+      internalID: -3894010598812488757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_17
+      rect:
+        serializedVersion: 2
+        x: 17411
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7235c2ce2e5924400800000000000000
+      internalID: 306972526472090407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_18
+      rect:
+        serializedVersion: 2
+        x: 18437
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24aaa669b948e6e00800000000000000
+      internalID: 1039914367747533378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_19
+      rect:
+        serializedVersion: 2
+        x: 19459
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590150af159844750800000000000000
+      internalID: 6288301964896047253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_20
+      rect:
+        serializedVersion: 2
+        x: 20481
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e50be28231778110800000000000000
+      internalID: 1263102682259457504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_21
+      rect:
+        serializedVersion: 2
+        x: 21499
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1360f3cccadaface0800000000000000
+      internalID: -1391702802161531343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_22
+      rect:
+        serializedVersion: 2
+        x: 22521
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6744c23f0afdd0ab0800000000000000
+      internalID: -5040126525590190986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik idle_23
+      rect:
+        serializedVersion: 2
+        x: 23543
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e983ad2c77c0dd0800000000000000
+      internalID: -2518506412838445485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gotik idle_0: -1838659175279191363
+      Gotik idle_1: -463798548667569623
+      Gotik idle_10: -4479185169757824296
+      Gotik idle_11: 9074877671020079209
+      Gotik idle_12: 8742253458020939250
+      Gotik idle_13: 8383210552293595268
+      Gotik idle_14: -2866860537906719506
+      Gotik idle_15: 8840817928352771332
+      Gotik idle_16: -3894010598812488757
+      Gotik idle_17: 306972526472090407
+      Gotik idle_18: 1039914367747533378
+      Gotik idle_19: 6288301964896047253
+      Gotik idle_2: -6818759657803336106
+      Gotik idle_20: 1263102682259457504
+      Gotik idle_21: -1391702802161531343
+      Gotik idle_22: -5040126525590190986
+      Gotik idle_23: -2518506412838445485
+      Gotik idle_3: -5104807793635785176
+      Gotik idle_4: 415183417482695268
+      Gotik idle_5: -4820567356149165
+      Gotik idle_6: -8091736229562083764
+      Gotik idle_7: 4560340363722118365
+      Gotik idle_8: -5898750149648694409
+      Gotik idle_9: -5253449238105922459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
