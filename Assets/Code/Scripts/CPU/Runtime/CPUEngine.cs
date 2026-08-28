@@ -16,6 +16,8 @@ public class CPUEngine : MonoBehaviour {
     public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
     public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
 
+    [SerializeField] private bool m_IsSequenceStarted = false;
+    public bool IsSequenceStarted => m_IsSequenceStarted;
 
     [Space(20)]
     [Header("Debug")]
@@ -35,8 +37,8 @@ public class CPUEngine : MonoBehaviour {
 
         m_RuntimeBehaviour = m_CPUBehaviourDefinition.CreateRuntimeBehaviour();
         // Check for CPURuntimeBehaviour 
-        Debug.Log(m_RuntimeBehaviour);
-        Debug.Log(m_CPURuntimeData);
+        //Debug.Log(m_RuntimeBehaviour);
+        //Debug.Log(m_CPURuntimeData);
     }
 
     private void Update() {
@@ -46,6 +48,7 @@ public class CPUEngine : MonoBehaviour {
             return;
         }
 
+        if(!m_IsSequenceStarted) m_IsSequenceStarted=true;
 
         m_RuntimeBehaviour.OnEngineUpdate(m_CPURuntimeData);
 

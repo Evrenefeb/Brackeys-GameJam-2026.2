@@ -24,7 +24,7 @@ public class GameManager2 : MonoBehaviour {
 
     public float m_CurrentQuota;
     public float m_CurrentUsableQuota;
-    [SerializeField] [ReadOnly] private float m_RequiredQuota;
+    [SerializeField][ReadOnly] private float m_RequiredQuota;
 
 
     public LeanButton PlayerButton => r_PlayerButton;
@@ -34,7 +34,7 @@ public class GameManager2 : MonoBehaviour {
 
     [Space(20)]
     [SerializeField] private CampaignFlow p_CampaignFlow;
-    [SerializeField] [ReadOnly] private int m_CampaignFlowIndex;
+    [SerializeField][ReadOnly] private int m_CampaignFlowIndex;
 
     private void OnEnable() {
 
@@ -67,9 +67,9 @@ public class GameManager2 : MonoBehaviour {
         m_AllSequenceObjects.Add(r_UpgradeSequenceObject);
     }
 
-    public void ChangeTrustSequence(int index){
+    public void ChangeTrustSequence(int index) {
 
-        if(index >= r_TrustSequenceList.Count || index < 0) return;
+        if (index >= r_TrustSequenceList.Count || index < 0) return;
 
         CloseAllSequenceObjects();
 
@@ -124,11 +124,22 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void Flow() {
-        if(m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) return;
+        if (m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) return;
 
         CloseAllSequenceObjects();
 
-        p_CampaignFlow.SequenceQueue[m_CampaignFlowIndex].gameObject.SetActive(true);
+        SequenceObject sequenceObject = p_CampaignFlow.SequenceQueue[m_CampaignFlowIndex];
+
+        if (sequenceObject.GetType() == typeof(TrustSequenceObject)) {
+            Debug.Log("Trust Sequence");
+            PlayerButton.enabled = true;
+        }
+        else {
+            Debug.Log("Upgrade Sequence");
+            PlayerButton.enabled = false;
+        }
+
+        sequenceObject.gameObject.SetActive(true);
         m_CampaignFlowIndex++;
     }
 
