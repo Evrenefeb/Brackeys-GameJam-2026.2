@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BookItemSO
   ItemID: 1
   DisplayName: Book
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9b0a6bc822a2af5479e829d7a6d68a2a, type: 3}
   Description: A Book
   ItemPrice: 1000

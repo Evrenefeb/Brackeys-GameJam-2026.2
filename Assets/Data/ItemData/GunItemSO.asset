@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GunItemSO
   ItemID: 0
   DisplayName: 'Gun '
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 4ff1457c62fa68442a86f6f107cb0cb6, type: 3}
   Description: A Gun
   ItemPrice: 2000
   SFX_GunDroppedTable:

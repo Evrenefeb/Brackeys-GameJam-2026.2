@@ -1,6 +1,6 @@
+using UnityEngine;
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 [CreateAssetMenu(fileName = "PlayerInventoryData", menuName = "Game/PlayerInventoryData", order = 0)]
 [Serializable]
@@ -8,8 +8,13 @@ public class PlayerInventoryData : ScriptableObject {
 
     public List<int> OwnedItemIDList = new List<int>();
 
+    [Space(10)]
+    [Header("Debugging")]
+    public bool ResetEnabled = true;
+
     public void Reset() {
-        OwnedItemIDList.Clear();
+        if (ResetEnabled)
+            OwnedItemIDList.Clear();
     }
 }
 

@@ -11,6 +11,7 @@ public class GameManager2 : MonoBehaviour {
 
 
     [SerializeField] private LeanButton r_PlayerButton;
+    [SerializeField] private InventoryManager r_PlayerInventoryManager;
 
 
     [SerializeField] private GameData p_GameData;
@@ -144,6 +145,8 @@ public class GameManager2 : MonoBehaviour {
             //Debug.Log("Upgrade Sequence");
             _currentTrustSequenceManager.OnSequenceStarted -= CurrentTrustSequenceManager_SequenceStarted;
             _currentTrustSequenceManager = null;
+
+            r_PlayerInventoryManager.DemolishInventoryUI();
             PlayerButton.enabled = false;
         }
 
@@ -154,6 +157,7 @@ public class GameManager2 : MonoBehaviour {
     private void CurrentTrustSequenceManager_SequenceStarted() {
         //Debug.Log("CurrentTrustSequenceManager_SequenceStarted");
 
+        r_PlayerInventoryManager.BuildInventoryUI();
         PlayerButton.enabled = true;
     }
 
