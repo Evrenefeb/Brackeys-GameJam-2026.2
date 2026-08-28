@@ -35,11 +35,15 @@ public class GameManager2 : MonoBehaviour {
     [Space(20)]
     [SerializeField] private CampaignFlow p_CampaignFlow;
     [SerializeField][ReadOnly] private int m_CampaignFlowIndex;
+    [SerializeField][ReadOnly] private TrustSequenceManager _currentTrustSequenceManager;
 
     private void OnEnable() {
 
         // Reset Owned Items
         r_CommonPlayerInventoryData.Reset();
+
+        // Disable PlayerButton
+        PlayerButton.enabled = false;
 
         // Setup Sequence Object List
         SetupSequenceObjects();
@@ -131,16 +135,26 @@ public class GameManager2 : MonoBehaviour {
         SequenceObject sequenceObject = p_CampaignFlow.SequenceQueue[m_CampaignFlowIndex];
 
         if (sequenceObject.GetType() == typeof(TrustSequenceObject)) {
-            Debug.Log("Trust Sequence");
-            PlayerButton.enabled = true;
+            //Debug.Log("Trust Sequence");
+
+            _currentTrustSequenceManager = sequenceObject.GetComponentInChildren<TrustSequenceManager>();
+            _currentTrustSequenceManager.OnSequenceStarted += CurrentTrustSequenceManager_SequenceStarted;
         }
         else {
-            Debug.Log("Upgrade Sequence");
+            //Debug.Log("Upgrade Sequence");
+            _currentTrustSequenceManager.OnSequenceStarted -= CurrentTrustSequenceManager_SequenceStarted;
+            _currentTrustSequenceManager = null;
             PlayerButton.enabled = false;
         }
 
         sequenceObject.gameObject.SetActive(true);
         m_CampaignFlowIndex++;
+    }
+
+    private void CurrentTrustSequenceManager_SequenceStarted() {
+        //Debug.Log("CurrentTrustSequenceManager_SequenceStarted");
+
+        PlayerButton.enabled = true;
     }
 
     public void SequenceFinished() {

@@ -35,6 +35,12 @@ public class TrustSequenceManager : MonoBehaviour
 
     #endregion
 
+    #region Events
+
+    public event Action OnSequenceStarted;
+
+    #endregion
+
     private void OnEnable() {
         StartTrustSequence();
     }
@@ -211,6 +217,7 @@ public class TrustSequenceManager : MonoBehaviour
 
         if (!m_IsSequenceStarted){
             m_IsSequenceStarted = true;
+            OnSequenceStarted?.Invoke();
         }
 
         m_SlackTimer.Reset();
