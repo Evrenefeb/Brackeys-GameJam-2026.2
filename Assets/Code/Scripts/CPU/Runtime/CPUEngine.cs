@@ -1,5 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using System;
 
 public class CPUEngine : MonoBehaviour {
 
@@ -15,6 +15,11 @@ public class CPUEngine : MonoBehaviour {
 
     public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
     public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
+
+
+    [Space(20)]
+    [Header("Debug")]
+    public bool DumpRollData;
 
     private void OnEnable() {
         if (m_CPURuntimeData == null || !m_CPURuntimeData.Consumed)
@@ -45,8 +50,8 @@ public class CPUEngine : MonoBehaviour {
 
             if (didPress)
             {
-                Debug.Log("CPU butona bastı!");
-                // r_TrustSequenceManager üzerinden ilgili aksiyon burada tetiklenebilir
+                //Debug.Log("CPU butona bastı!");
+                r_TrustSequenceManager.CPUButton_OnClick();
             }
         }
     }
@@ -59,7 +64,8 @@ public class CPUEngine : MonoBehaviour {
 
         bool success = roll < pressChance;
 
-        Debug.Log($"Retry pressing - roll: {roll:F3}, chance: {pressChance:F3}, success: {success}");
+        if(DumpRollData)
+            Debug.Log($"Retry pressing - roll: {roll:F3}, chance: {pressChance:F3}, success: {success}");
 
         return success;
     }

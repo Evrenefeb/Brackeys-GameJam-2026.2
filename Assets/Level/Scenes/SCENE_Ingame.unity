@@ -1962,6 +1962,7 @@ MonoBehaviour:
   r_UpgradeSequenceObject: {fileID: 624422109}
   r_PlayerButton: {fileID: 1880351912}
   p_GameData: {fileID: 11400000, guid: bf56fb6ba07843247830f9e410f27db4, type: 2}
+  r_ItemDatabase: {fileID: 11400000, guid: 7c53665974a21ef45bd7b8de127703e0, type: 2}
   m_CurrentQuota: 0
   m_RequiredQuota: 0
   p_CampaignFlow:

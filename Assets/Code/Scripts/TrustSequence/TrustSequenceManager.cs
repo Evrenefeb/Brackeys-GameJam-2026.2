@@ -114,18 +114,33 @@ public class TrustSequenceManager : MonoBehaviour
     
 
     private void PlayerButton_OnClick() {
-        
+
+        //Debug.Log("Force End Trust Sequence for Player");
+        //Debug.Log("Move to Upgrade Sequence");
 
         ForceEndTrustSequence();
     }
 
-
-    private void ForceEndTrustSequence() {
-        Debug.Log("Force End Trust Sequence for Player");
+    public void CPUButton_OnClick() {
+        Debug.Log("Force End Trust Sequence for CPU");
         Debug.Log("Move to Upgrade Sequence");
 
+        ForceEndTrustSequence(false);
+    }
+
+
+    private void ForceEndTrustSequence() {
+
+        ForceEndTrustSequence(true);
+
+    }
+
+    private void ForceEndTrustSequence(bool isPlayerWin) {
+
         // Reevalute Current Quota
-        p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
+
+        if(isPlayerWin)
+            p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
 
         // Finish Trust Sequence
         FinishSequence();
