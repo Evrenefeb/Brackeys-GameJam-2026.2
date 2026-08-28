@@ -31,8 +31,8 @@ public class CPUEngine : MonoBehaviour {
 
         m_RuntimeBehaviour = m_CPUBehaviourDefinition.CreateRuntimeBehaviour();
         // Check for CPURuntimeBehaviour 
-        Debug.Log(m_RuntimeBehaviour);
-        Debug.Log(m_CPURuntimeData);
+        //Debug.Log(m_RuntimeBehaviour);
+        //Debug.Log(m_CPURuntimeData);
     }
 
     private void Update() {
