@@ -1,4 +1,5 @@
 using Ami.BroAudio;
+using Lean.Gui;
 using PrimeTween;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,8 +8,11 @@ public class ShopUIManager : MonoBehaviour {
 
     [SerializeField] private ShopManager r_ShopManager;
 
-    [SerializeField] private Button btn_BuyGun;
-    [SerializeField] private Button btn_BuyBook;
+    [SerializeField] private LeanButton btn_BuyGun;
+    [SerializeField] private LeanButton btn_BuyBook;
+    [SerializeField] private LeanButton btn_BuyGlasses;
+    [SerializeField] private LeanButton btn_BuyWines;
+    [SerializeField] private LeanButton btn_BuyMusicBox;
 
     [SerializeField] private CanvasGroup m_LightGroup;
     [SerializeField] private CanvasGroup m_FadeGroup;
@@ -21,8 +25,11 @@ public class ShopUIManager : MonoBehaviour {
     [SerializeField] private SoundID SFX_LightON;
 
     private void Awake() {
-        btn_BuyGun.onClick.AddListener(() => OnVendorBuyItem(btn_BuyGun));
-        btn_BuyBook.onClick.AddListener(() => OnVendorBuyItem(btn_BuyBook));
+        btn_BuyGun.OnClick.AddListener(() => OnVendorBuyItem(btn_BuyGun));
+        btn_BuyBook.OnClick.AddListener(() => OnVendorBuyItem(btn_BuyBook));
+        btn_BuyGlasses.OnClick.AddListener(() => OnVendorBuyItem(btn_BuyGlasses));
+        btn_BuyWines.OnClick.AddListener(() => OnVendorBuyItem(btn_BuyWines));
+        btn_BuyMusicBox.OnClick.AddListener(() => OnVendorBuyItem(btn_BuyMusicBox));
     }
 
     private void OnEnable() {
@@ -43,7 +50,7 @@ public class ShopUIManager : MonoBehaviour {
         BroAudio.Stop(SFX_LightON);
     }
 
-    public void OnVendorBuyItem(Button pressedButton) {
+    public void OnVendorBuyItem(LeanButton pressedButton) {
         ShopItemElement itemElement = pressedButton.GetComponent<ShopItemElement>();
         bool canBuy = r_ShopManager.BuyItem(itemElement.ItemID);
         pressedButton.gameObject.SetActive(!canBuy);
