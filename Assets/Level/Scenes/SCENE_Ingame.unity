@@ -2868,6 +2868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopSequence
       objectReference: {fileID: 0}
+    - target: {fileID: 1979195226505560424, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832469642232698850, guid: b6e18bee8c0799449ae8eaaa6e6f743d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

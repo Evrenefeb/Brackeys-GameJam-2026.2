@@ -154,6 +154,9 @@ public class TrustSequenceManager : MonoBehaviour
 
     private void ForceEndTrustSequence(bool isPlayerWin) {
 
+        // dİSBABLE PLAYER BUTTON
+        m_PlayerButton.enabled = false;
+
         // Reevalute Current Quota
 
         if (isPlayerWin) { 
