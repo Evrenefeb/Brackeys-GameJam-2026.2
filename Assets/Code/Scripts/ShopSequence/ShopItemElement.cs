@@ -22,7 +22,7 @@ public class ShopItemElement : MonoBehaviour {
     }
 
     public void SetHoveredText(string displayName, string description) {
-        DisplayTextRef.text = $"<b>{displayName}</b>\n{description}";
+        DisplayTextRef.text = $"<b>{displayName}</b>\n{description}\n\n<b>${r_ItemDefinition.ItemPrice}</b>";
     }
 
 }

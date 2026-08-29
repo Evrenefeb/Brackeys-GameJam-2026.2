@@ -33,6 +33,9 @@ public class TrustSequenceManager : MonoBehaviour
     public TrustSequenceRound CurrentRound => m_CurrentRound;
     public bool IsSequenceStarted => m_IsSequenceStarted;
 
+    [SerializeField][ReadOnly] private bool m_IsSequenceOver = false;
+    public bool IsSequenceOver => m_IsSequenceOver;
+
     #endregion
 
     #region Events
@@ -65,6 +68,8 @@ public class TrustSequenceManager : MonoBehaviour
 
     public void StartTrustSequence() {
         //Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
+
+        m_IsSequenceOver = false;
 
         // Setup Args
         SetupArgs();
@@ -169,6 +174,11 @@ public class TrustSequenceManager : MonoBehaviour
     }
 
     private void FinishSequence() {
+        m_IsSequenceOver = true;
+
+        m_RoundTimer.Stop();
+        m_SlackTimer.Stop();
+
         p_GameManager.SequenceFinished();
     }
 
@@ -189,20 +199,17 @@ public class TrustSequenceManager : MonoBehaviour
     #region Timers
 
     private void RoundTimer_OnStop() {
-        //Debug.Log("Round Timer Ended");
-
         m_RoundTimer.Reset();
 
-        // Check if the sequence is over
         bool sequenceOver = CheckSequenceOverState(out m_OverState);
 
         if (sequenceOver) {
             Debug.Log("Sequence Over");
+            FinishSequence();
             return;
         }
 
         SetupNextRound();
-
         m_SlackTimer.Start();
     }
 

@@ -24,6 +24,7 @@ public class GunItemSO : ItemSO {
 
             case 2:
                 Debug.Log($"Use {name} for Nerd");
+                engine.CPUAnimationHandler.CPUAnimator.SetBool("ANIMBOOL_SAD", true);
                 engine.CPURuntimeData.PressChance *= 0.5f;
                 break;
 

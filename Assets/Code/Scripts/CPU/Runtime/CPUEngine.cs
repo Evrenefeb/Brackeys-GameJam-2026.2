@@ -56,7 +56,7 @@ public class CPUEngine : MonoBehaviour {
 
             bool didPress = RetryPressing(m_CPURuntimeData.PressChance);
 
-            if (didPress)
+            if (didPress && !r_TrustSequenceManager.IsSequenceOver)
             {
                 //Debug.Log("CPU butona bastı!");
                 r_TrustSequenceManager.CPUButton_OnClick();

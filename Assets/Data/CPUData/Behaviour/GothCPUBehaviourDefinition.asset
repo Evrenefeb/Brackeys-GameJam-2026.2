@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GothCPUBehaviourDefinition
   m_MinPressChanceValue: 0.05
   m_ApathyDecayRate: 0.0005
-  m_FixedLongInterval: 0.04
+  m_FixedLongInterval: 10
