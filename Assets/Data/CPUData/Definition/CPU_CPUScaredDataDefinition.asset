@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CPU_CPUScaredDataDefinition
   m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
   m_CPUID: 0
-  m_DisplayName: Korkak
+  m_DisplayName: Scared
   m_InitialPressChance: 0.05
   m_InitialRetryInterval: 3.5
