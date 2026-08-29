@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3762666514600639683, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_Name
-      value: TrustSequence_Campain Variant
+      value: TrustSequence_CampainVariant_Nerd
       objectReference: {fileID: 0}
     - target: {fileID: 4780569495399294763, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_Pivot.x
@@ -112,6 +112,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6272667853215092065, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
+      propertyPath: r_DataDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e7b11a91f513fb4fa868a1c323a401c, type: 2}
+    - target: {fileID: 6272667853215092065, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
+      propertyPath: m_CPUBehaviourDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cbb03d2c77b05e4fbdcfc7b3cbb2d4c, type: 2}
     - target: {fileID: 8944633740938135488, guid: 3c6e67dff1dc7af40870a1262e8884c1, type: 3}
       propertyPath: m_Controller
       value: 

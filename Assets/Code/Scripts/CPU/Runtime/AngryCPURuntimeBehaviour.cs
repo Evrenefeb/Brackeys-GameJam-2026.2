@@ -8,6 +8,8 @@ public class AngryCPURuntimeBehaviour : CPURuntimeBehaviour {
     }
 
     public override void OnEngineUpdate(CPUEngine engine, CPURuntimeData runtimeData) {
-        Debug.Log("AngryCPURuntimeBehaviour.OnEngineUpdate");
+        //Debug.Log("AngryCPURuntimeBehaviour.OnEngineUpdate");
+
+        engine.CPUAnimationHandler.CPUAnimator.SetFloat("ANIMP_FLOAT_PRESS_CHANCE", runtimeData.PressChance);
     }
 }

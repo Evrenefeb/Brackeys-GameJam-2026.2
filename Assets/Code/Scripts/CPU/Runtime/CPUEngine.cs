@@ -17,6 +17,8 @@ public class CPUEngine : MonoBehaviour {
     public CPURuntimeData CPURuntimeData => m_CPURuntimeData;
     public CPUDataDefinition CPUDataDefinition => r_DataDefinition;
     public CPUAnimationHandler CPUAnimationHandler => r_AnimationHandler;
+    public TrustSequenceManager TrustSequenceManager => r_TrustSequenceManager;
+
 
 
 

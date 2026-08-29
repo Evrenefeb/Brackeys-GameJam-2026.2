@@ -31,6 +31,8 @@ public class TrustSequenceManager : MonoBehaviour
     public CountdownTimer RoundTimer => m_RoundTimer;
     public CountdownTimer SlackTimer => m_SlackTimer;
     public TrustSequenceRound CurrentRound => m_CurrentRound;
+    public int CurrentRoundIndex => m_CurrentRoundIndex;
+    public TrustSequenceArgs SequenceArgs => p_SequenceArgs;
     public bool IsSequenceStarted => m_IsSequenceStarted;
 
     [SerializeField][ReadOnly] private bool m_IsSequenceOver = false;
@@ -176,7 +178,13 @@ public class TrustSequenceManager : MonoBehaviour
     private void FinishSequence() {
         m_IsSequenceOver = true;
 
-        m_RoundTimer.Stop();
+
+        m_RoundTimer.OnTimerStart -= RoundTimer_OnStart;
+        m_RoundTimer.OnTimerStop -= RoundTimer_OnStop;
+        m_RoundTimer.Stop();        
+
+        m_SlackTimer.OnTimerStart -= SlackTimer_OnStart;
+        m_SlackTimer.OnTimerStop -= SlackTimer_OnStop;
         m_SlackTimer.Stop();
 
         p_GameManager.SequenceFinished();
