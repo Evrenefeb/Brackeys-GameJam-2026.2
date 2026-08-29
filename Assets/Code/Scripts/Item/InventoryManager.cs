@@ -12,14 +12,19 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] [ReadOnly] private List<InventorySlot_UI> m_InventorySlotList = new();
 
-    public void BuildInventoryUI() {
+    [SerializeField] private TrustSequenceManager m_TrustSequenceManager;
+
+    public void BuildInventoryUI(TrustSequenceManager _currentTrustSequenceManager) {
         DemolishInventoryUI();
+
+        m_TrustSequenceManager = _currentTrustSequenceManager;
 
         int size = r_GameManager.PlayerInventoryData.OwnedItemIDList.Count;
 
         for (int i = 0; i < size; i++) {
             InventorySlot_UI slot = Instantiate(r_InventorySlotPrefab, r_InventoryContainerParent.transform);
-            slot.InitializeSlot(r_GameManager.ItemDatabase.ItemList[r_GameManager.PlayerInventoryData.OwnedItemIDList[i]].Icon);
+            int itemID = r_GameManager.PlayerInventoryData.OwnedItemIDList[i];
+            slot.InitializeSlot(r_GameManager.ItemDatabase.ItemList[itemID].Icon, i, m_TrustSequenceManager, this);
 
             m_InventorySlotList.Add(slot);
         }
@@ -32,6 +37,11 @@ public class InventoryManager : MonoBehaviour
         }
 
         m_InventorySlotList.Clear();
+    }
+
+    public void RemoveSlot(InventorySlot_UI slot, int index) {
+        r_GameManager.PlayerInventoryData.OwnedItemIDList.RemoveAt(index);
+        BuildInventoryUI(m_TrustSequenceManager); // indexler kaydığı için UI'ı yeniden kur
     }
 
 }

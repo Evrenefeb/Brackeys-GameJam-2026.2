@@ -160,7 +160,7 @@ public class GameManager2 : MonoBehaviour {
     private void CurrentTrustSequenceManager_SequenceStarted() {
         //Debug.Log("CurrentTrustSequenceManager_SequenceStarted");
 
-        r_PlayerInventoryManager.BuildInventoryUI();
+        r_PlayerInventoryManager.BuildInventoryUI(_currentTrustSequenceManager);
         PlayerButton.enabled = true;
     }
 
