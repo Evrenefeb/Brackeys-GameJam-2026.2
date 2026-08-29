@@ -11,23 +11,23 @@ public class MusicBoxItemSO : ItemSO {
         switch (engine.CPUDataDefinition.CPUID) {
 
             case 0:
-                Debug.Log("MusicBox for CPU 0");
+                Debug.Log($"Use {name} for Scared");
                 break;
 
             case 1:
-                Debug.Log("MusicBoxk for CPU 1");
+                Debug.Log($"Use {name} for Goth");
                 break;
 
             case 2:
-                Debug.Log("MusicBox for CPU 2");
+                Debug.Log($"Use {name} for Nerd");
                 break;
 
             case 3:
-                Debug.Log("MusicBox for CPU 3");
+                Debug.Log($"Use {name} for Angry");
                 break;
 
             case 4:
-                Debug.Log("MusicBox for CPU 4");
+                Debug.Log($"Use {name} for Flirt");
                 break;
 
             default:

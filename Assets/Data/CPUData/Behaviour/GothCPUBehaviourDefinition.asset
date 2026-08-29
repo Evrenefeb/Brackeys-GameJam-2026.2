@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a61c4fc5b706c44459c816b27e72725f, type: 3}
   m_Name: GothCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::GothCPUBehaviourDefinition
+  m_MinPressChanceValue: 0.05
+  m_ApathyDecayRate: 0.0005
+  m_FixedLongInterval: 0.04

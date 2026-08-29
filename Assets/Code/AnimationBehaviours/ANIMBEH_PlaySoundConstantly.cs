@@ -1,10 +1,10 @@
 using Ami.BroAudio;
 using UnityEngine;
 
-public class ANIMBEH_Scared_OnIdle : StateMachineBehaviour
+public class ANIMBEH_PlaySoundConstantly : StateMachineBehaviour
 {
 
-    public SoundID SFX_Breahting;
+    public SoundID SFX_Sound;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {        
@@ -12,7 +12,7 @@ public class ANIMBEH_Scared_OnIdle : StateMachineBehaviour
 
     public override void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 
-        if(SFX_Breahting.HasAnyPlayingInstances() == false) { BroAudio.Play(SFX_Breahting); }
+        if(SFX_Sound.HasAnyPlayingInstances() == false) { BroAudio.Play(SFX_Sound); }
     }
 
 }

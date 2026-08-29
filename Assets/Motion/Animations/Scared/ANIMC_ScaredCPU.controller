@@ -12,8 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 497ba14524f29634883b102cd8973184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  SFX_Breahting:
+  SFX_Sound:
     _entity: {fileID: 11400000, guid: 6a99615deaac52a45b5b7227c8e7fdbd, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}
+--- !u!114 &-7909430374225861671
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 497ba14524f29634883b102cd8973184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ANIMBEH_PlaySoundConstantly
+  SFX_Sound:
+    _entity: {fileID: 11400000, guid: f5fda105ba703524090153c22d1f3d62, type: 2}
     ID: 0
     <DebugObject>k__BackingField: {fileID: 0}
 --- !u!1102 &-6390202279516293387
@@ -29,7 +45,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 6405825983787401112}
   m_StateMachineBehaviours:
-  - {fileID: -2403558304926180374}
+  - {fileID: -7909430374225861671}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -44,22 +60,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!114 &-2403558304926180374
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6a97162454a0d046ad060b2019af8a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ANIMBEH_Scared_OnScream
-  SFX_Scream:
-    _entity: {fileID: 11400000, guid: f5fda105ba703524090153c22d1f3d62, type: 2}
-    ID: 0
-    <DebugObject>k__BackingField: {fileID: 0}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0

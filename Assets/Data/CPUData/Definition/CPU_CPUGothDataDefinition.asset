@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
   m_CPUID: 1
   m_DisplayName: Goth
-  m_InitialPressChance: 0.2
+  m_InitialPressChance: 0.15
   m_InitialRetryInterval: 5
