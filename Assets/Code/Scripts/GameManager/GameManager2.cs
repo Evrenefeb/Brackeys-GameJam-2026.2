@@ -1,3 +1,4 @@
+using Ami.BroAudio;
 using Lean.Gui;
 using Sirenix.OdinInspector;
 using System;
@@ -130,6 +131,8 @@ public class GameManager2 : MonoBehaviour {
 
     public void Flow() {
         if (m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) return;
+
+        BroAudio.Stop(BroAudioType.All, 0.2f);
 
         CloseAllSequenceObjects();
 

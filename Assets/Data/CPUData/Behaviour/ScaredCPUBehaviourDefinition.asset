@@ -14,3 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScaredCPUBehaviourDefinition
   m_MaxPressChanceValue: 0.02
   m_PressChangeOvertimeChangeValue: 0.00002
+  SFX_Scared_Breathing:
+    _entity: {fileID: 11400000, guid: 6a99615deaac52a45b5b7227c8e7fdbd, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}
+  SFX_Scared_Scream:
+    _entity: {fileID: 0}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}
+  MaxRetryIntervalBeforeScream: 0.8
