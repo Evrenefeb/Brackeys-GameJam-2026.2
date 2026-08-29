@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: TrustSequenceArgs_4
   m_EditorClassIdentifier: Assembly-CSharp::TrustSequenceArgs
   p_SequenceName: E Sequence
+  p_SequenceType: 0
+  p_MaxRounds: 5
+  p_RoundTime: 4
+  p_SlackTime: 2.5
+  p_InitialPot: 10000
+  p_RoundPotMultiplier: 2

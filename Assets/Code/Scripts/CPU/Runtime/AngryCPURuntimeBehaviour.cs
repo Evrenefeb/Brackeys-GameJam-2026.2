@@ -11,5 +11,12 @@ public class AngryCPURuntimeBehaviour : CPURuntimeBehaviour {
         //Debug.Log("AngryCPURuntimeBehaviour.OnEngineUpdate");
 
         engine.CPUAnimationHandler.CPUAnimator.SetFloat("ANIMP_FLOAT_PRESS_CHANCE", runtimeData.PressChance);
+
+        int currentGameRound = engine.TrustSequenceManager.CurrentRoundIndex;
+
+        if(currentGameRound > def.AfterRoundPressChanceMultiplier) {
+            engine.CPURuntimeData.PressChance += def.PerRoundPressChanceMultiplier * (currentGameRound);
+        }
+
     }
 }

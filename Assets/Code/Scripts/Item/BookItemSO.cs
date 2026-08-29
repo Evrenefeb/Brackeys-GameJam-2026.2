@@ -20,10 +20,13 @@ public class BookItemSO : ItemSO {
 
             case 2:
                 Debug.Log($"Use {name} for Nerd");
+                engine.CPURuntimeData.PressChance *= 0.5f;
+                engine.CPURuntimeData.RetryInterval *= 2f;
                 break;
 
             case 3:
                 Debug.Log($"Use {name} for Angry");
+                engine.CPURuntimeData.PressChance *= 1.2f;
                 break;
 
             case 4:

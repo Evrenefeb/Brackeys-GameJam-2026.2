@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f6d3e58d226fa49b2a572c97c1f720, type: 3}
   m_Name: AngryCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::AngryCPUBehaviourDefinition
+  p_PerRoundPressChanceMultiplier: 0.00002
+  p_AfterRoundPressChanceMultiplier: 2

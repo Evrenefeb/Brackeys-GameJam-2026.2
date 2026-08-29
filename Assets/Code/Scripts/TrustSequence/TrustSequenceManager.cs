@@ -225,6 +225,8 @@ public class TrustSequenceManager : MonoBehaviour
         if (sequenceOver) {
             Debug.Log("Sequence Over");
             FinishSequence();
+            p_GameManager.ChangeCurrentQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
+            p_GameManager.ChangeCurrentUsableQuota(m_CurrentRound.CurrentPot, QuotaChangeMode.ADD);
             return;
         }
 

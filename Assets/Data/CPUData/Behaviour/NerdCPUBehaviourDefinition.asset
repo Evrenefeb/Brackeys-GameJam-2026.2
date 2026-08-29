@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 571185efe3832674698fff01d147149f, type: 3}
   m_Name: NerdCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::NerdCPUBehaviourDefinition
+  RandChange: 0.00001

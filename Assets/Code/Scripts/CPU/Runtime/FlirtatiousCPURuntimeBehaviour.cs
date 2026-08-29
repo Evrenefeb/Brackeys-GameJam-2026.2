@@ -2,16 +2,32 @@
 
 public class FlirtatiousCPURuntimeBehaviour : CPURuntimeBehaviour {
     private FlirtatiousCPUBehaviourDefinition def;
+    float currentFlirtTime = 0f;
+
+    bool increasing;
+
 
     public FlirtatiousCPURuntimeBehaviour(CPUBehaviourDefinition def) {
         this.def = def as FlirtatiousCPUBehaviourDefinition;
+        increasing = false;
     }
 
     public override void OnEngineUpdate(CPUEngine engine, CPURuntimeData runtimeData) {
         //Debug.Log("FlirtatiousCPURuntimeBehaviour.OnEngineUpdate");
 
-        float wave = Mathf.Sin(Time.time * def.FlirtFrequency) * def.FlirtAmplitude;
-        runtimeData.PressChance = Mathf.Clamp01(engine.CPUDataDefinition.PressChance + wave);
+        currentFlirtTime += Time.deltaTime;
+
+        if (currentFlirtTime > def.FlirtFrequency) {
+            currentFlirtTime = 0f;
+            increasing = !increasing;
+        }
+
+        if (increasing) {
+            engine.CPURuntimeData.PressChance += def.FlirtAmplitude;
+        }
+        else {
+            engine.CPURuntimeData.PressChance -= def.FlirtAmplitude;
+        }
 
 
     }

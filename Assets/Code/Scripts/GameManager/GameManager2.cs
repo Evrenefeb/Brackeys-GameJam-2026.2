@@ -9,6 +9,8 @@ public class GameManager2 : MonoBehaviour {
     public List<TrustSequenceObject> r_TrustSequenceList = new();
     public ShopSequenceObject r_UpgradeSequenceObject;
 
+    public SceneManager r_SceneManager;
+
 
 
     [SerializeField] private LeanButton r_PlayerButton;
@@ -131,7 +133,10 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void Flow() {
-        if (m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) return;
+        if (m_CampaignFlowIndex >= p_CampaignFlow.SequenceQueue.Count) {
+            EndGame();
+            return;
+        }
 
         BroAudio.Stop(BroAudioType.All, 0.2f);
 
@@ -169,6 +174,22 @@ public class GameManager2 : MonoBehaviour {
         r_EnvironmentManager.HandleTransition(FlowInvokeDelay);
         Invoke(nameof(Flow), FlowInvokeDelay);
     }
+
+
+    private const string p_WinSceneName = "ESCENE_Win";
+    private const string p_LoseSceneName = "ESCENE_Lose";
+
+    private void EndGame() {
+        if (m_CurrentQuota >= m_RequiredQuota) {
+            Debug.Log("Win");
+            r_SceneManager.ChangeScene(p_WinSceneName);
+        }
+        else {
+            Debug.Log("Lose");
+            r_SceneManager.ChangeScene(p_LoseSceneName);
+        }
+    }
+
 }
 
 [Serializable]

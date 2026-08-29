@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
   m_CPUID: 2
   m_DisplayName: Nerd
-  m_InitialPressChance: -99
+  m_InitialPressChance: 0.05
   m_InitialRetryInterval: -99
