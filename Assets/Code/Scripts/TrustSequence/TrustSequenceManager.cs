@@ -33,6 +33,7 @@ public class TrustSequenceManager : MonoBehaviour
     public CountdownTimer SlackTimer => m_SlackTimer;
     public TrustSequenceRound CurrentRound => m_CurrentRound;
     public int CurrentRoundIndex => m_CurrentRoundIndex;
+    public int MaxRounds => m_MaxRounds;
     public TrustSequenceArgs SequenceArgs => p_SequenceArgs;
     public bool IsSequenceStarted => m_IsSequenceStarted;
 

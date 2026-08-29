@@ -598,3 +598,7 @@ MonoBehaviour:
   r_ItemDefinition: {fileID: 11400000, guid: 4a35ec805816fdc47a90a405152c56de, type: 2}
   DisplayTextRef: {fileID: 970124029690259275}
   DisplayImageRef: {fileID: 4497559929922316446}
+  SFX_PurchaseSoundID:
+    _entity: {fileID: 11400000, guid: 3ac009f04db04b64d909a91edc915673, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 7346445366675572315}

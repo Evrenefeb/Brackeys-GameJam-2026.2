@@ -32,6 +32,7 @@ public class GameManager2 : MonoBehaviour {
     public LeanButton PlayerButton => r_PlayerButton;
     public ItemDatabase ItemDatabase => r_ItemDatabase;
     public PlayerInventoryData PlayerInventoryData => r_CommonPlayerInventoryData;
+    public GameData GameData => p_GameData;
 
 
     [Space(20)]
