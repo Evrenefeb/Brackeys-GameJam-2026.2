@@ -14,17 +14,17 @@ public class InventoryManager : MonoBehaviour
 
     [SerializeField] private TrustSequenceManager m_TrustSequenceManager;
 
-    public void BuildInventoryUI(TrustSequenceManager _currentTrustSequenceManager) {
+    public void BuildInventoryUI(TrustSequenceManager trustSequenceManager) {
         DemolishInventoryUI();
 
-        m_TrustSequenceManager = _currentTrustSequenceManager;
+        m_TrustSequenceManager = trustSequenceManager;
 
         int size = r_GameManager.PlayerInventoryData.OwnedItemIDList.Count;
 
         for (int i = 0; i < size; i++) {
-            InventorySlot_UI slot = Instantiate(r_InventorySlotPrefab, r_InventoryContainerParent.transform);
             int itemID = r_GameManager.PlayerInventoryData.OwnedItemIDList[i];
-            slot.InitializeSlot(r_GameManager.ItemDatabase.ItemList[itemID].Icon, i, m_TrustSequenceManager, this);
+            InventorySlot_UI slot = Instantiate(r_InventorySlotPrefab, r_InventoryContainerParent.transform);
+            slot.InitializeSlot(r_GameManager.ItemDatabase.ItemList[itemID].Icon, itemID, m_TrustSequenceManager, this);
 
             m_InventorySlotList.Add(slot);
         }
@@ -39,9 +39,9 @@ public class InventoryManager : MonoBehaviour
         m_InventorySlotList.Clear();
     }
 
-    public void RemoveSlot(InventorySlot_UI slot, int index) {
-        r_GameManager.PlayerInventoryData.OwnedItemIDList.RemoveAt(index);
-        BuildInventoryUI(m_TrustSequenceManager); // indexler kaydığı için UI'ı yeniden kur
+    public void RemoveSlot(InventorySlot_UI slot, int itemID) {
+        r_GameManager.PlayerInventoryData.OwnedItemIDList.Remove(itemID); // RemoveAt değil, Remove
+        BuildInventoryUI(m_TrustSequenceManager);
     }
 
 }

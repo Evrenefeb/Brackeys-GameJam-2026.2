@@ -17,3 +17,7 @@ MonoBehaviour:
   Icon: {fileID: 7447198170063300605, guid: 913f30a62fa00554689fdf28abc29c92, type: 3}
   Description: Bundle of Wines
   ItemPrice: 12500
+  SFX_OnUse:
+    _entity: {fileID: 11400000, guid: b6816f6c74446ce4193e3e11bd972b51, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}

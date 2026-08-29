@@ -17,3 +17,7 @@ MonoBehaviour:
   Icon: {fileID: -3634464890100592574, guid: 9329e887872215343b2f460bb7a453fc, type: 3}
   Description: Music Box that plays music
   ItemPrice: 7500
+  SFX_OnUse:
+    _entity: {fileID: 11400000, guid: 6641f2fd37f1e7c41b788dcf02f68b20, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}

@@ -17,3 +17,7 @@ MonoBehaviour:
   Icon: {fileID: 8623426918726067336, guid: 5379696ae9668a64f821dec40a377a89, type: 3}
   Description: A Book
   ItemPrice: 1000
+  SFX_OnUse:
+    _entity: {fileID: 11400000, guid: 158d4b8d5df9db246a3e0f587ecf5645, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}

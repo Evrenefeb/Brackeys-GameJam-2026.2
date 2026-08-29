@@ -82,14 +82,13 @@ public class TrustSequenceManager : MonoBehaviour
         StartFirstRound();
     }
 
-    public void UseItem(int index) {
+   
 
-        if(index < 0 || index >= p_GameManager.ItemDatabase.ItemList.Count) return;
-
-        p_GameManager.ItemDatabase.ItemList[index].OnUse(r_CPUEngine);
-
+    public void UseItem(int itemID) {
+        if (itemID < 0 || itemID >= p_GameManager.ItemDatabase.ItemList.Count) return;
+        p_GameManager.ItemDatabase.ItemList[itemID].OnUse(r_CPUEngine);
     }
-    
+
 
     private void SetupArgs() {
         //Debug.Log("Setting up Args");
