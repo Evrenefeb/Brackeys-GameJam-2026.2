@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0c79bd4345c664fbb0be5c17b6c029, type: 3}
   m_Name: FlirtatiousCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::FlirtatiousCPUBehaviourDefinition
+  p_FlirtFrequency: 0.5
+  p_FlirtAmplitude: 0.05

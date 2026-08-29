@@ -1,3 +1,4 @@
+using Ami.BroAudio;
 using ImprovedTimers;
 using Lean.Gui;
 using Sirenix.OdinInspector;
@@ -38,6 +39,9 @@ public class TrustSequenceManager : MonoBehaviour
     [SerializeField][ReadOnly] private bool m_IsSequenceOver = false;
     public bool IsSequenceOver => m_IsSequenceOver;
 
+    public SoundID SFX_BG;
+    public SoundID SFX_TVStatic;
+
     #endregion
 
     #region Events
@@ -65,6 +69,9 @@ public class TrustSequenceManager : MonoBehaviour
             m_PlayerButton.OnClick.RemoveListener(PlayerButton_OnClick);
             m_PlayerButton.OnClick.RemoveListener(PlayerButton_OnDown);
         }
+
+        BroAudio.Stop(SFX_BG);
+        BroAudio.Stop(SFX_TVStatic);
         
     }
 
@@ -72,6 +79,9 @@ public class TrustSequenceManager : MonoBehaviour
         //Debug.Log("Starting Trust Sequence: " + p_SequenceArgs.p_SequenceName);
 
         m_IsSequenceOver = false;
+
+        BroAudio.Play(SFX_BG);
+        BroAudio.Play(SFX_TVStatic);
 
         // Setup Args
         SetupArgs();

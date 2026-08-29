@@ -332,6 +332,15 @@ MonoBehaviour:
   m_CurrentRoundIndex: 0
   m_MaxRounds: 0
   m_IsSequenceStarted: 0
+  m_IsSequenceOver: 0
+  SFX_BG:
+    _entity: {fileID: 11400000, guid: 78bd80a320793524eb9d16599a6c719e, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 3538931336997918280}
+  SFX_TVStatic:
+    _entity: {fileID: 11400000, guid: 36ab127e28c3172419ca472c6ad8a782, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 3538931336997918280}
 --- !u!114 &6272667853215092065
 MonoBehaviour:
   m_ObjectHideFlags: 0

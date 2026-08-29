@@ -1287,7 +1287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2143094574
 Transform:
   m_ObjectHideFlags: 0
@@ -1320,12 +1320,12 @@ MonoBehaviour:
   _stopOnDisable: 0
   _overrideFadeOut: -1
   _sound:
-    _entity: {fileID: 11400000, guid: 2b57a933cae71594da87b9bb41e5e313, type: 2}
+    _entity: {fileID: 11400000, guid: cd6b9ed36d6cf2a428f5aae2d8a4047b, type: 2}
     ID: 0
     <DebugObject>k__BackingField: {fileID: 2143094573}
   _overrideGroup: {fileID: 0}
   _positionMode: 0
-  _delay: 3
+  _delay: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
