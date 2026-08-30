@@ -16,6 +16,9 @@ public class BookItemSO : ItemSO {
 
             case 1:
                 Debug.Log($"Use {name} for Goth");
+                engine.CPURuntimeData.PressChance *= 0.275f;
+
+                engine.CPUAnimationHandler.CPUAnimator.SetBool("ANIMBOOL_HAPPY", true);
                 break;
 
             case 2:
@@ -31,6 +34,7 @@ public class BookItemSO : ItemSO {
 
             case 4:
                 Debug.Log($"Use {name} for Flirt");
+                engine.CPURuntimeData.PressChance *= 0.75f;
                 break;
 
             default:

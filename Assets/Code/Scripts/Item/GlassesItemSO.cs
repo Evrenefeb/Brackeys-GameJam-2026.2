@@ -7,6 +7,7 @@ public class GlassesItemSO : ItemSO {
 
         BroAudio.Play(SFX_OnUse);
 
+        engine.TrustSequenceManager.GameManager.TXT_Glasses.gameObject.SetActive(true);
 
         switch (engine.CPUDataDefinition.CPUID) {
 
@@ -20,6 +21,7 @@ public class GlassesItemSO : ItemSO {
 
             case 2:
                 Debug.Log($"Use {name} for Nerd");
+                engine.CPURuntimeData.PressChance -= 0.5f;
                 break;
 
             case 3:

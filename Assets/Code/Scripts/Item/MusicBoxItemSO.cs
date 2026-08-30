@@ -16,6 +16,7 @@ public class MusicBoxItemSO : ItemSO {
 
             case 1:
                 Debug.Log($"Use {name} for Goth");
+                engine.CPURuntimeData.PressChance *= 1.6f;                
                 break;
 
             case 2:
@@ -24,6 +25,7 @@ public class MusicBoxItemSO : ItemSO {
 
             case 3:
                 Debug.Log($"Use {name} for Angry");
+                engine.CPURuntimeData.PressChance += -1f;                
                 break;
 
             case 4:

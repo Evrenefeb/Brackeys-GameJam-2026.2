@@ -17,7 +17,7 @@ MonoBehaviour:
   _group: {fileID: 0}
   Clips:
   - AudioClip: {fileID: 8300000, guid: 6ef499449f2bf294898b2aad4c5b5ccf, type: 3}
-    Volume: 1.6195475
+    Volume: 7.5
     Delay: 0
     StartPosition: 0
     EndPosition: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     Weight: 0
   <AudioAsset>k__BackingField: {fileID: 11400000, guid: bfa6b3258a303a74896a7562b0790130, type: 2}
   <AudioType>k__BackingField: 8
-  <MasterVolume>k__BackingField: 1
+  <MasterVolume>k__BackingField: 7.5
   <Loop>k__BackingField: 0
   <SeamlessLoop>k__BackingField: 0
   <TransitionTime>k__BackingField: 0

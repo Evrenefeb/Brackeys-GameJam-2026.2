@@ -23,7 +23,7 @@ public class FlirtatiousCPURuntimeBehaviour : CPURuntimeBehaviour {
         }
 
         if (increasing) {
-            engine.CPURuntimeData.PressChance += def.FlirtAmplitude;
+            engine.CPURuntimeData.PressChance += def.FlirtAmplitude * Random.Range(0.9f, 1.5f);
         }
         else {
             engine.CPURuntimeData.PressChance -= def.FlirtAmplitude;

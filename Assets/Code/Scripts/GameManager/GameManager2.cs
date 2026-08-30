@@ -3,6 +3,7 @@ using Lean.Gui;
 using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class GameManager2 : MonoBehaviour {
@@ -36,11 +37,29 @@ public class GameManager2 : MonoBehaviour {
     public PlayerInventoryData PlayerInventoryData => r_CommonPlayerInventoryData;
     public GameData GameData => p_GameData;
 
+    [SerializeField] private TMP_Text txt_Glasses;
+    public TMP_Text TXT_Glasses => txt_Glasses;
+    private float infoTimer = 0;
+    private float maxInfoTimer = 5f;
+
 
     [Space(20)]
     [SerializeField] private CampaignFlow p_CampaignFlow;
     [SerializeField][ReadOnly] private int m_CampaignFlowIndex;
     [SerializeField][ReadOnly] private TrustSequenceManager _currentTrustSequenceManager;
+
+    private void Update() {
+        if (txt_Glasses.gameObject.activeSelf) {
+            infoTimer += Time.deltaTime;
+
+            txt_Glasses.text = $"Press Chance: {(_currentTrustSequenceManager.CPUEngine.CPURuntimeData.PressChance * 100f).ToString("F1")}%\nRetry Interval: {_currentTrustSequenceManager.CPUEngine.CPURuntimeData.RetryInterval} s";
+
+            if (infoTimer > maxInfoTimer) {
+                txt_Glasses.gameObject.SetActive(false);
+                infoTimer = 9999999f;
+            }
+        }
+    }
 
     private void OnEnable() {
 
@@ -49,6 +68,8 @@ public class GameManager2 : MonoBehaviour {
 
         // Disable PlayerButton
         PlayerButton.enabled = false;
+
+        txt_Glasses.gameObject.SetActive(false);
 
         // Setup Sequence Object List
         SetupSequenceObjects();

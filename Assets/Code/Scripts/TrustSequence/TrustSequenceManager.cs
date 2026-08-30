@@ -40,8 +40,12 @@ public class TrustSequenceManager : MonoBehaviour
     [SerializeField][ReadOnly] private bool m_IsSequenceOver = false;
     public bool IsSequenceOver => m_IsSequenceOver;
 
+    public CPUEngine CPUEngine => r_CPUEngine;
+
     public SoundID SFX_BG;
     public SoundID SFX_TVStatic;
+
+    public GameManager2 GameManager => p_GameManager;
 
     #endregion
 
