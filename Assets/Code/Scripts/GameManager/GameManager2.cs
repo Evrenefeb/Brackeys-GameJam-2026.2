@@ -48,7 +48,14 @@ public class GameManager2 : MonoBehaviour {
     [SerializeField][ReadOnly] private int m_CampaignFlowIndex;
     [SerializeField][ReadOnly] private TrustSequenceManager _currentTrustSequenceManager;
 
+    public GameObject Hand;
+
     private void Update() {
+
+        if (Hand.gameObject.activeSelf) {
+            Invoke(nameof(HandDisable), 2.5f);
+        }
+
         if (txt_Glasses.gameObject.activeSelf) {
             infoTimer += Time.deltaTime;
 
@@ -61,6 +68,10 @@ public class GameManager2 : MonoBehaviour {
         }
     }
 
+    private void HandDisable() {
+        Hand.SetActive(false);
+    }
+
     private void OnEnable() {
 
         // Reset Owned Items
@@ -68,6 +79,8 @@ public class GameManager2 : MonoBehaviour {
 
         // Disable PlayerButton
         PlayerButton.enabled = false;
+
+        Hand.SetActive(false );
 
         txt_Glasses.gameObject.SetActive(false);
 

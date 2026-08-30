@@ -15,7 +15,7 @@ MonoBehaviour:
   ItemID: 2
   DisplayName: Glasses
   Icon: {fileID: -9011160703784084240, guid: ca9028a70a4c3434ba03e24edc782a55, type: 3}
-  Description: Pair of glasses
+  Description: Shows what lies beneath the surface.
   ItemPrice: 5000
   SFX_OnUse:
     _entity: {fileID: 11400000, guid: 4cb1f27086b9723479f8567b13d38a2c, type: 2}

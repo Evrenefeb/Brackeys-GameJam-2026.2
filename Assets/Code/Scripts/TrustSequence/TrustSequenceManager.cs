@@ -44,6 +44,7 @@ public class TrustSequenceManager : MonoBehaviour
 
     public SoundID SFX_BG;
     public SoundID SFX_TVStatic;
+    public SoundID SFX_Slam;
 
     public GameManager2 GameManager => p_GameManager;
 
@@ -164,6 +165,10 @@ public class TrustSequenceManager : MonoBehaviour
         Debug.Log("Move to Upgrade Sequence");
 
         ForceEndTrustSequence(false);
+
+        GameManager.Hand.SetActive(true);
+        BroAudio.Play(SFX_Slam);
+
     }
 
 

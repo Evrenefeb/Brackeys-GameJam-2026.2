@@ -478,6 +478,10 @@ MonoBehaviour:
     _entity: {fileID: 11400000, guid: 36ab127e28c3172419ca472c6ad8a782, type: 2}
     ID: 0
     <DebugObject>k__BackingField: {fileID: 3538931336997918280}
+  SFX_Slam:
+    _entity: {fileID: 11400000, guid: 718aa42050e9e1d428462d14a2b1eafb, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 3538931336997918280}
 --- !u!114 &6272667853215092065
 MonoBehaviour:
   m_ObjectHideFlags: 0

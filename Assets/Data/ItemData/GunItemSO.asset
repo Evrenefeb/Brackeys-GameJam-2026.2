@@ -16,7 +16,7 @@ MonoBehaviour:
   DisplayName: 'Gun '
   Icon: {fileID: 7109892313173238750, guid: 8aadfceb0e968e349949b560a2ea1c7e, type: 3}
   Description: A tool of quiet intimidation.
-  ItemPrice: 40000
+  ItemPrice: 25000
   SFX_OnUse:
     _entity: {fileID: 11400000, guid: 3fd4e67aeafcab84189753d37d0884b1, type: 2}
     ID: 0

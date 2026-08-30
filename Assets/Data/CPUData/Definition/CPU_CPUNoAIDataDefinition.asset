@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d23a68f68d57354ca210a55c5be7c22, type: 3}
-  m_Name: Common PlayerInventoryData
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventoryData
-  OwnedItemIDList: 
-  ResetEnabled: 1
+  m_Script: {fileID: 11500000, guid: 64db0d21cafba7a42ac0a15b4475aa32, type: 3}
+  m_Name: CPU_CPUNoAIDataDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
+  m_CPUID: 0
+  m_DisplayName: 
+  m_InitialPressChance: 0
+  m_InitialRetryInterval: 99999

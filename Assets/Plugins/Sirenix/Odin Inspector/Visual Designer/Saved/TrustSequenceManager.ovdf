@@ -7,3 +7,6 @@ Visibility: Shown
 
 # UseItem(int)
 Visibility: Shown
+
+# CPUButton_OnClick()
+Visibility: Shown

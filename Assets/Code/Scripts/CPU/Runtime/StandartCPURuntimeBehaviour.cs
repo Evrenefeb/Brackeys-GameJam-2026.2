@@ -12,11 +12,11 @@ public class StandartCPURuntimeBehaviour : CPURuntimeBehaviour
 
     public override void OnEngineUpdate(CPUEngine engine, CPURuntimeData runtimeData)
     {
-        //Debug.Log($"def={def}, current={runtimeData.PressChance}, max={def?.MaxPressChanceValue}, step={def?.PressChangeOvertimeChangeValue}");
-        if (runtimeData.PressChance < def.MaxPressChanceValue)
-        {
-            runtimeData.PressChance += def.PressChangeOvertimeChangeValue;
-        }
+        ////Debug.Log($"def={def}, current={runtimeData.PressChance}, max={def?.MaxPressChanceValue}, step={def?.PressChangeOvertimeChangeValue}");
+        //if (runtimeData.PressChance < def.MaxPressChanceValue)
+        //{
+        //    runtimeData.PressChance += def.PressChangeOvertimeChangeValue;
+        //}
     }
 }
 

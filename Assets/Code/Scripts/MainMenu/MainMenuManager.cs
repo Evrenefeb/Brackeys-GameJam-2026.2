@@ -17,7 +17,7 @@ public class MainMenuManager : MonoBehaviour {
 
     [SerializeField] private SceneManager r_SceneManager;
 
-    private const string SCENE_Ingame = nameof(SCENE_Ingame);
+    private const string SCENE_Tut = nameof(SCENE_Tut);
 
 
 
@@ -58,18 +58,20 @@ public class MainMenuManager : MonoBehaviour {
 
     // UI Methods
     private void btn_Play_OnClick() {
-        Debug.Log("btn_Play_OnClick");
+        //Debug.Log("btn_Play_OnClick");
 
-        r_SceneManager.ChangeScene(SCENE_Ingame);
+        r_SceneManager.ChangeScene(SCENE_Tut);
 
     }
 
     private void btn_Credits_OnClick() {
-        Debug.Log("btn_Credits_OnClick");
+        //Debug.Log("btn_Credits_OnClick");
+        r_SceneManager.ChangeScene("SCENE_Credits");
     }
 
     private void btn_Exit_OnClick() {
-        Debug.Log("btn_Exit_OnClick");
+        //Debug.Log("btn_Exit_OnClick");
+        Application.Quit();
     }
 
     #endregion
