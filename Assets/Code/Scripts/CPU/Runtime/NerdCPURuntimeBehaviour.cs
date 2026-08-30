@@ -20,6 +20,8 @@ public class NerdCPURuntimeBehaviour : CPURuntimeBehaviour {
         int currentGameRound = engine.TrustSequenceManager.CurrentRoundIndex;
         int maxGameRound = engine.TrustSequenceManager.SequenceArgs.p_MaxRounds;
 
+        if(currentGameRound < 3) return;
+
         float mouseFactor = GetMouseCenterFactor();
         Debug.Log(mouseFactor);
 

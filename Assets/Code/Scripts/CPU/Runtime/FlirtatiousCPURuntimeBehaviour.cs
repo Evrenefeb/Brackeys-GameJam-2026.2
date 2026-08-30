@@ -17,6 +17,8 @@ public class FlirtatiousCPURuntimeBehaviour : CPURuntimeBehaviour {
 
         currentFlirtTime += Time.deltaTime;
 
+        if(engine.TrustSequenceManager.CurrentRoundIndex < 2) return;
+
         if (currentFlirtTime > def.FlirtFrequency) {
             currentFlirtTime = 0f;
             increasing = !increasing;

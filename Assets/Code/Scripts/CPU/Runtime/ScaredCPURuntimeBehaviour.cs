@@ -17,6 +17,17 @@ public class ScaredCPURuntimeBehaviour : CPURuntimeBehaviour {
 
     public override void OnEngineUpdate(CPUEngine engine, CPURuntimeData runtimeData) {
         //Debug.Log(runtimeData.RetryInterval);
+
+        if (engine.TrustSequenceManager.CurrentRoundIndex < 2) {         
+            return;
+        }else if (engine.TrustSequenceManager.CurrentRoundIndex == 2) {
+            runtimeData.PressChance = 0.75f;
+        }
+        else {
+            if(runtimeData.PressChance < def.MaxPressChanceValue)
+                runtimeData.PressChance += def.PressChangeOvertimeChangeValue;
+        }
+
         engine.CPUAnimationHandler.CPUAnimator.SetFloat(ANIMP_FLOAT_RETRY_INTERVAL, runtimeData.RetryInterval);
 
 

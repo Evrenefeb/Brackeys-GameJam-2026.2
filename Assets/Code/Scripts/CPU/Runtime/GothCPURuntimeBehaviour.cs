@@ -10,6 +10,7 @@ public class GothCPURuntimeBehaviour : CPURuntimeBehaviour {
     public override void OnEngineUpdate(CPUEngine engine, CPURuntimeData runtimeData) {
         //Debug.Log("GothCPURuntimeBehaviour.OnEngineUpdate");
 
+
         if (runtimeData.PressChance > def.MinPressChanceValue)
         runtimeData.PressChance -= def.ApathyDecayRate * Time.deltaTime * GetMouseCenterFactor();
 

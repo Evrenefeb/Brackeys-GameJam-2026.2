@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d48f04dfa6801d14cb46db39910ca645, type: 3}
   m_Name: ScaredCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::ScaredCPUBehaviourDefinition
-  m_MaxPressChanceValue: 0.02
-  m_PressChangeOvertimeChangeValue: 0.00002
+  m_MaxPressChanceValue: 0.21
+  m_PressChangeOvertimeChangeValue: 0.00001
   SFX_Scared_Breathing:
     _entity: {fileID: 11400000, guid: 6a99615deaac52a45b5b7227c8e7fdbd, type: 2}
     ID: 0
     <DebugObject>k__BackingField: {fileID: 0}
   SFX_Scared_Scream:
-    _entity: {fileID: 0}
+    _entity: {fileID: 11400000, guid: f5fda105ba703524090153c22d1f3d62, type: 2}
     ID: 0
     <DebugObject>k__BackingField: {fileID: 0}
   MaxRetryIntervalBeforeScream: 0.8
