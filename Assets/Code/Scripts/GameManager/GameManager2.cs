@@ -59,9 +59,13 @@ public class GameManager2 : MonoBehaviour {
 
     private void Update() {
 
-        if (Hand.gameObject.activeSelf) {
-            Invoke(nameof(HandDisable), 2.5f);
+
+        if (Hand) {
+            if (Hand.gameObject.activeSelf) {
+                Invoke(nameof(HandDisable), 2.5f);
+            }
         }
+        
 
         if (txt_Glasses.gameObject.activeSelf) {
             infoTimer += Time.deltaTime;
@@ -231,8 +235,7 @@ public class GameManager2 : MonoBehaviour {
     }
 
     public void SequenceFinished() {
-        r_EnvironmentManager.HandleTransition(FlowInvokeDelay);
-        Invoke(nameof(Flow), FlowInvokeDelay);
+        r_EnvironmentManager.HandleTransition(FlowInvokeDelay, Flow);
     }
 
 

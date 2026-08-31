@@ -1359,7 +1359,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 832423316}
+  - {fileID: 754001359}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1408,18 +1408,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1003592868}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30.653}
---- !u!114 &824498843 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2995326129000679244, guid: bb4673a203076264f9bae61875a07fbe, type: 3}
-  m_PrefabInstance: {fileID: 280645884}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81fef0563e898f74f87bcb68d10688aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!21 &832423316
+--- !u!21 &754001359
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -1463,6 +1452,17 @@ Material:
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &824498843 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2995326129000679244, guid: bb4673a203076264f9bae61875a07fbe, type: 3}
+  m_PrefabInstance: {fileID: 280645884}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fef0563e898f74f87bcb68d10688aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &873019514
 GameObject:
   m_ObjectHideFlags: 0

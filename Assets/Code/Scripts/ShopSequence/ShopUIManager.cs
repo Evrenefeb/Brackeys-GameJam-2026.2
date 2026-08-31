@@ -55,7 +55,7 @@ public class ShopUIManager : MonoBehaviour {
     private void OnDisable() {
         Tween.StopAll(m_LightGroup);
         Tween.StopAll(m_FadeGroup);
-        m_FadeGroup.alpha = 1f;
+        //m_FadeGroup.alpha = 1f;
         m_LightGroup.alpha = 0f;
         BroAudio.Stop(SFX_LightON);
     }

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfb01f46a636a084c80472434ae7794f, type: 3}
   m_Name: New Game Data
   m_EditorClassIdentifier: Assembly-CSharp::GameData
-  p_RequiredQuota: 400000
+  p_RequiredQuota: 500000
+  p_StartMoney: 10000
