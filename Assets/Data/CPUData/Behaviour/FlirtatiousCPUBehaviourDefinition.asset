@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: FlirtatiousCPUBehaviourDefinition
   m_EditorClassIdentifier: Assembly-CSharp::FlirtatiousCPUBehaviourDefinition
   p_FlirtFrequency: 2
-  p_FlirtAmplitude: 0.0005
+  p_FlirtAmplitude: 0.00005

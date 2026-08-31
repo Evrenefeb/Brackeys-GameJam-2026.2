@@ -39,12 +39,15 @@ public class WineItemSO : ItemSO {
 
                 engine.CPUAnimationHandler.CPUAnimator.SetBool("ANIMBOOL_DRUNK", true);
 
+                FlirtatiousCPURuntimeBehaviour beh = engine.RuntimeBehaviour as FlirtatiousCPURuntimeBehaviour;
+                beh.Drunk = true;
+
                 int betrayalChance = Random.Range(5, 1001);
                 if(betrayalChance <= 5) {
                     engine.CPURuntimeData.PressChance = 100f;
                 }
                 else {
-                    engine.CPURuntimeData.PressChance = -5f;
+                    engine.CPURuntimeData.PressChance = -0.25f;
                 }
 
                 break;

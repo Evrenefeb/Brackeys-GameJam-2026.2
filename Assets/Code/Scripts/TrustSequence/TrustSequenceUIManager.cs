@@ -11,7 +11,7 @@ public class TrustSequenceUIManager : MonoBehaviour {
     private void Update() {
         txt_GameTimer.text = r_TrustSequenceManager.RoundTimer.CurrentTime.ToString("F2");
 
-        txt_CurrentPot.text = r_TrustSequenceManager.CurrentRound.CurrentPot.ToString() + " TL";
+        txt_CurrentPot.text = r_TrustSequenceManager.CurrentRound.CurrentPot.ToString() + " $";
 
         txt_Rounds.text = r_TrustSequenceManager.CurrentRoundIndex.ToString() + " / " + r_TrustSequenceManager.MaxRounds.ToString();
     }

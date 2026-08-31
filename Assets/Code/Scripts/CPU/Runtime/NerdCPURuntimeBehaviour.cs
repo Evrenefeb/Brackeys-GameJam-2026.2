@@ -20,15 +20,17 @@ public class NerdCPURuntimeBehaviour : CPURuntimeBehaviour {
         int currentGameRound = engine.TrustSequenceManager.CurrentRoundIndex;
         int maxGameRound = engine.TrustSequenceManager.SequenceArgs.p_MaxRounds;
 
-        if(currentGameRound < 3) return;
+        runtimeData.RetryInterval = engine.TrustSequenceManager.SequenceArgs.p_RoundTime - 1f;
+
+        if (currentGameRound < 3) return;
 
         float mouseFactor = GetMouseCenterFactor();
-        Debug.Log(mouseFactor);
+        //Debug.Log(mouseFactor);
 
         runtimeData.PressChance += ((float)currentGameRound / (float)maxGameRound)
             * Random.Range(def.RandChange / 2f, def.RandChange) * mouseFactor;
 
-        runtimeData.RetryInterval = engine.TrustSequenceManager.SequenceArgs.p_RoundTime - 1f;
+        
     }
 
     private float GetMouseCenterFactor() {

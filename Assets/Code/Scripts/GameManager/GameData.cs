@@ -5,6 +5,7 @@ using UnityEngine;
 [Serializable]
 public class GameData : ScriptableObject {
     public float p_RequiredQuota = 100000;
+    public float p_StartMoney = 10000;
 }
 
 

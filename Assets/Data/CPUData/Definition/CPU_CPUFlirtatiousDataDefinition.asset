@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CPUDataDefinition
   m_CPUID: 4
   m_DisplayName: Flirtatious
-  m_InitialPressChance: 0.1
+  m_InitialPressChance: 0.04
   m_InitialRetryInterval: 3.75

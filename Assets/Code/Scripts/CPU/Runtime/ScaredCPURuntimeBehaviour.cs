@@ -20,8 +20,6 @@ public class ScaredCPURuntimeBehaviour : CPURuntimeBehaviour {
 
         if (engine.TrustSequenceManager.CurrentRoundIndex < 2) {         
             return;
-        }else if (engine.TrustSequenceManager.CurrentRoundIndex == 2) {
-            runtimeData.PressChance = 0.75f;
         }
         else {
             if(runtimeData.PressChance < def.MaxPressChanceValue)

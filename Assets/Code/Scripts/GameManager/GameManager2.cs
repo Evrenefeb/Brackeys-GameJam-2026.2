@@ -50,6 +50,13 @@ public class GameManager2 : MonoBehaviour {
 
     public GameObject Hand;
 
+    float displayPressChance;
+    float displayRetryInterval;
+
+    private void Start() {
+        ChangeCurrentUsableQuota(GameData.p_StartMoney, QuotaChangeMode.OVERRRIDE);
+    }
+
     private void Update() {
 
         if (Hand.gameObject.activeSelf) {
@@ -59,7 +66,24 @@ public class GameManager2 : MonoBehaviour {
         if (txt_Glasses.gameObject.activeSelf) {
             infoTimer += Time.deltaTime;
 
-            txt_Glasses.text = $"Press Chance: {(_currentTrustSequenceManager.CPUEngine.CPURuntimeData.PressChance * 100f).ToString("F1")}%\nRetry Interval: {_currentTrustSequenceManager.CPUEngine.CPURuntimeData.RetryInterval} s";
+            displayPressChance = _currentTrustSequenceManager.CPUEngine.CPURuntimeData.PressChance;
+            displayRetryInterval = _currentTrustSequenceManager.CPUEngine.CPURuntimeData.RetryInterval;
+
+
+
+            if (_currentTrustSequenceManager.CPUEngine.CPURuntimeData.PressChance <= 0){
+                displayPressChance = 0f;
+            }
+
+            if (_currentTrustSequenceManager.CPUEngine.CPURuntimeData.RetryInterval <= 0) {
+                displayRetryInterval = 0f;
+            }
+
+            string info = $"Press Chance: " +
+                $"{(displayPressChance * 100f).ToString("F1")}%" +
+                $"\nRetry Interval: {displayRetryInterval} s";
+
+            txt_Glasses.text = info;
 
             if (infoTimer > maxInfoTimer) {
                 txt_Glasses.gameObject.SetActive(false);
@@ -186,8 +210,10 @@ public class GameManager2 : MonoBehaviour {
         }
         else {
             //Debug.Log("Upgrade Sequence");
-            _currentTrustSequenceManager.OnSequenceStarted -= CurrentTrustSequenceManager_SequenceStarted;
-            _currentTrustSequenceManager = null;
+            if (_currentTrustSequenceManager != null) {
+                _currentTrustSequenceManager.OnSequenceStarted -= CurrentTrustSequenceManager_SequenceStarted;
+                _currentTrustSequenceManager = null;
+            }
 
             r_PlayerInventoryManager.DemolishInventoryUI();
             PlayerButton.enabled = false;
@@ -214,6 +240,10 @@ public class GameManager2 : MonoBehaviour {
     private const string p_LoseSceneName = "ESCENE_Lose";
 
     private void EndGame() {
+
+        ChangeCurrentQuota(0 , QuotaChangeMode.OVERRRIDE);
+        ChangeCurrentUsableQuota(0 , QuotaChangeMode.OVERRRIDE);
+
         if (m_CurrentQuota >= m_RequiredQuota) {
             Debug.Log("Win");
             r_SceneManager.ChangeScene(p_WinSceneName);
