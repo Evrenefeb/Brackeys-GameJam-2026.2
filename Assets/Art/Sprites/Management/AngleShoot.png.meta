@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 10e0f4583a4394b439572f74c4bc5a67
+guid: 98839de47ceff2545b4b7dc34783b5d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2521409195606705084
-    second: Tutorial_0
+      213: -8941811434006509608
+    second: AmgleShoot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tutorial_0
+      name: AmgleShoot_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2204
-        height: 1239
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44c757212b7220dd0800000000000000
-      internalID: -2521409195606705084
+      spriteID: 8d7048360ed48e380800000000000000
+      internalID: -8941811434006509608
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tutorial_0: -2521409195606705084
+      AmgleShoot_0: -8941811434006509608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
