@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f24bb1496ae7b4483c916c8c1689e5, type: 3}
+  m_Name: MusicBoxItemSO
+  m_EditorClassIdentifier: Assembly-CSharp::MusicBoxItemSO
+  ItemID: 3
+  DisplayName: Music Box
+  Icon: {fileID: -3634464890100592574, guid: 9329e887872215343b2f460bb7a453fc, type: 3}
+  Description: A reminder of better days.
+  ItemPrice: 45000
+  SFX_OnUse:
+    _entity: {fileID: 11400000, guid: 6641f2fd37f1e7c41b788dcf02f68b20, type: 2}
+    ID: 0
+    <DebugObject>k__BackingField: {fileID: 0}

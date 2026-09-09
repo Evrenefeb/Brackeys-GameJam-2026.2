@@ -1,0 +1,19 @@
+using TMPro;
+using UnityEngine;
+
+public class TrustSequenceUIManager : MonoBehaviour {
+
+    [SerializeField] private TrustSequenceManager r_TrustSequenceManager;
+    [SerializeField] private TMP_Text txt_GameTimer;
+    [SerializeField] private TMP_Text txt_CurrentPot;
+    [SerializeField] private TMP_Text txt_Rounds;
+
+    private void Update() {
+        txt_GameTimer.text = r_TrustSequenceManager.RoundTimer.CurrentTime.ToString("F2");
+
+        txt_CurrentPot.text = r_TrustSequenceManager.CurrentRound.CurrentPot.ToString() + " $";
+
+        txt_Rounds.text = r_TrustSequenceManager.CurrentRoundIndex.ToString() + " / " + r_TrustSequenceManager.MaxRounds.ToString();
+    }
+
+}

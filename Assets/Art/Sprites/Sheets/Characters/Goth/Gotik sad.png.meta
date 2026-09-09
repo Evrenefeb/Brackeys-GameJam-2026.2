@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0160423b303c340428956a23718ca953
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3091544581736563734
+    second: Gotik mutlu_0
+  - first:
+      213: -2658604536461598459
+    second: Gotik mutlu_1
+  - first:
+      213: 8535878551016415444
+    second: Gotik mutlu_2
+  - first:
+      213: -2216778517135403803
+    second: Gotik mutlu_3
+  - first:
+      213: -1200614553822442812
+    second: Gotik mutlu_4
+  - first:
+      213: 795037718159654563
+    second: Gotik mutlu_5
+  - first:
+      213: -8209677655979859094
+    second: Gotik mutlu_6
+  - first:
+      213: 2646251878436412151
+    second: Gotik mutlu_7
+  - first:
+      213: -7713058151562618995
+    second: Gotik mutlu_8
+  - first:
+      213: -5252906614226540460
+    second: Gotik mutlu_9
+  - first:
+      213: 5850178371684274847
+    second: Gotik mutlu_10
+  - first:
+      213: -8592659759645604348
+    second: Gotik mutlu_11
+  - first:
+      213: 8311462539268363645
+    second: Gotik mutlu_12
+  - first:
+      213: 2115132548277255381
+    second: Gotik mutlu_13
+  - first:
+      213: -265881142455684469
+    second: Gotik mutlu_14
+  - first:
+      213: 1385295691062797659
+    second: Gotik mutlu_15
+  - first:
+      213: 6885359849176664296
+    second: Gotik mutlu_16
+  - first:
+      213: -4753054950579951999
+    second: Gotik mutlu_17
+  - first:
+      213: -3507412437613474456
+    second: Gotik mutlu_18
+  - first:
+      213: 3116370637357082732
+    second: Gotik mutlu_19
+  - first:
+      213: 1393168243091299126
+    second: Gotik mutlu_20
+  - first:
+      213: -1223173479177012375
+    second: Gotik mutlu_21
+  - first:
+      213: -819691388306782445
+    second: Gotik mutlu_22
+  - first:
+      213: -5141521406059357360
+    second: Gotik mutlu_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gotik mutlu_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebfe462590a815d0800000000000000
+      internalID: -3091544581736563734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_1
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501e6fd824dba1bd0800000000000000
+      internalID: -2658604536461598459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_2
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 31
+        width: 922
+        height: 993
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0a53f2158857670800000000000000
+      internalID: 8535878551016415444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_3
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e45d640fab6c31e0800000000000000
+      internalID: -2216778517135403803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_4
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cacf37ac6f865fe0800000000000000
+      internalID: -1200614553822442812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_5
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 35
+        width: 922
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae71f5a79a880b00800000000000000
+      internalID: 795037718159654563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_6
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63ebda2bad511e80800000000000000
+      internalID: -8209677655979859094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_7
+      rect:
+        serializedVersion: 2
+        x: 7185
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa9960201069b420800000000000000
+      internalID: 2646251878436412151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_8
+      rect:
+        serializedVersion: 2
+        x: 8207
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87dd280a76b5f490800000000000000
+      internalID: -7713058151562618995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_9
+      rect:
+        serializedVersion: 2
+        x: 9230
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4582ab4f34de917b0800000000000000
+      internalID: -5252906614226540460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_10
+      rect:
+        serializedVersion: 2
+        x: 10252
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f921ae4cb32003150800000000000000
+      internalID: 5850178371684274847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_11
+      rect:
+        serializedVersion: 2
+        x: 11274
+        y: 36
+        width: 922
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406c786797db0c880800000000000000
+      internalID: -8592659759645604348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_12
+      rect:
+        serializedVersion: 2
+        x: 12299
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d759e09b42f385370800000000000000
+      internalID: 8311462539268363645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_13
+      rect:
+        serializedVersion: 2
+        x: 13321
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcbee0a8d57a5d10800000000000000
+      internalID: 2115132548277255381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_14
+      rect:
+        serializedVersion: 2
+        x: 14343
+        y: 35
+        width: 922
+        height: 999
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82347772866f4cf0800000000000000
+      internalID: -265881142455684469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_15
+      rect:
+        serializedVersion: 2
+        x: 15367
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b556da6671f893310800000000000000
+      internalID: 1385295691062797659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_16
+      rect:
+        serializedVersion: 2
+        x: 16389
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e889e87d46bd8f50800000000000000
+      internalID: 6885359849176664296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_17
+      rect:
+        serializedVersion: 2
+        x: 17411
+        y: 33
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18625c884b1c90eb0800000000000000
+      internalID: -4753054950579951999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_18
+      rect:
+        serializedVersion: 2
+        x: 18437
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d034798fa235fc0800000000000000
+      internalID: -3507412437613474456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_19
+      rect:
+        serializedVersion: 2
+        x: 19459
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68602c55929f3b20800000000000000
+      internalID: 3116370637357082732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_20
+      rect:
+        serializedVersion: 2
+        x: 20481
+        y: 31
+        width: 922
+        height: 1003
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bdfc1c227855310800000000000000
+      internalID: 1393168243091299126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_21
+      rect:
+        serializedVersion: 2
+        x: 21499
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bb9fa833a660fe0800000000000000
+      internalID: -1223173479177012375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_22
+      rect:
+        serializedVersion: 2
+        x: 22521
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3170786760fdf94f0800000000000000
+      internalID: -819691388306782445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gotik mutlu_23
+      rect:
+        serializedVersion: 2
+        x: 23543
+        y: 31
+        width: 922
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bd3caa585a5a8b0800000000000000
+      internalID: -5141521406059357360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gotik mutlu_0: -3091544581736563734
+      Gotik mutlu_1: -2658604536461598459
+      Gotik mutlu_10: 5850178371684274847
+      Gotik mutlu_11: -8592659759645604348
+      Gotik mutlu_12: 8311462539268363645
+      Gotik mutlu_13: 2115132548277255381
+      Gotik mutlu_14: -265881142455684469
+      Gotik mutlu_15: 1385295691062797659
+      Gotik mutlu_16: 6885359849176664296
+      Gotik mutlu_17: -4753054950579951999
+      Gotik mutlu_18: -3507412437613474456
+      Gotik mutlu_19: 3116370637357082732
+      Gotik mutlu_2: 8535878551016415444
+      Gotik mutlu_20: 1393168243091299126
+      Gotik mutlu_21: -1223173479177012375
+      Gotik mutlu_22: -819691388306782445
+      Gotik mutlu_23: -5141521406059357360
+      Gotik mutlu_3: -2216778517135403803
+      Gotik mutlu_4: -1200614553822442812
+      Gotik mutlu_5: 795037718159654563
+      Gotik mutlu_6: -8209677655979859094
+      Gotik mutlu_7: 2646251878436412151
+      Gotik mutlu_8: -7713058151562618995
+      Gotik mutlu_9: -5252906614226540460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

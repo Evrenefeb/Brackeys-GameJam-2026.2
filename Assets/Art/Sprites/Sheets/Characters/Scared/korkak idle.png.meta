@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: a8309fdc9982f094a92ab8b7c69f4ee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1771973868595471285
+    second: korkak idle_0
+  - first:
+      213: 4756906579572043242
+    second: korkak idle_1
+  - first:
+      213: 591602331334797496
+    second: korkak idle_2
+  - first:
+      213: -5021233875457475777
+    second: korkak idle_3
+  - first:
+      213: -9115486879511774313
+    second: korkak idle_4
+  - first:
+      213: 8560417094142647283
+    second: korkak idle_5
+  - first:
+      213: -307503160493243629
+    second: korkak idle_6
+  - first:
+      213: -251417284333385956
+    second: korkak idle_7
+  - first:
+      213: 9140187464634976727
+    second: korkak idle_8
+  - first:
+      213: -5457651105861668321
+    second: korkak idle_9
+  - first:
+      213: 5052140697828767139
+    second: korkak idle_10
+  - first:
+      213: 5260548612095661426
+    second: korkak idle_11
+  - first:
+      213: -5998394833559029484
+    second: korkak idle_12
+  - first:
+      213: -1426805205863426515
+    second: korkak idle_13
+  - first:
+      213: 33693390216382140
+    second: korkak idle_14
+  - first:
+      213: -807219500953722132
+    second: korkak idle_15
+  - first:
+      213: 5403754862966090813
+    second: korkak idle_16
+  - first:
+      213: -484298859838916640
+    second: korkak idle_17
+  - first:
+      213: 2905326053498385427
+    second: korkak idle_18
+  - first:
+      213: 4339827792379977223
+    second: korkak idle_19
+  - first:
+      213: -173639916572576907
+    second: korkak idle_20
+  - first:
+      213: 3135984502152562109
+    second: korkak idle_21
+  - first:
+      213: -2406611181460340047
+    second: korkak idle_22
+  - first:
+      213: 501145613447354051
+    second: korkak idle_23
+  - first:
+      213: 8191400533519928221
+    second: korkak idle_24
+  - first:
+      213: 1041592915073997005
+    second: korkak idle_25
+  - first:
+      213: -6208141772245235355
+    second: korkak idle_26
+  - first:
+      213: -7601249311247421754
+    second: korkak idle_27
+  - first:
+      213: 8001890761395624051
+    second: korkak idle_28
+  - first:
+      213: 3442321031499710183
+    second: korkak idle_29
+  - first:
+      213: 2543594295806915248
+    second: korkak idle_30
+  - first:
+      213: -1713284333191119673
+    second: korkak idle_31
+  - first:
+      213: -9163592736685190629
+    second: korkak idle_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: korkak idle_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 7
+        width: 565
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c9713a72fa867e0800000000000000
+      internalID: -1771973868595471285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 7
+        width: 565
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed2c19b45de30240800000000000000
+      internalID: 4756906579572043242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_2
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 7
+        width: 565
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8e0879f2bc53800800000000000000
+      internalID: 591602331334797496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_3
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 7
+        width: 565
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bf237d46ef05ab0800000000000000
+      internalID: -5021233875457475777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_4
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 8
+        width: 565
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b77ff9af84f7180800000000000000
+      internalID: -9115486879511774313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_5
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 9
+        width: 565
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbdd89fdf5bcc670800000000000000
+      internalID: 8560417094142647283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_6
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 8
+        width: 565
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3138d7731878bbbf0800000000000000
+      internalID: -307503160493243629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_7
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 9
+        width: 565
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c174aecdf49c28cf0800000000000000
+      internalID: -251417284333385956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_8
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 9
+        width: 565
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9cb02821878de70800000000000000
+      internalID: 9140187464634976727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_9
+      rect:
+        serializedVersion: 2
+        x: 5698
+        y: 9
+        width: 565
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12f81f2c378244b0800000000000000
+      internalID: -5457651105861668321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_10
+      rect:
+        serializedVersion: 2
+        x: 6324
+        y: 9
+        width: 565
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5b061823fcc1640800000000000000
+      internalID: 5052140697828767139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_11
+      rect:
+        serializedVersion: 2
+        x: 6952
+        y: 8
+        width: 565
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275d2a35719310940800000000000000
+      internalID: 5260548612095661426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_12
+      rect:
+        serializedVersion: 2
+        x: 7582
+        y: 8
+        width: 565
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419fc230eab61cca0800000000000000
+      internalID: -5998394833559029484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_13
+      rect:
+        serializedVersion: 2
+        x: 8214
+        y: 8
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2615dc8938f23ce0800000000000000
+      internalID: -1426805205863426515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_14
+      rect:
+        serializedVersion: 2
+        x: 8844
+        y: 8
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6402bb5f3b77000800000000000000
+      internalID: 33693390216382140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_15
+      rect:
+        serializedVersion: 2
+        x: 9474
+        y: 10
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a2e5042e2cc4f0800000000000000
+      internalID: -807219500953722132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_16
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 11
+        width: 565
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c2264ea6efdfa40800000000000000
+      internalID: 5403754862966090813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_17
+      rect:
+        serializedVersion: 2
+        x: 10726
+        y: 11
+        width: 565
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7bc2eb0cc6749f0800000000000000
+      internalID: -484298859838916640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_18
+      rect:
+        serializedVersion: 2
+        x: 11352
+        y: 9
+        width: 565
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314757f07aac15820800000000000000
+      internalID: 2905326053498385427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_19
+      rect:
+        serializedVersion: 2
+        x: 11979
+        y: 9
+        width: 565
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e1d2f326a2a3c30800000000000000
+      internalID: 4339827792379977223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_20
+      rect:
+        serializedVersion: 2
+        x: 12609
+        y: 9
+        width: 565
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573fcd57a6b179df0800000000000000
+      internalID: -173639916572576907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_21
+      rect:
+        serializedVersion: 2
+        x: 13240
+        y: 7
+        width: 565
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db50fef1a41458b20800000000000000
+      internalID: 3135984502152562109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_22
+      rect:
+        serializedVersion: 2
+        x: 13873
+        y: 7
+        width: 565
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b2c29891eff99ed0800000000000000
+      internalID: -2406611181460340047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_23
+      rect:
+        serializedVersion: 2
+        x: 14503
+        y: 9
+        width: 565
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6564eb74d64f600800000000000000
+      internalID: 501145613447354051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_24
+      rect:
+        serializedVersion: 2
+        x: 15129
+        y: 6
+        width: 565
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b8665a263bda170800000000000000
+      internalID: 8191400533519928221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_25
+      rect:
+        serializedVersion: 2
+        x: 15756
+        y: 2
+        width: 565
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc89c87dc3b747e00800000000000000
+      internalID: 1041592915073997005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_26
+      rect:
+        serializedVersion: 2
+        x: 16382
+        y: 1
+        width: 565
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5690f0643ff38d9a0800000000000000
+      internalID: -6208141772245235355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_27
+      rect:
+        serializedVersion: 2
+        x: 17008
+        y: 2
+        width: 565
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce2ae94600f28690800000000000000
+      internalID: -7601249311247421754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_28
+      rect:
+        serializedVersion: 2
+        x: 17637
+        y: 2
+        width: 565
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378577c604d6c0f60800000000000000
+      internalID: 8001890761395624051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_29
+      rect:
+        serializedVersion: 2
+        x: 18268
+        y: 2
+        width: 565
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee756d6db495cf20800000000000000
+      internalID: 3442321031499710183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_30
+      rect:
+        serializedVersion: 2
+        x: 18899
+        y: 3
+        width: 565
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2f7461989ac4320800000000000000
+      internalID: 2543594295806915248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_31
+      rect:
+        serializedVersion: 2
+        x: 19531
+        y: 4
+        width: 565
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccb6e0f9f03938e0800000000000000
+      internalID: -1713284333191119673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: korkak idle_32
+      rect:
+        serializedVersion: 2
+        x: 20164
+        y: 6
+        width: 565
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12978fe4f064d080800000000000000
+      internalID: -9163592736685190629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      korkak idle_0: -1771973868595471285
+      korkak idle_1: 4756906579572043242
+      korkak idle_10: 5052140697828767139
+      korkak idle_11: 5260548612095661426
+      korkak idle_12: -5998394833559029484
+      korkak idle_13: -1426805205863426515
+      korkak idle_14: 33693390216382140
+      korkak idle_15: -807219500953722132
+      korkak idle_16: 5403754862966090813
+      korkak idle_17: -484298859838916640
+      korkak idle_18: 2905326053498385427
+      korkak idle_19: 4339827792379977223
+      korkak idle_2: 591602331334797496
+      korkak idle_20: -173639916572576907
+      korkak idle_21: 3135984502152562109
+      korkak idle_22: -2406611181460340047
+      korkak idle_23: 501145613447354051
+      korkak idle_24: 8191400533519928221
+      korkak idle_25: 1041592915073997005
+      korkak idle_26: -6208141772245235355
+      korkak idle_27: -7601249311247421754
+      korkak idle_28: 8001890761395624051
+      korkak idle_29: 3442321031499710183
+      korkak idle_3: -5021233875457475777
+      korkak idle_30: 2543594295806915248
+      korkak idle_31: -1713284333191119673
+      korkak idle_32: -9163592736685190629
+      korkak idle_4: -9115486879511774313
+      korkak idle_5: 8560417094142647283
+      korkak idle_6: -307503160493243629
+      korkak idle_7: -251417284333385956
+      korkak idle_8: 9140187464634976727
+      korkak idle_9: -5457651105861668321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

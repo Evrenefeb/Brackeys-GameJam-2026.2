@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: cb1ceec3457cac84bb014391cc78ca73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5836342309003240975
+    second: nerd sad_0
+  - first:
+      213: -525640593167189644
+    second: nerd sad_1
+  - first:
+      213: 528563225638927838
+    second: nerd sad_2
+  - first:
+      213: 996136114711997272
+    second: nerd sad_3
+  - first:
+      213: 4346397748424885194
+    second: nerd sad_4
+  - first:
+      213: -1951739157357303464
+    second: nerd sad_5
+  - first:
+      213: -1655300749170176562
+    second: nerd sad_6
+  - first:
+      213: -6940135023176573535
+    second: nerd sad_7
+  - first:
+      213: 6042255011561290729
+    second: nerd sad_8
+  - first:
+      213: 1808887833937447628
+    second: nerd sad_9
+  - first:
+      213: 6693843051874927337
+    second: nerd sad_10
+  - first:
+      213: -8945984398609965070
+    second: nerd sad_11
+  - first:
+      213: -8552249015449105318
+    second: nerd sad_12
+  - first:
+      213: -6547012083740984672
+    second: nerd sad_13
+  - first:
+      213: -4444848233423418180
+    second: nerd sad_14
+  - first:
+      213: -382895214043117115
+    second: nerd sad_15
+  - first:
+      213: -7241429004982171317
+    second: nerd sad_16
+  - first:
+      213: -871585246188576713
+    second: nerd sad_17
+  - first:
+      213: -4809445895907545521
+    second: nerd sad_18
+  - first:
+      213: -9079606972041689620
+    second: nerd sad_19
+  - first:
+      213: -4339555050957965947
+    second: nerd sad_20
+  - first:
+      213: -8798070748517467418
+    second: nerd sad_21
+  - first:
+      213: -6380354341021549857
+    second: nerd sad_22
+  - first:
+      213: 7476606017346661706
+    second: nerd sad_23
+  - first:
+      213: 3743337821249253297
+    second: nerd sad_24
+  - first:
+      213: -1303755887679376574
+    second: nerd sad_25
+  - first:
+      213: 8981448579095058730
+    second: nerd sad_26
+  - first:
+      213: -4950795210590863538
+    second: nerd sad_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nerd sad_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 128
+        width: 732
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06a8b3686adef050800000000000000
+      internalID: 5836342309003240975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_1
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 128
+        width: 732
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797ebc5aac84b8f0800000000000000
+      internalID: -525640593167189644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_2
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 128
+        width: 732
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddfa890475d55700800000000000000
+      internalID: 528563225638927838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_3
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 128
+        width: 732
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ba851c48cf2dd00800000000000000
+      internalID: 996136114711997272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_4
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 130
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac34c6759b1815c30800000000000000
+      internalID: 4346397748424885194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_5
+      rect:
+        serializedVersion: 2
+        x: 4911
+        y: 130
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8596f7fb3970ae4e0800000000000000
+      internalID: -1951739157357303464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_6
+      rect:
+        serializedVersion: 2
+        x: 5870
+        y: 132
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd06412db03709e0800000000000000
+      internalID: -1655300749170176562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_7
+      rect:
+        serializedVersion: 2
+        x: 6828
+        y: 132
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad105287ffafaf90800000000000000
+      internalID: -6940135023176573535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_8
+      rect:
+        serializedVersion: 2
+        x: 7788
+        y: 132
+        width: 732
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb3f667be66ad350800000000000000
+      internalID: 6042255011561290729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_9
+      rect:
+        serializedVersion: 2
+        x: 8746
+        y: 132
+        width: 732
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca0e5ca6e57a1910800000000000000
+      internalID: 1808887833937447628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_10
+      rect:
+        serializedVersion: 2
+        x: 9706
+        y: 132
+        width: 732
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2c8394ace45ec50800000000000000
+      internalID: 6693843051874927337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_11
+      rect:
+        serializedVersion: 2
+        x: 10664
+        y: 132
+        width: 732
+        height: 922
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff9aaa569a79d380800000000000000
+      internalID: -8945984398609965070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_12
+      rect:
+        serializedVersion: 2
+        x: 11624
+        y: 132
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cc87b05de405980800000000000000
+      internalID: -8552249015449105318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_13
+      rect:
+        serializedVersion: 2
+        x: 12582
+        y: 132
+        width: 732
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aabd6882375425a0800000000000000
+      internalID: -6547012083740984672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_14
+      rect:
+        serializedVersion: 2
+        x: 13542
+        y: 131
+        width: 732
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc464ed41ab052c0800000000000000
+      internalID: -4444848233423418180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_15
+      rect:
+        serializedVersion: 2
+        x: 14500
+        y: 131
+        width: 732
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c943ccd4deafaaf0800000000000000
+      internalID: -382895214043117115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_16
+      rect:
+        serializedVersion: 2
+        x: 15460
+        y: 129
+        width: 732
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49c3dbcfa6418b90800000000000000
+      internalID: -7241429004982171317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_17
+      rect:
+        serializedVersion: 2
+        x: 16418
+        y: 129
+        width: 732
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730657126d187e3f0800000000000000
+      internalID: -871585246188576713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_18
+      rect:
+        serializedVersion: 2
+        x: 17377
+        y: 126
+        width: 732
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e68ff607a614db0800000000000000
+      internalID: -4809445895907545521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_19
+      rect:
+        serializedVersion: 2
+        x: 18335
+        y: 126
+        width: 732
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce58b439091cef180800000000000000
+      internalID: -9079606972041689620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_20
+      rect:
+        serializedVersion: 2
+        x: 19293
+        y: 126
+        width: 732
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585f5605cadc6c3c0800000000000000
+      internalID: -4339555050957965947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_21
+      rect:
+        serializedVersion: 2
+        x: 20251
+        y: 126
+        width: 732
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea7cd5b449f6e580800000000000000
+      internalID: -8798070748517467418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_22
+      rect:
+        serializedVersion: 2
+        x: 21207
+        y: 125
+        width: 732
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaf94a088d6477a0800000000000000
+      internalID: -6380354341021549857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_23
+      rect:
+        serializedVersion: 2
+        x: 22165
+        y: 125
+        width: 732
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dee7d5f8d32c760800000000000000
+      internalID: 7476606017346661706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_24
+      rect:
+        serializedVersion: 2
+        x: 23120
+        y: 124
+        width: 732
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfa8d55ae103f330800000000000000
+      internalID: 3743337821249253297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_25
+      rect:
+        serializedVersion: 2
+        x: 24078
+        y: 124
+        width: 732
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243fb018de028ede0800000000000000
+      internalID: -1303755887679376574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_26
+      rect:
+        serializedVersion: 2
+        x: 25033
+        y: 126
+        width: 732
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29d56d95e384ac70800000000000000
+      internalID: 8981448579095058730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nerd sad_27
+      rect:
+        serializedVersion: 2
+        x: 25991
+        y: 126
+        width: 732
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fb6058cfd3b4bb0800000000000000
+      internalID: -4950795210590863538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nerd sad_0: 5836342309003240975
+      nerd sad_1: -525640593167189644
+      nerd sad_10: 6693843051874927337
+      nerd sad_11: -8945984398609965070
+      nerd sad_12: -8552249015449105318
+      nerd sad_13: -6547012083740984672
+      nerd sad_14: -4444848233423418180
+      nerd sad_15: -382895214043117115
+      nerd sad_16: -7241429004982171317
+      nerd sad_17: -871585246188576713
+      nerd sad_18: -4809445895907545521
+      nerd sad_19: -9079606972041689620
+      nerd sad_2: 528563225638927838
+      nerd sad_20: -4339555050957965947
+      nerd sad_21: -8798070748517467418
+      nerd sad_22: -6380354341021549857
+      nerd sad_23: 7476606017346661706
+      nerd sad_24: 3743337821249253297
+      nerd sad_25: -1303755887679376574
+      nerd sad_26: 8981448579095058730
+      nerd sad_27: -4950795210590863538
+      nerd sad_3: 996136114711997272
+      nerd sad_4: 4346397748424885194
+      nerd sad_5: -1951739157357303464
+      nerd sad_6: -1655300749170176562
+      nerd sad_7: -6940135023176573535
+      nerd sad_8: 6042255011561290729
+      nerd sad_9: 1808887833937447628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

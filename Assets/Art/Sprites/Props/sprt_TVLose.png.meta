@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 5c19e7182b58a9a4b9fbea7f4803085f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8937943745823149162
+    second: "ekran kaybetmi\u015F_0"
+  - first:
+      213: -3104927940537631300
+    second: "ekran kaybetmi\u015F_1"
+  - first:
+      213: -8613621352902089588
+    second: "ekran kaybetmi\u015F_2"
+  - first:
+      213: 5903916993413234728
+    second: "ekran kaybetmi\u015F_3"
+  - first:
+      213: -630497856125829457
+    second: "ekran kaybetmi\u015F_4"
+  - first:
+      213: 3825611539401368979
+    second: "ekran kaybetmi\u015F_5"
+  - first:
+      213: 7129165351782000782
+    second: "ekran kaybetmi\u015F_6"
+  - first:
+      213: 1027718365477067146
+    second: "ekran kaybetmi\u015F_7"
+  - first:
+      213: -8764157314052628115
+    second: "ekran kaybetmi\u015F_8"
+  - first:
+      213: 8010640409423225859
+    second: "ekran kaybetmi\u015F_9"
+  - first:
+      213: 2064803989630745708
+    second: "ekran kaybetmi\u015F_10"
+  - first:
+      213: -2661253596978745091
+    second: "ekran kaybetmi\u015F_11"
+  - first:
+      213: -4418473548797513539
+    second: "ekran kaybetmi\u015F_12"
+  - first:
+      213: 7318013854050670235
+    second: "ekran kaybetmi\u015F_13"
+  - first:
+      213: 3265329175876592670
+    second: "ekran kaybetmi\u015F_14"
+  - first:
+      213: 3587233355679623424
+    second: "ekran kaybetmi\u015F_15"
+  - first:
+      213: 1288106180064265413
+    second: "ekran kaybetmi\u015F_16"
+  - first:
+      213: 6898134751578077123
+    second: "ekran kaybetmi\u015F_17"
+  - first:
+      213: -7988025348952295962
+    second: "ekran kaybetmi\u015F_18"
+  - first:
+      213: -1617929579671093082
+    second: "ekran kaybetmi\u015F_19"
+  - first:
+      213: 6024270621641126971
+    second: "ekran kaybetmi\u015F_20"
+  - first:
+      213: -8830922652156420147
+    second: "ekran kaybetmi\u015F_21"
+  - first:
+      213: -5012842943336546694
+    second: "ekran kaybetmi\u015F_22"
+  - first:
+      213: 3934501569938688942
+    second: "ekran kaybetmi\u015F_23"
+  - first:
+      213: 1438610767785226220
+    second: "ekran kaybetmi\u015F_24"
+  - first:
+      213: 519324134409215329
+    second: "ekran kaybetmi\u015F_25"
+  - first:
+      213: -754384906373313657
+    second: "ekran kaybetmi\u015F_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_0"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 864
+        width: 43
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69379c7b48b06f380800000000000000
+      internalID: -8937943745823149162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_1"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 852
+        width: 69
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdb11b1d7419e4d0800000000000000
+      internalID: -3104927940537631300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_2"
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 25
+        width: 865
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c842d863405467880800000000000000
+      internalID: -8613621352902089588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_3"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 679
+        width: 75
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820c9c7a93deee150800000000000000
+      internalID: 5903916993413234728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_4"
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 817
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae79f55a850047f0800000000000000
+      internalID: -630497856125829457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_5"
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 682
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39567a61d6d471530800000000000000
+      internalID: 3825611539401368979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_6"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 687
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e882df19d12efe260800000000000000
+      internalID: 7129165351782000782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_7"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 685
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89d7678860334e00800000000000000
+      internalID: 1027718365477067146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_8"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 656
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61604c7b557f5680800000000000000
+      internalID: -8764157314052628115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_9"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 611
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304af0b92038b2f60800000000000000
+      internalID: 8010640409423225859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_10"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 677
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6cffbce948a7ac10800000000000000
+      internalID: 2064803989630745708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_11"
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 664
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0f9d614f3511bd0800000000000000
+      internalID: -2661253596978745091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_12"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 673
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0f67aa7bd6ea2c0800000000000000
+      internalID: -4418473548797513539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_13"
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 654
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96d318e3dece8560800000000000000
+      internalID: 7318013854050670235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_14"
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 564
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14e7d2c597c05d20800000000000000
+      internalID: 3265329175876592670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_15"
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 583
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00967b32bb968c130800000000000000
+      internalID: 3587233355679623424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_16"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 585
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c447bffeb540e110800000000000000
+      internalID: 1288106180064265413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_17"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 567
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7b69832091bbf50800000000000000
+      internalID: 6898134751578077123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_18"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 546
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5f1ea7445d42190800000000000000
+      internalID: -7988025348952295962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_19"
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 555
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08b149e95fb89e0800000000000000
+      internalID: -1617929579671093082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_20"
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 416
+        width: 93
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34bdb166328a9350800000000000000
+      internalID: 6024270621641126971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_21"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 470
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf1447d2a2427580800000000000000
+      internalID: -8830922652156420147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_22"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 393
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ef997f6edce6ab0800000000000000
+      internalID: -5012842943336546694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_23"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab896cf4582a9630800000000000000
+      internalID: 3934501569938688942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_24"
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefe3e70fd8f6f310800000000000000
+      internalID: 1438610767785226220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_25"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d9fba7c82053700800000000000000
+      internalID: 519324134409215329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ekran kaybetmi\u015F_26"
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bc3bface2e785f0800000000000000
+      internalID: -754384906373313657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "ekran kaybetmi\u015F_0": -8937943745823149162
+      "ekran kaybetmi\u015F_1": -3104927940537631300
+      "ekran kaybetmi\u015F_10": 2064803989630745708
+      "ekran kaybetmi\u015F_11": -2661253596978745091
+      "ekran kaybetmi\u015F_12": -4418473548797513539
+      "ekran kaybetmi\u015F_13": 7318013854050670235
+      "ekran kaybetmi\u015F_14": 3265329175876592670
+      "ekran kaybetmi\u015F_15": 3587233355679623424
+      "ekran kaybetmi\u015F_16": 1288106180064265413
+      "ekran kaybetmi\u015F_17": 6898134751578077123
+      "ekran kaybetmi\u015F_18": -7988025348952295962
+      "ekran kaybetmi\u015F_19": -1617929579671093082
+      "ekran kaybetmi\u015F_2": -8613621352902089588
+      "ekran kaybetmi\u015F_20": 6024270621641126971
+      "ekran kaybetmi\u015F_21": -8830922652156420147
+      "ekran kaybetmi\u015F_22": -5012842943336546694
+      "ekran kaybetmi\u015F_23": 3934501569938688942
+      "ekran kaybetmi\u015F_24": 1438610767785226220
+      "ekran kaybetmi\u015F_25": 519324134409215329
+      "ekran kaybetmi\u015F_26": -754384906373313657
+      "ekran kaybetmi\u015F_3": 5903916993413234728
+      "ekran kaybetmi\u015F_4": -630497856125829457
+      "ekran kaybetmi\u015F_5": 3825611539401368979
+      "ekran kaybetmi\u015F_6": 7129165351782000782
+      "ekran kaybetmi\u015F_7": 1027718365477067146
+      "ekran kaybetmi\u015F_8": -8764157314052628115
+      "ekran kaybetmi\u015F_9": 8010640409423225859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
